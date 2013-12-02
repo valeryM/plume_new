@@ -1,0 +1,121 @@
+
+ul.menu {
+  list-style:none;
+  margin:0;
+  padding:0;
+  position: absolute;
+  background-color: #6699ff;
+  min-height:18px;
+}
+ul.menu * {
+  margin:0;
+  padding:0;
+}
+ul.menu a {
+  display:block;
+  color:#000;
+  text-decoration:none;
+  background-color: #6699ff;
+  padding: 0 10px 0 10px;
+  font-size:1em;
+}
+ul.menu li {
+  position:relative;
+  float:left;
+  min-height:18px;
+}
+ul.menu li a {
+  min-height:18px;
+}
+ul.menu ul {
+  position:absolute;
+  top:19px;
+  left:0;
+  background-color: #6699ff;
+  display:none;
+  opacity:0;
+  list-style:none;
+}
+
+ul.menu ul li {
+  position:relative;
+  border:1px solid #aaa;
+  border-top:none;
+  width:138px;
+  margin:0;
+}
+ul.menu ul li a {
+  display:block;
+  background-color: #ccffff;
+}
+ul.menu ul li a:hover {
+  opacity : 0.8;
+    -moz-opacity : 0.8;
+    -ms-filter: "alpha(opacity=80)"; /* IE 8 */
+    filter : alpha(opacity=80); /* IE < 8 */ 
+  background-color:#0066cc;
+  color: #ffffff;
+}
+ul.menu ul ul {
+  left:148px;
+  top:-1px;
+}
+ul.menu .menulink {
+  font-weight:bold;
+  background-color: #6699ff;
+  opacity : 0.8;
+    -moz-opacity : 0.8;
+    -ms-filter: "alpha(opacity=80)"; /* IE 8 */
+    filter : alpha(opacity=80); /* IE < 8 */ 
+}
+
+ul.menu .disabled {
+  font-weight:bold;
+  background-color: #6699ff;
+  color: #cccccc;
+
+    opacity : 0.8;
+    -moz-opacity : 0.8;
+    -ms-filter: "alpha(opacity=80)"; /* IE 8 */
+    filter : alpha(opacity=80); /* IE < 8 */
+}
+
+ul.menu .disabled:hover {
+  background-color: #6699ff;
+  color: #cccccc;
+}
+
+ul.menu .menulink:hover, ul.menu .menuhover {
+    opacity : 0.8;
+    -moz-opacity : 0.8;
+    -ms-filter: "alpha(opacity=80)"; /* IE 8 */
+    filter : alpha(opacity=80); /* IE < 8 */
+  background-color:#0066cc;
+  color: #ffffff;
+}
+ul.menu .sub {
+    opacity : 0.8;
+    -moz-opacity : 0.8;
+    -ms-filter: "alpha(opacity=80)"; /* IE 8 */
+    filter : alpha(opacity=80); /* IE < 8 */
+	background: url(images/arrow.gif) 136px 8px no-repeat;
+  	height: 13px;
+}
+
+ul.menu .arrow{
+  top:6px;
+  padding-left:10px;
+  position:relative;
+  float:right
+}
+ul.menu .sub:hover {
+	background-color:#0066cc;
+    opacity : 0.8;
+    -moz-opacity : 0.8;
+    -ms-filter: "alpha(opacity=80)"; /* IE 8 */
+    filter : alpha(opacity=80); /* IE < 8 */
+	height: 13px;
+}
+ul.menu .sub2 {
+ 
+}

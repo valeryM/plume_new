@@ -1,0 +1,173 @@
+# -*- coding: utf-8 -*-
+# (C) 2006 your name <your @ email>
+;404 Page not found !
+
+
+;Home
+
+
+;Categories
+
+
+;Links
+
+
+;Link
+
+
+;404 Error - Page not found
+
+
+;The page you are looking for is not available anymore. We tried to search for the pages that match your request. Feel free to refine the search.
+
+
+;Results of the search on:
+
+
+;Read
+
+
+;%Y-%m-%d at %H:%M
+
+
+;by
+
+
+;In %s
+
+
+;and
+
+
+;Score:
+
+
+;Back to
+
+
+;<div id="subcat"><h3>Subcategories</h3> %s</div>
+
+
+;No resources
+
+
+;1 resource
+
+
+;<strong>%s</strong> resources
+
+
+;in this category.
+
+
+;Number of comments:
+
+
+;<p><a href="%s">Previous Page</a></p>
+
+
+;<p><a href="%s">Next Page</a></p>
+
+
+;In short
+
+
+;Recent articles
+
+
+;, publisher of
+
+
+;Recent news
+
+
+;Add a comment
+
+
+;Author:
+
+
+;Email:
+
+
+;Website:
+
+
+;Comment
+
+
+;required but not shared or displayed
+
+
+;Preview
+
+
+;The comments are closed for this resource.
+
+
+;Comments
+
+
+;Comment preview
+
+
+;<h3 class="error">Error !</h3>%s<h3 class="comment-add">Modify your comment</h3>
+
+
+;Your post will be online after validation by the webmaster.
+
+
+;Submit
+
+
+;1.2.3 new Default theme
+
+
+;New Default Plume CMS theme for version 1.2.3
+
+
+;POWERED by
+
+
+;Powered by PLUME CMS
+
+
+;Logo of Plume CMS
+
+
+;DESIGN by
+
+
+;Design by Jojaba
+
+
+;Jojaba
+
+
+;%Y&bull;%m&bull;%d
+
+
+;Feeds
+
+
+;Sitemap
+
+
+;Go to the content
+
+
+;Go to the menu
+
+
+;Search
+
+
+;OK
+
+
+;<div id="art-pages-list"><h3>Pages of the article</h3> %s</div>
+
+
+;Results
+
+

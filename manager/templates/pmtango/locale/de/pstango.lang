@@ -1,0 +1,172 @@
+# -*- coding: utf-8 -*-
+# (C) 2007 your name <your@email>
+;404 Page not found !
+Fehler 404 - Seite nicht gefunden !
+
+;404 Error - Page not found
+Fehler 404 - Die Seite wurde nicht gefunden !
+
+;The page you are looking for is not available anymore. We tried to search for the pages that match your request. Feel free to refine the search.
+Die Seite, die Sie suchen, ist nicht mehr verfügbar. Wir haben versucht, Seiten die Ihrer Suche entsprechen, zu finden. Sie können die Suche verbessern, in dem Sie die Suchkriterien ändern.
+
+;Results of the search on:
+Ergebnisse der Suche nach:
+
+;by
+von
+
+;In %s
+In %s
+
+;and
+&nbsp;und&nbsp;
+
+;Number of comments:
+Anzahl der Kommentare&nbsp;:
+
+;Score:
+Relevanz:
+
+;%Y-%m-%d at %H:%M
+%d-%m-%Y um %H:%M
+
+;<p><a href="%s">Previous Page</a></p>
+<p><a href="%s">Vorherige Seite</a></p>
+
+;<p><a href="%s">Next Page</a></p>
+<p><a href="%s">Nächste Seite</a></p>
+
+;Back to
+Zurück zu
+
+;Links
+Links
+
+;Link
+Link
+
+;No resources
+Keine Ressource
+
+;1 resource
+1 Ressource
+
+;<strong>%s</strong> resources
+<strong>%s</strong> Ressourcen
+
+;in this category.
+in dieser Kategorie
+
+;, publisher of
+, Autor von
+
+;Categories
+Kategorien
+
+;In short
+Zusammenfassung
+
+;Add a comment
+Ein Kommentar hinzufügen
+
+;Author:
+Autor
+
+;Email:
+E-Mail
+
+;required but not shared or displayed
+Erforderlich, wird aber nicht veröffentlicht
+
+;Website:
+Webseite
+
+;Comment
+Kommentar
+
+;Preview
+Vorschau
+
+;Submit
+Abschicken
+
+;The comments are closed for this resource.
+Keine Kommentare für diese Ressource
+
+;Comments
+Kommentare
+
+;Comment preview
+Kommentarvorschau
+
+;Your post will be online after validation by the webmaster.
+Ihr post wird veröffentlicht wenn es vom Webmaster genehmigt wurde.
+
+;Go to the content
+Zum Inhalt
+
+;Go to the menu
+Zum Menü
+
+;POWERED by
+POWERED by
+
+;Powered by PLUME CMS
+Powered by PlUME CMS
+
+;Logo of Plume CMS
+Plume CMS Logo
+
+;DESIGN by
+DESIGN by
+
+;Recent news
+Letzte Neuigkeiten
+
+;%Y&bull;%m&bull;%d
+%d&bull;%m&bull;%Y
+
+;Feeds
+Feeds
+
+;Sitemap
+Sitemap
+
+;<div id="art-pages-list"><h3>Pages of the article</h3> %s</div>
+<div id="art-pages-list"><h3>Seiten vom Artikel</h3> %s</div>
+
+;Results
+Ergebnisse
+
+;Search
+Suche
+
+;Home
+Home
+
+;Read
+Lesen
+
+;<div id="subcat"><h3>Subcategories</h3> %s</div>
+<div id="subcat"><h3>Unterkategorien</h3> %s</div>
+
+;Recent articles
+Letzte Artikeln
+
+;<h3 class="error">Error !</h3>%s<h3 class="comment-add">Modify your comment</h3>
+<h3 class="error">Fehler !</h3>%s<h3 class="comment-add">Ihren Kommentar ändern</h3>
+
+;1.2.3 new Default theme
+Standard Theme für Plume CMS 1.2.3
+
+;New Default Plume CMS theme for version 1.2.3
+Neuer Theme für Plume CMS 1.2.3
+
+;Design by Jojaba
+Design by Jojaba
+
+;Jojaba
+Jojaba
+
+;OK
+OK

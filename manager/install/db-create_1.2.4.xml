@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- 
+# ***** BEGIN LICENSE BLOCK *****
+# Version: MPL 1.1/GPL 2.0/LGPL 2.1
+#
+# The contents of this file are subject to the Mozilla Public License Version
+# 1.1 (the "License"); you may not use this file except in compliance with
+# the License. You may obtain a copy of the License at
+# http://www.mozilla.org/MPL/
+#
+# Software distributed under the License is distributed on an "AS IS" basis,
+# WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# for the specific language governing rights and limitations under the
+# License.
+#
+# The Original Code is PLUME CMS.
+#
+# The Initial Developer of the Original Code is
+# loic d'Anterroches.
+# Portions created by the Initial Developer are Copyright (C) 2003
+# the Initial Developer. All Rights Reserved.
+#
+# Contributor(s):
+#
+# Alternatively, the contents of this file may be used under the terms of
+# either the GNU General Public License Version 2 or later (the "GPL"), or
+# the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# in which case the provisions of the GPL or the LGPL are applicable instead
+# of those above. If you wish to allow use of your version of this file only
+# under the terms of either the GPL or the LGPL, and not to allow others to
+# use your version of this file under the terms of the MPL, indicate your
+# decision by deleting the provisions above and replace them with the notice
+# and other provisions required by the GPL or the LGPL. If you do not delete
+# the provisions above, a recipient may use your version of this file under
+# the terms of any one of the MPL, the GPL or the LGPL.
+#
+# ***** END LICENSE BLOCK *****
+-->
+<database>
+
+	<action id="articles" label="Create table %s" string="{{PREFIX}}articles">
+		<test eq="neq" value="{{PREFIX}}articles" label="Table %s exists"
+		string="{{PREFIX}}articles">SHOW TABLES LIKE '{{PREFIX}}articles'</test>
+		CREATE TABLE {{PREFIX}}articles (
+		page_id int(10) unsigned NOT NULL auto_increment,
+		resource_id int(10) unsigned NOT NULL default '0',
+		page_number int(10) unsigned NOT NULL default '0',
+		page_title varchar(250) NOT NULL default '',
+		page_content text NOT NULL,
+		page_creationdate bigint(20) unsigned NOT NULL default '0',
+		page_modifdate bigint(20) unsigned NOT NULL default '0',
+		PRIMARY KEY	(page_id),
+		KEY resource_id (resource_id)
+		) {{TYPE}} {{CHARSET}}
+	</action>
+
+	<action id="authorasso" label="Create table %s" string="{{PREFIX}}authorasso">
+		<test eq="neq" value="{{PREFIX}}authorasso" label="Table %s exists"
+		string="{{PREFIX}}authorasso">SHOW TABLES LIKE '{{PREFIX}}authorasso'</test>
+		CREATE TABLE {{PREFIX}}authorasso (
+		user_id int(10) unsigned NOT NULL default '0',
+		resource_id int(10) unsigned NOT NULL default '0',
+		authorasso_type int(11) NOT NULL default '0',
+		authorasso_date bigint(20) unsigned NOT NULL default '0',
+		PRIMARY KEY	(user_id,resource_id,authorasso_type)
+		) {{TYPE}} {{CHARSET}}
+	</action>
+
+	<action id="categories" label="Create table %s" string="{{PREFIX}}categories">
+		<test eq="neq" value="{{PREFIX}}categories" label="Table %s exists"
+		string="{{PREFIX}}categories">SHOW TABLES LIKE '{{PREFIX}}categories'</test>
+		CREATE TABLE {{PREFIX}}categories (
+		category_id int(10) unsigned NOT NULL auto_increment,
+		category_parentid int(10) unsigned NOT NULL default '0',
+		category_position int(10) NOT NULL,
+		website_id varchar(50) NOT NULL default '',
+		category_name varchar(250) NOT NULL default '',
+		category_description text NOT NULL,
+		category_keywords text NOT NULL,
+		category_path varchar(250) NOT NULL default '',
+		category_publicationdate bigint(20) NOT NULL default '0',
+		category_creationdate bigint(20) NOT NULL default '0',
+		category_enddate bigint(20) NOT NULL default '0',
+		category_template varchar(250) NOT NULL default '',
+		category_type varchar(50) NOT NULL default '',
+		category_cachetime int(10) unsigned NOT NULL default '0',
+		image_id int(10) unsigned NOT NULL default '0',
+		icon_id int(10) unsigned NOT NULL default '0',
+		forum_id int(10) unsigned NOT NULL default '0',
+		PRIMARY KEY	(category_id),
+		KEY category_parentid (category_parentid),
+		KEY website_id (website_id),
+		KEY category_path (category_path),
+		KEY category_publicationdate (category_publicationdate),
+		KEY category_enddate (category_enddate)
+		) {{TYPE}} {{CHARSET}}
+	</action>
+
+	<action id="categoryasso" label="Create table %s" string="{{PREFIX}}categoryasso">
+		<test eq="neq" value="{{PREFIX}}categoryasso" label="Table %s exists"
+		string="{{PREFIX}}categoryasso">SHOW TABLES LIKE '{{PREFIX}}categoryasso'</test>
+		CREATE TABLE {{PREFIX}}categoryasso (
+		category_id int(10) unsigned NOT NULL default '0',
+		identifier varchar(50) NOT NULL default '',
+		categoryasso_type int(11) NOT NULL default '0',
+		template varchar(255) NOT NULL default '',
+		priority int(11) NOT NULL default '0',
+		PRIMARY KEY (category_id,identifier),
+                KEY identifier_idx (identifier)
+		) {{TYPE}} {{CHARSET}}
+	</action>
+
+	<!-- comments -->
+	<action id="comments" label="Create table %s" string="{{PREFIX}}comments">
+		<test eq="neq" value="{{PREFIX}}comments" label="Table %s exists."
+		string="{{PREFIX}}comments">SHOW TABLES LIKE '{{PREFIX}}comments'</test>
+		CREATE TABLE {{PREFIX}}comments (
+		comment_id int(11) NOT NULL auto_increment,
+		resource_id int(11) NOT NULL default '0',
+		comment_user_id int(11) NOT NULL default '0',
+		comment_author varchar(50) NOT NULL default '',
+		comment_email varchar(255) NOT NULL default '',
+		comment_website varchar(255) NOT NULL default '',
+		comment_creation bigint(20) unsigned NOT NULL default '0',
+		comment_update bigint(20) unsigned NOT NULL default '0',
+		comment_status int(11) NOT NULL default '0',
+		comment_type int(11) NOT NULL default '0',
+		comment_content text NOT NULL,
+		comment_ip varchar(200) NOT NULL default '',
+		PRIMARY KEY  (comment_id),
+		KEY resource_id (resource_id)
+		) {{TYPE}} {{CHARSET}}
+	</action>
+	
+	<action id="events" label="Create table %s" string="{{PREFIX}}events">
+		<test eq="neq" value="{{PREFIX}}events" label="Table %s exists"
+		string="{{PREFIX}}events">SHOW TABLES LIKE '{{PREFIX}}events'</test>
+		CREATE TABLE {{PREFIX}}events (
+		resource_id int(10) NOT NULL,
+		event_startdate bigint(20) NOT NULL,
+		event_enddate bigint(20) NOT NULL,
+		event_shortcontent text NOT NULL,
+		event_content text NOT NULL,
+		PRIMARY KEY  (resource_id),
+		KEY I_enddate (event_enddate),
+		KEY I_startdate (event_startdate)
+		) {{TYPE}} {{CHARSET}}
+	</action>
+	
+	<action id="grants" label="Create table %s" string="{{PREFIX}}grants">
+		<test eq="neq" value="{{PREFIX}}grants" label="Table %s exists"
+		string="{{PREFIX}}grants">SHOW TABLES LIKE '{{PREFIX}}grants'</test>
+		CREATE TABLE {{PREFIX}}grants (
+		user_id int(10) unsigned NOT NULL default '0',
+		website_id varchar(50) NOT NULL default '',
+		level int(11) NOT NULL default '0',
+		PRIMARY KEY	(user_id,website_id)
+		) {{TYPE}} {{CHARSET}}
+	</action>
+
+	<action id="links" label="Create table %s" string="{{PREFIX}}links">
+		<test eq="neq" value="{{PREFIX}}links" label="Table %s exists"
+		string="{{PREFIX}}links">SHOW TABLES LIKE '{{PREFIX}}links'</test>
+		CREATE TABLE {{PREFIX}}links (
+		link_id int(10) unsigned NOT NULL auto_increment,
+		zone varchar(30) NOT NULL,
+		website_id varchar(50) NOT NULL default '',
+		href varchar(250) NOT NULL default '',
+		label varchar(250) NOT NULL default '',
+		title varchar(250) NOT NULL default '',
+		lang char(2) NOT NULL default '',
+		rel varchar(250) NOT NULL default '',
+		position int(10) unsigned NOT NULL default '0',
+		cible varchar(30) NOT NULL,
+		PRIMARY KEY  (link_id),
+		KEY website_id (website_id),
+		KEY Zone (zone)
+		) {{TYPE}} {{CHARSET}}
+	</action>	
+
+	<action id="news" label="Create table %s" string="{{PREFIX}}news">
+		<test eq="neq" value="{{PREFIX}}news" label="Table %s exists"
+		string="{{PREFIX}}news">SHOW TABLES LIKE '{{PREFIX}}news'</test>
+		CREATE TABLE {{PREFIX}}news (
+		resource_id int(10) unsigned NOT NULL default '0',
+		news_serial varchar(32) NOT NULL default '',
+		news_titlewebsite varchar(250) NOT NULL default '',
+		news_linkwebsite varchar(250) NOT NULL default '',
+		feed_id int(10) unsigned NOT NULL default '0',
+		PRIMARY KEY	(resource_id),
+		KEY news_serial (news_serial),
+		KEY feed_id (feed_id)
+		) {{TYPE}} {{CHARSET}}
+	</action>
+
+	<action id="resources" label="Create table %s" string="{{PREFIX}}resources">
+		<test eq="neq" value="{{PREFIX}}resources" label="Table %s exists"
+		string="{{PREFIX}}resources">SHOW TABLES LIKE '{{PREFIX}}resources'</test>
+		CREATE TABLE {{PREFIX}}resources (
+		resource_id int(10) unsigned NOT NULL auto_increment,
+		website_id varchar(50) NOT NULL default '',
+		type_id varchar(50) NOT NULL default '',
+		subtype_id int(11) NOT NULL default '0',
+		comment_support int(11) NOT NULL default '1',
+		user_id int(10) unsigned NOT NULL default '0',
+		identifier varchar(50) NOT NULL default '',
+		subject text NOT NULL,
+		creatorname varchar(250) NOT NULL default '',
+		creatoremail varchar(250) NOT NULL default '',
+		creatorwebsite varchar(250) NOT NULL default '',
+		publisher varchar(250) NOT NULL default '',
+		lang_id varchar(20) NOT NULL default '',
+		title varchar(250) NOT NULL default '',
+		description text NOT NULL,
+		path varchar(250) NOT NULL default '',
+		creationdate bigint(20) unsigned NOT NULL default '0',
+		publicationdate bigint(20) unsigned NOT NULL default '0',
+		modifdate bigint(20) unsigned NOT NULL default '0',
+		enddate bigint(20) unsigned NOT NULL default '0',
+		status int(11) NOT NULL default '0',
+		size varchar(50) NOT NULL default '',
+		version varchar(50) NOT NULL default '',
+		metadata text NOT NULL,
+		comment text NOT NULL,
+		misc text NOT NULL,
+		format varchar(100) NOT NULL default '',
+		dctype varchar(100) NOT NULL default '',
+		dccoverage varchar(250) NOT NULL default '',
+		rights varchar(250) NOT NULL default '',
+		PRIMARY KEY	(resource_id),
+		KEY path (path),
+		KEY publicationdate (publicationdate),
+		KEY enddate (enddate),
+		KEY status (status),
+		KEY website_id (website_id),
+		KEY identifier (identifier)
+		) {{TYPE}} {{CHARSET}}
+	</action>
+
+<!--	<action id="sequencetable" label="Create table %s" string="{{PREFIX}}sequencetable">
+		<test eq="neq" value="{{PREFIX}}sequencetable" label="Table %s exists"
+		string="{{PREFIX}}sequencetable">SHOW TABLES LIKE '{{PREFIX}}sequencetable'</test>
+		CREATE TABLE {{PREFIX}}sequencetable (
+		seq_name varchar(250) NOT NULL default '',
+		nextid bigint(20) NOT NULL default '0',
+		PRIMARY KEY	(seq_name)
+		) {{TYPE}} {{CHARSET}}
+	</action> -->
+
+	<action id="search" label="Create table %s" string="{{PREFIX}}search">
+		<test eq="neq" value="{{PREFIX}}search" label="Table %s exists"
+		string="{{PREFIX}}search">SHOW TABLES LIKE '{{PREFIX}}search'</test>
+		CREATE TABLE {{PREFIX}}search (
+		resource_id int(10) unsigned NOT NULL default '0',
+		website_id varchar(50) NOT NULL default '',
+		lastindex bigint(20) unsigned NOT NULL default '0',
+		nbindex int(10) unsigned NOT NULL default '0',
+		PRIMARY KEY	(resource_id,website_id),
+		KEY lastindex (lastindex)
+		)	{{TYPE}} {{CHARSET}}
+	</action>
+
+	<action id="searchocc" label="Create table %s" string="{{PREFIX}}searchocc">
+		<test eq="neq" value="{{PREFIX}}searchocc" label="Table %s exists"
+		string="{{PREFIX}}searchocc">SHOW TABLES LIKE '{{PREFIX}}searchocc'</test>
+		CREATE TABLE {{PREFIX}}searchocc (
+		word_id int(10) unsigned NOT NULL auto_increment,
+		resource_id int(10) unsigned NOT NULL default '0',
+		website_id varchar(50) NOT NULL default '',
+		occ int(11) NOT NULL default '0',
+		pondocc float NOT NULL default '0',
+		PRIMARY KEY	(word_id,resource_id,website_id)
+		) {{TYPE}} {{CHARSET}}
+	</action>
+
+	<action id="searchwords" label="Create table %s" string="{{PREFIX}}searchwords">
+		<test eq="neq" value="{{PREFIX}}searchwords" label="Table %s exists"
+		string="{{PREFIX}}searchwords">SHOW TABLES LIKE '{{PREFIX}}searchwords'</test>
+		CREATE TABLE {{PREFIX}}searchwords (
+		word_id int(10) unsigned NOT NULL auto_increment,
+		word VARCHAR( 250 ) NOT NULL ,
+		PRIMARY KEY ( word_id ) ,
+		INDEX ( word )) {{TYPE}} {{CHARSET}}
+	</action>
+
+	<!-- smart404 -->
+	<action id="smart404" label="Create table %s" string="{{PREFIX}}smart404">
+		<test eq="neq" value="{{PREFIX}}smart404" label="Table %s exists"
+		string="{{PREFIX}}smart404">SHOW TABLES LIKE '{{PREFIX}}smart404'</test>
+		CREATE TABLE {{PREFIX}}smart404 (
+		website_id varchar(50) NOT NULL default '',
+		oldpage varchar(255) NOT NULL default '',
+		newpage varchar(255) NOT NULL default '',
+		lastroutingdate bigint(20) unsigned NOT NULL default '0',
+		total int(10) unsigned NOT NULL default '0',
+		PRIMARY KEY  (website_id,oldpage)
+		) {{TYPE}} {{CHARSET}}
+	</action>
+
+	<!-- smart404logs -->
+	<action id="smart404logs" label="Create table %s" string="{{PREFIX}}smart404logs">
+		<test eq="neq" value="{{PREFIX}}smart404logs" label="Table %s exists"
+		string="{{PREFIX}}smart404logs">SHOW TABLES LIKE '{{PREFIX}}smart404logs'</test>
+		CREATE TABLE {{PREFIX}}smart404logs (
+		website_id varchar(50) NOT NULL default '',
+		page varchar(255) NOT NULL default '',
+		fromurl varchar(255) NOT NULL default '',
+		date bigint(20) unsigned NOT NULL default '0',
+		useragent varchar(255) NOT NULL default '',
+		KEY website_id (website_id),
+		KEY page (page),
+		KEY date (date)
+		) {{TYPE}} {{CHARSET}}
+	</action>
+
+	<action id="subtypes" label="Create table %s" string="{{PREFIX}}subtypes">
+		<test eq="neq" value="{{PREFIX}}subtypes" label="Table %s exists"
+		string="{{PREFIX}}subtypes">SHOW TABLES LIKE '{{PREFIX}}subtypes'</test>
+		CREATE TABLE {{PREFIX}}subtypes (
+		subtype_id int(10) unsigned NOT NULL auto_increment,
+		type_id varchar(50) NOT NULL default '',
+		website_id varchar(50) NOT NULL default '',
+		subtype_name varchar(100) NOT NULL default '',
+		subtype_template varchar(250) NOT NULL default '',
+		subtype_cachetime int(11) NOT NULL default '0',
+		subtype_extra1 varchar(250) NOT NULL default '',
+		subtype_extra2 varchar(250) NOT NULL default '',
+		PRIMARY KEY	(subtype_id,type_id,website_id)
+		) {{TYPE}} {{CHARSET}}
+	</action>
+	
+	<action id="usercats" label="Create table %s" string="{{PREFIX}}usercats">
+		<test eq="neq" value="{{PREFIX}}usercats" label="Table % exists"
+		string="{{PREFIX}}usercats">SHOW TABLES LIKE '{{PREFIX}}usercats'</test>
+		CREATE TABLE {{PREFIX}}usercats (
+		user_id int(10) unsigned NOT NULL,
+		website_id varchar(50) NOT NULL default '',
+		category_id int(10) unsigned NOT NULL default '0',
+		PRIMARY KEY (user_id,website_id,category_id),
+		KEY category_id (category_id),
+  		KEY website_id (website_id)
+		) {{TYPE}} {{CHARSET}}
+	</action>
+	
+	<action id="userprefs" label="Create table %s" string="{{PREFIX}}userprefs">
+		<test eq="neq" value="{{PREFIX}}userprefs" label="Table %s exists"
+		string="{{PREFIX}}userprefs">SHOW TABLES LIKE '{{PREFIX}}userprefs'</test>
+		CREATE TABLE {{PREFIX}}userprefs (
+		user_id int(11) NOT NULL default '0',
+		website_id varchar(50) NOT NULL default '',
+		keyname varchar(50) NOT NULL default '',
+		data varchar(255) NOT NULL default '',
+		PRIMARY KEY	(user_id,website_id,keyname)
+		) {{TYPE}} {{CHARSET}}
+	</action>
+
+	<action id="users" label="Create table %s" string="{{PREFIX}}users">
+		<test eq="neq" value="{{PREFIX}}users" label="Table %s exists"
+		string="{{PREFIX}}users">SHOW TABLES LIKE '{{PREFIX}}users'</test>
+		CREATE TABLE {{PREFIX}}users (
+		user_id int(10) unsigned NOT NULL auto_increment,
+		user_username varchar(25) NOT NULL default '',
+		user_password varchar(32) NOT NULL default '',
+		user_realname varchar(50) NOT NULL default '',
+		user_email varchar(128) NOT NULL default '',
+		user_pubemail varchar(128) NOT NULL default '',
+		user_website varchar(128) NOT NULL default '',
+		user_company varchar(255) NOT NULL default '',
+		lang_id varchar(7) NOT NULL default 'en',
+		country_id char(2) NOT NULL default 'us',
+		user_lastconnect bigint(20) unsigned NOT NULL default '0',
+		user_creationdate bigint(20) NOT NULL default '0',
+		user_active int(10) unsigned NOT NULL default '0',
+		user_status varchar(255) NOT NULL default '',
+		user_firstlogin int(10) unsigned NOT NULL default '0',
+		user_birthdate bigint(20) NOT NULL default '0',
+		user_gender enum('M','F','NA') NOT NULL default 'NA',
+		user_image varchar(200) NOT NULL default '',
+		user_icq varchar(50) NOT NULL default '',
+		user_aol varchar(50) NOT NULL default '',
+		user_yahoo varchar(50) NOT NULL default '',
+		user_msn varchar(50) NOT NULL default '',
+		user_jabber varchar(50) NOT NULL default '',
+		user_signature varchar(250) NOT NULL default '',
+		user_group int(10) NOT NULL,
+		user_path_media varchar(50) NOT NULL,
+		PRIMARY KEY	(user_id),
+		UNIQUE KEY user_realname (user_realname),
+		UNIQUE KEY user_username (user_username),
+		KEY user_creationdate (user_creationdate),
+		KEY user_status (user_status),
+		KEY user_group (user_group)
+		) {{TYPE}} {{CHARSET}}
+	</action>
+
+	<action id="websites" label="Create table %s" string="{{PREFIX}}websites">
+		<test eq="neq" value="{{PREFIX}}websites" label="Table %s exists"
+		string="{{PREFIX}}websites">SHOW TABLES LIKE '{{PREFIX}}websites'</test>
+		CREATE TABLE {{PREFIX}}websites (
+		website_id varchar(50) NOT NULL default '',
+		website_name varchar(120) NOT NULL default '',
+		website_url varchar(250) NOT NULL default '',
+		website_reurl varchar(50) NOT NULL default '',
+		website_path varchar(100) NOT NULL default '',
+		website_xmedia_reurl varchar(250) NOT NULL default '',
+		website_xmedia_path varchar(100) NOT NULL default '',
+		website_description text NOT NULL,
+		website_default int(11) NOT NULL default '0',
+		website_startdate bigint(20) NOT NULL default '0',
+		website_active int(11) NOT NULL default '0',
+		website_color varchar(10) NOT NULL default '',
+		PRIMARY KEY	(website_id)
+		) {{TYPE}} {{CHARSET}}
+	</action>
+
+
+</database>

@@ -1,0 +1,61 @@
+﻿# -*- coding: utf-8 -*-
+# (C) 2004 Loïc d'Anterroches
+;Search Manager
+Διαχειριστής αναζητήσεων
+
+;Indexed resources
+Πόροι με ευρετήριο
+
+;Maintenance of the search index.
+Διαχείριση του ευρετηρίου αναζήτησης.
+
+;Index the resource
+Προσθήκη του πόρου στο ευρετήριο
+
+;Up to date
+Ενημερωμένο
+
+;Index too old
+Παρωχημένο ευρετήριο
+
+;Not indexed
+Δεν υπάρχει στο ευρετήριο
+
+;The resource has been successfully indexed.
+Ο πόρος προστέθηκε στο ευρετήριο με επιτυχία.
+
+;Status
+Κατάσταση
+
+;Resource title
+Τίτλος πόρου
+
+;Last indexation
+Τελευταία προσθήκη στο ευρετήριο
+
+;Number
+Αριθμός
+
+;No resources.
+Χωρίς πόρους.
+
+;The index has been cleaned with <strong>%s</strong> unused word(s) removed.
+Το ευρετήριο εκκαθαρίστηκε και αφαιρέθηκε(αν) <strong>%s</strong> μη χρησιμοποιούμενη(ες) λέξη(εις).
+
+;Index maintenance
+Διαχείριση ευρετηρίου
+
+;<a href="%s">Clean the index of unused words</a>. This operation may take a long time and is database intensive.
+<a href="%s">Εκκαθάριση του ευρετηρίου από μη χρησιμοποιούμενες λέξεις</a>. Η διαδικασία αυτή μπορεί να πάρει αρκετή ώρα και «φορτώνει» πολύ τη βάση δεδομένων.
+
+;Y/m/d&\nb\sp;H:i:s
+
+
+;&laquo; previous page
+
+
+;&raquo; next page
+
+
+;page(s):
+

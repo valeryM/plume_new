@@ -1,0 +1,1362 @@
+# -*- coding: utf-8 -*-
+# (C) 2004 Robert Zelník
+# (C) 2007 SlovakSoft
+
+;There is an error with your login or your password.
+Chyba pri zadaní prihlas. mena alebo hesla.
+
+;Login:
+Prihlasovacie meno:
+
+;Password:
+Heslo:
+
+;Ok
+OK
+
+;You need to accept the cookies to access the manager.
+Prístup do Správcu vyžaduje povolené súbory cookies.
+
+# Main Menu (for accesskey translation see accesskey section below)
+###################################################################
+;News
+Novinky
+
+;Articles
+Články
+
+;Rss
+Rss links
+
+;Files or images
+Súbory alebo obrázky
+
+;Logout
+Odhlásiť
+
+;Content
+Obsah
+
+;Preferences
+Predvoľby
+
+;Authors
+Autori
+
+;Tools
+Nástroje
+
+;Sites
+Webstránky
+
+;Help
+Pomocník
+
+;Home
+Domov
+
+;Resource list
+Zoznam príspevkov
+
+;No resource.
+Žiadne príspevky.
+
+;Show all
+Zobraziť všetko
+
+;Hide all
+Skryť všetko
+
+;show/hide
+Zobraziť/Skryť
+
+;by
+autor:
+
+;Edit author profile
+Upraviť autor profil
+
+;in
+v časti
+
+;Y/m/d at H:i:s
+d. m. Y at H:i:s
+
+;Search:
+Hľadať:
+
+;edit
+Upraviť
+
+;visualize
+Zobraziť náhľad
+
+;The associated link must start with http:// or a valid protocol.
+Priradené prepojenie musí začínať http:// alebo platným protokolom.
+
+;Back to the list of resources
+Späť na zoznam príspevkov
+
+;News list
+Zoznam noviniek
+
+;See the news
+Zobraziť novinky
+
+;New news
+Nová novinka
+
+;Error: The requested news is not available.
+Chyba: požadovaná novinka nie je dostupná.
+
+;Error: You do not have the rights to edit this news.
+Chyba: memáte oprávnenie na úpravu tejto novinky.
+
+;Category
+Kategória
+
+;Category:
+Kategória:
+
+;Categories
+Kategórie
+
+;Hidden category
+Skrytá kategória
+
+;shrink textarea
+Zmenšiť textovú oblasť
+
+;grow textarea
+Zväčšiť textovú oblasť
+
+;On-line
+Zverejnené
+
+;Off-line
+Nezverejnené
+
+;Waiting for validation
+Čaká na odsúhlasenie
+
+;In edition
+Rozpracované
+
+;Format
+Formát
+
+;Format:
+Formát:
+
+;Status
+Stav
+
+;Title
+Názov
+
+;Title:
+Názov:
+
+;Description:
+Popis:
+
+;Description
+Popis
+
+;Keywords:
+Kľúčové slová:
+
+;Keywords
+Kľúčové slová
+
+;Associated website title
+Priradený názov webstránky
+
+;Associated website address
+Priradená adresa webstránky
+
+;Publication date
+Dátum zverejnenia
+
+;Expiration date
+Dátum platnosti
+
+;Do not use an expiration date.
+Nepoužiť dátum platnosti
+
+;Time:
+Čas:
+
+;Remove from this category
+Odstrániť túto kategóriu
+
+;Add in another category
+Pridať do inej kategórie
+
+;Add
+Pridať
+
+# Submit buttons (to modify the accesskeys, see the accesskey section below)
+############################################################################
+
+;Visualize [v]
+Ukážka [k]
+
+;Save [s]
+Uložiť [U]
+
+;Transform in XHTML [x]
+Previesť do XHTML [x]
+
+;Delete [d]
+Odstrániť [d]
+
+;Are you sure you want to delete this news?
+Naozaj chcete odstrániť túto novinku?
+
+;Content of the news
+Obsah noviniek
+
+;You need to give a title.
+Je potrebné zadať názov.
+
+;The publication date is wrong.
+Dátum zverejnenia je nesprávny.
+
+;The off-line date is wrong.
+Dátum ukončenia platnosti je nesprávny.
+
+;The proposed category is invalid.
+Vybraná kategória je neplatná.
+
+;Type
+Typ
+
+;A type of resource is needed.
+Je potrebné vybrať typ príspevku.
+
+;No news.
+Žiadne novinky.
+
+;The news was successfully saved.
+Novinka bola úspešne uložená.
+
+;Main category
+Hlavná kategória
+
+;Set as main category
+Nastaviť ako hlavnú kategóriu
+
+;The news was successfully deleted.
+Novinka bola úspešne odstránená.
+
+;All the dates
+Všetky dátumy
+
+;All the categories
+Všetky kategórie
+
+;ok
+OK
+
+;Month:
+Mesiac:
+
+;Error: The requested article is not available.
+Chyba: požadovaný článok nie je dostupný.
+
+;Error: The requested page is not available.
+Chyba: požadovaná strana nie je dostupná.
+
+;Article list
+Zoznam článkov
+
+;See the article
+Zobraziť článok
+
+;New article
+Nový článok
+
+;No article
+Žiadny článok
+
+;Are you sure you want to delete this article?
+Naozaj chcete odstrániť tento článok?
+
+;Article pages
+Strany článkov
+
+;See the page
+Zobraziť stranu
+
+;Your are editing page %s of the article: %s.
+Upravujete stranu %s článku %s.
+
+;Your are adding a page to the article: %s.
+Pridávate stranu do článku %s.
+
+;Number of the page
+Číslo strany
+
+;Page title
+Názov strany
+
+;Page content
+Obsah strany
+
+;Id to make a link:
+ID na vytvorenie prepojenia:
+
+;Edit this page
+Upraviť túto stranu
+
+;Add a page to the article
+Pridať stranu do článku
+
+;Back to the article
+Späť na článok
+
+;At the end
+Na koniec
+
+;Path
+Cesta
+
+;Error: You do not have the rights to edit this article.
+Chyba: nemáte oprávnenie na úpravu tohto článku.
+
+;The article was successfully saved.
+Článok bol úspešne uložený.
+
+;You need first to save the article, before adding a page to it.
+Pred pridaním strany do článku by ste mali najprv článok uložiť.
+
+;The page was successfully saved.
+Strana bola úspešne uložená.
+
+;The page was successfully added.
+Strana bola úspešne pridaná.
+
+;The page must have a title.
+Strana musí mať názov.
+
+;The page must have a content.
+Strana musí mať obsah.
+
+;Error: Invalid page number.
+Chyba: nesprávne číslo strany.
+
+;Error: Invalid page id.
+Chyba: nesprávne ID strany.
+
+;The page was deleted.
+Strana bola úspešne odstránená.
+
+;Are you sure you want to delete this page?
+Naozaj chcete odstrániť túto stranu?
+
+;The article was successfully deleted.
+Článok bol úspešne odstránený.
+
+;New category
+Nová kategória
+
+;See the category
+Zobraziť kategória
+
+;Parent category:
+Nadradená kategória:
+
+;Template:
+Šablóna:
+
+;Cache time in seconds:
+Čas vyrovnávacej pamäte v sekundách:
+
+;Path <span class="small">(/category/ or /cat/subcat/)</span>:
+Cesta <span class="small">(/kategória/ alebo /kategória/podkategória/)</span>:
+
+;No categories.
+Žiadne kategórie.
+
+;Error: Invalid path.
+Chyba: neplatná cesta.
+
+;Category successfully saved.
+Kategória úspešne uložená.
+
+;Are you sure you want to delete this category?
+Naozaj chcete odstrániť túto kategóriu?
+
+;Error: Impossible to load the list of templates, check the availability of the template folder.
+Chyba: nie je možné načítať zoznam šablón, skontrolujte dostupnosť priečinka šablón.
+
+;The category was successfully deleted.
+Kategória bola úspešne odstránená.
+
+;Error: Configuration file of the website(<strong>%s</strong>) not available.
+Chyba: konfiguračný súbor webstránky (<strong>%s</strong>) nie je dostupný.
+
+;Error: The system has no write access to the folder <strong>%s</strong>. Check the permissions.
+Chyba: systém nemá oprávnenie na zápis do priečinka <strong>%s</strong>. Skontrolujte oprávnenia.
+
+;Error: The folder <strong>%s</strong> does not exist.
+Chyba: priečinok <strong>%s</strong> neexistuje.
+
+;Error: The requested file does not exist.
+Chyba: požadovaný súbor neexistuje.
+
+;Error: Impossible to delete the file.
+Chyba: nie je možné odstrániť súbor.
+
+;File deleted with success.
+Súbor bol úspešne odstránený.
+
+;Error: The size of the file excess the maximum size.
+Chyba: veľkosť súboru presahuje maximálnu povolenú veľkosť.
+
+;Error: File not fully transfered.
+Chyba: súbor nebol úplne prenesený.
+
+;Error: No file.
+Chyba: žiadny súbor.
+
+;An error occured during the transfer of the file.
+Počas prenosu súboru sa vyskytla chyba.
+
+;File successfully uploaded.
+Súbor bol úspešne odovzdaný.
+
+;Files and images
+Súbory a obrázky
+
+;MB
+MB
+
+;KB
+KB
+
+;bytes
+bajtov
+
+;Your files
+Vaše súbory
+
+;Try to create the thumbnail
+Skúsiť vytvoriť miniatúru
+
+;Are you sure you want to delete this file?
+Naozaj chcete odstrániť tento súbor?
+
+;<strong>size</strong>:
+<strong>veľkosť</strong>:
+
+;No file for the moment.
+Momentálne sa tu nenachádza žiadny súbor.
+
+;&laquo; previous page
+&laquo; predchádzajúca strana
+
+;&raquo; next page
+&raquo; nasledujúca strana
+
+;Insert an image or a file
+Vložiť obrázok alebo súbor
+
+;Title of the file or image:
+Názov súboru alebo obrázka:
+
+;<strong>Current site</strong>:
+<strong>Aktuálna webstránka</strong>:
+
+;Change
+Zmeniť
+
+;See the site
+Pozrieť webstránku
+
+;Resource off-line
+Príspevok nie je zverejnený
+
+;Resource on-line
+Príspevok je zverejnený
+
+;Resource in edition
+Príspevok je rozpracovaný
+
+;Resource waiting for validation
+Príspevok čaká na odsúhlasenie
+
+;New author
+Nový autor
+
+;page(s):
+Počet strán
+
+;resource(s)
+– počet príspevkov
+
+;Name:
+Meno:
+
+;Email <span class="small">(not shown)</span>:
+E-mail <span class="small">(skrytý)</span>:
+
+;Public email:
+Verejný e-mail:
+
+;(keep empty not to change it)
+(ak nechcete meniť, nechajte políčko prázdne)
+
+;Back to the list of authors
+Späť na zoznam autorov
+
+;Attention, you are modifying your profile. You will be logged out if changes are successfully made.
+Upozornenie: upravujete svoj profil. Ak budú zmeny úspešne zaznamenané, budete odhlásený(á).
+
+;Identity
+Identita
+
+;Levels
+Úrovne
+
+;Default website to edit:
+Predvolená webstránka na úpravu:
+
+;If saved in a cookie, the last edited website is proposed after login.
+Ak je to uložené v súboroch cookies, pri ďalšej návšteve sa otvorí naposledy upravovaná webstránka.
+
+;Site <strong>%s</strong>:
+Webstránka <strong>%s</strong>:
+
+;Administrator
+Správca
+
+;Advanced author
+Pokročilý autor
+
+;Intermediate author
+Pomocný autor
+
+;Simple author
+Bežný autor
+
+;No access
+Bez prístupu
+
+;Are you sure you want to delete this author?
+Naozaj chcete odstrániť tohto autora?
+
+;The author has been successfully saved.
+Autor bol úspešne uložený.
+
+;Error: The login is not valid, only letters and digits allowed.
+Chyba: prihlasovacie meno je neplatné, povolené sú iba písmená a číslice.
+
+;Error: This login is already used, please use another one.
+Chyba: toto prihlasovacie meno sa už používa, vyberte iné.
+
+;Error: You need to give a password.
+Chyba: je potrebné zadať heslo.
+
+;Error: You need to give a name.
+Chyba: je potrebné zadať meno.
+
+;Error: You do not have the rights to modify this user.
+Chyba: nemáte oprávnenie na úpravu tohto používateľa.
+
+;Error: This user cannot be deleted.
+Chyba: nie je možné odstrániť tohto používateľa.
+
+;Author successfully deleted.
+Autor bol úspešne odstránený.
+
+;New site
+Nová webstránka
+
+;Back to the list of the sites
+Späť na zoznam webstránok
+
+;This site is not available.
+Tieto webstránky nie sú dostupné.
+
+;Error: Permissions of the configuration prevent the addition or modification of the sites.
+Chyba: oprávnenia v nastaveniach neumožňujú pridávať alebo upravovať stránky.
+
+;Site name:
+Názov webstránky:
+
+;Site id:
+ID webstránky:
+
+;Main language of the website:
+Hlavný jazyk webstránky:
+
+;Error: You must give a name.
+Chyba: musíte zadať meno.
+
+;Error: You must give a description.
+Chyba: musíte zadať popis.
+
+;Error: Invalid id, it must contain only letters and digits.
+Chyba: neplatné ID, môže obsahovať iba písmená alebo číslice.
+
+;Error: Impossible to create the configuration file.
+Chyba: nie je možné vytvoriť konfiguračný súbor.
+
+;Error: The site can only be deleted if empty.
+Chyba: webstránku možno odstrániť iba vtedy, ak je prázdna.
+
+;Are you sure you want to delete this site?
+Naozaj chcete odstrániť túto webstránku?
+
+;Add a file to the current folder
+Pridať súbor do aktuálneho priečinka
+
+;Add the file
+Pridať súbor
+
+;Create a sub-folder
+Vytvoriť podpriečinok
+
+;You are in the folder <strong>%s</strong>
+Nachádzate sa v priečinku <strong>%s</strong>
+
+;Error: Impossible to create the new folder.
+Chyba: nie je možné vytvoriť nový priečinok.
+
+;The folder was successfully created, you can already add files and images in.
+Priečinok bol úspešne vytvorený, môžete do neho začať pridávať súbory a obrázky.
+
+;Create
+Vytvoriť
+
+;Are you sure you want to delete this folder?
+Naozaj chcete odstrániť tento priečinok?
+
+;Delete this folder
+Odstrániť tento priečinok
+
+;Error: Impossible to delete the folder.
+Chyba: priečinok nemožno odstrániť.
+
+;Folder successfully deleted.
+Priečinok úspešne odstránený.
+
+;Impossible to open the file
+Nie je možné otvoriť súbor
+
+;Invalid plugin
+Neplatný modul
+
+;Impossible to delete the existing plugin
+Nie je možné odstrániť existujúci modul
+
+;An error occured during the download of the file.
+Počas preberania súboru sa vyskytla chyba.
+
+;An error occured when writing the file.
+Počas zápisu súboru sa vyskytla chyba.
+
+;Tools and plugins
+Nástroje a moduly
+
+;No active or available tools.
+Žiadne aktívne alebo dostupné nástroje.
+
+;Back to the tools
+Späť na nástroje
+
+;The automatic install is not available on your system, do the manual install.
+Pre váš systém nie je dostupná automatická inštalácia, nainštalujte ručne.
+
+;Preferences successfully saved.
+Predvoľby úspešne uložené.
+
+;Online help
+Pomocník online
+
+;Help topics
+Témy Pomocníka
+
+;More help
+Ďalšia pomoc
+
+;Close this window
+Zavrieť okno
+
+;Interface language:
+Jazyk rozhrania:
+
+;Wiki syntax
+Wiki syntax
+
+;XHTML coding
+XHTML coding
+
+;Resource types
+Typy príspevkov
+
+;New type
+Nový typ
+
+;Name of the type:
+Názov typu:
+
+;Article
+Článok
+
+;Yes
+Áno
+
+;No
+Nie
+
+;Have associated link to news items:
+Obsahuje pridružené prepojenie na položky noviniek:
+
+;List the types
+Zoznam typov
+
+;The type was successfully saved.
+Typ bol úspešne uložený.
+
+;You must provide a name.
+Musíte zadať názov.
+
+;You must provide a template.
+Musíte zadať šablónu.
+
+;The cachetime must be an integer.
+Čas vyrovnávacej pamäte musí byť celé číslo.
+
+;Types of news
+Typ noviniek
+
+;Type of articles
+Typ článkov
+
+;Are you sure you want to delete this type of resource?
+Naozaj chcete odstrániť tento typ príspevku?
+
+;Impossible to delete this type as it is in use.
+Pokiaľ je tento typ použitý, nie je možné odstrániť ho.
+
+;The type of resource was successfully deleted.
+Typ príspevku bol úspešne odstránený.
+
+;You need to <a href="%s">add 2 types of resource</a>, one for the articles and one for the news.
+Je potrebné <a href="%s">pridať 2 typy príspevku</a>, jeden pre články a jeden pre novinky.
+
+;Manager Themes
+Témy správcu
+
+;version:
+verzia:
+
+;Use this theme
+Použiť túto tému
+
+;Theme successfully changed.
+Téma bola úspešne zmenená.
+
+;New website name
+Názov novej webstránky
+
+;Description of the __new website__.
+Popis __new website__.
+
+;No rights to edit this website.
+Nemáte oprávnenie na úpravu tejto webstránky.
+
+;No rights to add a website.
+Nemáte oprávnenie na pridanie webstránky.
+
+;Site <strong>%s</strong> successfully saved.
+Stránka <strong>%s</strong> bola úspešne uložená.
+
+;Site <strong>%s</strong> successfully added.
+Stránka <strong>%s</strong> bola úspešne pridaná.
+
+;Site successfully deleted. No file was removed from the document root.
+Stránka bola úspešne odstránená. Z koreňového priečinka dokumentov neboli odstránené žiadne súbory.
+
+;Log of the installation:
+Priebeh inštalácie:
+
+;If you see warnings, check them carefully and look at the online documentation to see the impact. You may need to complete the installation manually.
+Ak uvidíte upozornenia, dôkladne ich skontrolujte a zistite príčinu preštudovaním dokumentácie online. Inštaláciu bude možno potrebné dokončiť ručne.
+
+;To see the new website in the manager, you need to logout and login again.
+Ak chcete vidieť novú webstránku v správcovi, je potrebné sa odhlásiť a znova prihlásiť.
+
+;If you are using the nice url option, you need to configure the webserver to use these url with this new website.
+Ak používate možnosť "pekné URL", pre používanie týchto URL je potrebné nastaviť webserver pre túto novú webstránku.
+
+;<a href="%s">Manage the subtypes of resources</a>.
+<a href="%s">Spravovať subtypy príspevkov</a>
+
+;Website address:
+Adresa webstránky:
+
+;For example put <em>https://www.mydomain.com/mysite/</em> or <em>http://www.mydomain.com/</em>. Do not forget the <em>http(s)</em>.
+Zadajte napríklad <em>https://www.mojadomena.com/mojastranka/</em> alebo <em>http://www.mojadomena.com/</em>. Nezabudnite na <em>http(s)</em>.
+
+;Path to the document root of the website:
+Cesta ku koreňovému priečinku dokumentov webstránky:
+
+;Path on the server side. For example <em>/home/login/www</em> or <em>c:/http</em>. The document root is the folder where the <em>index.php</em> will be placed.
+Cesta na strane servera. Napríklad <em>/home/login/</em> alebo <em>c:/http</em>. Koreňový priečinok dokumentov je priečinok, do ktorého bude uložený súbor <em>index.php</em>.
+
+;Name of the file and image folder:
+Názov priečinka súborov a obrázkov:
+
+;For example put <em>xmedia</em> or <em>documents</em>.
+Zadajte napríklad <em>xmedia</em> alebo <em>dokumenty</em>.
+
+;If all the informations you provided are valid, the system will copy the required files in the right folders. The complete log of those files will be shown to you. No file already available on the system will be overwritten.
+Ak sú všetky zadané informácie správne, systém skopíruje potrebné súbory do príslušných priečinkov. Zoznam týchto súborov sa vám zobrazí. Žiadny už existujúci súbor nebude prepísaný.
+
+;Create the new website
+Vytvoriť novú webstránku
+
+;File not found:
+Súbor nebol nájdený:
+
+;Error: Internal error, please report your actions leading to this error message.
+Chyba: interná chyba – nahláste postup, ktorý viedol k tomuto chybovému hláseniu.
+
+;Error: File and image folder %s not available. Check the name you gave.
+Chyba: priečinok súborov a obrázkov %s nie je dostupný. Skontrolujte zadaný názov.
+
+;Error: No write access to the file and image folder %s. Check the name you gave.
+Chyba: priečinok súborov a obrázkov %s nemá práva na zápis. Skontrolujte zadaný názov.
+
+;Error: The document root folder %s is not available.
+Chyba: koreňový priečinok dokumentov %s nie je dostupný.
+
+;Error: No write access to the root folder %s.
+Chyba: nie sú práva na zápis do koreňového priečinka %s.
+
+;Error: You must give a website address.
+Chyba: je potrebné zadať adresu webstránky.
+
+;Error: You must provide a valid website address.
+Chyba: je potrebné zadať platnú adresu webstránky.
+
+;Error: The configuration file %s is not writeable.
+Chyba: konfiguračný súbor %s nemá práva zápisu.
+
+;Error: Id already used.
+Chyba: ID už je použité.
+
+;Error: The configuration folder %s is not writeable.
+Chyba: konfiguračný súbor %s nemá práva zápisu.
+
+;Home Page
+Domovská stránka
+
+;Root category, that plays the role of homepage.
+Koreňová kategória, ktorá slúži ako domovská stránka.
+
+;homepage, index, default
+domovská stránka, index, predvolené
+
+;Thumbnail folder %s created successfully.
+Priečinok miniatúr bol úspešne vytvorený.
+
+;Unable to create the thumbnail folder %s.
+Nie je možné vytvoriť priečinok miniatúr %s.
+
+;Theme folder %s created successfully.
+Priečinok tém %s bol úspešne vytvorený.
+
+;Unable to create the theme folder %s.
+Nie je možné vytvoriť priečinok tém %s.
+
+;Template folder %s created successfully.
+Priečinok šablón %s bol úspešne vytvorený.
+
+;Unable to create the template folder %s.
+Nie je možné vytvoriť priečinok šablón %s.
+
+;Theme files successfully copied from %s to the theme folder.
+Súbory tém boli úspešne skopírované z priečinka %s do priečinka tém.
+
+;Unable to copy the theme files from %s to the theme folder.
+Nie je možné skopírovať súbory tém z priečinka %s do priečinka tém.
+
+;Templates files successfully copied from %s to the template folder.
+Súbory šablón boli úspešne skopírované z preičinka %s do priečinka šablón.
+
+;Unable to copy the templates files from %s to the template folder.
+Nie je možné skopírovať súbory predlôh z priečinka %s do priečinka šablón.
+
+;Config file successfully copied from %s to the document root folder.
+Konfiguračný súbor bol úspešne skopírovaný z priečinka %s do koreňového priečinka dokumentov.
+
+;Unable to copy the config file from %s to the document root folder.
+Nie je možné skopírovať konfiguračný súbor z priečinka %s do koreňového priečinka dokumentov.
+
+;Index file successfully copied from %s to the document root folder.
+Súbor Index bol úspešne skopírovaný z priečinka %s do koreňového priečinka dokumentov.
+
+;Unable to copy the index file from %s to the document root folder.
+Nie je možné skopírovať súbor Index z priečinka %s do koreňového priečinka dokumentov.
+
+;Prepend file successfully copied from %s to the document root folder.
+Pridaný súbor bol úspešne skopírovaný z priečinka %s do koreňového priečinka dokumentov.
+
+;Unable to copy the prepend file from %s to the document root folder.
+Nie je možné skopírovať pridaný súbor z priečinka %s do koreňového priečinka dokumentov.
+
+;Rss file successfully copied from %s to the document root folder.
+Súbor RSS bol úspešne skopírovaný z priečinka %s do koreňového priečinka dokumentov.
+
+;Unable to copy the rss file from %s to the document root folder.
+Nie je možné skopírovať súbor RSS z priečinka %s do koreňového priečinka dokumentov.
+
+;Search file successfully copied from %s to the document root folder.
+Súbor Search bol úspešne skopírovaný z priečinka %s do koreňového priečinka dokumentov.
+
+;Unable to copy the search file from %s to the document root folder.
+Nie je možné skopírovať súbor Search z priečinka %s do koreňového priečinka dokumentov.
+
+;Config file %s successfully updated.
+Konfiguračný súbor %s bol úspešne aktualizovaný.
+
+;Unable to update the config file %s.
+Nie je možné aktualizovať konfiguračný súbor %s.
+
+;Links:
+Prepojenia:
+
+;Default theme
+Predvolená téma,
+
+;Default PLUME CMS theme.
+Predvolená téma PLUME CMS
+
+;Error: Not an authorized type of file. The file name must contain only simple letters, digits, "-", "_" and a recognized extension. No spaces allowed.
+Chyba: tento typ súboru nie je autorizovaný. Názov súboru môže obsahovať iba jednoduché písmená, číslice, "-", "_" a štandardnú príponu. Medzery nie sú povolené.
+
+;Error: Invalid folder name, it must contain only letters, digits, "_" and "-".
+Chyba: neplatný názov priečinka, povolené sú iba písmená, číslice, "_" a "-".
+
+;Id to use in the templates:
+ID pre použitie v šablónach:
+
+;Parent folder
+Nadradený priečinok
+
+;Go one folder up.
+O jednu úroveň vyššie.
+
+;You need now to add the first page of the article. After adding the first page, you can validate and put online the article.
+Teraz je potrebné pridať prvú stranu článku. Po pridaní prvej strany môžete článok potvrdiť a zverejniť.
+
+;The comment was successfully deleted.
+Komentár bol úspešne odstránený.
+
+;The requested comment does not exist.
+Požadovaný komentár neexistuje.
+
+;The comment was successfully saved.
+Komentár bol úspešne uložený.
+
+;Error: Configuration file of the website (<strong>%s</strong>) not available. Please check your installation.
+Chyba: konfiguračný súbor webstránky (<strong>%s</strong>) nie je dostupný. Skontrolujte svoju inštaláciu.
+
+;Choose a file (maximum size %s)
+Vyberte súbor (maximálna veľkosť %s)
+
+;Type of:
+Typ:
+
+;Comments
+Komentáre
+
+;Latest online comments
+Najnovšie komentáre online
+
+;Latest comments
+Najnovšie komentáre
+
+;Delete all the junk comments listed here.
+
+
+;Delete the junk listed here
+
+
+;The junk comments were successfully deleted.
+
+
+;Error: The requested category is not available.
+Chyba: požadovaná kategória nie je dostupná.
+
+;The page %s already exists in the installer
+Strana %s už v inštalátore existuje 
+
+;The test %s is already defined. Each test id must be unique.
+Test %s už je definovaný. Každý test musí mať jedinečné ID.
+
+;The test function %s is not defined.
+Testovacia funkcia %s nie je definovaná.
+
+;The page %s is not available.
+Strana %s nie je dostupná.
+
+;Please confirm the password:
+Potvrďte heslo:
+
+;The provided file and image folder %s is not available. Please check the folder you gave.
+Zadaný súbor a priečinok obrázkov %s nie sú dostupné. Skontrolujte zadaný priečinok.
+
+;The document root folder of the website %s is not available. Please check the folder you gave.
+Koreňový preičinok dokumentov webstránky %s nie je dostupný. Skontrolujte zadaný priečinok.
+
+;The website language must be composed of the 2 ISO standard letters, for example de (German), fr (French), jp (Japanese).
+Jazyk webstránky musí byť zložený z dvoch štandardných písmen podľa normy ISO, napríklad sk (Slovensky), fr (Francúzsky), jp (Japonsky).
+
+;You must give a website address.
+Musíte zadať adresu webstránky.
+
+;You must give the URL to the file and image folder.
+Musíte zadať URL k priečinku súborov a obrázkov.
+
+;The website address must start with http(s)://.
+Adresa webstránky musí začínať http(s)://.
+
+;The URL to the file and image folder must start with http(s)://.
+URL k priečinku súborov a obrázkov musí začínať http(s)://.
+
+;You must provide a website description.
+Je potrebné zadať popis webstránky.
+
+;You must give a website name.
+Je potrebné zadať názov webstránky.
+
+;The system has no write access to the file and image folder %s. Check the permissions on the server.
+Systém nemá oprávnenie na zápis do priečinka súborov a obrázkov %s. Skontrolujte oprávnenia na serveri.
+
+;The system has no write access to the document root folder %s. Check the permissions on the server.
+Systém nemá oprávnenie na zápis do koreňového priečinka dokumentov %s. Skontrolujte oprávnenia na serveri.
+
+;The system has no write access to the configuration folder manager/conf/. Check the permissions on the server.
+Systém nemá oprávnenie na zápis do priečinka konfigurácie manager/conf/. Skontrolujte oprávnenia na serveri.
+
+;The system has no write access to the template folder manager/templates/. Check the permissions on the server.
+Systém nemá oprávnenie na zápis do priečinka šablón manager/templates/. Skontrolujte oprávnenia na serveri.
+
+;Adding a new website with id %s, but a website with this id already exists.
+Pridávate novú webstránku s ID %s, ale webstránka s týmto ID už existuje.
+
+;You need to provide your name.
+Je potrebné zadať svoje meno.
+
+;You need to provide a valid email address.
+Je potrebné zadať platnú e-mailovú adresu.
+
+;The website address must start with http://.
+Adresa webstránky musí začínať http://.
+
+;Empty comments are not comments.
+Prázdne komentáre nie sú platné.
+
+;Error: You do not have the correct rights to edit this resource.
+Chyba: nemáte oprávnenie na úpravu tohto príspevku.
+
+;You do not have the rights to save a category
+Nemáte oprávnenie na uloženie kategórie
+
+;You do not have the rights to remove a category
+Nemáte oprávnenie na odstránenie kategórie
+
+;This comment is not available.
+Tento komentár nie je dostupný.
+
+;Error: You do not have the rights to edit this comment.
+Chyba: nemáte oprávnenie na úpravu tohto komentára.
+
+;Error: you are trying to update a non existing page.
+Chyba: pokúšate sa aktualizovať neexistujúcu stranu.
+
+;A path for the article must be provided.
+Je potrebné zadať cestu k článku.
+
+;Illegal characters in the path. Please read the help to know how to choose the right path for your article.
+V ceste sú neplatné znaky. Prečítajte si Pomocníka a zistite, ako vybrať správnu cestu pre svoj článok.
+
+;An article is already using the path: <em>%s</em>. Please use another one.
+Článok už používa cestu: <em>%s</em>. Použite nejakú inú.
+
+;The resource is not in this category it must be removed from.
+Príspevok nenachádzajúci sa v tejto kategórii je potrebné odstrániť.
+
+;The resource cannot be removed from the main category
+Z hlavnej kategórie nie je možné odstrániť príspevok
+
+;Invalid author.
+Neplatný autor.
+
+;Try to add a non existing author to the resource.
+Pokúšate sa pridať k príspevku neexistujúceho autora.
+
+;The author to be removed is not associated to the resource.
+Autor určený na odstránenie nie je priradený k tomuto príspevku.
+
+;Impossible to remove the unique author of the resource.
+Nie je možné odstrániť jediného autora príspevku.
+
+;Error: No details to be removed for the current news.
+Chyba: v aktuálnej novinke nie sú žiadne podrobnosti, ktoré by bolo možné odstrániť.
+
+;This path is already used by another category, please change it.
+Táto cesta je už použitá inou kategóriu, zmeňte ju.
+
+;The category template seems invalid, please select another one from the form..
+Šablóna kategórie sa zdá byť neplatná, vyberte ju vo formulári.
+
+;You need to provide a name for the category.
+Je potrebné zadať názov kategórie.
+
+;Error: A root category cannot be deleted.
+Chyba: hlavnú kategóriu nie je možné odstrániť.
+
+;Error: A category must be empty to be deleted.
+Chyba: kategória musí byť prázdna, ak ju chcete odstrániť.
+
+;Search for an article:
+Hľadať článok:
+
+;No comments.
+Žiadne komentáre.
+
+;Comment off-line
+Nezverejnený komentár
+
+;Comment on-line
+Zverejnený komentár
+
+;Comment waiting for validation
+Komentár čakajúci na odsúhlasenie
+
+;Comment
+Komentár
+
+;To
+K čomu:
+
+;No comments for the moment.
+V tejto chvíli žiadne komentáre.
+
+;Show/hide edition form
+Zobraziť/skryť formulár pre úpravu
+
+;with the IP address:
+s adresou IP:
+
+;Author
+Autor
+
+;Email
+E-mail
+
+;Website
+Webstránka
+
+;Content of the comment
+Obsah komentára
+
+;Save
+Uložiť
+
+;Delete
+Odstrániť
+
+;Are you sure you want to delete this comment?
+Naozaj chcete odstrániť tento komentár?
+
+;Add a comment
+Pridať komentár
+
+;Search for a news item:
+Hľadať novinku:
+
+;Comments open
+Otvorené komentáre
+
+;Comments closed
+Uzavreté komentáre
+
+;You do not have the rights to edit this website.
+Nemáte oprávnenie na úpravu tejto webstránky.
+
+;The theme is invalid. It must contain only letters and digits.
+Téma je neplatná. Môže obsahovať iba písmená alebo číslice.
+
+;Impossible to save the configuration file.
+Nie je možné uložiť konfiguračný súbor.
+
+;DB error:
+Chyba v databáze:
+
+;The theme of the site has been successfully changed. You may need to copy the style files in the xmedia folder.
+Téma webstránky bola úspešne zmenená. Môžete skopírovať súbory štýlu v priečinku xmedia.
+
+;Support of the comments:
+Podpora komentárov
+
+;Defined for each individual resource
+Definované pre jednotlivé príspevky
+
+;Default status of the comments:
+Predvolený stav komentárov:
+
+;Need validation
+Potrebné overenie
+
+;Online
+Zverejnené
+
+;Website Themes
+Témy webstránky
+
+;Blue theme
+Modrá téma,
+
+;Blue PLUME CMS theme.
+Modrá téma Plume CMS
+
+;Dotclear
+Dotclear,
+
+;Mimic the Dotclear interface.
+Napodobňuje rozhranie Dotclear
+
+;Default Plume CMS theme
+Predvolená téma Plume CMS
+
+;Junk
+Spam
+
+;Error: The id of the website "%s" can only contain letters and numbers.
+Chyba: ID webstránky "%s" môže obsahovať len písmená a číslice.
+
+;Show the category content
+Zobraziť obsah kategórie
+
+;show
+Zobraziť
+
+;Comment is junk
+Spamový komentár
+
+;You can read the <a href="http://pxsystem.sourceforge.net/documentation.html">complete online documentation</a>.
+Môžete si prečítať <a href="http://pxsystem.sourceforge.net/documentation.html">kompletnú dokumentáciu online</a>.
+
+;You can also ask your questions to the community on the <a href="http://pxsystem.sourceforge.net/participate.html">forum</a>.
+Môžete sa tiež skúsiť opýtať komunity na <a href="http://pxsystem.sourceforge.net/participate.html">fóre</a>.
+
+;Manager Access
+Správca prístupu
+
+# Accesskeys for Main Menu
+##########################
+
+# Content
+;c
+O
+
+# Comments
+;m
+K
+
+# Categories
+;a
+a
+
+# Authors
+;r
+r
+
+# Preferences
+;f
+d
+
+# Tools
+;t
+t
+
+# Sites
+;e
+s
+
+# Help
+;h
+P
+
+# Other accesskeys (not underlined)
+###################################
+
+# Logout
+;o
+O
+
+# See the current site
+;i
+i
+# Accesskey for submit buttons
+##############################
+
+# Visualize [v] => the [key] after line 190 must feet to the defined accesskey
+;v
+k
+
+# Save [s] => the [key] after line 190 must feet to the defined accesskey
+;s
+U
+
+# Transform in XHTML [x] => the [key] after line 190 must feet to the defined accesskey
+;x
+x
+
+# Delete [d] => the [key] after line 190 must feet to the defined accesskey
+;d
+d
+
+###############################
+# Strings for alertcom plugin #
+###############################
+
+;A comment has been left on your Plume CMS site.
+
+
+;This comment has been left on your Plume CMS website:
+
+
+;Author:
+
+
+;Email:
+
+
+;Website:
+
+
+;IP:
+
+
+;Comment content
+
+
+;Go to the comments in the Manager:
+
+
+;junk
+
+
+;published
+
+
+;Comment status:

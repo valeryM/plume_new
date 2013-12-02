@@ -1,0 +1,17 @@
+
+.treeView{
+  padding: 0px;
+  margin: 0px;
+}
+
+.treeView .primaryNode{
+  margin-left: 0px;
+}
+
+.treeView .subNode{
+  margin-left: 16px;
+}
+
+.treeView .nodeText {
+  padding-left: 0.2em;
+}

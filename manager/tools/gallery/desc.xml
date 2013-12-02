@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin name="gallery" version="1.0" rootonly="true" active="true">
+  <author>Valéry MERLET</author>
+  <label>Gallery carrousel (CKEditor plugin)</label>
+  <desc>Add a gallery to show pictures</desc>
+</plugin>

@@ -1,0 +1,49 @@
+# -*- coding: utf-8 -*-
+# (C) 2004 Robert Zelník
+;Invalid URL.
+Neplatná URL.
+
+;Error(s):
+Chyby:
+
+;Plugin manager
+Správca zásuvných modulov
+
+;Install a plugin
+Inštalovať zásuvný modul
+
+;The system has no write access to the folder %s, check its permissions.
+Systém nemá oprávnenie na zápis do priečinka %s, skontrolujte oprávnenia.
+
+;Give the plugin file URL (http or ftp):
+Zadajte URL súboru zásuvného modulu (http alebo ftp):
+
+;Install
+Inštalovať
+
+;List of installed plugins
+Zoznam nainštalovaných zásuvných modulov
+
+;version
+verzia
+
+;Are you sure you want to delete this plugin?
+Naozaj chcete odstrániť tento zásuvný modul?
+
+;delete
+Odstrániť
+
+;The plugin was successfully deleted.
+Zásuvný modul bol úspešne odstránený.
+
+;The plugin was successfully installed.
+Zásuvný modul bol úspešne nainštalovaný.
+
+;You do not have the rights to access this plugin.
+Nemáte oprávnenie na prístup k tomuto zásuvnému modulu.
+
+;by
+autor
+
+;Information about your plugins.
+

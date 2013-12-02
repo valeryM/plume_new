@@ -1,0 +1,85 @@
+# -*- coding: utf-8 -*-
+# (C) 2004 Loïc d'Anterroches, Cédric Arrabie
+;Information
+Informationen
+
+;General information
+Allgemeine Informationen
+
+;Name
+Name
+
+;Records
+Datensätze
+
+;Size
+Größe
+
+;File information
+Dateiinformationen
+
+;The system has write access on the file %s.
+Das System hat Schreibzugriff auf die Datei %s.
+
+;The system has write access on the folder %s.
+Das System hat Schreibzugriff auf den Ordner %s.
+
+;The system has no write access on the file %s.
+Das System hat keinen Schreibzugriff auf die Datei %s.
+
+;The system has no write access on the folder %s.
+Das System hat keinen Schreibzugriff auf den Ordner %s.
+
+;Server information
+Serverinformationen
+
+;Your PHP version is <strong>%s</strong>.
+Die verwendete PHP-Version ist <strong>%s</strong>.
+
+;Your MySQL version is <strong>%s</strong>.
+Die verwendete MySQL-Version ist <strong>%s</strong>.
+
+;Your webserver is <strong>%s</strong>.
+Webserver ist <strong>%s</strong>.
+
+;Your GD graphic library version is <strong>%s</strong>.
+Die verwendete GD-Library ist <strong>%s</strong>.
+
+;Cache information
+Cacheinformationen
+
+;Website
+Webseite
+
+;Cache size
+Cachegröße
+
+;Reset the cache
+Cache bereinigen
+
+;Reset
+Bereinigen
+
+;Error&nbsp;: Website not available.
+Fehler&nbsp;: Webseite nicht verfügbar.
+
+;The cache of the website has been reset.
+Der Cache wurde bereinigt.
+
+;If you are making modifications to your templates, you should clean the cache before testing them.
+Wenn Sie Änderungen an Ihren Vorlagen vorgenommen haben, sollten Sie den Cache vor dem Test bereinigen.
+
+;You are using PLUME CMS version <strong>%s</strong>.
+Sie verwenden die Version <strong>%s</strong> von PLUME CMS.
+
+;The PLUME CMS tables in your database are:
+Folgende Tabelllen von PLUME CMS befinden sich in der Datenbank:
+
+;Plume CMS information
+Informationen über Plume CMS
+
+;Information about Plume CMS and your system.
+Informationen über Plume CMS und Ihr System.
+
+;You do not have the rights to access this plugin.
+

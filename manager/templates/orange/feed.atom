@@ -1,0 +1,40 @@
+<?php 
+if ($cache->processPage(3600)):
+    pxTemplateInit('remove_numbers|context:external');
+    pxGetLastResources(20, '', $category_id);
+
+echo '<?xml version="1.0" encoding="utf-8"?>'."\n";
+?>
+<feed xmlns='http://www.w3.org/2005/Atom'
+      xml:base='<?php pxInfo('fullurl'); ?>rss.php'
+      xml:lang='<?php pxInfo('lang'); ?>'>
+
+  <title type="text"><?php pxInfo('name'); ?></title>
+  <id><?php pxInfo('fullurl'); ?></id>
+  <updated><?php pxLastResDateModification(__('%Y-%m-%dT%H:%M:%SZ')); ?></updated>
+  <link href="./" />
+  <link rel="self" href="" />
+  <link rel="alternate" type="text/html" href="<?php pxInfo('fullurl'); ?>" />
+  <generator uri="http://plume-cms.net/">Plume CMS</generator>
+  
+<?php while (!$last->EOF()): ?>
+  <entry>
+    <title type="text"><?php pxLastResTitle('%s'); ?></title>
+    <link rel="alternate" type="text/html" href="<?php pxLastResPath(); ?>" />
+    <id><?php pxLastResPath(); ?></id>
+    <updated><?php pxLastResDateModification(__('%Y-%m-%dT%H:%M:%SZ')); ?></updated>
+    <author><name><?php pxLastResAuthor(); ?></name></author>
+    <content type="xhtml">
+	    <div xmlns="http://www.w3.org/1999/xhtml">
+		    <?php pxLastResDescription(); ?>
+	    </div>
+    </content>
+  </entry>
+
+<?php $last->moveNext(); endwhile; ?>
+</feed>
+
+<?php
+    $cache->endCache();
+endif;
+?>

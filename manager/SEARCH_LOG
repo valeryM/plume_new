@@ -1,0 +1,408 @@
+20101116203129 - lib.text::parseContent()
+
+<table cellpadding="1" cellspacing="1" style="width: 800px; height: 633px;">
+	<tbody>
+		<tr>
+			<td style="vertical-align: top; width: 400px;">
+				<p>
+					<a href="http://www.region-bretagne.fr/" target="_blank"><span style="font-size: 14px;"><font><b>Conseil R&eacute;gional de Bretagne</b></font> </span></a><br />
+					<font color="#ccff66" size="3"><font color="#000000" size="2">C</font></font><font color="#000000" size="2">onseil r&eacute;gional de Bretagne<br />
+					283, avenue du G&eacute;n&eacute;ral Patton<br />
+					CS 21 101<br />
+					35711 Rennes Cedex 7<br />
+					Tel :02 99 27 10 10<br />
+					Fax : 02 99 27 11 11 </font></p>
+				<p>
+					&nbsp;</p>
+				<p>
+					<a href="http://www.cg35.fr/" target="_blank"><span style="font-size: 14px;"><font><b>Conseil G&eacute;n&eacute;ral d&#39;Ille-et-Vilaine</b></font> </span></a><br />
+					<font color="#000000" size="2">1avenue de la Pr&eacute;fecture - CS 24218<br />
+					35042 RENNES Cedex<br />
+					Tel : 02.99.02.35.35<br />
+					Fax : 02.99.02.39.25 </font><br />
+					&nbsp;</p>
+			</td>
+			<td style="vertical-align: top;">
+				<p>
+					<a href="http://www.rennes-metropole.fr/" target="_blank"><strong><span style="font-size: 14px;"><span class="titre1">Rennes M&eacute;tropole </span> </span></strong></a><br />
+					<span class="texte">16 bd La&euml;nnec CS 44220 - 35042 RENNES CEDEX<br />
+					02 99 01 86 86&nbsp;</span></p>
+				<p>
+					&nbsp;</p>
+				<p>
+					<span class="texte"><a href="http://www.ille-et-vilaine.pref.gouv.fr/" target="_blank"><strong><span style="font-size: 14px;">Pr&eacute;fecture d&#39;Ile et Vilaine</span></strong></a><br />
+					3 avenue de la pr&eacute;fecture</span><br />
+					<span class="texte"><font size="2">02 99 02 10 35</font></span><br />
+					<br />
+					<br />
+					<br />
+					&nbsp;</p>
+				<p>
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+20101116203129 - lib.text::parseContent() return
+
+<table cellpadding="1" cellspacing="1" style="width: 800px; height: 633px;">
+	<tbody>
+		<tr>
+			<td style="vertical-align: top; width: 400px;">
+				<p>
+					<a href="http://www.region-bretagne.fr/" target="_blank"><span style="font-size: 14px;"><font><b>Conseil R&eacute;gional de Bretagne</b></font> </span></a><br />
+					<font color="#ccff66" size="3"><font color="#000000" size="2">C</font></font><font color="#000000" size="2">onseil r&eacute;gional de Bretagne<br />
+					283, avenue du G&eacute;n&eacute;ral Patton<br />
+					CS 21&#160;101<br />
+					35711 Rennes Cedex 7<br />
+					Tel :02&#160;99&#160;27&#160;10&#160;10<br />
+					Fax&#160;: 02&#160;99&#160;27&#160;11&#160;11&#160;</font></p>
+				<p>
+					&nbsp;</p>
+				<p>
+					<a href="http://www.cg35.fr/" target="_blank"><span style="font-size: 14px;"><font><b>Conseil G&eacute;n&eacute;ral d&#39;Ille-et-Vilaine</b></font> </span></a><br />
+					<font color="#000000" size="2">1avenue de la Pr&eacute;fecture - CS 24218<br />
+					35042 RENNES Cedex<br />
+					Tel&#160;: 02.99.02.35.35<br />
+					Fax&#160;: 02.99.02.39.25&#160;</font><br />
+					&nbsp;</p>
+			</td>
+			<td style="vertical-align: top;">
+				<p>
+					<a href="http://www.rennes-metropole.fr/" target="_blank"><strong><span style="font-size: 14px;"><span class="titre1">Rennes M&eacute;tropole </span> </span></strong></a><br />
+					<span class="texte">16 bd La&euml;nnec CS 44220 - 35042 RENNES CEDEX<br />
+					02&#160;99&#160;01&#160;86&#160;86&nbsp;</span></p>
+				<p>
+					&nbsp;</p>
+				<p>
+					<span class="texte"><a href="http://www.ille-et-vilaine.pref.gouv.fr/" target="_blank"><strong><span style="font-size: 14px;">Pr&eacute;fecture d&#39;Ile et Vilaine</span></strong></a><br />
+					3 avenue de la pr&eacute;fecture</span><br />
+					<span class="texte"><font size="2">02&#160;99&#160;02&#160;10&#160;35</font></span><br />
+					<br />
+					<br />
+					<br />
+					&nbsp;</p>
+				<p>
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+20101116203522 - lib.text::parseContent()
+
+<table cellpadding="1" cellspacing="1" style="width: 800px; height: 633px;">
+	<tbody>
+		<tr>
+			<td style="vertical-align: top; width: 400px;">
+				<p>
+					<a href="http://www.region-bretagne.fr/" target="_blank"><span style="font-size: 14px;"><font><b>Conseil R&eacute;gional de Bretagne</b></font> </span></a><br />
+					<font color="#ccff66" size="3"><font color="#000000" size="2">C</font></font><font color="#000000" size="2">onseil r&eacute;gional de Bretagne<br />
+					283, avenue du G&eacute;n&eacute;ral Patton<br />
+					CS 21 101<br />
+					35711 Rennes Cedex 7<br />
+					Tel :02 99 27 10 10<br />
+					Fax : 02 99 27 11 11 </font></p>
+				<p>
+					&nbsp;</p>
+				<p>
+					<a href="http://www.cg35.fr/" target="_blank"><span style="font-size: 14px;"><font><b>Conseil G&eacute;n&eacute;ral d&#39;Ille-et-Vilaine</b></font> </span></a><br />
+					<font color="#000000" size="2">1avenue de la Pr&eacute;fecture - CS 24218<br />
+					35042 RENNES Cedex<br />
+					Tel : 02.99.02.35.35<br />
+					Fax : 02.99.02.39.25 </font><br />
+					&nbsp;</p>
+			</td>
+			<td style="vertical-align: top;">
+				<p>
+					<a href="http://www.rennes-metropole.fr/" target="_blank"><strong><span style="font-size: 14px;"><span class="titre1">Rennes M&eacute;tropole </span> </span></strong></a><br />
+					<span class="texte">16 bd La&euml;nnec CS 44220 - 35042 RENNES CEDEX<br />
+					02 99 01 86 86&nbsp;</span></p>
+				<p>
+					&nbsp;</p>
+				<p>
+					<span class="texte"><a href="http://www.ille-et-vilaine.pref.gouv.fr/" target="_blank"><strong><span style="font-size: 14px;">Pr&eacute;fecture d&#39;Ile et Vilaine</span></strong></a><br />
+					3 avenue de la pr&eacute;fecture</span><br />
+					<span class="texte"><font size="2">02 99 02 10 35</font></span><br />
+					<br />
+					<br />
+					<br />
+					&nbsp;</p>
+				<p>
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+20101116203522 - lib.text::parseContent() return
+
+<table cellpadding="1" cellspacing="1" style="width: 800px; height: 633px;">
+	<tbody>
+		<tr>
+			<td style="vertical-align: top; width: 400px;">
+				<p>
+					<a href="http://www.region-bretagne.fr/" target="_blank"><span style="font-size: 14px;"><font><b>Conseil R&eacute;gional de Bretagne</b></font> </span></a><br />
+					<font color="#ccff66" size="3"><font color="#000000" size="2">C</font></font><font color="#000000" size="2">onseil r&eacute;gional de Bretagne<br />
+					283, avenue du G&eacute;n&eacute;ral Patton<br />
+					CS 21&#160;101<br />
+					35711 Rennes Cedex 7<br />
+					Tel :02&#160;99&#160;27&#160;10&#160;10<br />
+					Fax&#160;: 02&#160;99&#160;27&#160;11&#160;11&#160;</font></p>
+				<p>
+					&nbsp;</p>
+				<p>
+					<a href="http://www.cg35.fr/" target="_blank"><span style="font-size: 14px;"><font><b>Conseil G&eacute;n&eacute;ral d&#39;Ille-et-Vilaine</b></font> </span></a><br />
+					<font color="#000000" size="2">1avenue de la Pr&eacute;fecture - CS 24218<br />
+					35042 RENNES Cedex<br />
+					Tel&#160;: 02.99.02.35.35<br />
+					Fax&#160;: 02.99.02.39.25&#160;</font><br />
+					&nbsp;</p>
+			</td>
+			<td style="vertical-align: top;">
+				<p>
+					<a href="http://www.rennes-metropole.fr/" target="_blank"><strong><span style="font-size: 14px;"><span class="titre1">Rennes M&eacute;tropole </span> </span></strong></a><br />
+					<span class="texte">16 bd La&euml;nnec CS 44220 - 35042 RENNES CEDEX<br />
+					02&#160;99&#160;01&#160;86&#160;86&nbsp;</span></p>
+				<p>
+					&nbsp;</p>
+				<p>
+					<span class="texte"><a href="http://www.ille-et-vilaine.pref.gouv.fr/" target="_blank"><strong><span style="font-size: 14px;">Pr&eacute;fecture d&#39;Ile et Vilaine</span></strong></a><br />
+					3 avenue de la pr&eacute;fecture</span><br />
+					<span class="texte"><font size="2">02&#160;99&#160;02&#160;10&#160;35</font></span><br />
+					<br />
+					<br />
+					<br />
+					&nbsp;</p>
+				<p>
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+20101116204233 - lib.text::parseContent()
+
+<table cellpadding="1" cellspacing="1" style="width: 800px; height: 633px;">
+	<tbody>
+		<tr>
+			<td style="vertical-align: top; width: 400px;">
+				<p>
+					<a href="http://www.region-bretagne.fr/" target="_blank"><span style="font-size: 14px;"><font><b>Conseil R&eacute;gional de Bretagne</b></font> </span></a><br />
+					<font color="#ccff66" size="3"><font color="#000000" size="2">C</font></font><font color="#000000" size="2">onseil r&eacute;gional de Bretagne<br />
+					283, avenue du G&eacute;n&eacute;ral Patton<br />
+					CS 21 101<br />
+					35711 Rennes Cedex 7<br />
+					Tel :02 99 27 10 10<br />
+					Fax : 02 99 27 11 11 </font></p>
+				<p>
+					&nbsp;</p>
+				<p>
+					<a href="http://www.cg35.fr/" target="_blank"><span style="font-size: 14px;"><font><b>Conseil G&eacute;n&eacute;ral d&#39;Ille-et-Vilaine</b></font> </span></a><br />
+					<font color="#000000" size="2">1avenue de la Pr&eacute;fecture - CS 24218<br />
+					35042 RENNES Cedex<br />
+					Tel : 02.99.02.35.35<br />
+					Fax : 02.99.02.39.25 </font><br />
+					&nbsp;</p>
+			</td>
+			<td style="vertical-align: top;">
+				<p>
+					<a href="http://www.rennes-metropole.fr/" target="_blank"><strong><span style="font-size: 14px;"><span class="titre1">Rennes M&eacute;tropole </span> </span></strong></a><br />
+					<span class="texte">16 bd La&euml;nnec CS 44220 - 35042 RENNES CEDEX<br />
+					02 99 01 86 86&nbsp;</span></p>
+				<p>
+					&nbsp;</p>
+				<p>
+					<span class="texte"><a href="http://www.ille-et-vilaine.pref.gouv.fr/" target="_blank"><strong><span style="font-size: 14px;">Pr&eacute;fecture d&#39;Ile et Vilaine</span></strong></a><br />
+					3 avenue de la pr&eacute;fecture</span><br />
+					<span class="texte"><font size="2">02 99 02 10 35</font></span><br />
+					<br />
+					<br />
+					<br />
+					&nbsp;</p>
+				<p>
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+20101116204233 - lib.text::parseContent() return
+
+<table cellpadding="1" cellspacing="1" style="width: 800px; height: 633px;">
+	<tbody>
+		<tr>
+			<td style="vertical-align: top; width: 400px;">
+				<p>
+					<a href="http://www.region-bretagne.fr/" target="_blank"><span style="font-size: 14px;"><font><b>Conseil R&eacute;gional de Bretagne</b></font> </span></a><br />
+					<font color="#ccff66" size="3"><font color="#000000" size="2">C</font></font><font color="#000000" size="2">onseil r&eacute;gional de Bretagne<br />
+					283, avenue du G&eacute;n&eacute;ral Patton<br />
+					CS 21&#160;101<br />
+					35711 Rennes Cedex 7<br />
+					Tel :02&#160;99&#160;27&#160;10&#160;10<br />
+					Fax&#160;: 02&#160;99&#160;27&#160;11&#160;11&#160;</font></p>
+				<p>
+					&nbsp;</p>
+				<p>
+					<a href="http://www.cg35.fr/" target="_blank"><span style="font-size: 14px;"><font><b>Conseil G&eacute;n&eacute;ral d&#39;Ille-et-Vilaine</b></font> </span></a><br />
+					<font color="#000000" size="2">1avenue de la Pr&eacute;fecture - CS 24218<br />
+					35042 RENNES Cedex<br />
+					Tel&#160;: 02.99.02.35.35<br />
+					Fax&#160;: 02.99.02.39.25&#160;</font><br />
+					&nbsp;</p>
+			</td>
+			<td style="vertical-align: top;">
+				<p>
+					<a href="http://www.rennes-metropole.fr/" target="_blank"><strong><span style="font-size: 14px;"><span class="titre1">Rennes M&eacute;tropole </span> </span></strong></a><br />
+					<span class="texte">16 bd La&euml;nnec CS 44220 - 35042 RENNES CEDEX<br />
+					02&#160;99&#160;01&#160;86&#160;86&nbsp;</span></p>
+				<p>
+					&nbsp;</p>
+				<p>
+					<span class="texte"><a href="http://www.ille-et-vilaine.pref.gouv.fr/" target="_blank"><strong><span style="font-size: 14px;">Pr&eacute;fecture d&#39;Ile et Vilaine</span></strong></a><br />
+					3 avenue de la pr&eacute;fecture</span><br />
+					<span class="texte"><font size="2">02&#160;99&#160;02&#160;10&#160;35</font></span><br />
+					<br />
+					<br />
+					<br />
+					&nbsp;</p>
+				<p>
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+20101116204353 - lib.text::parseContent()
+
+<table cellpadding="1" cellspacing="1" style="width: 800px; height: 633px;">
+	<tbody>
+		<tr>
+			<td style="vertical-align: top; width: 400px;">
+				<p>
+					<a href="http://www.region-bretagne.fr/" target="_blank"><span style="font-size: 14px;"><font><b>Conseil R&eacute;gional de Bretagne</b></font> </span></a><br />
+					<font color="#ccff66" size="3"><font color="#000000" size="2">C</font></font><font color="#000000" size="2">onseil r&eacute;gional de Bretagne<br />
+					283, avenue du G&eacute;n&eacute;ral Patton<br />
+					CS 21 101<br />
+					35711 Rennes Cedex 7<br />
+					Tel :02 99 27 10 10<br />
+					Fax : 02 99 27 11 11 </font></p>
+				<p>
+					&nbsp;</p>
+				<p>
+					<a href="http://www.cg35.fr/" target="_blank"><span style="font-size: 14px;"><font><b>Conseil G&eacute;n&eacute;ral d&#39;Ille-et-Vilaine</b></font> </span></a><br />
+					<font color="#000000" size="2">1avenue de la Pr&eacute;fecture - CS 24218<br />
+					35042 RENNES Cedex<br />
+					Tel : 02.99.02.35.35<br />
+					Fax : 02.99.02.39.25 </font><br />
+					&nbsp;</p>
+			</td>
+			<td style="vertical-align: top;">
+				<p>
+					<a href="http://www.rennes-metropole.fr/" target="_blank"><strong><span style="font-size: 14px;"><span class="titre1">Rennes M&eacute;tropole </span> </span></strong></a><br />
+					<span class="texte">16 bd La&euml;nnec CS 44220 - 35042 RENNES CEDEX<br />
+					02 99 01 86 86&nbsp;</span></p>
+				<p>
+					&nbsp;</p>
+				<p>
+					<span class="texte"><a href="http://www.ille-et-vilaine.pref.gouv.fr/" target="_blank"><strong><span style="font-size: 14px;">Pr&eacute;fecture d&#39;Ile et Vilaine</span></strong></a><br />
+					3 avenue de la pr&eacute;fecture</span><br />
+					<span class="texte"><font size="2">02 99 02 10 35</font></span><br />
+					<br />
+					<br />
+					<br />
+					&nbsp;</p>
+				<p>
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+20101116204353 - lib.text::parseContent() return
+
+<table cellpadding="1" cellspacing="1" style="width: 800px; height: 633px;">
+	<tbody>
+		<tr>
+			<td style="vertical-align: top; width: 400px;">
+				<p>
+					<a href="http://www.region-bretagne.fr/" target="_blank"><span style="font-size: 14px;"><font><b>Conseil R&eacute;gional de Bretagne</b></font> </span></a><br />
+					<font color="#ccff66" size="3"><font color="#000000" size="2">C</font></font><font color="#000000" size="2">onseil r&eacute;gional de Bretagne<br />
+					283, avenue du G&eacute;n&eacute;ral Patton<br />
+					CS 21&#160;101<br />
+					35711 Rennes Cedex 7<br />
+					Tel :02&#160;99&#160;27&#160;10&#160;10<br />
+					Fax&#160;: 02&#160;99&#160;27&#160;11&#160;11&#160;</font></p>
+				<p>
+					&nbsp;</p>
+				<p>
+					<a href="http://www.cg35.fr/" target="_blank"><span style="font-size: 14px;"><font><b>Conseil G&eacute;n&eacute;ral d&#39;Ille-et-Vilaine</b></font> </span></a><br />
+					<font color="#000000" size="2">1avenue de la Pr&eacute;fecture - CS 24218<br />
+					35042 RENNES Cedex<br />
+					Tel&#160;: 02.99.02.35.35<br />
+					Fax&#160;: 02.99.02.39.25&#160;</font><br />
+					&nbsp;</p>
+			</td>
+			<td style="vertical-align: top;">
+				<p>
+					<a href="http://www.rennes-metropole.fr/" target="_blank"><strong><span style="font-size: 14px;"><span class="titre1">Rennes M&eacute;tropole </span> </span></strong></a><br />
+					<span class="texte">16 bd La&euml;nnec CS 44220 - 35042 RENNES CEDEX<br />
+					02&#160;99&#160;01&#160;86&#160;86&nbsp;</span></p>
+				<p>
+					&nbsp;</p>
+				<p>
+					<span class="texte"><a href="http://www.ille-et-vilaine.pref.gouv.fr/" target="_blank"><strong><span style="font-size: 14px;">Pr&eacute;fecture d&#39;Ile et Vilaine</span></strong></a><br />
+					3 avenue de la pr&eacute;fecture</span><br />
+					<span class="texte"><font size="2">02&#160;99&#160;02&#160;10&#160;35</font></span><br />
+					<br />
+					<br />
+					<br />
+					&nbsp;</p>
+				<p>
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					<br />
+					&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+<head>
+<title>Wiki Syntax</title>
+<meta name="author" content="Loïc d'Anterroches" />
+</head>
+<body>
+<h4>Block format</h4>
+
+<dl class="help">
+<dt>Paragraph (&lt;p&gt; tag)</dt><dd>2 line jumps</dd>
+<dt>Line (&lt;hr/&gt; tag)</dt><dd><code>====</code> (4 "equal" sign or more) + line jump</dd>
+<dt>Simple list</dt><dd>one or more <code>*</code> or  <code>-</code> for each item + line jump</dd>
+<dt>Enumered list (&lt;ul&gt; and &lt;li&gt; or &lt;ol&gt; and &lt;li&gt; tags)</dt><dd>one or more  <code>#</code> for each item + line jump</dd>
+<dt>Tables (&lt;table&gt; tag)</dt><dd><span><code>|</code> text<code> | </code>text</span>  ( <code> | </code> = column separator with spaces around, each written line is a line of the table)</dd>
+<dt>Table heads (&lt;th&gt; tag)</dt><dd><span><code>| !</code>text<code>! | !</code>text<code>!</code></span></dd>
+<dt>Subtitle level 3 (&lt;h3&gt; tag)</dt><dd><span><code>!!!</code>title</span> + line jump</dd>
+<dt>Subtitle level 4 (&lt;h4&gt; tag)</dt><dd><span><code>!!</code>title</span> + line jump</dd>
+<dt>Subtitle level 5 (&lt;h5&gt; tag)</dt><dd><span><code>!</code>title</span> + line jump</dd>
+<dt>Preformatted text (&lt;pre&gt; tag)</dt><dd>one space + text + line jump</dd>
+<dt>Quote (&lt;blockquote&gt; atg)</dt><dd><span><code>&gt;</code>text</span> + line jump</dd>
+<dt>Definitions (&lt;dl&gt; &lt;dt&gt; and &lt;dd&gt; tags)</dt><dd><span><code>;</code>word<code> : </code>definition</span> + line jump (spaces around <code>:</code>)</dd>
+<dt>Gallery (&lt;div class="gallery"&gt;, &lt;img&gt;, &lt;a&gt; and &lt;p&gt; tags)</dt><dd><span><code>$</code> <code>((</code>Link to the image<code>|</code>alternative text<code>|</code>gal:200x200<code>|</code>description of the image<code>))</code></span></dd>
+</dl>
+
+<h4>Inline format</h4>
+
+<dl class="help">
+<dt>Big emphase (bold &lt;strong&gt; tag)</dt><dd><span><code>__</code>text<code>__</code></span> (2 underscores)</dd>
+<dt>Simple emphase (italic, &lt;em&gt; tag)</dt><dd><span><code>''</code>text<code>''</code></span> (2 single quote)</dd>
+<dt>Forced line break (&lt;br/&gt; tag)</dt><dd><code>%%%</code></dd>
+<dt>Link (&lt;a&gt; tag)</dt><dd><span><code>[</code>Name of the link<code>|</code>Link/web address (http://)<code>|</code>language<code>|</code>description (title)<code>]</code></span> </dd>
+<dt>Email (&lt;a&gt; tag)</dt><dd><span><code>[</code>Name of the link<code>|</code>mailto:address@example.com<code>]</code></span> The email is automatically protected against spam.</dd>
+<dt>Link to a resource (&lt;a&gt; tag)</dt><dd><span><code>[</code>Name of the link<code>|</code>xlink://resource_id/<code>]</code></span></dd>
+<dt>Images (&lt;img&gt; tag)</dt><dd><span><code>((</code>Link to the image<code>|</code>alternative text<code>|</code>position<code>|</code>description<code>))</code></span>  position = L, R, C or nothing</dd>
+<dt>Code (&lt;code&gt; tag</dt><dd><span><code>@@</code>code<code>@@</code></span></dd>
+<dt>Citation (&lt;q&gt; tag)</dt><dd><span><code>^^</code>sentence<code>|</code>source link<code>^^</code></span></dd>
+<dt>Reference (cite, &lt;cite&gt; tag)</dt><dd><span><code>{{</code>reference<code>}}</code></span></dd>
+<dt>Acronym</dt><dd><span><code>??</code>acronyme<code>|</code>description<code>??</code></span></dd>
+</dl>
+
+<h4>Other</h4>
+
+<dl class="help">
+<dt>Escaping character</dt><dd><span><code>\</code></span> (example : [\ ndlr : blablabla \] )</dd>
+</dl>
+
+</body>
+</html>

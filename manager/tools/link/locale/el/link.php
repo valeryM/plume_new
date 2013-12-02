@@ -1,0 +1,71 @@
+<?php 
+/* automatically generated file from: F:/User/www/aslcpsa/plume/manager/tools/link/locale/el/link.lang  */
+
+if (basename($_SERVER['SCRIPT_NAME']) == 'link.lang') exit;
+
+$GLOBALS['_PX_locale']['Links manager'] = 'Διαχειριστής δεσμών';
+$GLOBALS['_PX_locale']['Web interface to configure your links.'] = 'Διασύνδεση στο δίκτυο για να ρυθμίσετε τους δεσμούς σας.';
+$GLOBALS['_PX_locale']['Drag items to change their positions.'] = 'Σύρετε τα στοιχεία για να αλλάξετε τη θέση τους.';
+$GLOBALS['_PX_locale']['You must provide at least a label and an URL'] = 'Πρέπει να εισάγετε τουλάχιστον μια ετικέτα και ένα URL';
+$GLOBALS['_PX_locale']['You must provide a valid URL'] = 'Πρέπει να εισάγετε ένα έγκυρο URL';
+$GLOBALS['_PX_locale']['All values'] = 'όλα';
+$GLOBALS['_PX_locale']['Back'] = 'Πίσω';
+$GLOBALS['_PX_locale']['Edit link'] = 'Επεξεργασία δεσμού';
+$GLOBALS['_PX_locale']['Error(s)'] = 'Σφάλμα(τα)';
+$GLOBALS['_PX_locale']['No link'] = 'Χωρις δεσμό';
+$GLOBALS['_PX_locale']['None'] = 'Τίποτα';
+$GLOBALS['_PX_locale']['Label'] = 'Ετικέτα';
+$GLOBALS['_PX_locale']['URL'] = 'URL';
+$GLOBALS['_PX_locale']['Language'] = 'Γλώσσα';
+$GLOBALS['_PX_locale']['optional'] = 'Προαιρετικό';
+$GLOBALS['_PX_locale']['Description'] = 'Περιγραφή';
+$GLOBALS['_PX_locale']['save'] = 'Αποθήκευση';
+$GLOBALS['_PX_locale']['save order'] = 'Σειρά αποθήκευσης';
+$GLOBALS['_PX_locale']['XFN'] = 'XFN';
+$GLOBALS['_PX_locale']['Me'] = 'Σε εμένα';
+$GLOBALS['_PX_locale']['Another link for myself'] = 'Κι άλλος ένας δεσμός προς εμένα';
+$GLOBALS['_PX_locale']['Friendship'] = 'Φιλικός';
+$GLOBALS['_PX_locale']['Contact'] = 'Επαφή';
+$GLOBALS['_PX_locale']['Acquaintance'] = 'Γνωριμία';
+$GLOBALS['_PX_locale']['Friend'] = 'Φίλος(η)';
+$GLOBALS['_PX_locale']['Physical'] = 'Φυσική';
+$GLOBALS['_PX_locale']['Met'] = 'Γνωστός(ή)';
+$GLOBALS['_PX_locale']['Professional'] = 'Επαγγελματικός';
+$GLOBALS['_PX_locale']['Co-worker'] = 'Συνεργάτης';
+$GLOBALS['_PX_locale']['Colleague'] = 'Συνάδελφος';
+$GLOBALS['_PX_locale']['Geographical'] = 'Γεωγραφικός';
+$GLOBALS['_PX_locale']['Co-resident'] = 'Συντοπίτης(ισα)';
+$GLOBALS['_PX_locale']['Neighbor'] = 'Γείτονας(ισσα)';
+$GLOBALS['_PX_locale']['Family'] = 'Οικογενειακός';
+$GLOBALS['_PX_locale']['Child'] = 'Τέκνο';
+$GLOBALS['_PX_locale']['Parent'] = 'Γονέας';
+$GLOBALS['_PX_locale']['Sibling'] = 'αδελφός(ή)';
+$GLOBALS['_PX_locale']['Spouse'] = 'Σύζυγος';
+$GLOBALS['_PX_locale']['Kin'] = 'Άλλη συγγένεια';
+$GLOBALS['_PX_locale']['Romantic'] = 'Αισθηματικός';
+$GLOBALS['_PX_locale']['Muse'] = 'Διαλογισμός';
+$GLOBALS['_PX_locale']['Crush'] = 'Έρωτας';
+$GLOBALS['_PX_locale']['Date'] = 'Σχέση';
+$GLOBALS['_PX_locale']['Sweetheart'] = 'Αγάπη';
+$GLOBALS['_PX_locale']['Edit rubric'] = 'Επεξεργασία κατηγορίας';
+$GLOBALS['_PX_locale']['Title'] = 'Τίτλος';
+$GLOBALS['_PX_locale']['New rubric'] = 'Νέα κατηγορία';
+$GLOBALS['_PX_locale']['New link'] = 'Νέος δεσμός';
+$GLOBALS['_PX_locale']['Are you sure you want to delete this %s?'] = 'Θέλετε να διαγραφεί το %s;';
+$GLOBALS['_PX_locale']['link'] = 'Δεσμός';
+$GLOBALS['_PX_locale']['Are you sure you want to delete this category?'] = 'Θέλετε να διαγραφεί η κατηγορία;';
+$GLOBALS['_PX_locale']['delete'] = 'Διαγραφή';
+$GLOBALS['_PX_locale']['Move %s up'] = 'Μετακίνηση του %s πάνω';
+$GLOBALS['_PX_locale']['Move %s down'] = 'Μετακίνηση του %s κάτω';
+$GLOBALS['_PX_locale']['Usage'] = 'Χρήση';
+$GLOBALS['_PX_locale']['Database table installed'] = 'Εγκαταστάθηκε ο πίνακας της βάσης δεδομένων';
+$GLOBALS['_PX_locale']['Errors during database table installation'] = 'Παρουσιάστηκαν σφάλματα κατά την εγκατάσταση του πίνακα της βάσης δεδομένων';
+$GLOBALS['_PX_locale']['To replace your static links list by this one, just put the following code in your template:'] = 'Για να αντικαταστήσετε τη στατική λίστα δεσμών σας με αυτή εδώ, απλά βάλτε τον ακόλουθο κώδικα στο πρότυπό σας&nbsp;:';
+$GLOBALS['_PX_locale']['Create table %s'] = 'Δημιουργία πίνακα %s';
+$GLOBALS['_PX_locale']['Table %s exists'] = 'Ο πίνακας %s υπάρχει ήδη';
+$GLOBALS['_PX_locale']['Creation of link Plume'] = 'Δημιουργία δεσμού Plume';
+$GLOBALS['_PX_locale']['Creation of link FSF'] = 'Δημιουργία δεσμού FSF';
+$GLOBALS['_PX_locale']['Creation of link Your link 1'] = 'Δημιουργία δεσμού «ο δεσμός μου 1»';
+$GLOBALS['_PX_locale']['Creation of link to Your link 2'] = 'Δημιουργία δεσμού «ο δεσμός μου 2»';
+
+?>

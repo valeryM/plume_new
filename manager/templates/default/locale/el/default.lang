@@ -1,0 +1,177 @@
+# -*- coding: utf-8 -*-
+# (C) 2007_2009 Sonickydon
+# Greek Translation
+
+;404 Page not found !
+404. Δε βρέθηκε η σελίδα
+
+;404 Error - Page not found
+Σφάλμα 404 - Δε βρέθηκε η σελίδα
+
+;The page you are looking for is not available anymore. We tried to search for the pages that match your request. Feel free to refine the search.
+Δεν είναι διαθέσιμη πλέον η σελίδα που ζητήσατε. Αναζητήσαμε τις σελίδες που ταιριάζουν με τα κριτήρια αναζήτησής σας. Μπορείτε να βελτιώσετε την αναζήτηση
+
+;Results of the search on:
+Αποτελέσματα αναζήτησης για :
+
+;On
+Καταχωρήθηκε την
+
+;%Y-%m-%d</a> at %H:%M
+%d-%m-%Y</a> στις %H:%M
+
+;by
+από
+
+; In %s
+ Σε %s
+
+; and 
+ και 
+ 
+;Number of comments:
+Αριθμός σχολίων :
+
+;<a id="edit-ressource" href="%s" title="Edit the resource">Edit</a>
+<a id="edit-ressource" href="%s" title="Επεξεργασία πόρου">Επεξεργασία</a>
+
+;Score:
+Βαθμολογία :
+
+;Main categories
+Κύριες κατηγορίες
+
+;%Y-%m-%d at %H:%M
+%d-%m-%Y στις %H:%M
+
+;<p><a href="%s">Previous Page</a></p>
+<p><a href="%s">Προηγούμενη σελίδα</a></p>
+
+;<p><a href="%s">Next Page</a></p>
+<p><a href="%s">Επόμενη σελίδα</a></p>
+
+;Back to
+Πίσω σε
+
+;<h2>Categories</h2> %s
+<h2>Κατηγορίες</h2> %s
+
+;Links
+Δεσμοί
+
+;No resources
+Δεν υπάρχουν πόροι
+
+;1 resource
+1 πόρος
+
+;<strong>%s</strong> resources
+<strong>%s</strong> πόροι
+
+;in this category.
+σ' αυτή την κατηγορία.
+
+;Publish Date of:
+Ημερομηνία έκδοσης του :
+
+;, publisher of
+, εκδότης του
+
+;Categories
+Κατηγορίες
+
+;In short
+Σε συντομία
+
+;Add a comment
+Προσθηκη σχολιου
+
+;Author:
+Συγγραφέας :
+
+;Email:
+Email :
+
+;required but not shared or displayed
+Απαιτούμενη - δεν εμφανίζεται
+
+;Website:
+Ιστότοπος :
+
+;Comment
+Σχόλιο
+
+;Preview
+Προεπισκόπιση
+
+;Submit
+Υποβολή
+
+;The comments are closed for this resource.
+Δεν υπάρχει δυνατότητα σχολιασμού για τον πόρο
+
+;Comments
+Σχόλια
+
+;Comment preview
+Προεπισκόπηση σχόλιου
+
+;<div class="px-comment-error">%s</div><h3 class="px-comment-add">Modify your comment</h3>
+<div class="px-comment-error">%s</div><h3 class="px-comment-add">Επεξεργασία σχόλιου</h3>
+
+;Your post will be online after validation by the webmaster.
+Η εγγραφή σας θα δημοσιευθεί αφού εγγριθεί από το διαχειριστή της ιστοσελίδας
+
+;1.2 Default theme
+Αρχικό θέμα 1.2
+
+;Default Plume CMS theme
+Αρχικό θέμα Plume CMS
+
+;Go to the content
+Μετάβαση στο περιεχόμενο
+
+;Go to the menu
+Μετάβαση στο μενού
+
+;POWERED by
+Τροφοδοτείται από
+
+;Powered by PLUME CMS
+Τροφοδοτείται από το PLUME CMS
+
+;Logo of Plume CMS
+Λογότυπο του Plume CMS
+
+;DESIGN by
+Σχεδιασμός από
+
+;Design by Kiwii
+Σχεδιασμός από Kiwii
+
+;Logo of Kiwii
+Λογότυπο του Kiwii
+
+;Recent news
+Πρόσφατες ειδήσεις
+
+;%Y•%m•%d
+%d•%m•%Y
+
+;Feeds
+Αρχεία ροής
+
+;Sitemap
+Χάρτης ιστότοπου
+
+;<div id="art-pages-list"><h3>Pages of the article</h3> %s</div>
+<div id="art-pages-list"><h3>Σελίδες του άρθρου</h3> %s</div>
+
+;<h2>Articles pages</h2> %s
+<h2>Σελίδες άρθρων</h2> %s
+
+;Results
+Αποτελέσματα
+
+;Search
+Αναζήτηση

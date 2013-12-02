@@ -1,0 +1,183 @@
+# -*- coding: utf-8 -*-
+# (C) 2007 jojaba <joja.ba@laposte.net>
+# French translation
+
+;404 Page not found !
+404 page introuvable !
+
+;404 Error - Page not found
+Erreur 404 - page introuvable !
+
+;The page you are looking for is not available anymore. We tried to search for the pages that match your request. Feel free to refine the search.
+La page que vous recherchez n'est plus disponible. Nous avons tenté de rechercher les pages qui correspondent à votre demande. N'hésitez pas à préciser votre recherche.
+
+;Results of the search on:
+Résultats des recherches concernant :
+
+;On
+Le
+
+;on
+le
+
+;%Y-%m-%d</a> at %H:%M
+%d-%m-%Y</a> à %H:%M
+
+;by
+par
+
+; In %s
+ Dans %s
+
+; and 
+ et 
+
+;Number of comments:
+Nombre de commentaires :
+ 
+;<a id="edit-ressource" href="%s" title="Edit the resource">Edit</a>
+<a id="edit-ressource" href="%s" title="Éditer la ressource">Éditer</a>
+
+;Score:
+Pertinence :
+
+;Main categories
+Catégories principales
+
+;%Y-%m-%d at %H:%M
+%d-%m-%Y à %H:%M
+
+;<p><a href="%s">Previous Page</a></p>
+<p><a href="%s">Page précédente</a></p>
+
+;<p><a href="%s">Next Page</a></p>
+<p><a href="%s">Page suivante</a></p>
+
+;Back to
+Revenir à
+
+;<h2>Categories</h2> %s
+<h2>Catégories</h2> %s
+
+;Links
+Liens
+
+;No resources
+Aucune ressource
+
+;1 resource
+1 ressource
+
+;<strong>%s</strong> resources
+<strong>%s</strong> ressources
+
+;in this category.
+dans cette catégorie.
+
+;Publish Date of:
+Date de publication de :
+
+;, publisher of
+, rédacteur de
+
+;Categories
+Catégories
+
+;In short
+En bref
+
+;Add a comment
+Ajouter un commentaire
+
+;Author:
+Auteur :
+
+;Email:
+Courriel :
+
+;required but not shared or displayed
+Nécessaire mais ni communiqué, ni affiché.
+
+;Website:
+Site Web :
+
+;Comment
+Commentaire
+
+;Preview
+Aperçu
+
+;Submit
+Valider
+
+;The comments are closed for this resource.
+Pas de commentaires possibles pour cette ressource
+
+;Comments
+Commentaires
+
+;Comment preview
+Aperçu du commentaire
+
+;<div class="px-comment-error">%s</div><h3 class="px-comment-add">Modify your comment</h3>
+<div class="px-comment-error">%s</div><h3 class="px-comment-add">Modifiez votre commentaire</h3>
+
+;Your post will be online after validation by the webmaster.
+Votre message sera publié après validation par le Webmestre.
+
+;1.2 Default theme
+Thème par défaut version 1.2
+
+;Default Plume CMS theme
+Thème par défaut de Plume CMS
+
+;Go to the content
+Aller au contenu
+
+;Go to the menu
+Aller au menu
+
+;POWERED by
+PROPULSÉ par
+
+;Powered by PLUME CMS
+Propulsé par PLUME CMS
+
+;Logo of Plume CMS
+Logo de Plume CMS
+
+;DESIGN by
+DESIGN par
+
+;Design by Kiwii
+Design par Kiwii
+
+;Logo of Kiwii
+Logo de Kiwii
+
+;Recent news
+Brèves récentes
+
+;%Y&bull;%m&bull;%d
+%d&bull;%m&bull;%Y
+
+;Feeds
+Flux RSS
+
+;Sitemap
+Plan du site
+
+;<div id="art-pages-list"><h3>Pages of the article</h3> %s</div>
+<div id="art-pages-list"><h3>Chapitres de l'article</h3> %s</div>
+
+;<h2>Articles pages</h2> %s
+<h2>Chapitres de l'article</h2> %s
+
+;Results
+Résultats
+
+;Search
+Recherche
+
+;Agenda
+Agenda

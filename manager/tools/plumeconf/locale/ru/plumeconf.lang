@@ -1,0 +1,100 @@
+# -*- coding: utf-8 -*-
+# (C) 2009 your name <your @ email>
+;PLUME CMS Configuration
+
+
+;You can modify here the default configuration of PLUME CMS. This will affect all the websites that are managed with PLUME CMS. Please note that some of the information can be overwritten on a site by site, or user by user basis.
+
+
+;You can chose only from the installed languages.
+
+
+;Default language:
+
+
+;Default content format:
+
+
+;Maximum size of the files and images in KB:
+
+
+;You cannot give a maximum size greater than <strong>%s</strong> as it is the maximum size allowed by your system.
+
+
+;Format of the URL:
+
+
+;Simple (default)
+
+
+;Nice URL
+
+
+;To enable the <em>Nice URL</em> you need a webserver with the support of rewriting rules, like <em>mod_rewrite</em> with Apache. Check the online documentation to see how to enable this on your server. Examples of configuration are <a href="%s">available on the community supported documentation</a>.
+
+
+;Display debug information:
+
+
+;When you have the debug information enabled, you can see them when looking at the end of the public page source.
+
+
+;Log the pages not found:
+
+
+;The log of the page not found can be managed from the Smart 404 Errors plugin. Be carefull that you need to purge this log from times to times if you enable the logging.
+
+
+;Error: The file <strong>%s</strong> is not available for writing.
+
+
+;Error: You must provide a default language.
+
+
+;Error: The maximum size must be an integer.
+
+
+;Error: You must provide an URL format.
+
+
+;Error: You must provide a default content format.
+
+
+;Error: Error while saving the config file, check the permissions of the file.
+
+
+;The configuration was successfully updated.
+
+
+;Plume CMS Configuration
+
+
+;Online configuration of Plume CMS.
+
+
+;You do not have the rights to access this plugin.
+
+
+;Yes
+
+
+;No
+
+
+;Save [s]
+
+
+;s
+
+
+;Akismet key:
+
+
+;This is an optional configuration information. You can learn more about Akismet to fight spam on <a href="%s">their website</a>.
+
+
+;TypePad Antispam key:
+
+
+;This is an optional configuration information. You can learn more about TypePad Antispam to fight spam on <a href="%s">their website</a>.
+

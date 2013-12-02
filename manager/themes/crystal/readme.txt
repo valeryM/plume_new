@@ -1,0 +1,1 @@
+The icon set for this theme is based on the Tango base icon theme (http://tango.freedesktop.org/Tango_Desktop_Project). This base set is available under Creative Commons Attribution Share-Alike license (http://creativecommons.org/licenses/by-sa/2.5/). Thanks to the Tango project team for their work on icons of quality and for sharing this icons for free.

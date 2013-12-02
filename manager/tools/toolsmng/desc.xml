@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin name="Plugin Manager" version="1.0" rootonly="true" active="true">
+  <author>Olivier Meunier</author>
+  <label>Plugin manager</label>
+  <desc>Information about your plugins.</desc>
+</plugin>

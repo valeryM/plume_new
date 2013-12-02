@@ -1,0 +1,100 @@
+# -*- coding: utf-8 -*-
+# (C) 2004 Robert Zelník
+;PLUME CMS Configuration
+Konfigurácia PLUME CMS
+
+;You can modify here the default configuration of PLUME CMS. This will affect all the websites that are managed with PLUME CMS. Please note that some of the information can be overwritten on a site by site, or user by user basis.
+Tu môžete upravovať predvolenú konfiguráciu PLUME CMS. Ovplyvní to všetky webstránky spravované PLUME CMS. Berte prosím na vedomie, že niektoré informácie môžu byť prepísané ostatnými stránkami alebo používateľmi.
+
+;You can chose only from the installed languages.
+Môžete vybrať iba z nainštalovaných jazykov.
+
+;Default language:
+Predvolený jazyk:
+
+;Default content format:
+Predvolený formát obsahu:
+
+;Maximum size of the files and images in KB:
+Maximálna veľkosť súborov a obrázkov v kB:
+
+;You cannot give a maximum size greater than <strong>%s</strong> as it is the maximum size allowed by your system.
+Nemôžete vložiť hodnotu väčšiu ako <strong>%s</strong>, keďže to je maximálna veľkosť, ktorú povoľuje váš systém.
+
+;Format of the URL:
+Formát URL:
+
+;Simple (default)
+Jednoduché (predvolené)
+
+;Nice URL
+Pekné URL
+
+;To enable the <em>Nice URL</em> you need a webserver with the support of rewriting rules, like <em>mod_rewrite</em> with Apache. Check the online documentation to see how to enable this on your server. Examples of configuration are <a href="%s">available on the community supported documentation</a>.
+Ak chcete povoliť funkciu <em>Pekné URL</em>, je potrebný webový server s podporou pravidiel prepisu, napríklad v Apache je to <em>mod_rewrite</em>. Overte v dokumentácii online, ako možno túto funkciu na vašom serveri aktivovať. Príklady konfigurácie sú k dispozícii v <a href="%s">dokumentácii komunity</a>.
+
+;Display debug information:
+Zobraziť informácie ladenia:
+
+;When you have the debug information enabled, you can see them when looking at the end of the public page source.
+Ak máte aktivované informácie ladenia, uvidíte ich na konci zdroja zverejnenej stránky.
+
+;Log the pages not found:
+Záznam nenájdených stránok:
+
+;The log of the page not found can be managed from the Smart 404 Errors plugin. Be carefull that you need to purge this log from times to times if you enable the logging.
+Záznam stránok, ktoré neboli nájdené, je možné spravovať pomocou zásuvného modulu Inteligentné chybové hlásenia 404. Myslite na to, že ak aktivujete túto funkciu, záznam je treba z času na čas vyčistiť.
+
+;Error: The file <strong>%s</strong> is not available for writing.
+Chyba: súbor <strong>%s</strong> nie je dostupný pre zápis.
+
+;Error: You must provide a default language.
+Chyba: je potrebné zadať predvolený jazyk.
+
+;Error: The maximum size must be an integer.
+Chyba: maximálna veľkosť musí mať celočíselnú hodnotu.
+
+;Error: You must provide an URL format.
+Chyba: je potrebné zadať formát URL.
+
+;Error: You must provide a default content format.
+Chyba: je potrebné zadať predvolený formát obsahu.
+
+;Error: Error while saving the config file, check the permissions of the file.
+Chyba: počas ukladania konfiguračného súboru sa vyskytla chyba, skontrolujte oprávnenia súboru.
+
+;The configuration was successfully updated.
+Konfigurácia bola úspešne aktualizovaná.
+
+;Plume CMS Configuration
+Konfigurácia Plume CMS
+
+;Online configuration of Plume CMS.
+
+
+;You do not have the rights to access this plugin.
+Nemáte oprávnenie na prístup k tomuto zásuvnému modulu.
+
+;Yes
+Áno
+
+;No
+Nie
+
+;Save [s]
+Uložiť [U]
+
+;s
+U
+
+;Akismet key:
+
+
+;This is an optional configuration information. You can learn more about Akismet to fight spam on <a href="%s">their website</a>.
+
+
+;TypePad Antispam key:
+
+
+;This is an optional configuration information. You can learn more about TypePad Antispam to fight spam on <a href="%s">their website</a>.
+

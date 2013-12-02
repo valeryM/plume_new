@@ -1,0 +1,57 @@
+<?php 
+if ($cache->processPage(3600)):
+    pxTemplateInit('remove_numbers|context:external');
+    pxGetLastResources(20, '', $category_id);
+
+echo '<?xml version="1.0" encoding="utf-8" ?>'."\n";
+?>
+<atom:feed xmlns="http http://www.w3.org/2005/Atom" />
+<atom:id><?php pxInfo('fullurl'); ?></ atom:id>
+<atom:title><?php pxInfo('namexml'); ?></ atom:title>
+<atom:updated><?php pxGetLastModification(__('%Y-%m-%dT%H:%M:%SZ')); ?></ atom:updated>
+<atom:link href="<?php pxInfo('fullurl'); ?>" rel="self" />
+
+<atom:author>
+<atom:name>Communication Pont Péan< /atom:name>
+<atom:email><?php pxInfo('email_site'); ?>< /atom:email>
+</atom:author>
+<?php while (!$last->EOF())  : ?>
+
+<atom:entry>
+<atom:title><?php pxLastResTitle('%s'); ?></atom:title>
+<atom:id><?php pxLastResPath(); ?></atom:id>
+<atom:updated><?php pxLastResDateModification(__('%Y-%m-%dT%H:%M:%SZ')); ?></ atom:updated>
+<atom:link href="<?php pxLastResPath(); ?>"/>
+<atom:author><?php pxLastResAuthor(); ?></atom:author>
+<atom:summary> court résumé de votre poste <atom:summary>
+<atom:content type="html">
+<! [CDATA [<?php pxLastResDescription(); ?>]]>
+</ atom:content>
+</ atom:entry>
+<?php
+/*
+  <entry>
+    <title type="text"><?php pxLastResTitle('%s'); ?></title>
+    <link rel="alternate" type="text/html" href="<?php pxLastResPath(); ?>" />
+    <id><?php pxLastResPath(); ?></id>
+    <updated><?php pxLastResDateModification(__('%Y-%m-%dT%H:%M:%SZ')); ?></updated>
+    <author><name><?php pxLastResAuthor(); ?></name></author>
+    <content type="xhtml">
+	    <div xmlns="http://www.w3.org/1999/xhtml">
+		    <?php //pxLastResDescription(); ?>
+	    </div>
+    </content>
+  </entry>
+*/
+?>
+
+<?php 
+	$last->moveNext(); 
+	endwhile; 
+?>
+</atom:feed>
+
+<?php
+    $cache->endCache();
+	endif;
+?>

@@ -1,0 +1,49 @@
+# -*- coding: utf-8 -*-
+# (C) 2005 gaba
+;Invalid URL.
+La URL es inv&aacute;lida.
+
+;Error(s):
+Error(es)&nbsp;:
+
+;Plugin manager
+Gesti&oacute;n de plugins
+
+;Install a plugin
+Installar un plugin
+
+;The system has no write access to the folder %s, check its permissions.
+El archivo %s no tiene permisos de escritura, verif&iacute;calos.
+
+;Give the plugin file URL (http or ftp):
+Indica la URL del fichero del plugin (http o ftp)&nbsp;:
+
+;Install
+Instalar
+
+;List of installed plugins
+Lista de plugins instalados
+
+;version
+versi&oacute;n
+
+;Are you sure you want to delete this plugin?
+Estas segura/o de querer eliminar este plugin&nbsp;?
+
+;delete
+eliminar
+
+;The plugin was successfully deleted.
+El plugin ha sido eliminado correctamente.
+
+;The plugin was successfully installed.
+El plugin ha sido instalado correctamente.
+
+;You do not have the rights to access this plugin.
+
+
+;by
+
+
+;Information about your plugins.
+

@@ -1,0 +1,47 @@
+﻿/* Juiz DropDown Menu demo	*/
+/* by Geoffrey Crofte 		*/
+/* CreativeCommons Licence 	*/
+/* www.creativejuiz.fr 		*/
+
+body { 
+	padding: 0;
+	margin: 0 auto;
+	width: 700px;
+	font-size: 0.625em;
+	background: url(../img/skin/bg_main.png);
+	color: #515742;
+	text-align: center;
+	text-shadow: 1px 1px 0 #fff;
+	font-size: 1.1em;
+}
+h1 {
+	margin: 1.5em 0;
+	font-size: 3em;
+}
+ul {
+	text-align: left;
+}
+.back a {
+	display: block;
+	background: #4D9EB4;
+	width: 185px;
+	margin: 45px auto 20px auto;
+	padding: 5px;
+	color: white;
+	font-weight: bold;
+	text-decoration :none;
+	text-shadow: -1px -1px 0 #328197;
+	clear: both;
+	-webkit-border-radius: 20px 0 20px 20px;
+	-moz-border-radius: 20px 0 20px 20px;
+	border-radius: 20px 0 20px 20px;
+}
+.back a:hover,.back a:focus {
+	text-decoration: underline;
+}
+
+@media (max-width:640px) {
+	body {
+		width: auto;
+	}
+}

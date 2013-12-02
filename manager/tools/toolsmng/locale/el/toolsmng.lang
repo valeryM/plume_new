@@ -1,0 +1,49 @@
+﻿# -*- coding: utf-8 -*-
+# (C) 2004 Loïc d'Anterroches, Cédric Arrabie
+;Invalid URL.
+Μη έγκυρο URL.
+
+;Error(s):
+Σφάλμα(τα)&nbsp;:
+
+;Plugin manager
+Διαχειριστής πρόσθετων
+
+;Install a plugin
+Εγκατάσταση πρόσθετου
+
+;The system has no write access to the folder %s, check its permissions.
+Το σύστημα δεν έχει δικαίωμα εγγραφής στον κατάλογο %s, ελέγξτε τα δικαιώματα του.
+
+;Give the plugin file URL (http or ftp):
+Εισάγετε το URL του αρχείου πρόσθετου (http ή ftp)&nbsp;:
+
+;Install
+Εγκατάσταση
+
+;List of installed plugins
+Λίστα εγκαταστημένων πρόσθετων
+
+;version
+Έκδοση
+
+;Are you sure you want to delete this plugin?
+Θέλετε να διαγραφεί το πρόσθετο;
+
+;delete
+Διαγραφή
+
+;The plugin was successfully deleted.
+Το πρόσθετο διαγράφηκε με επιτυχία.
+
+;The plugin was successfully installed.
+Το πρόσθετο εγκαταστάθηκε με επιτυχία.
+
+;You do not have the rights to access this plugin.
+Δεν έχετε τα απαιτούμενα δικαιώματα για να έχετε πρόσβαση στο πρόσθετο.
+
+;by
+από
+
+;Information about your plugins.
+Πληροφορίες για τα πρόσθετά σας.

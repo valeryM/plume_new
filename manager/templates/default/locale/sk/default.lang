@@ -1,0 +1,176 @@
+# -*- coding: utf-8 -*-
+# (C) 2007 SlovakSoft, <info@slovaksoft.com>, http://www.slovaksoft.com
+# sk Translation
+
+;404 Page not found !
+404 – Stránka sa nenašla!
+
+;404 Error - Page not found
+Chyba 404 – Stránka sa nenašla
+
+;The page you are looking for is not available anymore. We tried to search for the pages that match your request. Feel free to refine the search.
+Stránka, ktorú hľadáte, už nie je k dispozícii. Pokúsime sa vyhľadať stránky, ktoré zodpovedajú vašej požiadavke. Skúste znova definovať hľadanie.
+
+;Results of the search on:
+Výsledky hľadania:
+
+;On
+Výsledok
+
+;%Y-%m-%d</a> at %H:%M
+%d. %m. %Y</a> o %H:%M
+
+;by
+Od
+
+; In %s
+ V %s
+
+; and 
+&nbsp;a&nbsp;
+
+;Number of comments:
+Počet komentárov:
+
+;<a id="edit-ressource" href="%s" title="Edit the resource">Edit</a>
+<a id="edit-ressource" href="%s" title="Upraviť príspevok">Upraviť</a>
+
+;Score:
+Skóre
+
+;Main categories
+Hlavné kategórie
+
+;%Y-%m-%d at %H:%M
+%d. %m. %Y</a> o %H:%M
+
+;<p><a href="%s">Previous Page</a></p>
+<p><a href="%s">Predch. stránka</a></p>
+
+;<p><a href="%s">Next Page</a></p>
+<p><a href="%s">Nasled. stránka</a></p>
+
+;Back to
+Späť na
+
+;<h2>Categories</h2> %s
+<h2>Kategórie</h2> %s
+
+;Links
+Prepojenia
+
+;No resources
+Žiadne príspevky
+
+;1 resource
+1 príspevok
+
+;<strong>%s</strong> resources
+Príspevkov: <strong>%s</strong>
+
+;in this category.
+v tejto kategórii
+
+;Publish Date of:
+Dátum uverejnenia:
+
+;, publisher of
+, vydavateľ
+
+;Categories
+Kategórie
+
+;In short
+V skratke
+
+;Add a comment
+Pridať komentár
+
+;Author:
+Autor:
+
+;Email:
+E-mail:
+
+;required but not shared or displayed
+povinné, ale nezdieľané a nezobrazené
+
+;Website:
+Webová stránka
+
+;Comment
+Komentár
+
+;Preview
+Ukážka
+
+;Submit
+Odoslať
+
+;The comments are closed for this resource.
+K tomuto príspevku nie sú komentáre povolené.
+
+;Comments
+Komentáre
+
+;Comment preview
+Ukážka komentára
+
+;<div class="px-comment-error">%s</div><h3 class="px-comment-add">Modify your comment</h3>
+<div class="px-comment-error">%s</div><h3 class="px-comment-add">Upraviť môj komentár</h3>
+
+;Your post will be online after validation by the webmaster.
+Príspevok sa objaví po schválení webmasterom.
+
+;1.2 Default theme
+Predvolená téma 1.2
+
+;Default Plume CMS theme
+Predvolená téma Plume CMS
+
+;Go to the content
+Prejsť na obsah
+
+;Go to the menu
+Prejsť do ponuky
+
+;POWERED by
+SYSTÉM:
+
+;Powered by PLUME CMS
+Systém: PLUME CMS
+
+;Logo of Plume CMS
+Logo Plume CMS
+
+;DESIGN by
+DIZAJN:
+
+;Design by Kiwii
+Dizajn: Kiwii
+
+;Logo of Kiwii
+Logo Kiwii
+
+;Recent news
+Najnovšie správy
+
+;%Y&bull;%m&bull;%d
+%d. %m. %Y
+
+;Feeds
+Kanály
+
+;Sitemap
+Mapa stránky
+
+;<div id="art-pages-list"><h3>Pages of the article</h3> %s</div>
+<div id="art-pages-list"><h3>Strany článku</h3> %s</div>
+
+;<h2>Articles pages</h2> %s
+<h2>Strany článkov</h2> %s
+
+;Results
+Výsledky
+
+;Search

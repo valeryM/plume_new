@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+<head><title>Création d'article</title></head>
+<meta name="author" content="Loïc d'Anterroches" />
+<!-- When you translate, respect the id of the headings -->
+<body>
+<h3 id="h-category">Catégorie d'un article</h3>
+<p>
+Lorsque vous créez un nouvel article, vous devez le classer dans une catégorie.
+C'est un peu comme si vous rangiez des documents dans un dossier  pour les regrouper par thèmes.
+</p>
+<p>
+Un article peut faire partie de plusieurs catégories, mais une seule d'entre elles sera considérée comme catégorie <em>principale</em>.
+Lors de la création d'un article, la première catégorie choisie sera la catégorie <em>principale</em>.
+Après enregistrement de l'article, vous aurez la possibilité de le placer dans d'autres catégories, de lui attribuer une 
+nouvelle catégorie principale ou de le retirer d'une catégorie. Il suffit pour cela
+d'utiliser le menu déroulant ou de cliquer sur l'une des icônes juxtaposées à la liste des catégories dans lesquelles l'article est classé.
+</p>
+
+<h3 id="h-format">Format de l'article</h3>
+<p>
+Vous définirez le format en fonction de la manière avec laquelle vous allez saisir le contenu de la brève. Vous pourrez notamment choisir 
+le format <strong>HTML</strong> plus complexe mais apportant une meilleure flexibilité et adaptation sur le plan de la présentation et des fonctionnalités.
+Il est aussi possible d'opter pour le format <strong>Wiki</strong>. Sa syntaxe à l'avantage d'être
+beaucoup plus simple à l'apprentissage et à l'utilisation tout en restant performante. Il est d'ailleurs recommandé d'utiliser ce format si
+vous n'avez pas de besoins spécifiques pour la présentation de votre article.
+</p>
+<p>
+Etant donné que chaque chapitre d'un article peut être créé au format que l'on veut, vous pouvez très bien
+utiliser la syntaxe Wiki pour l'ensemble de ceux-ci sauf pour le chapitre qui nécessite une présentation particulière
+ne pouvant être obtenue que par du HTML.
+</p>
+
+<h3 id="h-status">État de l'article</h3>
+<p>
+L'état d'un article va vous indiquer notamment s'il est visible sur la partie publique du site.
+En fonction de vos droits, vous pourrez opter pour plusieurs états&nbsp;:
+</p>
+<dl>
+<dt>En ligne</dt><dd>L'article est publié sur la partie publique du site.</dd>
+<dt>Hors ligne</dt><dd>L'article est enregistré dans la base mais non publié.</dd>
+<dt>En cours de rédaction</dt><dd>Le rédacteur (vous) travaille sur l'article</dd>
+<dt>En attente de validation</dt><dd>Le rédacteur (vous)  a terminé son travail et le soumet au 
+relecteur en vue de sa publication.</dd>
+</dl>
+<p>
+<strong>Remarque&nbsp;:</strong> Même si vous êtes administrateur, vous ne pourrez mettre en ligne un article 
+sans lui avoir ajouté au moins un chapitre. Concrètement vous devez enregistrer une première fois l'article, il
+passera à l'état <strong>En cours de rédaction</strong>, vous lui ajouterez un chapitre et vous aurez alors la possibilité de le mettre en ligne.
+</p>
+
+<h3 id="h-comments">État des commentaires</h3>
+<p>
+On peut définir si une ressource accepte les commentaires des visiteurs ou pas.
+Vous pourrez choisir entre deux options si vous avez les droits requis :
+</p>
+<dl>
+<dt>Commentaires ouverts</dt><dd>Le formulaire permettant d'ajouter un commentaire est affiché sur la page de la ressource.</dd>
+<dt>Commentaires fermés</dt><dd>Le formulaire n'est pas affiché, aucun commentaire ne peut être ajouté.</dd>
+</dl>
+
+<h3 id="h-title">Titre de l'article</h3>
+<p>
+Le titre de l'article correspond à celui qui sera affiché sur la page Web. Mais vous pourrez également utiliser une fonction
+qui à partir de ce titre agencera les articles à l'intérieur d'une même catégorie.
+</p>
+
+<h3>Ordre des articles</h3>
+<p>
+Vous aurez probablement besoin de gérer la disposition de vos articles afin qu'ils apparaissent dans un certain ordre.
+Prenons un exemple, vous avez trois articles intitulés <cite>Vue générale sur la Taxonomie</cite>, 
+<cite>Les mammifères</cite> et <cite>Les poissons</cite>, ces articles  étant situés dans la catégorie <cite>Taxonomie</cite>.
+Si vous souhaitez les afficher dans cet ordre sur la partie publique du site, il suffit d'écrire les titres ainsi&nbsp;:
+<cite><strong>1.</strong> Vue générale sur la Taxonomie</cite>,
+<cite><strong>2.</strong> Les mammifères</cite> et <cite><strong>3.</strong> Les poissons</cite>.
+</p>
+<p>
+Les numéros <strong>X.</strong> du début vont permettre d'ordonner les articles dans une catégorie.
+Il vous suffit ensuite de configurer votre gabarit de catégorie pour afficher ou non les numéros des titres.
+</p>
+
+<h3 id="h-description">Description de l'article</h3>
+<p>
+La description de l'article est affichée lorsque celui-ci est listé dans une page de catégorie ou de
+recherche et aussi lors de la consultation du fil RSS. Une bonne description doit donner au lecteur 
+l'envie d'en savoir plus. 
+</p>
+<p>
+Le <a href="#h-format">format</a> de la description est celui que vous aurez choisi.
+Si vous utilisez le format Wiki il est facile de mettre en évidence les mots importants.
+</p>
+<p>
+La description est utilisée par le moteur de recherche, les mots la constituant ayant plus
+d'importance pour la pertinence de la recherche que ceux des pages de l'article.
+</p>
+
+<h3 id="h-keywords">Mots-clés de l'article</h3>
+<p>C'est une liste de mots séparés par des virgules, qui contient les termes les plus représentatifs
+de l'article auquel ils sont associés. Dans le cadre de l'exemple utilisé pour l'explication du <a href="#h-title">titre</a>
+vous pourriez utiliser les mots : <em>Monotrèmes, Tachyglossidae, Kollikodontidae, Platanistoidae, Dauphins de rivière</em>.
+Il est à noter qu'un mot-clé peut être constitué de plusieurs mots, comme  <em>Dauphins de rivière</em>, l'important étant de bien respecter la séparation
+par des virgules.
+</p>
+<p>
+Les mots-clés sont non seulement utilisés pour le moteur de recherche du site mais ils sont
+aussi inclus dans le code source de la page de l'article afin de donner le maximum d'informations
+aux moteurs de recherche externes au site (Yahoo, Google, etc...).
+</p>
+
+
+<h3 id="h-path">Chemin de l'article</h3>
+<p>
+Le  chemin de l'article est une information essentielle. C'est en effet ce qui constituera en partie
+l'adresse qui permettra à vos visiteurs d'accéder à l'article. Il doit donc être court, facile à retenir et
+à saisir.</p>
+
+<p>Si, par exemple, votre article est placé dans la catégorie <em>À propos</em>, qui a pour chemin
+<em>/A-propos/</em>, et que le chemin défini pour cet article est <em>presentation</em>, alors vos
+visiteurs pourront visionner la page à l'adresse <strong>http://votresite.com/A-propos/presentation</strong>.
+</p>
+<p>
+Lorsqu'un article comprend plusieurs chapitres, chacun d'entre eux sera accessible par son chemin auquel sera ajouté le numéro de la page. Ainsi pour le chapitre 3 de l'exemple ci-dessus, l'adresse sera
+http://votresite.com/A-propos/presentation<strong>3</strong>.
+</p>
+<p>
+Vous remarquerez qu'un chemin par défaut vous est automatiquement proposé
+en fonction du <a href="#h-title">titre</a> saisi. Il sera probablement trop long la plupart du temps mais il constituera
+une base que vous pourrez remanier selon vos souhaits. Essayez de ne pas être trop long, trois mots
+séparés par un trait d'union constituent une bonne moyenne. Voici quelques exemples&nbsp;:
+</p>
+<ul>
+<li>sports-routiers</li>
+<li>dauphins-de-riviere</li>
+<li>installation-apache</li>
+</ul>
+<p>
+N'oubliez pas que ces mots seront considérés comme les plus importants par les moteurs de recherche.
+</p>
+</body>
+</html>

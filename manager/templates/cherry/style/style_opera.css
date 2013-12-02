@@ -1,0 +1,14 @@
+/* PLUME CMS Style Sheets for 1.2 version */
+/* CSS hacks for Opera */
+
+p.modified
+{
+	margin: -0.6em 1em -0.5em 0;
+}
+
+span.lireplus
+{
+  position:absolute;
+  right:20px;
+  top:72px;
+}

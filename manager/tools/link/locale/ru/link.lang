@@ -1,0 +1,192 @@
+# -*- coding: utf-8 -*-
+# (C) 2009 your name <your @ email>
+;Links manager
+
+
+;Web interface to configure your links.
+
+
+;Drag items to change their positions.
+
+
+;You must provide at least a label and an URL
+
+
+;You must provide a valid URL
+
+;All values
+
+
+;Back
+
+
+;Edit link
+
+
+;Error(s)
+
+
+;No link
+
+
+;None
+
+
+;Label
+
+
+;URL
+
+
+;Language
+
+
+;optional
+
+
+;Description
+
+
+;save
+
+
+;save order
+
+
+;XFN
+
+
+;Me
+
+
+;Another link for myself
+
+
+;Friendship
+
+
+;Contact
+
+
+;Acquaintance
+
+
+;Friend
+
+
+;Physical
+
+
+;Met
+
+
+;Professional
+
+
+;Co-worker
+
+
+;Colleague
+
+
+;Geographical
+
+
+;Co-resident
+
+
+;Neighbor
+
+
+;Family
+
+
+;Child
+
+
+;Parent
+
+
+;Sibling
+
+
+;Spouse
+
+
+;Kin
+
+
+;Romantic
+
+
+;Muse
+
+
+;Crush
+
+
+;Date
+
+
+;Sweetheart
+
+
+;Edit rubric
+
+
+;Title
+
+
+;New rubric
+
+
+;New link
+
+
+;Are you sure you want to delete this %s?
+
+
+;link
+
+
+;Are you sure you want to delete this category?
+
+
+;delete
+
+
+;Move %s up
+
+
+;Move %s down
+
+
+;Usage
+
+
+;Database table installed
+
+
+;Errors during database table installation
+
+
+;To replace your static links list by this one, just put the following code in your template:
+
+
+;Create table %s
+
+
+;Table %s exists
+
+
+;Creation of link Plume
+
+
+;Creation of link FSF
+
+
+;Creation of link Your link 1
+
+
+;Creation of link to Your link 2
+

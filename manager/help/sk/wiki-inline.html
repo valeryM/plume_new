@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+<head><title>Pomocník pre Wiki</title>
+<meta name="author" content="Robert Zelník, SlovakSoft" />
+</head>
+<body>
+<h4>Blokový formát</h4>
+
+<dl class="help">
+<dt>Odstavec</dt><dd>2 x nový riadok</dd>
+<dt>Vodorovný oddeľovač</dt><dd><code>====</code> (4 alebo viac znakov „rovná sa“) + nový riadok</dd>
+<dt>Jednoduchý zoznam</dt><dd>jeden alebo viac znakov <code>*</code> alebo <code>-</code> pre&nbsp;každú položku + nový riadok</dd>
+<dt>Číslovaný zoznam</dt><dd>jeden alebo viac znakov <code>#</code> pre&nbsp;každú položku + nový riadok</dd>
+<dt>Tabuľky</dt><dd><span><code>|</code>text<code> | </code>text</span>  ( <code> | </code> = oddeľovač stĺpcov s&nbsp;medzerami okolo, každý vložený riadok je riadok tabuľky)</dd>
+<dt>Table heads (&lt;th&gt; tag)</dt><dd><span><code>| !</code>text<code>! | !</code>text<code>!</code></span></dd>
+<dt>Podnadpis úroveň 3</dt><dd><span><code>!!!</code>nadpis</span> + nový riadok</dd>
+<dt>Podnadpis úroveň 4</dt><dd><span><code>!!</code>nadpis</span> + nový riadok</dd>
+<dt>Podnadpis úroveň 5</dt><dd><span><code>!</code>nadpis</span> + nový riadok</dd>
+<dt>Predformátovaný text</dt><dd>jedna medzera + text + nový riadok</dd>
+<dt>Zvýraznený textový blok – odrážka (blockquote)<dt><dd><span><code>&gt;</code>text</span> + nový riadok</dd>
+<dt>Definície</dt><dd><span><code>;</code>slovo<code> : </code>definícia</span> + nový riadok (medzery okolo <code>:</code>)</dd>
+</dl>
+
+<h4>Riadkový formát</h4>
+
+<dl class="help">
+<dt>Veľké zvýrazenie (polotučne)</dt><dd><span><code>__</code>text<code>__</code></span> (2 podčiarkníky)</dd>
+<dt>Jednoduché zvýraznenie (kurzíva)</dt><dd><span><code>''</code>text<code>''</code></span> (2 apostrofy)</dd>
+<dt>Vynútený riadkový zlom</dt><dd><code>%%%</code></dd>
+<dt>Prepojenie</dt><dd><span><code>[</code>Názov prepojenia<code>|</code>Prepojenie/webová adresa (http://)<code>|</code>jazyk<code>|</code>popis (nadpis)<code>]</code></span> </dd>
+<dt>Prepojenie na&nbsp;príspevok</dt><dd><span><code>[</code>Názov prepojenia<code>|</code>xlink://id_príspevku/<code>]</code></span></dd>
+<dt>Obrázky</dt><dd><span><code>((</code>Prepojenie na&nbsp;obrázok<code>|</code>alternatívny text<code>|</code>umiestnenie<code>|</code>popis<code>))</code></span>  umiestnenie = L (vľavo), R (vpravo) alebo nič</dd>
+<dt>Kód</dt><dd><span><code>@@</code>kód<code>@@</code></span></dd>
+<dt>Citát</dt><dd><span><code>^^</code>veta<code>|</code>prepojenie na&nbsp;zdroj<code>^^</code></span></dd>
+<dt>Referencia (citát)</dt><dd><span><code>{{</code>referencia<code>}}</code></span></dd>
+<dt>Akronym</dt><dd><span><code>??</code>akronym<code>|</code>popis<code>??</code></span></dd>
+</dl>
+
+<h4>Other</h4>
+
+<dl class="help">
+<dt>Escaping character</dt><dd><span><code>\</code></span> (example : [\ ndlr : blablabla \] )</dd>
+</dl>
+
+</body>
+</html>

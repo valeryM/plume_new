@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin name="smart404" version="1.0" rootonly="false" active="true">
+  <author>Loïc d'Anterroches</author>
+  <label>Smart 404 Errors</label>
+  <desc>Prevent your visitors to fall on a not found page.</desc>
+</plugin>

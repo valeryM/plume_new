@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme name="pstango" version="1.0" active="true">
+  <author>Jojaba</author>
+  <label>PSTango theme</label>
+  <desc>Site theme based on the Tango project icons for Plume CMS 1.2.3</desc>
+</theme>

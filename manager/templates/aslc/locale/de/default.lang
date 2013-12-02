@@ -1,0 +1,177 @@
+# -*- coding: utf-8 -*-
+# (C) 2007 your name <your@email>
+# German Translation
+
+;404 Page not found !
+Fehler 404 - Seite nicht gefunden !
+
+;404 Error - Page not found
+Fehler 404 - Die Seite wurde nicht gefunden !
+
+;The page you are looking for is not available anymore. We tried to search for the pages that match your request. Feel free to refine the search.
+Die Seite, die Sie suchen, ist nicht mehr verfügbar. Wir haben versucht, Seiten die Ihrer Suche entsprechen, zu finden. Sie können die Suche verbessern, in dem Sie die Suchkriterien ändern.
+
+;Results of the search on:
+Ergebnisse der Suche nach:
+
+;On
+Erstellt am
+
+;%Y-%m-%d</a> at %H:%M
+%d-%m-%Y</a> um %H:%M
+
+;by
+von
+
+; In %s
+ In %s
+
+; and 
+&nbsp;und&nbsp;
+
+;Number of comments:
+Anzahl der Kommentare&nbsp;:
+
+;<a id="edit-ressource" href="%s" title="Edit the resource">Edit</a>
+<a id="edit-ressource" href="%s" title="Diese Ressource bearbeiten">Editieren</a>
+
+;Score:
+Relevanz:
+
+;Main categories
+Hauptkategorien
+
+;%Y-%m-%d at %H:%M
+%d-%m-%Y um %H:%M
+
+;<p><a href="%s">Previous Page</a></p>
+<p><a href="%s">Vorherige Seite</a></p>
+
+;<p><a href="%s">Next Page</a></p>
+<p><a href="%s">Nächste Seite</a></p>
+
+;Back to
+Zurück zu
+
+;<h2>Categories</h2> %s
+<h2>Kategorien</h2> %s
+
+;Links
+Links
+
+;No resources
+Keine Ressource
+
+;1 resource
+1 Ressource
+
+;<strong>%s</strong> resources
+<strong>%s</strong> Ressourcen
+
+;in this category.
+in dieser Kategorie
+
+;Publish Date of:
+Veröffentlichungsdatum von
+
+;, publisher of
+, Autor von
+
+;Categories
+Kategorien
+
+;In short
+Zusammenfassung
+
+;Add a comment
+Ein Kommentar hinzufügen
+
+;Author:
+Autor
+
+;Email:
+E-Mail
+
+;required but not shared or displayed
+Erforderlich, wird aber nicht veröffentlicht
+
+;Website:
+Webseite
+
+;Comment
+Kommentar
+
+;Preview
+Vorschau
+
+;Submit
+Abschicken
+
+;The comments are closed for this resource.
+Keine Kommentare für diese Ressource
+
+;Comments
+Kommentare
+
+;Comment preview
+Kommentarvorschau
+
+;<div class="px-comment-error">%s</div><h3 class="px-comment-add">Modify your comment</h3>
+<div class="px-comment-error">%s</div><h3 class="px-comment-add">Ihren Kommentar ändern</h3>
+
+;Your post will be online after validation by the webmaster.
+Ihr post wird veröffentlicht wenn es vom Webmaster genehmigt wurde.
+
+;1.2 Default theme
+1.2 Standard Theme
+
+;Default Plume CMS theme
+Standard Plume CMS Theme
+
+;Go to the content
+Zum Inhalt
+
+;Go to the menu
+Zum Menü
+
+;POWERED by
+POWERED by
+
+;Powered by PLUME CMS
+Powered by PlUME CMS
+
+;Logo of Plume CMS
+Plume CMS Logo
+
+;DESIGN by
+DESIGN by
+
+;Design by Kiwii
+Design by Kiwii
+
+;Logo of Kiwii
+Kiwii's Logo
+
+;Recent news
+Letzte Neuigkeiten
+
+;%Y&bull;%m&bull;%d
+%d&bull;%m&bull;%Y
+
+;Feeds
+Feeds
+
+;Sitemap
+Sitemap
+
+;<div id="art-pages-list"><h3>Pages of the article</h3> %s</div>
+<div id="art-pages-list"><h3>Seiten vom Artikel</h3> %s</div>
+
+;<h2>Articles pages</h2> %s
+<h2>Seiten des Artikels</h2> %s
+
+;Results
+Ergebnisse
+
+;Search
+Suche

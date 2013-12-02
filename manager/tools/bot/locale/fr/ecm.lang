@@ -1,0 +1,145 @@
+# -*- coding: utf-8 -*-
+# (C) 2007 loïc m.
+;Easy Category Manager
+Easy Category Manager
+
+;Are you sure you want to delete this category?
+Souhaitez-vous vraiment supprimer cette catégorie ?
+
+;Database table updated
+Base de donnée mise à jour
+
+;Database table successfully updated.<br />All categories was successfully updated.
+Base de donnée correctement mise à jour.<br />Toutes les catégories ont été mise à jour.
+
+;Errors during database table updated
+Erreur lors de la mise à jour de la base de données
+
+;Update table %s
+Mise à jour de la table %s
+
+;Column %s exists
+Colonne %s déjà existante
+
+;Add column %s on table categories
+Ajout de la colonne %s dans la table catégories
+
+;The column %s has already been added.
+La colonne %s a déjà été ajoutée
+
+;usefull interface to managed your categories.
+Gérer vos catégories en toute simplicité
+
+;Hidden category
+Catégorie fantôme
+
+;Parent category:
+Catégorie parent
+
+;Format:
+Format
+
+;Title:
+Titre
+
+;Insert an image or a file
+Insérer une image ou un fichier
+
+;Description:
+Description:
+
+;shrink textarea
+Diminuer la textarea
+
+;grow textarea
+Augmenter la textarea
+
+;Keywords:
+Mots-clés
+
+;Path <span class="small">(/category/ or /cat/subcat/)</span>:
+Chemin <span class="small">(/category/ or /cat/subcat/)</span>:
+
+;Template:
+
+
+;Visualize [v]
+Aperçu [v]
+
+;Save [s]
+Sauvegarder [s]
+
+;Transform in XHTML
+Transformer en xHTML
+
+;Delete
+Supprimer
+
+;show/hide
+montrer/cacher
+
+;Wiki syntax
+Syntaxe Wiki
+
+;edit
+Editer
+
+;Id to use in the templates:
+ID a utiliser dans les templates
+
+;Categories Manager
+Manager de catégories
+
+;New category
+Nouvelle catégorie
+
+;Categories
+Catégories
+
+;Error: The requested category is not available.
+Erreur: la catégorie demandée est invalide
+
+;The category was successfully deleted.
+La catégorie a été correctement supprimée
+
+;Invalide action.
+Action invalide
+
+;No categories.
+Aucune catégories
+
+;Show all
+Tout montrer
+
+;Hide all
+Tout cacher
+
+;delete
+Supprimer
+
+;Delete the category
+Supprimer la catégory
+
+;up
+monter
+
+;up position
+Monter la position
+
+;down
+baisser
+
+;down position
+Baisser la position
+
+;The position of the category was successfully up.
+La position de la catégorie a correctement été monté
+
+;The position of the category was successfully down.
+La position de la catégorie a correctement été baissé
+
+;Category successfully add
+Catégorie correctement ajoutée
+
+;Category successfully modify
+Catégorie correctement modifiée

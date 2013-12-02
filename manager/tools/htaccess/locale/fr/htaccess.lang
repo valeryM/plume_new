@@ -1,0 +1,82 @@
+# -*- coding: utf-8 -*-
+# (C) 2004 Loïc d'Anterroches, Cédric Arrabie
+;Files and images right access manager
+Gestionnaire d'accès aux fichiers et images
+
+;Manage the access of some of the file and image subfolders.
+Gérer l'accès à certains sous-dossiers de fichiers et d'images.
+
+;Files and images access manager
+Gestionnaire d'accès aux fichiers et images
+
+;You are in the folder <strong>%s</strong>
+Vous êtes dans le dossier <strong>%s</strong>
+
+;Navigation
+Navigation
+
+;Zone <strong>%s</strong>.
+Zone <strong>%s</strong>.
+
+;New protected zone:
+Nouvelle zone protégée&nbsp;:
+
+;Create the zone
+Créer la zone
+
+;Zone successfully created.
+La zone a été créée avec succès.
+
+;User to add:
+Utilisateur à ajouter&nbsp;:
+
+;Password:
+Mot de passe&nbsp;:
+
+;Add
+Ajouter
+
+;Username and password must contain only letters and digits without spaces.
+Le nom d'utilisateur et le mot de passe ne doivent contenir que des lettres et des chiffres et ne peuvent pas contenir d'espaces.
+
+;Error while adding the user.
+Erreur lors de l'ajout de l'utilisateur.
+
+;User successfully added.
+L'utilisateur a été ajouté avec succès.
+
+;List of the users
+Liste des utilisateurs
+
+;Delete
+Supprimer
+
+;Are you sure you want to delete this user?
+Souhaitez-vous vraiment supprimer cet utilisateur&nbsp;?
+
+;User successfully deleted.
+L'utilisateur a été supprimé avec succès.
+
+;Error while deleting the user.
+Erreur lors de la suppression de l'utilisateur.
+
+;Are you sure you want to delete this zone ?
+Souhaitez-vous vraiment supprimer cette zone&nbsp;?
+
+;Delete this zone
+Supprimer cette zone
+
+;Zone successfully deleted.
+Zone supprimée avec succès.
+
+;Error: Configuration file of the website(<strong>%s</strong>) not available.
+Erreur : Le fichier de configuration du site Web (<strong>%s</strong>) n'est pas disponible.
+
+;Error: The system has no write access to the folder <strong>%s</strong>. Check the permissions.
+Erreur : le système ne peut pas modifier le dossier <strong>%s</strong>. Veuillez vérifier les permissions.
+
+;Error: The folder <strong>%s</strong> does not exist.
+Erreur : le dossier <strong>%s</strong> n'existe pas.
+
+;Error(s):
+Erreur(s) :

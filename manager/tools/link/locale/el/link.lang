@@ -1,0 +1,193 @@
+﻿# -*- coding: utf-8 -*-
+# (C) YYYY Who?
+;Links manager
+Διαχειριστής δεσμών
+
+;Web interface to configure your links.
+Διασύνδεση στο δίκτυο για να ρυθμίσετε τους δεσμούς σας.
+
+;Drag items to change their positions.
+Σύρετε τα στοιχεία για να αλλάξετε τη θέση τους.
+
+;You must provide at least a label and an URL
+Πρέπει να εισάγετε τουλάχιστον μια ετικέτα και ένα URL
+
+;You must provide a valid URL
+Πρέπει να εισάγετε ένα έγκυρο URL
+
+;All values
+όλα
+
+;Back
+Πίσω
+
+;Edit link
+Επεξεργασία δεσμού
+
+;Error(s)
+Σφάλμα(τα)
+
+;No link
+Χωρις δεσμό
+
+;None
+Τίποτα
+
+;Label
+Ετικέτα
+
+;URL
+URL
+
+;Language
+Γλώσσα
+
+;optional
+Προαιρετικό
+
+;Description
+Περιγραφή
+
+;save
+Αποθήκευση
+
+;save order
+Σειρά αποθήκευσης
+
+;XFN
+XFN
+
+;Me
+Σε εμένα
+
+;Another link for myself
+Κι άλλος ένας δεσμός προς εμένα
+
+;Friendship
+Φιλικός
+
+;Contact
+Επαφή
+
+;Acquaintance
+Γνωριμία
+
+;Friend
+Φίλος(η)
+
+;Physical
+Φυσική
+
+;Met
+Γνωστός(ή)
+
+;Professional
+Επαγγελματικός
+
+;Co-worker
+Συνεργάτης
+
+;Colleague
+Συνάδελφος
+
+;Geographical
+Γεωγραφικός
+
+;Co-resident
+Συντοπίτης(ισα)
+
+;Neighbor
+Γείτονας(ισσα)
+
+;Family
+Οικογενειακός
+
+;Child
+Τέκνο
+
+;Parent
+Γονέας
+
+;Sibling
+αδελφός(ή)
+
+;Spouse
+Σύζυγος
+
+;Kin
+Άλλη συγγένεια
+
+;Romantic
+Αισθηματικός
+
+;Muse
+Διαλογισμός
+
+;Crush
+Έρωτας
+
+;Date
+Σχέση
+
+;Sweetheart
+Αγάπη
+
+;Edit rubric
+Επεξεργασία κατηγορίας
+
+;Title
+Τίτλος
+
+;New rubric
+Νέα κατηγορία
+
+;New link
+Νέος δεσμός
+
+;Are you sure you want to delete this %s?
+Θέλετε να διαγραφεί το %s;
+
+;link
+Δεσμός
+
+;Are you sure you want to delete this category?
+Θέλετε να διαγραφεί η κατηγορία;
+
+;delete
+Διαγραφή
+
+;Move %s up
+Μετακίνηση του %s πάνω
+
+;Move %s down
+Μετακίνηση του %s κάτω
+
+;Usage
+Χρήση
+
+;Database table installed
+Εγκαταστάθηκε ο πίνακας της βάσης δεδομένων
+
+;Errors during database table installation
+Παρουσιάστηκαν σφάλματα κατά την εγκατάσταση του πίνακα της βάσης δεδομένων
+
+;To replace your static links list by this one, just put the following code in your template:
+Για να αντικαταστήσετε τη στατική λίστα δεσμών σας με αυτή εδώ, απλά βάλτε τον ακόλουθο κώδικα στο πρότυπό σας&nbsp;:
+
+;Create table %s
+Δημιουργία πίνακα %s
+
+;Table %s exists
+Ο πίνακας %s υπάρχει ήδη
+
+;Creation of link Plume
+Δημιουργία δεσμού Plume
+
+;Creation of link FSF
+Δημιουργία δεσμού FSF
+
+;Creation of link Your link 1
+Δημιουργία δεσμού «ο δεσμός μου 1»
+
+;Creation of link to Your link 2
+Δημιουργία δεσμού «ο δεσμός μου 2»

@@ -1,0 +1,83 @@
+# -*- coding: utf-8 -*-
+# (C) 2004 Loïc d'Anterroches, Cédric Arrabie
+;Files and images right access manager
+Zugriffsverwaltung für Dateien und Bilder
+
+;Manage the access of some of the file and image subfolders.
+Berechtigungen für Datei- und Bildordner verwalten.
+
+;Files and images access manager
+Datei- und Bildmanager
+
+;You are in the folder <strong>%s</strong>
+Sie befinden sich im Ordner <strong>%s</strong>
+
+;Navigation
+Navigation
+
+;Zone <strong>%s</strong>.
+Bereich <strong>%s</strong>.
+
+;New protected zone:
+Neuer geschützter Bereich&nbsp;:
+
+;Create the zone
+Bereich anlegen
+
+;Zone successfully created.
+Geschützter Bereich wurde angelegt.
+
+;User to add:
+Benutzer hinzufügen&nbsp;:
+
+;Password:
+Passwort&nbsp;:
+
+;Add
+Hinzufügen
+
+;Username and password must contain only letters and digits without spaces.
+Benutzername und Passwort dürfen nur aus Bustaben und Zahlen bestehen (keine Leerzeichen).
+
+;Error while adding the user.
+Fehler beim Hinzufügen des Benutzers.
+
+;User successfully added.
+Benutzer hinzugefügt.
+
+;List of the users
+Benutzerliste
+
+;Delete
+Löschen
+
+;Are you sure you want to delete this user?
+Möchten Sie diesen Benutzer löschen&nbsp;?
+
+;User successfully deleted.
+Benutzer gelöscht.
+
+;Error while deleting the user.
+Fehler beim Löschen des Benutzers.
+
+;Are you sure you want to delete this zone ?
+Möchten Sie diesn Bereich löschen&nbsp;?
+
+;Delete this zone
+Bereich löschen
+
+;Zone successfully deleted.
+Bereich gelöscht.
+
+;Error: Configuration file of the website(<strong>%s</strong>) not available.
+
+
+;Error: The system has no write access to the folder <strong>%s</strong>. Check the permissions.
+
+
+;Error: The folder <strong>%s</strong> does not exist.
+
+
+;Error(s):
+
+

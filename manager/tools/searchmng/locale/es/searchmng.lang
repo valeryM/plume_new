@@ -1,0 +1,61 @@
+# -*- coding: utf-8 -*-
+# (C) 2004 Loïc d'Anterroches
+;Search Manager
+Gestor de b&uacute;squedas
+
+;Indexed resources
+Recursos indexados
+
+;Maintenance of the search index.
+Mantenimiento del &iacute;ndice de b&uacute;squedas.
+
+;Index the resource
+Indexar el recurso
+
+;Up to date
+Actualizado
+
+;Index too old
+&Iacute;ndice demasiado antiguo
+
+;Not indexed
+Sin indexar
+
+;The resource has been successfully indexed.
+El recurso ha sido indexado correctamente.
+
+;Status
+Estado
+
+;Resource title
+T&iacute;tulo del recurso
+
+;Last indexation
+&Uacute;ltima indexaci&oacute;n
+
+;Number
+N&uacute;mero
+
+;No resources.
+Sin recursos.
+
+;The index has been cleaned with <strong>%s</strong> unused word(s) removed.
+Se han eliminado del &iacute;ndice <strong>%s</strong> palabra(s) no utilizada(s).
+
+;Index maintenance
+Mantenimiento del &iacute;ndice
+
+;<a href="%s">Clean the index of unused words</a>. This operation may take a long time and is database intensive.
+<a href="%s">Eliminar del &iacute;ndice las palabras no utilizadas</a>. Esta operaci&oacute;n puede tardar bastante tiempo en completarse y hace un uso intensivo de la base de datos.
+
+;Y/m/d&\nb\sp;H:i:s
+
+
+;&laquo; previous page
+
+
+;&raquo; next page
+
+
+;page(s):
+

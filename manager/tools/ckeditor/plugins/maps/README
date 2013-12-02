@@ -1,0 +1,17 @@
+Maps plugin
+
+The plugin uses Google Static Maps API to add an image of a map 
+section from Google Maps to your editor content.
+
+
+Installation instructions
+
+1.  Upload maps folder to ckeditor/plugins/
+2.  Open ckeditor/config.js and add the following lines: 
+    config.extraPlugins='maps';
+    config.toolbar = [['Bold', 'Italic', 'Underline', 'maps']];
+
+Done. Probably you should customize the toolbar UI items to your needs.
+More information at http://docs.cksource.com/ckeditor_api/symbols/CKEDITOR.config.html#.toolbar
+
+Screenshots can be found at http://blog.bitclinic.de/2011/05/maps-plugin-for-ckeditor.html

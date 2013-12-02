@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme name="brujoen" version="1.1 en" active="true">
+  <author><a href="http://www.leo-studer.com/en" title="Léo.S home page">Léo Studer</a></author>
+  <label>Brugges and Jo Liquid</label>
+  <desc><u>A graphical theme for Plume! CMS under Creative Commons license:</u><br />
+  <ul>
+  <li>The liquid design fits the user screen in the 780/1800 pixels range.</li>
+  <li>Most of the icons come from Mark James's <a href="http://www.famfamfam.com/lab/icons/silk/" title="Silk icon set 1.3">Silk icon set 1.3</a> and <a href="http://www.iconbuffet.com" title="Icon Buffet">Icon Buffet's</a> Tower Grove set.</li>
+  <li>Designed for Firefox v1.5, css hacks for Opera v9, IE v7, no-transparency versions for IE v6, v5.x</li>
+  </ul>
+  Feel free to use, modify, share alike, under by-nc-sa cc-license.</desc>
+</theme>

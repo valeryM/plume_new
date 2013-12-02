@@ -1,0 +1,4 @@
+# If you want to protect your install folder
+# when using Apache uncomment the line below
+
+#deny from all

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+<head><title>Aide au codage XHTML</title>
+<meta name="author" content="Jojaba" />
+</head>
+<body>
+
+<h4>Éléments de formatage de type bloc&nbsp;:</h4>
+
+<h5>Paragraphe</h5>
+<div style="margin: 0 0 0 40px; padding: 0; border-left: 1px #000 solid;">
+<h6>Code :</h6>
+<pre style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #666; color: #666;">
+&lt;p&gt;Texte dans le premier paragraphe.&lt;/p&gt;&lt;p&gt;Texte dans le second paragraphe.&lt;/p&gt;
+</pre>
+<h6>Résultat :</h6>
+<div style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #000; color: #000;">
+<p>Texte dans le premier paragraphe.</p>
+<p>Texte dans le second paragraphe.</p>
+</div>
+</div>
+
+<h5>Ligne</h5>
+<div style="margin: 0 0 0 40px; border-left: 1px #000 solid;">
+<h6>Code :</h6>
+<pre style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #666; color: #666;">
+&lt;hr /&gt;
+</pre>
+<h6>Résultat :</h6>
+<div style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #000; color: #000;">
+<hr />
+</div>
+</div>
+
+<h5>Liste à puces</h5>
+<div style="margin: 0 0 0 40px; border-left: 1px #000 solid;">
+<h6>Code :</h6>
+<pre style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #666; color: #666;">
+&lt;ul&gt;
+&lt;li&gt;Premier élément de la liste&lt;/li&gt;
+&lt;li&gt;Second élément de la liste&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;ul&gt;
+</pre>
+<h6>Résultat :</h6>
+<div style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #000; color: #000;">
+<ul>
+<li>Premier élément de la liste</li>
+<li>Second élément de la liste</li>
+<li>...</li>
+</ul>
+</div>
+</div>
+    
+<h5>Liste numérotée</h5>
+<div style="margin: 0 0 0 40px; border-left: 1px #000 solid;">
+<h6>Code :</h6>
+<pre style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #666; color: #666;">
+&lt;ol&gt;
+&lt;li&gt;Premier élément de la liste&lt;/li&gt;
+&lt;li&gt;Second élément de la liste&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;ol&gt;
+</pre>
+<h6>Résultat :</h6>
+<div style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #000; color: #000;">
+<ol>
+<li>Premier élément de la liste</li>
+<li>Second élément de la liste</li>
+<li>...</li>
+</ol>
+</div>
+</div>
+
+<h5>Liste de définitions</h5>
+<div style="margin: 0 0 0 40px; border-left: 1px #000 solid;">
+<h6>Code :</h6>
+<pre style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #666; color: #666;">
+&lt;dl&gt;
+&lt;dt&gt;Premier mot à définir&lt;/dt&gt;
+&lt;dd&gt;Définition du premier mot&lt;/dd&gt;
+&lt;dt&gt;Second mot à définir&lt;/dt&gt;
+&lt;dd&gt;Définition du second mot&lt;/dd&gt;
+&lt;/dl&gt;
+</pre>
+<h6>Résultat :</h6>
+<div style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #000; color: #000;">
+<dl>
+<dt>Premier mot à définir</dt>
+<dd>Définition du premier mot</dd>
+<dt>Second mot à définir</dt>
+<dd>Définition du second mot</dd>
+</dl>
+</div>
+</div>
+
+<h5>Tableau</h5>
+<div style="margin: 0 0 0 40px; border-left: 1px #000 solid;">
+<h6>Code :</h6>
+<pre style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #666; color: #666;"> 
+&lt;table&gt;
+&lt;caption&gt;La légende du tableau&lt;/caption&gt;
+&lt;tr&gt;
+&lt;th&gt;Premier titre de colonne&lt;/th&gt;
+&lt;th&gt;Second titre de colonne&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ligne 1, colonne 1&lt;/td&gt;
+&lt;td&gt;Ligne 1, colonne 2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ligne 2, colonne 1&lt;/td&gt;
+&lt;td&gt;Ligne 2, colonne 2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+</pre>
+<h6>Résultat :</h6>
+<div style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #000; color: #000;">
+<table>
+<caption>La légende du tableau</caption>
+<tr>
+<th>Premier titre de colonne</th>
+<th>Second titre de colonne</th>
+</tr>
+<tr>
+<td>Ligne 1, colonne 1</td>
+<td>Ligne 1, colonne 2</td>
+</tr>
+<tr>
+<td>Ligne 2, colonne 1</td>
+<td>Ligne 2, colonne 2</td>
+</tr>
+</table>
+</div>
+</div>
+
+<h5>Niveau de sous-titre x</h5>
+<div style="margin: 0 0 0 40px; border-left: 1px #000 solid;">
+<h6>Code :</h6>
+<pre style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #666; color: #666;">
+&lt;hx&gt;Titre de niveau x&lt;/hx&gt; (où x est compris entre 3 et 6)
+</pre>
+<h6>Exemple :</h6>
+<div style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #000; color: #000;">
+<code>&lt;h5&gt;Titre de niveau 5&lt;/h5&gt;</code>
+<h5>Titre de niveau 5</h5>
+</div>
+</div>
+
+<h5>Text préformaté</h5>
+<div style="margin: 0 0 0 40px; border-left: 1px #000 solid;">
+<h6>Code :</h6>
+<pre style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #666; color: #666;">
+&lt;pre&gt;
+Ce code sera affiché
+comme il est avec les retours à la ligne
+et la tabulation.
+&lt;/pre&gt;
+</pre>
+<h6>Résultat :</h6>
+<div style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #000; color: #000;">
+<pre>
+Ce code sera affiché
+comme il est avec les retours à la ligne
+et la tabulation.
+</pre>
+</div>
+</div>
+
+<h5>Bloc de citation</h5>
+<div style="margin: 0 0 0 40px; border-left: 1px #000 solid;">
+<h6>Code :</h6>
+<pre style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #666; color: #666;">
+&lt;blockquote&gt;
+&lt;p&gt;Ceci est un bloc de citation&lt;/p&gt;
+&lt;/blockquote&gt;
+</pre>
+<h6>Résultat :</h6>
+<div style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #000; color: #000;">
+<blockquote>
+<p>Ceci est un bloc de citation</p>
+</blockquote>
+</div>
+</div>
+
+<h4>Éléments de formatage de type inline&nbsp;:</h4>
+
+<h5>En gras</h5>
+<div style="margin: 0 0 0 40px; border-left: 1px #000 solid;">
+<h6>Code :</h6>
+<pre style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #666; color: #666;">
+Ceci est un &lt;strong&gt;texte en gras&lt;/strong&gt;
+</pre>
+<h6>Résultat :</h6>
+<div style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #000; color: #000;">
+Ceci est un <strong>texte en gras</strong>
+</div>
+</div>
+
+<h5>En italique</h5>
+<div style="margin: 0 0 0 40px; border-left: 1px #000 solid;">
+<h6>Code :</h6>
+<pre style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #666; color: #666;">
+Ceci est un &lt;em&gt;texte en italique&lt;/em&gt;
+</pre>
+<h6>Résultat :</h6>
+<div style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #000; color: #000;">
+Ceci est un <em>texte en italique</em>
+</div>
+</div>
+
+<h5>Retour à la ligne</h5>
+<div style="margin: 0 0 0 40px; border-left: 1px #000 solid;">
+<h6>Code :</h6>
+<pre style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #666; color: #666;">
+Ceci est la première ligne &lt;br /&gt;et ceci est la seconde ligne.
+</pre>
+<h6>Résultat :</h6>
+<div style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #000; color: #000;">
+Ceci est la première ligne <br />et ceci est la seconde ligne.
+</div>
+</div>
+
+<h5>Lien</h5>
+<div style="margin: 0 0 0 40px; border-left: 1px #000 solid;">
+<h6>Code :</h6>
+<pre style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #666; color: #666;">
+Ceci est un lien pointant vers &lt;a href="http://pxsystem.sourceforge.net/fr/"
+title="Aller au site de Plume CMS" hreflang="fr"&gt;le site de Plume CMS&lt;/a&gt;.
+</pre>
+<h6>Résultat :</h6>
+<div style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #000; color: #000;">
+Ceci est un lien pointant vers <a href="http://pxsystem.sourceforge.net/fr/" title="Aller au site de Plume CMS" hreflang="fr">le site de Plume CMS</a>.<br />
+<em>Note</em> : L'attribut <code>title</code> contient le texte s'affichant dans l'infobulle lorsque l'on passe la souris au-dessus du lien.
+</div>
+</div>
+
+<h5>Image</h5>
+<div style="margin: 0 0 0 40px; border-left: 1px #000 solid;">
+<h6>Code :</h6>
+<pre style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #666; color: #666;">
+&lt;img src="http://pxsystem.sourceforge.net/media/img/logo.png"
+alt="Logo de plume CMS" style="width: 100px; height: 45px;" /&gt;
+</pre>
+<h6>Résultat :</h6>
+<div style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #000; color: #000;">
+<!-- <img src="http://pxsystem.sourceforge.net/media/img/logo.png" alt="Logo of plume CMS" style="width: 100px; height: 45px;" /><br /> -->
+<img src="./themes/default/images/logo.png" alt="Logo of plume CMS" style="width: 100px; height: 45px;" /><br />
+<em>Note</em> : L'attribut <code>alt</code> est le texte alternatif au cas où l'image ne peut être affichée.
+</div>
+</div>
+
+<h5>Code</h5>
+<div style="margin: 0 0 0 40px; border-left: 1px #000 solid;">
+<h6>Code :</h6>
+<pre style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #666; color: #666;">
+&lt;code&gt;var formatField = null;&lt;/code&gt; : ceci est du JavaScript.
+</pre>
+<h6>Résultat :</h6>
+<div style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #000; color: #000;">
+<code>var formatField = null;</code> : ceci est du JavaScript.
+</div>
+</div>
+
+<h5>Citation</h5>
+<div style="margin: 0 0 0 40px; border-left: 1px #000 solid;">
+<h6>Code :</h6>
+<pre style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #666; color: #666;">
+&lt;q&gt;Être ou ne pas être...&lt;/q&gt;
+</pre>
+<h6>Résultat :</h6>
+<div style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #000; color: #000;">
+<q>Être ou ne pas être...</q>
+</div>
+</div>
+
+<h5>Acronym</h5>
+<div style="margin: 0 0 0 40px; border-left: 1px #000 solid;">
+<h6>Code :</h6>
+<pre style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #666; color: #666;">
+&lt;acronym title="HyperText Markup Language"&gt;HTML&lt;/acronym&gt;
+</pre>
+<h6>Résultat :</h6>
+<div style="margin: 0 0 0 5px; padding: 4px; border: 1px dashed #000; color: #000;">
+<acronym title="HyperText Markup Language">HTML</acronym>
+</div>
+</div>
+
+</body>
+</html>

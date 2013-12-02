@@ -1,0 +1,118 @@
+# -*- coding: utf-8 -*-
+# (C) 2004 Robert Zelník
+;The redirection has been deleted successfully.
+Presmerovanie bolo úspešne odstránené.
+
+;The redirection has been added successfully.
+Presmerovanie bolo úspešne pridané.
+
+;Smart 404 Errors
+Inteligentné chybové hlásenia 404
+
+;Log of the pages not found
+Záznam stránok nebol nájdený
+
+;Remove
+Odstrániť
+
+;Current redirections
+Aktuálne presmerovania
+
+;Old page
+Stará stránka
+
+;Redirection
+Presmerovanie
+
+;Last
+Posledné
+
+;Count
+Počet
+
+;No redirection for the moment.
+Momentálne nejestvuje presmerovanie
+
+;Create a redirection
+Vytvoriť presmerovanie
+
+;Old page:
+Stará stránka:
+
+;The old page starts with <strong>/</strong> like <strong>/folder/oldpage.html</strong>
+Stará stránka začína na <strong>/</strong>, napr. <strong>/priecinok/starastranka.html</strong>
+
+;New page:
+Nová stránka:
+
+;Provide the page where you want to send people looking for the old page.
+Zadajte stránku, na ktorú chcete poslať návštevníkov starej stránky.
+
+;Create the redirection
+Vytvoriť presmerovanie
+
+;The old page must start with <strong>/</strong>.
+Stará stránka musí začínať na <strong>/</strong>.
+
+;The new page must start with <strong>http://</strong>.
+Nová stránka musí začínať na <strong>http://</strong>.
+
+;Details
+Podrobnosti
+
+;Redirections
+Presmerovania
+
+;The error log of this website has been successfully purged.
+Záznam chýb tejto webstránky bol úspešne vyčistený.
+
+;404 error log
+Záznam chýb 404
+
+;Y/m/d&\nb\sp;H:i:s
+d. m. Y&\nb\sp;H:i:s
+
+;Detailled log for the page <em>%s</em>.
+Podrobný záznam pre stranu <em>%s</em>.
+
+;<a href="%s">Create a redirection</a> to avoid this error.
+<a href="%s">Vytvorením presmerovania</a> sa vyhnete tejto chybe.
+
+;Page
+Strana
+
+;Date
+Dátum
+
+;From
+Od
+
+;User Agent
+User Agent
+
+;Are you sure you want to purge all the logs?
+Naozaj chcete vyčistiť všetky záznamy?
+
+;Purge the logs.
+Vyčistiť záznamy
+
+;View details
+Zobraziť podrobnosti
+
+;No errors.
+Žiadne chyby.
+
+;Are you sure you want to delete this redirection?
+Naozaj chcete odstrániť toto presmerovanie?
+
+;Prevent your visitors to fall on a not found page.
+Zabraňuje tomu, aby sa vašim návštevníkom zobrazovali nejestvujúce stránky.
+
+;&laquo; previous page
+&laquo; Predch. strana
+
+;&raquo; next page
+&raquo; Nasled. strana
+
+;page(s):
+Strany:

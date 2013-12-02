@@ -1,0 +1,124 @@
+# -*- coding: utf-8 -*-
+# (C) 2007 Fenian
+;visual
+Ansicht
+
+;source
+Quelltext
+
+;You can use the following shortcuts to format your text.
+Sie können diese knöpfe benutzen um den text zu verändern.
+
+;Block Format
+Block Format
+
+;-- none --
+-- nichts --
+
+;- Block Format -
+- Block Format -
+
+;Paragraph
+Absatz
+
+;Header 1
+Titel 1
+
+;Header 2
+Titel 2
+
+;Header 3
+Titel 3
+
+;Header 4
+Titel 4
+
+;Header 5
+Titel 5
+
+;Header 6
+Titel 6
+
+;Strong emphasis
+Fett
+
+;Emphasis
+Kursiv
+
+;Inserted
+Unterstrichen
+
+;Deleted
+Durchgestrichen
+
+;Inline quote
+Textzitat
+
+;Code
+Code
+
+;Generic inline tag
+Allgemeiner Inlinetag
+
+;Line break
+Zeilenumbruch
+
+;Blockquote
+Blockzitat
+
+;Preformated text
+Vorformatierter Text
+
+;Generic block tag
+Allgemeiner Blocktag
+
+;Unordered list
+Ungeordnete Liste
+
+;Ordered list
+Geordnete Liste
+
+;Link
+Link
+
+;URL?
+URL ?
+
+;Language?
+Sprache ?
+
+;CSS style (leave blank if no style):
+CSS Style (nichts angeben wenn kein Style) :
+
+;External image
+Externes Bild
+
+;Remove text formating
+Textformatierung entfernen
+
+;Image chooser
+Bildauswahl
+
+;Add a link
+Link hinzufügen
+
+;Close this window
+Fenster schließen
+
+;Required field
+Feld ist erforderlich
+
+;Link URL:
+URL des Links :
+
+;Link title:
+Titel des Links :
+
+;Link language:
+Sprache des Links :
+
+;cancel
+Abbruch
+
+;insert link
+Link einfügen

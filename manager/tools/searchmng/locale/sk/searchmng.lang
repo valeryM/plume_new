@@ -1,0 +1,61 @@
+# -*- coding: utf-8 -*-
+# (C) 2004 Robert Zelník
+;Search Manager
+Správca vyhľadávania
+
+;Indexed resources
+Indexované príspevky
+
+;Maintenance of the search index.
+Údržba vyhľadávacieho indexu.
+
+;Index the resource
+Indexovať príspevok
+
+;Up to date
+Aktuálny
+
+;Index too old
+Index je príliš starý
+
+;Not indexed
+Neindexovaný
+
+;The resource has been successfully indexed.
+Príspevok bol úspešne zindexovaný.
+
+;Status
+Stav
+
+;Resource title
+Názov príspevku
+
+;Last indexation
+Posledná indexácia
+
+;Number
+Číslo
+
+;No resources.
+Žiadne príspevky.
+
+;The index has been cleaned with <strong>%s</strong> unused word(s) removed.
+Index bol vyčistený, počet odstránených nepoužívaných slov: <strong>%s</strong>.
+
+;Index maintenance
+Údržba indexu
+
+;<a href="%s">Clean the index of unused words</a>. This operation may take a long time and is database intensive.
+<a href="%s">Vyčistiť index od nepoužívaných slov</a>. Táto operácia môže trvať dlhý čas a intenzívne zaťažuje databázu.
+
+;Y/m/d&\nb\sp;H:i:s
+d. m. Y&nb\sp;H:i:s
+
+;&laquo; previous page
+&laquo; Predch. strana
+
+;&raquo; next page
+&raquo; Nasled. strana
+
+;page(s):
+Strany:

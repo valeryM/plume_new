@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- 
+# ***** BEGIN LICENSE BLOCK *****
+# Version: MPL 1.1/GPL 2.0/LGPL 2.1
+#
+# The contents of this file are subject to the Mozilla Public License Version
+# 1.1 (the "License"); you may not use this file except in compliance with
+# the License. You may obtain a copy of the License at
+# http://www.mozilla.org/MPL/
+#
+# Software distributed under the License is distributed on an "AS IS" basis,
+# WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# for the specific language governing rights and limitations under the
+# License.
+#
+# The Original Code is PLUME CMS.
+#
+# The Initial Developer of the Original Code is
+# loic d'Anterroches.
+# Portions created by the Initial Developer are Copyright (C) 2003
+# the Initial Developer. All Rights Reserved.
+#
+# Contributor(s):
+#
+# Alternatively, the contents of this file may be used under the terms of
+# either the GNU General Public License Version 2 or later (the "GPL"), or
+# the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+# in which case the provisions of the GPL or the LGPL are applicable instead
+# of those above. If you wish to allow use of your version of this file only
+# under the terms of either the GPL or the LGPL, and not to allow others to
+# use your version of this file under the terms of the MPL, indicate your
+# decision by deleting the provisions above and replace them with the notice
+# and other provisions required by the GPL or the LGPL. If you do not delete
+# the provisions above, a recipient may use your version of this file under
+# the terms of any one of the MPL, the GPL or the LGPL.
+#
+# ***** END LICENSE BLOCK *****
+-->
+<database>
+       <!-- comments -->
+       <action id="comments" label="Create table %s" string="{{PREFIX}}comments">
+                <test eq="neq" value="{{PREFIX}}comments" label="The table %s already exists."
+		string="{{PREFIX}}comments" type="wrn">SHOW TABLES LIKE '{{PREFIX}}comments'</test>
+                CREATE TABLE {{PREFIX}}comments (
+		comment_id int(11) NOT NULL auto_increment,
+		resource_id int(11) NOT NULL default '0',
+		comment_user_id int(11) NOT NULL default '0',
+		comment_author varchar(50) NOT NULL default '',
+		comment_email varchar(255) NOT NULL default '',
+		comment_website varchar(255) NOT NULL default '',
+		comment_creation bigint(20) unsigned NOT NULL default '0',
+		comment_update bigint(20) unsigned NOT NULL default '0',
+		comment_status int(11) NOT NULL default '0',
+		comment_type int(11) NOT NULL default '0',
+		comment_content text NOT NULL,
+		comment_ip varchar(200) NOT NULL default '',
+		PRIMARY KEY  (comment_id),
+		KEY resource_id (resource_id)
+		) {{TYPE}}
+	</action>
+
+	<!-- smart404 -->
+	<action id="smart404" label="Creation of the table %s" string="{{PREFIX}}smart404">
+		<test eq="neq" value="{{PREFIX}}smart404" label="The table %s already exists."
+		string="{{PREFIX}}smart404" type="wrn">SHOW TABLES LIKE '{{PREFIX}}smart404'</test>
+		CREATE TABLE {{PREFIX}}smart404 (
+		website_id varchar(50) NOT NULL default '',
+		oldpage varchar(255) NOT NULL default '',
+		newpage varchar(255) NOT NULL default '',
+		lastroutingdate bigint(20) unsigned NOT NULL default '0',
+		total bigint(20) unsigned NOT NULL default '0',
+		PRIMARY KEY  (website_id,oldpage)
+		) {{TYPE}}
+	</action>
+
+	<!-- smart404logs -->
+	<action id="smart404logs" label="Creation of the table %s" string="{{PREFIX}}smart404logs">
+		<test eq="neq" value="{{PREFIX}}smart404logs" label="The table %s already exists."
+		string="{{PREFIX}}smart404logs" type="wrn">SHOW TABLES LIKE '{{PREFIX}}smart404logs'</test>
+		CREATE TABLE {{PREFIX}}smart404logs (
+		website_id varchar(50) NOT NULL default '',
+		page varchar(255) NOT NULL default '',
+		fromurl varchar(255) NOT NULL default '',
+		date bigint(20) unsigned NOT NULL default '0',
+		useragent varchar(255) NOT NULL default '',
+		KEY website_id (website_id),
+		KEY page (page),
+		KEY date (date)
+		) {{TYPE}}
+	</action>
+
+	<!-- smart404logs.fromurl index -->
+	<action id="smart404logsfromurl" label="Dropping of the index %s" string="{{PREFIX}}smart404logs.fromurl">
+		<test eq="eq" value="MUL" label="The index %s has already been dropped."
+		string="{{PREFIX}}smart404logs.fromurl" type="wrn" field="3">SHOW COLUMNS FROM {{PREFIX}}smart404logs LIKE 'fromurl'</test>
+		DROP INDEX fromurl ON {{PREFIX}}smart404logs
+	</action>
+
+	<!-- smart404logs.date index -->
+	<action id="smart404logsdate" label="Creation of the index %s" string="{{PREFIX}}smart404logs.date">
+		<test eq="neq" value="MUL" label="The index %s already exists."
+		string="{{PREFIX}}smart404logs.date" type="wrn" field="3">SHOW COLUMNS FROM {{PREFIX}}smart404logs LIKE 'date'</test>
+		ALTER TABLE {{PREFIX}}smart404logs ADD INDEX (date)
+	</action>
+
+	<!-- resources.resource_id auto_increment -->
+	<action id="resource_idauto_increment" label="Set the auto_increment for %s" string="{{PREFIX}}resources.resource_id">
+		<test eq="neq" value="auto_increment" label="The auto_increment for %s already exists."
+		string="{{PREFIX}}resources.resource_id" type="wrn" field="5">SHOW COLUMNS FROM {{PREFIX}}resources LIKE 'resource_id'</test>
+		ALTER TABLE {{PREFIX}}resources CHANGE resource_id resource_id INT( 10 ) UNSIGNED DEFAULT '0' NOT NULL AUTO_INCREMENT
+	</action>
+
+	<!-- users.user_id auto_increment -->
+	<action id="users.user_id.auto" label="Set the auto_increment for %s" string="{{PREFIX}}users.user_id">
+		<test eq="neq" value="auto_increment" label="The auto_increment for %s already exists."
+		string="{{PREFIX}}users.user_id" type="wrn" field="5">SHOW COLUMNS FROM {{PREFIX}}users LIKE 'user_id'</test>
+		ALTER TABLE {{PREFIX}}users CHANGE user_id user_id INT( 10 ) UNSIGNED DEFAULT '0' NOT NULL AUTO_INCREMENT
+	</action>
+
+	<!-- subtypes.subtype_id auto_increment -->
+	<action id="subtypes.subtype_id.auto" label="Set the auto_increment for %s" string="{{PREFIX}}subtypes.subtype_id">
+		<test eq="neq" value="auto_increment" label="The auto_increment for %s already exists."
+		string="{{PREFIX}}subtypes.subtype_id" type="wrn" field="5">SHOW COLUMNS FROM {{PREFIX}}subtypes LIKE 'subtype_id'</test>
+		ALTER TABLE {{PREFIX}}subtypes CHANGE subtype_id subtype_id INT( 10 ) UNSIGNED DEFAULT '0' NOT NULL AUTO_INCREMENT
+	</action>
+
+	<!-- categories.category_id auto_increment -->
+	<action id="categories.category_id.auto" label="Set the auto_increment for %s" string="{{PREFIX}}categories.category_id">
+		<test eq="neq" value="auto_increment" label="The auto_increment for %s already exists."
+		string="{{PREFIX}}categories.category_id" type="wrn" field="5">SHOW COLUMNS FROM {{PREFIX}}categories LIKE 'category_id'</test>
+		ALTER TABLE {{PREFIX}}categories CHANGE category_id category_id INT( 10 ) UNSIGNED DEFAULT '0' NOT NULL AUTO_INCREMENT
+	</action>
+
+	<!-- searchwords.word_id auto_increment -->
+	<action id="searchwords.word_id.auto" label="Set the auto_increment for %s" string="{{PREFIX}}searchwords.word_id">
+		<test eq="neq" value="auto_increment" label="The auto_increment for %s already exists."
+		string="{{PREFIX}}searchwords.word_id" type="wrn" field="5">SHOW COLUMNS FROM {{PREFIX}}searchwords LIKE 'word_id'</test>
+		ALTER TABLE {{PREFIX}}searchwords CHANGE word_id word_id INT( 10 ) UNSIGNED DEFAULT '0' NOT NULL AUTO_INCREMENT
+	</action>
+	
+	<!-- articles.page_id auto_increment -->
+	<action id="articles.page_id.auto" label="Set the auto_increment for %s" string="{{PREFIX}}articles.page_id">
+		<test eq="neq" value="auto_increment" label="The auto_increment for %s already exists."
+		string="{{PREFIX}}articles.page_id" type="wrn" field="5">SHOW COLUMNS FROM {{PREFIX}}articles LIKE 'page_id'</test>
+		ALTER TABLE {{PREFIX}}articles CHANGE page_id page_id INT( 10 ) UNSIGNED DEFAULT '0' NOT NULL AUTO_INCREMENT
+	</action>
+
+	<!-- drop sequencetable -->
+	<action id="dropsequencetable" label="Removal of the table %s" string="{{PREFIX}}sequencetable">
+		<test eq="eq" value="{{PREFIX}}sequencetable" label="The table %s has already been removed."
+		string="{{PREFIX}}sequencetable" type="wrn">SHOW TABLES LIKE '{{PREFIX}}sequencetable'</test>
+		DROP TABLE {{PREFIX}}sequencetable
+	</action>
+
+	<!-- add comment_support column -->
+	<action id="addcommentsupportcolumn" label="Add the comment support column on table %s" string="{{PREFIX}}resources">
+		<test eq="neq" value="comment_support" label="The column %s has already been added."
+		string="comment_support" type="wrn" field="0">SHOW COLUMNS FROM {{PREFIX}}resources LIKE 'comment_support'</test>
+		ALTER TABLE {{PREFIX}}resources ADD comment_support INT( 11 ) NOT NULL DEFAULT '1' AFTER subtype_id
+	</action>
+
+	<!-- categoryasso.identifier key -->
+	<action id="categoryasso.identifier" label="Set index on the column for %s" string="{{PREFIX}}categoryasso.identifier">
+		<test eq="neq" value="1" label="The index for %s already exists."
+		string="{{PREFIX}}categoryasso.identifier" type="wrn" field="3">SHOW INDEXES FROM {{PREFIX}}categoryasso WHERE key_name LIKE 'identifier_idx'</test>
+	ALTER TABLE {{PREFIX}}categoryasso ADD INDEX identifier_idx (identifier) 
+	</action>
+
+</database>
+
+

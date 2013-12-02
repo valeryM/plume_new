@@ -1,0 +1,124 @@
+﻿# -*- coding: utf-8 -*-
+# (C) 2007 Φιωτάκης Γιώργος (sonickydon@gmail.com)
+;visual
+Οπτικοποιημένο
+
+;source
+Πηγαίος κώδικας
+
+;You can use the following shortcuts to format your text.
+Μπορείτε να χρησιμοποιήσετε τις ακόλουθες συντομεύσεις για να μορφοποιήσετε το κείμενό σας.
+
+;Block Format
+Μορφοποίηση μπλοκ
+
+;-- none --
+--καμία--
+
+;- Block Format -
+- Μορφοποίηση μπλοκ -
+
+;Paragraph
+Παράγραφος
+
+;Header 1
+Κεφαλίδα 1
+
+;Header 2
+Κεφαλίδα 2
+
+;Header 3
+Κεφαλίδα 3
+
+;Header 4
+Κεφαλίδα 4
+
+;Header 5
+Κεφαλίδα 5
+
+;Header 6
+Κεφαλίδα 6
+
+;Strong emphasis
+Έντονα
+
+;Emphasis
+Πλάγια
+
+;Inserted
+υπογραμμένα
+
+;Deleted
+Διαγραμμένα
+
+;Inline quote
+Εμβόλιμη παράθεση
+
+;Code
+Κώδικας
+
+;Generic inline tag
+Γενική ετικέτα εμβόλιμου
+
+;Line break
+Αλλαγή γραμμής
+
+;Blockquote
+Ενότητα σε παράθεση
+
+;Preformated text
+Μορφοποιημένο κείμενο
+
+;Generic block tag
+Γενική ετικέτα μπλοκ
+
+;Unordered list
+Μη ταξινομημένη λίστα
+
+;Ordered list
+Ταξινομημένη λίστα
+
+;Link
+Δεσμός
+
+;URL?
+URL;
+
+;Language?
+Γλώσσα;
+
+;CSS style (leave blank if no style):
+Στυλ CSS (αφήστε το κενό αν δεν θέλετε στυλ) :
+
+;External image
+Απομακρυσμένη εικόνα
+
+;Remove text formating
+Αφαίρεση μορφοποίησης κειμένου
+
+;Image chooser
+Επιλογή εικόνας
+
+;Add a link
+Προσθήκη δεσμού
+
+;Close this window
+Κλείσιμο παραθύρου
+
+;Required field
+Απαιτούμενα πεδία
+
+;Link URL:
+URL δεσμού&nbsp;:
+
+;Link title:
+Τίτλος δεσμού&nbsp;:
+
+;Link language:
+Γλώσσα δεσμού&nbsp;:
+
+;cancel
+Ακύρωση
+
+;insert link
+Προσθήκη δεσμού

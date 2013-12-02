@@ -1,0 +1,1297 @@
+/* PLUME CMS Style Sheets for 1.2 version */
+
+html
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	position:absolute;width:100%;height:100%;
+	color: #000;
+	margin: 0px;
+	padding: 0px;
+	min-width:700px;
+	background-color:white;
+	font: .9em "Hoefler Text", "Bookman Antiqua", Palatino, "Utopia", "Times New Roman", Times, "New Century Schoolbook",  Georgia, "New York", serif;
+}
+
+div
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+p, blockquote, li, h2, h3, dd, dt
+{
+	font-weight: normal;
+}
+
+h1
+{
+	margin: 0px;
+}
+
+h2, h3, h1
+{
+	font-size: 1em;
+	font-weight: bold;
+	color: #6b990f;
+}
+
+#art-pages-list h3
+{
+	padding-bottom: 4px;
+  clear:left;
+	border-bottom: 1px solid #E6E6E6;
+	font-variant: small-caps;
+	font-size: 120%;
+}
+
+form, fieldset
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+hr
+{
+	display: none;
+}
+
+pre
+{
+	border-width: 1px;
+	border-color: #ccc;
+	border-style: solid;
+	background-color: #eee;
+	padding: 5px;
+	margin: 20px;
+	overflow: auto;
+}
+
+abbr, acronym
+{ 
+	font-style: normal;
+	border-bottom: dotted 1px black;
+	cursor: help;
+}
+
+blockquote, cite
+{
+  color: #666;
+	padding: 0 20px 0 20px;
+	font-style: italic;
+	border-left: 1px dotted black;
+}
+
+code
+{
+	margin-left: 5px;margin-right:5px;
+  font-weight:bold;
+}
+
+q
+{
+	font-style: italic;
+	color: #666;
+}
+
+.pxSingleCatDescription
+{
+	margin:0;
+	margin-left:20px;
+	padding:0;
+	text-align:right;
+}
+
+.pxSingleCatDescription p
+{
+	margin:0;
+}
+
+/* ====================================================================
+COLUMNS LAYOUT
+-------------------------------------------------------------------- */
+
+#page
+{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mainfloat
+{
+	float: left;
+	width: 100%;
+}
+
+#menuleft
+{
+	float: left;
+	width:190px;
+	margin-left:10px;
+	text-align: right;
+}
+
+.menuleft-green-top
+{
+	width:190px;height:20px;
+	position:relative;top:0;left:0;margin-bottom:-15px;
+	background: #fff url("img/menu-green-head.png") left no-repeat;
+}
+
+.menuleft-green-bottom
+{
+	width:190px;height:20px;
+	position:relative;bottom:0;left:0;
+	background: #fff url("img/menu-green-foot.png") left no-repeat;
+}
+
+.menuleft-blue-top
+{
+	width:190px;height:20px;
+	position:relative;top:0;left:0;margin-bottom:-15px;
+	background: #fff url("img/menu-blue-head.png") left no-repeat;
+}
+
+.menuleft-blue-bottom
+{
+	width:190px;height:20px;
+	position:relative;bottom:0;left:0;
+	background: #fff url("img/menu-blue-foot.png") left no-repeat;
+}
+
+/* VERTICAL PADDING ABOVE COLUMNS */
+
+/* CSS HACK:  position:relative needed by IE6 otherwise the header and col 2 don't show up on initial rendering - they're there but you have to minimise the window or switch to another app and back to see the full effect. But IE5(pc) doesn't like it. And nor does NN4.
+NB. the use of pos:rel has to go way beyond skin-deep - any nested element that needs a background colour appears to require to be be relatively positioned */
+/*/*/
+#page, #mainfloat, #content, #menuleft, #menuright, h2
+{
+	p\osition: relative;
+}
+
+div#footer
+{
+	text-align: right;
+	height:120px;
+	width: 100%;
+	background: #fff url("img/footer-body.png") bottom repeat-x;
+}
+
+#footer
+{
+	clear: both;
+	border: none;
+}
+
+#footer-left
+{
+	height:120px;width:30px;
+	position:absolute;
+	bottom:0;left:0;
+	background: transparent url("img/footer-left.png") bottom no-repeat;
+}
+
+#footer-right
+{
+	height:120px;width:30px;
+	position:absolute;
+	bottom:0;right:0;
+	background: transparent url("img/footer-right.png") bottom no-repeat;
+}
+
+#footer a.cms{
+  background:url("img/plume-cms-powered.png") 100% 50% no-repeat;color:#4f4f4f;
+  padding:10px 90px 10px 0px;margin:0px 10px 0px 0px}
+#footer a.design{
+  background:url("img/leo_s_design.png") 100% 50% no-repeat;color:#4f4f4f;
+  padding:10px 35px 10px 0px;margin:0px 10px 0px 0px}
+#footer a.design_license{
+  background:url("img/somerights.png") 100% 50% no-repeat;color:#4f4f4f;
+  padding:5px 25px 5px 0px;margin:0px 10px 0px 0px}
+
+#footer a.cms:hover{
+  background:url("img/plume-cms-powered-srv.png") 100% 50% no-repeat;
+  color:red}
+#footer a.design:hover{
+  background:url("img/leo_s_design_srv.png") 100% 50% no-repeat;
+  color:green}
+#footer a.design_license:hover{
+  background:url("img/somerights_srv.png") 100% 50% no-repeat;
+  color:blue}
+
+/* ====================================================================
+BANNER
+-------------------------------------------------------------------- */
+
+#banner
+{
+	margin: 0px 0 0px 0;
+	height: 140px;
+	background: #fff url("img/banner.png") top repeat-x;
+}
+
+#banner .description, #websitename
+{
+	margin: -2px 0 0 0px;
+	color: #67c6b6;
+	text-align:center;
+	font: 120% "Hoefler Text", "Bookman Antiqua", Palatino, "Utopia", "Times New Roman", Times, "New Century Schoolbook",  Georgia, "New York", serif;
+}
+
+#banner p.description
+{
+	font-size: 1em;
+	margin-top: 10px;
+}
+
+#banner h1, #banner h1 a
+{
+	color: #96ca2f;
+	margin-left:0px;
+	font-size: 1.8em;
+	text-align:center;
+}
+
+#banner h1 a:hover
+{
+	text-decoration:underline;
+	color: #b6e657;
+}
+
+#top
+{
+	margin: 12px 0 0 0;
+	color: #96ca2f;
+}
+
+#titre-left
+{
+	left: 0;
+	position: absolute;
+	width:30px;
+	height:140px;
+	display:block;
+	background: transparent url("img/title-left.png") top left no-repeat;
+}
+#titre-right
+{
+	float:left;
+	margin-left:-20px;
+	width:30px;
+	height:140px;
+	display:block;
+	background: transparent url("img/title-right.png") top left no-repeat;
+}
+#titre
+{
+	float:left;
+	width:440px;
+	margin-left:30px;
+	height:140px;
+	padding-right:20px;
+	background: transparent url("img/title-body.png") top repeat-x;
+}
+
+#easy-access-right
+{
+	position:absolute;
+	top:0;right:0;
+	width:20px;height:90px;
+	background: transparent url("img/navig-right.png") top no-repeat;
+}
+
+#easy-access-left
+{
+	float:right;
+	width:20px;height:90px;
+	background: transparent url("img/navig-left.png") top no-repeat;
+}
+
+#easy-access
+{
+	
+	float:right;
+	margin-right: 20px;
+	height:85px;
+	padding-top:5px;
+	text-align: right;
+	background: transparent url("img/navig-body.png") top repeat-x;
+	font-family: Techno, "Haettenschweiler", Charcoal, Impact, "Arial Black", Verdana, Lucida, Helvetica, fantaisy;
+}
+
+#easy-access, #easy-access a
+{
+	color: #fff;
+}
+
+#easy-access a:hover
+{
+	color: #afeae0;
+	text-decoration:underline;
+}
+
+#easy-access form
+{
+	margin-top: -5px;text-align:center;
+}
+
+#easy-access #q 
+{
+	width: 100px;
+	height: 14px;
+	vertical-align: middle;
+	font: 80% "Hoefler Text", "Bookman Antiqua", Palatino, "Utopia", "Times New Roman", Times, "New Century Schoolbook",  Georgia, "New York", serif;
+	color: #8c8c8c;
+}
+
+#easy-access #search-s 
+{
+	vertical-align: middle;
+}
+
+/* ====================================================================
+CONTENT
+-------------------------------------------------------------------- */
+
+#content
+{
+	margin:0px 0px 0px 200px;
+	padding:10px 10px 0px 10px;
+	text-align:justify;
+	font-family: "Hoefler Text", "Bookman Antiqua", Palatino, "Utopia", "Times New Roman", Times, "New Century Schoolbook",  Georgia, "New York", serif;
+}
+
+.chapitre
+{
+  margin:0 10px 0 0;
+}
+
+.chapitre h1{font-size:2em;}
+.chapitre h2{font-size:1.5em;}
+.chapitre h3{font-size:1.2em;}
+
+.resource-blue, .resource-green
+{
+	position:relative;height:100px;margin-left:20px;width:auto;
+}
+
+.resource-blue
+{
+	background: url("img/titre-article-blue-body.png") top left repeat-x;
+}
+
+.resource-green
+{
+	background: url("img/titre-article-green-body.png") top left repeat-x;
+}
+
+.resource-blue-left
+{
+	position:absolute;margin-left:-30px;
+	height:100px;width:50px;display:block;
+	background: url("img/titre-article-blue-left.png") top left no-repeat;
+	
+}
+
+.resource-green-left
+{
+	position:absolute;margin-left:-30px;
+	height:100px;width:50px;display:block;
+	background: url("img/titre-article-green-left.png") top left no-repeat;
+	
+}
+
+.resource-blue-right
+{
+	position:absolute;right:0;
+	height:100px;width:20px;display:block;
+	background: url("img/titre-article-blue-right.png") top left no-repeat;	
+}
+
+.resource-green-right
+{
+	position:absolute;right:0;
+	height:100px;width:20px;display:block;
+	background: url("img/titre-article-green-right.png") top left no-repeat;
+}
+
+.resource-content
+{
+	float:left;
+}
+
+.resource-content h2
+{
+  height:26px;
+  color:#6b990f;
+}
+
+h2.art-page-title
+{
+  font-size:1.5em;
+  margin-top:0px;  
+  padding-bottom: 4px;
+  border-bottom: 1px solid #E6E6E6;
+  font-variant: small-caps;
+}
+
+.resource-desc-green, .resource-desc-blue
+{
+	position:relative;
+	background: url("img/article-body.png") top right repeat-y;	
+}
+
+#content div.resource-desc-green img, #content div.resource-desc-blue img
+{
+  float:none;
+  border:none;
+	padding:0;
+	margin:0;
+	display:inline ;
+}
+
+.resource-desc-green p, .resource-desc-blue p
+{
+	text-align:right;padding-right:20px;
+  padding-left:20px;
+  margin-top:0;margin-bottom:0;
+}
+
+.resource-desc-green ul, .resource-desc-blue ul, .resource-desc-green ol, .resource-desc-blue ol
+{
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+.resource-desc-green h1, .resource-desc-blue h1
+{
+  text-align:right;
+  margin:5px 20px 5px 0;
+  padding:5px;font-size:1.5em;
+}
+
+.resource-desc-green h2, .resource-desc-blue h2
+{
+  text-align:right;
+  margin:5px 20px 5px 0;
+  padding:5px;font-size:1.2em;
+}
+
+.resource-desc-green h3, .resource-desc-blue h3
+{
+  text-align:right;
+  margin:5px 20px 5px 0;
+  padding:5px;
+}
+
+.resource-desc-blue a
+{
+  color: #0a8292;
+}
+
+.resource-desc-green a
+{
+  color: #6b990f;
+}
+
+.resource-desc-blue a:hover
+{
+  color: #4cb5c3;
+  text-decoration:underline;
+}
+
+.resource-desc-green a:hover
+{
+  color: #96ca2f;
+  text-decoration:underline;
+}
+
+.resource-desc-head
+{
+	position:relative;height:30px;display:block;
+	background: url("img/article-head.png") top right no-repeat;	
+}
+
+.resource-desc-foot
+{
+	position:relative;height:30px;display:block;
+	background: url("img/article-foot.png") top right no-repeat;	
+}
+
+.resource-blue p, .resource-green-p
+{ 
+	margin-bottom: 20px;
+}
+
+#art-description {}
+
+.resource-blue h2, .resource-green h2, .comment-preview
+{
+	padding-bottom: 0;
+	background-position: 0% 40%;
+	font-size: 1.6em;
+	padding-bottom: 4px;
+}
+
+.resource-green h2 a, .resource-green a, span.score-green
+{
+	color: #0a8292;
+}
+
+.resource-green h2 a:hover, .resource-green a:hover
+{
+	color: #4cb5c3;
+	text-decoration: none;
+}
+
+.resource-blue h2 a, .resource-blue a, span.score-blue
+{
+	color: #6b990f;
+}
+
+.resource-blue h2 a:hover, .resource-blue a:hover
+{
+	color: #96ca2f;
+	text-decoration: none;
+}
+      
+.col-content-green h2
+{
+	padding-bottom: 0;
+	margin-bottom: 0.2em;
+	font: 120% "Lucida Bright", Lucidabright, Georgia, "Bitstream Vera Serif", serif;
+	color:#0a8292;
+	background: transparent url("img/h2-green.png") 100% 100% no-repeat;
+}
+
+.col-content-blue h2
+{
+	padding-bottom: 0;
+	margin-bottom: 0.2em;
+	font: 120% "Lucida Bright", Lucidabright, Georgia,
+ "Bitstream Vera Serif", serif;
+	color:#6b990f;
+	background: transparent url("img/h2-blue.png") 100% 100% no-repeat;
+}
+
+.col-content-green h3
+{
+	font-size:1.2em;
+	color:#4cb5c3;
+	background: transparent url("img/h3-left.png") 100% 100% no-repeat;
+}
+
+.col-content-blue h3
+{
+	font-size:1.2em;
+	color:#96ca2f;
+	background: transparent url("img/h3-left.png") 100% 100% no-repeat;
+}
+
+.col-content-green ul, .col-content-blue ul, .col-content-green ol, .col-content-blue ol
+{
+	margin:0;
+	padding:0;
+	padding-left:10px;
+}
+
+div.col-content-green li, div.col-content-blue li
+{
+	list-style: none;
+	
+}
+
+div.col-content-green ol li, div.col-content-blue ol li
+{
+	list-style-type: decimal;
+	margin:0;
+	padding:0;
+}
+
+div.col-content-green a, div.col-content-blue a
+{
+	text-decoration: none;
+	color:#505050;
+	font-weight:bold;
+}
+
+.col-content-blue ul a:hover, .col-content-blue ol a:hover
+{
+	text-decoration: underline;
+	color: #6b990f;
+}
+
+.col-content-green ul a:hover, .col-content-green ol a:hover
+{
+	text-decoration: underline;
+	color: #0a8292;
+}
+
+#footer a
+{
+	text-decoration: none;
+	border: none;
+	color: #000;
+}
+
+ol.tree
+{
+	position:absolute;top:90px;left:460px;
+	font: 110% Techno, "Haettenschweiler", Charcoal, Impact, "Arial Black", Verdana, Lucida, Helvetica, fantaisy;
+	color: #67c6b6;
+}
+
+ol.tree li
+{
+	display: inline;
+	list-style-type: none;
+	padding-right: 0.7em;
+	padding-left: 0;
+}
+
+ol.tree li a
+{
+	color: #67c6b6;
+	font-weight: 80;
+}
+
+ol.tree li a:hover
+{
+	color: #afeae0;
+	text-decoration:underline;
+}
+
+ol.tree li:before
+{
+	content: ' \21e8  ';
+}
+
+#content img
+{
+	border-width: 1px;
+	border-color: #ccc;
+	border-style: solid;
+	padding: 5px;
+	margin: 6px 10px 0 0;
+	float: left;
+	display: block;
+}
+
+p.modified
+{ 
+	color: #666;
+	font-size: .8em;
+	float:left;
+	width:100%;
+	line-height:20px;height:20px;
+	padding: 0;
+	margin: -8px 0px;
+	padding-left:20px;
+	background: transparent;
+}
+
+span.lireplus
+{
+  float:right;clear:both;
+  margin-right:20px;
+  margin-top:6px;
+  font-size:.8em;
+}
+
+.resources-number
+{
+	color: #0a8292;
+	font-style: italic;font-size:0.8em;
+	background: transparent url("img/h2-green.png") 100% 0% no-repeat;
+	margin:0;
+}
+
+.comment-closed
+{
+	color: #999;
+	font-style: italic;
+}
+
+#footer img, div.col-content img
+{
+	border: none;
+	vertical-align: bottom;
+}
+
+#footer p
+{
+	color: #ccc;
+	font-size: .8em;
+  padding-top:70px;padding-right:30px;
+}
+
+#banner h1 a
+{
+	font: 120% Techno, "Haettenschweiler", Charcoal, Impact, "Arial Black", Verdana, Lucida, Helvetica, fantaisy;
+	font-weight: 100;
+}
+
+#art-title
+{
+	margin: 10px 0 -10px 0;
+	font-size: 2.2em;
+	color: #000;
+	font-variant: small-caps;
+	font-weight: 100;
+}
+
+#art-pages-list h3
+{
+	font-weight: bold;
+}
+
+div.col-content-green
+{
+	padding: 0px 20px 0px 0px;
+	background: #fff url("img/menu-green-body.png") left repeat-y;
+}
+
+div.col-content-blue
+{
+	padding: 0px 20px 0px 0px;
+	background: #fff url("img/menu-blue-body.png") left repeat-y;
+}
+
+div.col-content-green ul, div.col-content-green ol, div.col-content-blue ul, div.col-content-blue ol
+{
+  margin:0 0 0 10px;
+}
+
+ol li a, ul li a, a
+{
+	text-decoration: none;
+	color: #0a8292;
+}
+
+ol li a:hover, ul li a:hover, a:hover
+{
+	text-decoration: underline;
+	color: #67c6b6;
+}
+
+ol li.current a
+{
+	text-decoration: none;
+	color: #A2A2A2;
+}
+
+ol li.current a:hover
+{
+	text-decoration: none;
+	color: #67c6b6;
+}
+
+
+
+.extra
+{
+	position:relative;
+	top:15px;height:35px;
+	margin-bottom:35px;
+	padding-left:-20px;
+}
+
+#feeds, #sitemape
+{
+	font-size: 1em;
+}
+
+#feeds
+{
+	float:right;padding-left: 20px;
+	background: transparent url("img/feeds.png") top left no-repeat;
+}
+
+#sitemape
+{
+	float:left;padding-right: 20px;
+	margin-top:-17px;margin-left:20px;
+	background: transparent url("img/sitemap.png") top right no-repeat;
+}
+
+p.score
+{
+	font-size: 90%;
+	color: #FF8080;
+	margin-top: -10px;
+	margin-left: 20px;
+	text-align: center;
+	padding: 2px 4px;
+ border: 1px dotted #FF8080;
+	background-color:#fff4f5;
+	width:15%;
+}
+
+.err404
+{
+	font: 110% Techno, "Haettenschweiler", Charcoal, Impact, "Arial Black", Verdana, Lucida, Helvetica, fantaisy;
+	background: transparent url("img/err404.gif") 100% 50% no-repeat;
+	font-size: 1.5em;
+	color:#96ca2f;
+}
+
+h1.err404
+{	
+	padding-right:50px;
+}
+
+img.px-left 
+{ 
+	margin:3px 12px 10px 0;
+	float: left;
+	display:block;
+}
+
+img.px-center
+{ 
+	margin:8px auto 8px auto;
+	display: block;
+}
+
+.recent-news
+{
+	background-color: #EFF4FA;
+	border: 1px solid #DBE1E5;
+	padding: 2px 10px 10px 10px;
+	margin: 4px 0 10px 0;
+	color: #036;
+	font-size: 90%;
+	font-style: italic;
+	text-decoration: none;
+}
+
+.recent-news h3
+{
+	margin: 0;
+	padding-top:6px;
+	font-size: 120%;
+}
+
+.recent-news h2
+{
+	margin: 0;
+	font-size: 120%;
+}
+
+.recent-news .recent-news-date
+{
+	color: #91A8C0;
+	text-align: right;
+}
+
+.recent-news p
+{
+	margin-top: 0;
+}
+
+ul.extra
+{
+	margin: 0;
+	padding: 0;
+}
+
+ul.extra li
+{
+	display: inline;
+	list-style-type: none;
+	padding-right: 1em;
+	padding-left: 0;
+}
+
+.associated-link
+{
+	text-align: right;
+}
+
+input, textarea 
+{
+	border-width: 1px;
+	-moz-border-radius: 1em;
+  border-radius: 1em;
+	border-color: #d8d8d8;
+	padding:0.2em;
+}
+
+#search-s
+{
+  padding:0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+input[type], textarea[name]
+{
+	background: #fff;
+}
+
+input[type=submit], input[type=reset] 
+{
+	background: #bbb;
+	color: #000;
+}
+
+input[type=submit]:hover 
+{
+	background: #d8d8d8;
+	color: #fff;
+}
+
+/* ====================================================================
+COMMENTS
+-------------------------------------------------------------------- */
+
+.px-comment-info
+{ 
+	font-weight: bold;
+	padding-left:20px;
+	background: url("img/comment-icon.png") 0% 0% no-repeat;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+.px-comment
+{
+	color: #999;
+}
+
+
+.px-comment-info-website
+{
+  padding-left:20px;
+  background: url("img/comment-website.png") 0% 0% no-repeat;
+}
+
+form.px-comment
+{
+	padding: 10px 16px 10px 16px;
+	margin-bottom: 20px;
+	background-color: #f6f6f6;
+	border: 1px solid #ededed;
+	font: .8em "Hoefler Text", "Bookman Antiqua", Palatino, "Utopia", "Times New Roman", Times, "New Century Schoolbook",  Georgia, "New York", serif;
+	-moz-border-radius: 2em;
+  border-radius: 2em;
+}
+
+form.px-comment p
+{
+	margin: 0;
+}
+
+form.px-comment textarea
+{
+	width:100%;
+}
+
+form.px-comment textarea, form.px-comment input
+{
+	background-color: #fff;
+}
+
+.input-submit
+{
+	text-align: right;
+	padding-top: 8px;
+}
+
+form.px-comment label
+{
+	float: left;
+	display: block;
+	width: 100px; 
+	font-size: 110%;
+}
+
+.px-comment-add
+{
+	padding-bottom: 4px;
+  clear:right;
+	border-bottom: 1px solid #E6E6E6;
+	font-variant: small-caps;
+	font-size: 120%;
+}
+
+form.px-comment submit
+{
+	margin:0;
+	text-align: right;
+}
+
+.px-comment-error
+{
+	border: 1px dotted #FF8080;
+	padding: 5px;
+	width: 80%;
+	background-color:#fff4f5;
+
+}
+
+.px-comment-error ul
+{
+	padding-top: 6px;
+}
+
+.px-comment-error li
+{
+	color: red;
+	list-style-type: none;
+	background: url("img/errmsg.gif") 0% 50% no-repeat;
+	padding-left: 20px;
+}
+
+.px-comment-preview
+{
+	padding: 0 0.5em 0 0.5em;
+	font-style: italic;
+	color: #505050;
+	border:1px solid #ededed;
+	-moz-border-radius: 1em;
+  border-radius: 1em;
+  margin-bottom:10px;
+	background-color: #ddfff9;
+}
+
+.px-comment-preview a
+{
+  color:#6b990f;
+}
+
+.px-comment-preview a:hover
+{
+  color:#b6e657;
+  text-decoration:underline;
+}
+
+div.px-comment
+{
+  padding: 0 0.5em 0 0.5em;
+	font-style: italic;
+	color: #505050;
+	border:1px solid #ededed;
+	-moz-border-radius: 1em;
+  border-radius: 1em;
+  margin-bottom:10px;
+	background-color: #e3ffad;
+}
+
+div.px-comment a
+{
+  color:#0a8292;
+}
+
+div.px-comment a:hover
+{
+  color:#4cb5c3;
+  text-decoration:underline;
+}
+
+.px-comment-validation
+{
+	padding-left: 16px;
+	font-style: italic; 
+	color: #999;
+}
+
+span.px-comment-required-email
+{
+	font-style: italic;
+	color: #666;
+}
+
+/*=========*/
+/* Galerie */
+/*=========*/
+
+div.gallery {
+  text-align:center;
+  margin:10px;padding:0;
+  border:1px solid #d7d7d6;
+  background:#eee;
+}
+div.gallery-top {
+  height:24px;
+  margin-bottom:10px;
+  background: #d7d7d6 url("img/camera-photo.png") 2% 50% no-repeat;
+  border:1px solid #eee;
+}
+
+div.gallery-bottom
+{
+	clear: left;
+  height:24px;
+  margin-top:5px;
+  background: #d7d7d6 url("img/camera-photo.png") 98% 50% no-repeat;
+  border:1px solid #eee;
+}
+
+div.gallery-thumb a
+{
+	float: left;
+	display: block;
+}
+
+#content img.gallery-thumb
+{
+	margin:0;
+	border:none;
+	float:none ;
+  background: #d7d7d6 url("img/image-x-generic.png") 90% 98% no-repeat;
+  padding-bottom:25px;
+  border:1px solid #eee;
+}
+
+div.gallery-img
+{
+ float: left;
+	width: auto;
+	padding: 0 0 0 10px;
+  margin: 0 10px 10px 0;
+}
+
+p.gallery-legend
+{
+ text-align: center;
+  font-style: italic;
+	color: #7f7f7f;
+}
+
+/* ====================================================================
+SITEMAP
+-------------------------------------------------------------------- */
+
+#sitemap
+{
+	padding: 0 20px;
+	margin-bottom: 20px; 
+}
+
+#sitemap h3
+{
+	font-size: 120%;
+  background-color: #ddfff9;
+	border: 1px solid #ededed;
+	-moz-border-radius: 1em;
+  border-radius: 1em;
+	padding: 0px 4px;
+}
+
+#sitemap h3 a, #sitemap li.subcatlism a
+{
+	color: #6b990f;
+}
+
+#sitemap h3 a:hover, #sitemap li.subcatlism a:hover
+{
+	color: #96ca2f;
+	text-decoration:underline;
+}
+
+#sitemap ul
+{
+  border:1px solid #ededed;
+	-moz-border-radius: 1em;
+  border-radius: 1em;
+  background-color: #e3ffad;
+	padding: 0px 20px;
+	margin:0 20px 0 20px;
+}
+
+#sitemap li
+{
+	font-size: .9em;
+	color: #4cb5c3;
+}
+
+#sitemap li a
+{
+  color:#0a8292;
+}
+
+#sitemap li a:hover
+{
+  color:#4cb5c3;
+  text-decoration:underline;
+}
+
+#sitemap li.nodeco
+{
+	list-style-type: none;
+	margin-top:-5px;
+	margin-bottom:10px;
+	background-color: #fff;
+	border: 1px solid #ededed;
+	-moz-border-radius: 1em;
+  border-radius: 1em;
+}
+
+#sitemap li.nodeco ul
+{
+  border:none;
+  background-color:#fff;
+  padding:0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+#sitemap li.nodeco a
+{
+	color: #0a8292;
+}
+
+#sitemap li.nodeco a:hover
+{
+	color: #4cb5c3;
+	text-decoration:underline ;
+}
+
+#sitemap li.nodeco li
+{
+	list-style-type: circle;
+	color: #4cb5c3;
+
+}
+
+#sitemap li.subcatlism
+{
+	list-style-type: circle;
+	color: #96ca2f;
+  margin-top:5px;
+}
+
+#sitemap li.subcatlism a
+{
+  font-size: 140%;
+  background-color: #fff;
+	border: 1px solid #ededed;
+	-moz-border-radius: 1em;
+  border-radius: 1em;
+	padding: 0px 4px;
+}
+
+
+#sitemap li.subcatlism p
+{
+	padding: 10px 0 0 0;
+}
+
+#sitemap p
+{
+	color: #666;
+	font-size: 90%;
+	font-style: italic;
+ margin-top: -10px;
+}

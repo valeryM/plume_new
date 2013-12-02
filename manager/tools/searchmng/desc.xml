@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin name="searchmng" version="1.0" rootonly="true" active="true">
+  <author>Loïc d'Anterroches</author>
+  <label>Search Manager</label>
+  <desc>Maintenance of the search index.</desc>
+</plugin>

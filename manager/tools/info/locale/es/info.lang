@@ -1,0 +1,85 @@
+# -*- coding: utf-8 -*-
+# (C) 2005 gaba
+;Information
+Informaci&oacute;n
+
+;General information
+Informaci&oacute;n general
+
+;Name
+Nombre
+
+;Records
+Registros
+
+;Size
+Tama&ntilde;o
+
+;File information
+Informaci&oacute;n del archivo
+
+;The system has write access on the file %s.
+El archivo %s tiene permiso de escritura.
+
+;The system has write access on the folder %s.
+El directorio %s tiene permiso de escritura.
+
+;The system has no write access on the file %s.
+El archivo %s no tiene permiso de escritura.
+
+;The system has no write access on the folder %s.
+El directorio %s no tiene permiso de escritura.
+
+;Server information
+Informaci&oacute;n del Servidor
+
+;Your PHP version is <strong>%s</strong>.
+Tu versi&acute;n de PHP es <strong>%s</strong>.
+
+;Your MySQL version is <strong>%s</strong>.
+Tu versi&oacute;n de MySQL es <strong>%s</strong>.
+
+;Your webserver is <strong>%s</strong>.
+Tu servidor web es <strong>%s</strong>.
+
+;Your GD graphic library version is <strong>%s</strong>.
+Tu versi&oacute;n de la biblioteca gr&aacute;fica GD es <strong>%s</strong>.
+
+;Cache information
+Informaci&oacute;n de la cach&eacute;
+
+;Website
+Sitio web
+
+;Cache size
+Tama&ntilde;o de la cach&eacute;
+
+;Reset the cache
+Limpiar la cach&eacute;
+
+;Reset
+Limpiar
+
+;Error&nbsp;: Website not available.
+Error&nbsp;: Sitio web no disponible.
+
+;The cache of the website has been reset.
+La cach&eacute; del sitio web ha sido limpiado.
+
+;If you are making modifications to your templates, you should clean the cache before testing them.
+Si est&aacute;s modificando tus plantillas, deber&iacute;as limpiar la cach&eacute; antes de probarlas.
+
+;You are using PLUME CMS version <strong>%s</strong>.
+Est&aacute;s usando la versi&oacute;n <strong>%s</strong> de CMS PLUME .
+
+;The PLUME CMS tables in your database are:
+Las tablas del CMS PLUME en tu base de datos son:
+
+;Plume CMS information
+
+
+;Information about Plume CMS and your system.
+
+
+;You do not have the rights to access this plugin.
+

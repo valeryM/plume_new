@@ -1,0 +1,282 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <title>Path Selector</title>
+        <link href="pathSelector.css" type="text/css" rel="stylesheet" />
+        <link type="text/css" rel="stylesheet" href="jquery-pathselector-plugin/jquery.pathSelector-all.css"/>
+        <script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+<!--        <script type="text/javascript" src="jquery-pathselector-plugin/jquery.pathSelector-all.js"></script>-->
+        <script type="text/javascript" src="jquery-pathselector-plugin/jquery.pathSelector.js"></script>
+        <script type="text/javascript" src="jquery-pathselector-plugin/jquery.pathSelector.contextMenu.js"></script>
+        <script type="text/javascript" src="beautyOfCode-v0.1.1/jquery.beautyOfCode.js"></script>
+
+        <script type="text/javascript">
+            $(function(){
+                $("pre[name='codeDemo1']").find("code").html(cleanCode($("head").find("#example1").html()));
+                $("pre[name='codeDemo2']").find("code").html(cleanCode($("#formExample2").html())+"\n\n"+cleanCode($("head").find("#example2").html()));
+                var head=$("head").html();
+                var lines="";
+                $.each(head.split("\n"), function(index, line){
+                    if(line.indexOf("jquery") != -1 && (line.indexOf("script") || line.indexOf("link")) && line.indexOf("if") == -1 && line.indexOf("beauty") == -1){
+                        lines+=$.trim(line)+"\n";
+                    }
+                });
+                lines=$.trim(lines);
+                $("pre[name='filesDemo']").find("code").html(cleanCode(lines));
+                $("pre[name='htmlDemo']").find("code").html(cleanCode($("#formExample1").html()));
+                $("form button.getValue").click(function(){
+                    window.alert("Value of selector: " + $("input[name='location']").attr("value"));
+                    return false;
+                });
+                
+                $().ajaxError(function(event, xhr, options, exception){
+                    window.alert("Error: " + exception);
+                });
+
+                $.beautyOfCode.init({
+                    brushes: ['Xml', 'JScript'],
+                    ready: function() {
+                        $("pre code").parent().beautifyCode('javascript');
+                        $("pre code.html").parent().beautifyCode('xml');
+                    }
+                });
+            });
+
+            function cleanCode(text){
+                var lines="";
+                $.each(text.split("\n"), function(index, line){
+                    if(line != ""){
+                        lines+=line+"\n";
+                    }
+                });
+                lines=$.trim(lines);
+
+                "".r
+                lines=lines.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+                return lines;
+            }
+        </script>
+        <script id="example1" type="text/javascript">
+            $(function(){
+                $("input[name='location']").pathSelectorDynamicOptions(getOptions, {initValue: [{value: 'Am', label:'Americas'}, 'South America']});
+//                $("input[name='location']").setValues([{value: "Am", label:"Americas"}, "South America"]);
+                
+                /* Receive notifications when the value of path selector changes.*/
+                $("input[name='activity']").bind("valueChanged", {}, function(event, newVal){
+                    //we could show newVal
+                });
+            });
+            
+            /* function for options*/
+            function getOptions(value, subvalues){
+                switch (subvalues.length) {
+                    case 0:
+                        return [{
+                                value: "Am",
+                                label: "Americas"
+                            }, {
+                                value: "Eu",
+                                label: "Europe"
+                            }, {
+                                value: "Af",
+                                label: "Africa"
+                            }, {
+                                value: "As",
+                                label: "Asia"
+                            }, {
+                                value: "Aus",
+                                label: "Australia"
+                            }];
+                        
+                    case 1:
+                        switch (subvalues[0]) {
+                            case "Am":
+                                return ["North America", "South America"];
+                            case "Eu":
+                                return ["Spain", "United Kingdom", "Italia", "France"];
+                            case "Af":
+                                return ["Mzantsi Afrika", "Egypt", "Libia"];
+                            case "As":
+                                return ["Nihon", "Chungkuo", "Rossiya", "Western Asia"];
+                            case "Aus":
+                                return ["Australia", "New Zealand"];
+                        }
+                    case 2:
+                        switch (subvalues[1]) {
+                            case "North America":
+                                return ["United States of America", "Canada", "Mexico"];
+                            case "South America":
+                                return ["Colombia", "Brazil", "Chile", "Argentina"];
+                            case "Western Asia":
+                                return ["Saudi Arabia", "Israel", "Syria", "Turkey"];
+                            default:
+                                return null;
+                        }
+                    default:
+                        return null;
+                }
+            }
+        </script>
+        <script id="example2" type="text/javascript">
+
+/* Javascript */
+$(function(){
+    $("input[name='cb']").pathSelectorFixedOptions([["Green eyes", "Blue eyes", "Hazel eyes"], ["Black hair", "Brown hair", "Blonde hair", "Red hair"]]);
+});
+        </script>
+    </head>
+    <body>
+
+        <div id="header">
+            <h1>Path Selectorx</h1>
+            <p>
+                Widget for selection of hierarchic options.
+            </p>
+        </div>
+        <h2>Overview</h2>
+        <p>
+            Path selector is a breadcrumb bar jquery plugin for selection of hierarchic options (similar to address bar in the Windows Explorer in Vista and Windows 7).
+            It may use fixed, or dynamic (via javascript function or ajax) options.
+        </p>
+        
+        <h2><a name="demo">Demo</a></h2>
+        <p>
+            Here you have a live example of jquery path selector.
+        </p>
+    <br/>
+    <div id="formExample1">
+        <form action="">
+    <p>
+        <label for="location">
+            Select your location
+        </label>
+        <input name="location"/>
+    </p>
+    <p>
+        <button type="button" class="getValue">
+            See the value
+        </button>
+    </p>
+    <p>
+        <button type="button" onclick="$('input[name=location]').setValues([{value: 'Am', label:'Americas'}, 'South America'])">
+            Set the value
+        </button>
+    </p>
+</form>
+    </div>
+    <h2><a name="documentation">Documentation</a></h2>
+    <p>
+        First, importing the jquery javascript file (I used version 1.4.2) and the javascripts and css files of the plugin:
+    </p>
+    <form><pre name="filesDemo" class="html"><code>
+
+</code></pre></form>
+    <p>
+        Declare the input element that we want to turn into a path selector. The plugin uses this input as the holder of the value; so when you send your form, it will contain the right value.
+    </p>
+    <form><pre name="htmlDemo"><code></code></pre></form>
+    <p>
+        And finally, invoke the plugin in the input element according to the way you want to configure your options objects. Each option object may have a property value (The internal value of the level) and a label property (the text to display). But if your object doesn't have a value property, then the string version of your object is taken as the value. So you can use a string for the option.</p><p> You have three  methods depending on the way you want (or have) to configure options:</p>
+</p>
+<h3><a name="fixedOptions">Fixed options</a></h3>
+<p>When the options of each level are always the same invoke:</p>
+<pre><code>pathSelectorFixedOptions([optionsArrayLevel1, optionsArrayLevel2, etc]);</code></pre>
+<h3>Dynamic local options</h3>
+<p>When your options are dymanic but can be locally determinated use:</p>
+<pre><code>pathSelectorDynamicOptions(optionsFunction);</code></pre>
+<p>
+    When your function is invoked by the plugin it will receive two parameters. First,  the composed value. This value is a string of the concatenated values of each level separated by default with a dot. The second parameter is the array of subvalues (each of the values selected in a level). The function must return an array of options objects.  If the function return null is equivalent to return a empty array of options (that means, a leaf level).
+</p>
+<h3>Ajax options</h3>
+<p>When the options are dynamic but determinated in the server side, use:</p>
+<pre><code>pathSelectorAjaxOptions(url)</code></pre>
+<p>In the server side you will receive a parameter called value (again, this is the concatenated result of the individual values separated by the default with a dot). You have to return a json array of the option objects.
+<p>This is a server side code made with a simple java servlet.</p>
+<h3>Events</h3>
+<p>PathSelector triggers a valueChanged jquery event when the main value is changed.</p>
+<h3>Settings</h3>
+<p>Each method accepts an optional object of settings. You can use a property separator to change the default dot for separating individual values.
+    Example:</p>
+<pre><code>pathSelectorAjaxOptions(url, {separator: "-"}) //am-europe instead of am.europe</code></pre>
+<h2>Code of Demo</h2>
+<p>Actually, here is the javascript code of the location example</p>
+<div id="codeDemo1">
+    <form>
+        <pre name="codeDemo1" readonly=true rows=30><code>var a=new Array();</code></pre>
+    </form>
+</div>
+<h2>One More Example</h2>
+<p>Here is one more example</p>
+<div id="formExample2">
+<form>
+    <label for="cb">
+        Select
+    </label>
+    <input name="cb"/>
+</form>
+</div>
+<br/>
+<div id="codeDemo2" style="">
+    <form>
+        <pre rows="15" readonly=true name="codeDemo2"><code></code></pre>
+    </form>
+</div>
+<h2><a>Download</a></h2>
+<ul>
+    <li>
+        <a href="http://docs.jquery.com/Downloading_jQuery#Current_Release">Download the latest version of jQuery</a>
+    </li>
+    <li>
+        <a href="http://jquery-pathselector-plugin.googlecode.com/files/jquery-pathselector-plugin-1.2.zip">Download the zip with css, js and images, uncompress and copy the files to your site.</a>
+    </li>
+</ul>
+<h2><a name="license">License</a></h2>
+<p>
+    <!-- License -->Path Selector is licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache license 2.0</a>.
+</p>
+<h2>What's new in version 1.1?</h2>
+<ul>
+    <li>
+        Fixes in the css. Now the arrows appear just in the center of the container. And the images used are relative to the css files so there's no need to change the javascript to point to the right location.
+    </li>
+    <li>
+        In version 1.0, option was expected to be an object with a property value and an optional label property. Now you can use a simple string for the option and the plugin internally create an object using the string as the value and the label. <br/>
+        For example:  <code>"option1"</code> instead of <code>{value:"option1"}</code>.
+    </li>
+    <li>
+        Now you can use the new function <a href="#fixedOptions">pathSelectorFixedOptions</a> when the options are fixed. Just pass an array of arrays with the options for each of the levels. Just like this:<br/>
+        <code>[ ["Green eyes", "Blue eyes", "Hazel eyes", "Black eyes"], <br/>["Black hair", "Brown hair", "Blonde hair", "Red hair"] ] //First array are options for first level, second are for next level. Number of levels is the number of arrays, two in this example.</code>
+    </li>
+    <li>
+        Deprecation of pathSelector and pathSelectorAjax. The preferred methods are pathSelectorDynamicOptions and pathSelectorAjaxOptions, respectively. You can continue
+        using the old functions but is not recomended.
+    </li>
+</ul>
+<h2>What's new in version 1.2?</h2>
+<ul>
+    <li>
+        Bug fixes in the javascript and now works in Chrome and Safari.
+    </li>
+</ul>
+<h2><a>Notes</a></h2>
+<ul>
+    <li>
+        Tested on Firefox 3.6, Chrome 4, Safari 4 and IE 8 (with and without compatibility mode).
+    </li>
+    <li>
+        It uses a modified version of <a href="http://abeautifulsite.net/notebook/80">jQuery Context Menu Plugin</a>.
+    </li>
+</ul>
+<br/>
+<p class="author">Author:  V&iacute;ctor Hugo Herrera Maldonado</p>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15676563-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

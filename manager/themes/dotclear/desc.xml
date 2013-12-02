@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme name="dotclear" version="1.2" active="true">
+  <author>Olivier Meunier</author>
+  <label>Dotclear</label>
+  <desc>Mimic the Dotclear interface.</desc>
+</theme>

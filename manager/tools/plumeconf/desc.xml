@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin name="Plume CMS Configuration" version="1.0" rootonly="true" active="true">
+  <author>Loïc d'Anterroches</author>
+  <label>Plume CMS Configuration</label>
+  <desc>Online configuration of Plume CMS.</desc>
+</plugin>

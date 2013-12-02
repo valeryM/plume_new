@@ -1,0 +1,1 @@
+The pictures in the 'media' directory are NOT part of the PHP DBTreeView library and are used for demonstration only. Some pictures (directory icons, '+' icon, '-' icon) are copyrighted (Microsoft Windows). Don't use these pictures without having the appropriate licenses.

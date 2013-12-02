@@ -1,0 +1,197 @@
+# -*- coding: utf-8 -*-
+# (C) 2006 your name <your @ email>
+;Main categorie(s)
+
+
+;Search
+
+
+;Links
+
+
+;Error 404
+
+
+;The page you are looking for is not available anymore. We tried to search for the pages that match your request. Feel free to refine the search.
+
+
+;The search engine was unable to find any result.
+
+
+;Results of the search on
+
+
+;Read the whole article
+
+
+;The
+
+
+;%Y-%m-%d at %H:%M
+
+
+;by
+
+
+;Email the author of this article
+
+
+;<br />In %s
+
+
+;Score:
+
+
+;Back to
+
+
+;<h2 class="subcategories">Categorie(s)</h2> %s
+
+
+;No resources
+
+
+;1 resource
+
+
+;<strong>%s</strong> resources
+
+
+;in this category.
+
+
+;<p><a href="%s">Previous Page</a></p>
+
+
+;<p><a href="%s">Next Page</a></p>
+
+
+;Categories
+
+
+;In short
+
+
+;Welcome
+
+
+;Enjoy your stay on this website!
+
+
+;Publish Date of:
+
+
+;%Y-%m-%d</a> at %H:%M
+
+
+;By
+
+
+;, publisher of
+
+
+;There is no comment
+
+
+;Comment(s):
+
+
+;Add a comment
+
+
+;Author:
+
+
+;Email: (required but not shared or displayed)
+
+
+;Optional field
+
+
+;Website:
+
+
+;Comment:
+
+
+;The comments are closed.
+
+
+;Comment preview
+
+
+;Please enter your comment
+
+
+;Your comment will look like:
+
+
+;Brugges & Jo Liquid
+
+
+;Back to the home page
+
+
+;Go to content
+
+
+;Go to menu
+
+
+;Search this website
+
+
+;Back to the top
+
+
+;Powered by PLUME CMS
+
+
+;CMS
+
+
+;Template by Léo Studer
+
+
+;Template
+
+
+;Template under Creative Commons license
+
+
+;Under
+
+
+;Back to the top of the page
+
+
+;%Y&bull;%m&bull;%d
+
+
+;Feeds
+
+
+;Sitemap
+
+
+;<div id="pages"><div id="pages_head"></div><div id="pagescontenair"><div id="art-pages-list"><h3>Pages of the article</h3> %s</div></div><div id="pages_foot"></div></div>
+
+
+;News
+
+
+;Latest news in short.
+
+
+;In %s
+
+
+;Result(s) of your search
+
+
+;We tried to search for the pages that match your request. Feel free to refine the search.
+
+
+;Recent news
+
+

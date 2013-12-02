@@ -1,0 +1,26 @@
+The files in this folders are not under the exact same licensing conditions
+than the complete PLUME CMS software. Here is for each file the licensing.
+
+If you have any question regarding the licensing issues, please contact me.
+It is really important to respect the work of the authors of these files.
+
+class.configfile.php                    MPL 1.1/GPL 2.0/LGPL 2.1
+class.lum.php                           MPL 1.1/GPL 2.0/LGPL 2.1
+class.menu.php                          MPL 1.1/GPL 2.0/LGPL 2.1
+class.mysql.nolock.php                  MPL 1.1/GPL 2.0/LGPL 2.1
+class.mysql.php                         MPL 1.1/GPL 2.0/LGPL 2.1
+class.plugins.php                       MPL 1.1/GPL 2.0/LGPL 2.1
+class.recordset.php                     MPL 1.1/GPL 2.0/LGPL 2.1
+lib.form.php                            MPL 1.1/GPL 2.0/LGPL 2.1
+lib.image.php                           MPL 1.1/GPL 2.0/LGPL 2.1
+*class.xmlsql.php                       GPL 2.0
+*class.html2text.php                    GPL 2.0
+class.coolcache.php                     No information but names of the authors
+class.cachelite.php                     PHP
+WikiRenderer.lib.php                    LGPL 2.1
+WikiRenderer_w2text.conf.php            LGPL 2.1
+
+
+*: These classes are under the GPL. Normally I can't use them like that as
+all the software should be converted as GPL software. It simply means that
+at some point the complete software will be converted as GPL.

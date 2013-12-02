@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin name="eventCalendar" version="1.0" rootonly="true" active="true">
+  <author>Valéry MERLET</author>
+  <label>External Calendar (CKEditor plugin)</label>
+  <desc>Add a week calender to show events</desc>
+</plugin>

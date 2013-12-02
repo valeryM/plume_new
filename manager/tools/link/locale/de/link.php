@@ -1,0 +1,71 @@
+<?php 
+/* automatically generated file from: F:/User/www/aslcpsa/plume/manager/tools/link/locale/de/link.lang  */
+
+if (basename($_SERVER['SCRIPT_NAME']) == 'link.lang') exit;
+
+$GLOBALS['_PX_locale']['Links manager'] = 'Link-Manager';
+$GLOBALS['_PX_locale']['Web interface to configure your links.'] = 'Webinterface zur Linkkonfiguration.';
+$GLOBALS['_PX_locale']['Drag items to change their positions.'] = 'Verschieben Sie die Elemente, um deren Position zu ändern.';
+$GLOBALS['_PX_locale']['You must provide at least a label and an URL'] = 'Sie müssen mindestens eine Bezeichnung und eine URL angeben';
+$GLOBALS['_PX_locale']['You must provide a valid URL'] = 'Sie müssen eine gültige URL angeben';
+$GLOBALS['_PX_locale']['All values'] = 'Alle';
+$GLOBALS['_PX_locale']['Back'] = 'Zurück';
+$GLOBALS['_PX_locale']['Edit link'] = 'Link bearbeiten';
+$GLOBALS['_PX_locale']['Error(s)'] = 'Fehler';
+$GLOBALS['_PX_locale']['No link'] = 'Kein Link';
+$GLOBALS['_PX_locale']['None'] = 'Nichts';
+$GLOBALS['_PX_locale']['Label'] = 'Bezeichung';
+$GLOBALS['_PX_locale']['URL'] = 'URL';
+$GLOBALS['_PX_locale']['Language'] = 'Sprache';
+$GLOBALS['_PX_locale']['optional'] = 'Optional';
+$GLOBALS['_PX_locale']['Description'] = 'Beschreibung';
+$GLOBALS['_PX_locale']['save'] = 'Speichern';
+$GLOBALS['_PX_locale']['save order'] = 'Reihenfolge speichern';
+$GLOBALS['_PX_locale']['XFN'] = 'XFN';
+$GLOBALS['_PX_locale']['Me'] = 'Ich';
+$GLOBALS['_PX_locale']['Another link for myself'] = 'Eine weitere Webadresse von mir';
+$GLOBALS['_PX_locale']['Friendship'] = 'Freunschaft';
+$GLOBALS['_PX_locale']['Contact'] = 'Kontakt';
+$GLOBALS['_PX_locale']['Acquaintance'] = 'Bekannter';
+$GLOBALS['_PX_locale']['Friend'] = 'Freund';
+$GLOBALS['_PX_locale']['Physical'] = 'Physikalisch';
+$GLOBALS['_PX_locale']['Met'] = 'Getroffen';
+$GLOBALS['_PX_locale']['Professional'] = 'Beruf';
+$GLOBALS['_PX_locale']['Co-worker'] = 'Mitarbeiter';
+$GLOBALS['_PX_locale']['Colleague'] = 'Kollege';
+$GLOBALS['_PX_locale']['Geographical'] = 'Geografisch';
+$GLOBALS['_PX_locale']['Co-resident'] = 'Mitbewohner';
+$GLOBALS['_PX_locale']['Neighbor'] = 'Nachbar';
+$GLOBALS['_PX_locale']['Family'] = 'Familie';
+$GLOBALS['_PX_locale']['Child'] = 'Kind';
+$GLOBALS['_PX_locale']['Parent'] = 'Elternteil';
+$GLOBALS['_PX_locale']['Sibling'] = 'Geschwisterteil';
+$GLOBALS['_PX_locale']['Spouse'] = 'Ehepartner';
+$GLOBALS['_PX_locale']['Kin'] = 'Verwandter';
+$GLOBALS['_PX_locale']['Romantic'] = 'Romantisch';
+$GLOBALS['_PX_locale']['Muse'] = 'Muse';
+$GLOBALS['_PX_locale']['Crush'] = 'Verknallt';
+$GLOBALS['_PX_locale']['Date'] = 'Treffen';
+$GLOBALS['_PX_locale']['Sweetheart'] = 'Liebling';
+$GLOBALS['_PX_locale']['Edit rubric'] = 'Rubrik bearbeiten';
+$GLOBALS['_PX_locale']['Title'] = 'Titel';
+$GLOBALS['_PX_locale']['New rubric'] = 'Neue Rubrik';
+$GLOBALS['_PX_locale']['New link'] = 'Neuer Link';
+$GLOBALS['_PX_locale']['Are you sure you want to delete this %s?'] = 'Sind Sie sicher, dass %s gelöscht werden soll ?';
+$GLOBALS['_PX_locale']['link'] = 'Link';
+$GLOBALS['_PX_locale']['Are you sure you want to delete this category?'] = 'Sind Sie sicher, daß diese Kategorie gelöscht werden soll ?';
+$GLOBALS['_PX_locale']['delete'] = 'Löschen';
+$GLOBALS['_PX_locale']['Move %s up'] = 'Um %s nach oben verschieben';
+$GLOBALS['_PX_locale']['Move %s down'] = 'Um %s nach unten verschieben';
+$GLOBALS['_PX_locale']['Usage'] = 'Verwendung';
+$GLOBALS['_PX_locale']['Database table installed'] = 'Installierte Datenbanktabellen';
+$GLOBALS['_PX_locale']['Errors during database table installation'] = 'Fehler während der Datenbank-Installation';
+$GLOBALS['_PX_locale']['To replace your static links list by this one, just put the following code in your template:'] = 'Um Ihre statische Linkliste gegen diese Liste auszutauschen, fügen Sie den folgenden Code in Ihre Vorlage ein:';
+$GLOBALS['_PX_locale']['Create table %s'] = 'Erstelle Tabelle %s';
+$GLOBALS['_PX_locale']['Table %s exists'] = 'Tabelle %s existiert bereits';
+$GLOBALS['_PX_locale']['Creation of link Plume'] = 'Erstelle Link Plume';
+$GLOBALS['_PX_locale']['Creation of link FSF'] = 'Erstelle Link FSF';
+$GLOBALS['_PX_locale']['Creation of link Your link 1'] = 'Erstelle Link «Ihr Link 1»';
+$GLOBALS['_PX_locale']['Creation of link to Your link 2'] = 'Erstelle Link «Ihr Link 2»';
+
+?>

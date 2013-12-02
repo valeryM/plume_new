@@ -1,0 +1,68 @@
+/* PLUME CMS Style Sheets for 1.2 version */
+/* CSS hacks for IE 7 */
+
+p.modified
+{
+	margin: -0.9em 0 -0.5em 3.5em;
+}
+
+span.lireplus
+{
+  position:absolute;
+  right:20px;
+  top:72px;
+}
+
+#easy-access
+{
+	padding-top:15px;
+}
+
+#sitemape
+{
+	margin-top:0px;
+}
+
+.resource-blue-left
+{
+	position:absolute;left:20px;
+}
+
+.resource-green-left
+{
+	position:absolute;left:20px;
+}
+
+.resource-blue, .resource-green
+{
+	margin-left:0px;
+}
+
+.resource-content h2
+{
+  margin-top:20px;
+  margin-left:20px;
+}
+
+#footer p
+{
+ padding-bottom:15px;
+}
+
+ol.tree
+{
+	top:110px;
+}
+
+#sitemap li.nodeco
+{
+	margin-right:20px;
+}
+
+#sitemap ul
+{
+  padding: 0;
+  width:90%;
+  padding-left:20px;
+}
+

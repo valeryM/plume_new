@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin name=".htaccess Manager" version="1.0" active="true">
+  <author>Loïc d'Anterroches</author>
+  <label>Files and images right access manager</label>
+  <desc>Manage the access of some of the file and image subfolders.</desc>
+</plugin>

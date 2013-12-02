@@ -1,0 +1,1362 @@
+# -*- coding: utf-8 -*-
+# (C) 2007 Borovskij Edvard, funalien@mail.ru
+# (C) 2006 Chermyanin Alexander, snow_wons@mail.ru
+
+;There is an error with your login or your password.
+Ошибка при вводе логина или пароля
+
+;Login:
+Логин:
+
+;Password:
+Пароль:
+
+;Ok
+Ok
+
+;You need to accept the cookies to access the manager.
+Для доступа к панели управления включите cookies.
+
+# Main Menu (for acceskey see at the accesskey section below)
+#############################################################
+;News
+Новости
+
+;Articles
+Статьи
+
+;Rss
+Rss links
+
+;Files or images
+Файлы или изображения
+
+;Logout
+Выход
+
+;Content
+Содержание
+
+;Preferences
+Ссылки
+
+;Authors
+Авторы
+
+;Tools
+Инструменты
+
+;Sites
+Сайты
+
+;Help
+Помощь
+
+;Home
+Домой
+
+;Resource list
+Список ресурсов
+
+;No resource.
+Нет ресурсов.
+
+;Show all
+Показать всё
+
+;Hide all
+Скрыть всё
+
+;show/hide
+скрыть/показать
+
+;by
+для
+
+;Edit author profile
+Редактировать Автор профиль
+
+;in
+в
+
+;Y/m/d at H:i:s
+г/м/д в ч:м:с
+
+;Search:
+Поиск:
+
+;edit
+Правка
+
+;visualize
+Просмотр
+
+;The associated link must start with http:// or a valid protocol.
+Ссылка должна начинаться с http:// или другого протокола.
+
+;Back to the list of resources
+Вернуться к каталогу
+
+;News list
+Новостной лист
+
+;See the news
+Просмотреть Новости
+
+;New news
+Последняя новость
+
+;Error: The requested news is not available.
+Ошибка: запрошенная новость не найдена
+
+;Error: You do not have the rights to edit this news.
+Ошибка: У Вас нет прав на редактирование этой новости.
+
+;Category
+Категория
+
+;Category:
+Категория:
+
+;Categories
+Категории
+
+;Hidden category
+Скрытая категория
+
+;shrink textarea
+Уменьшить текстовое поле
+
+;grow textarea
+увеличить текстовое поле
+
+;On-line
+Онлайн
+
+;Off-line
+Оффлайн
+
+;Waiting for validation
+Ожидает одобрения
+
+;In edition
+Редактируется
+
+;Format
+Формат
+
+;Format:
+Формат:
+
+;Status
+Статус
+
+;Title
+Заголовок
+
+;Title:
+Заголовок:
+
+;Description:
+Описание:
+
+;Description
+Описание
+
+;Keywords:
+Ключевые слова:
+
+;Keywords
+Ключевые слова
+
+;Associated website title
+Заголовок сайта
+
+;Associated website address
+Адрес сайта
+
+;Publication date
+Дата публикации
+
+;Expiration date
+Дата завершения
+
+;Do not use an expiration date.
+Не использовать дату завершения.
+
+;Time:
+Время:
+
+;Remove from this category
+Удалить из категории
+
+;Add in another category
+Добавить в другую категорию
+
+;Add
+Добавить
+
+# Submit buttons (to modify the accesskeys, see the section accesskey below)
+############################################################################
+
+;Visualize [v]
+Просмотр [v]
+
+;Save [s]
+Сохранить [s]
+
+;Transform in XHTML [x]
+Преобразовать в XHTML [x]
+
+;Delete [d]
+Удалить [d]
+
+;Are you sure you want to delete this news?
+Вы уверены, что хотите удалить эту новость?
+
+;Content of the news
+Содержание новости
+
+;You need to give a title.
+Вы должны добавить заголовок.
+
+;The publication date is wrong.
+Дата публикации ошибочная.
+
+;The off-line date is wrong.
+Независимая дата неверна.
+
+;The proposed category is invalid.
+Предложеная категория не существует.
+
+;Type
+Тип
+
+;A type of resource is needed.
+Необходимо указать тип ресурса.
+
+;No news.
+Новостей нет.
+
+;The news was successfully saved.
+Новость сохранена.
+
+;Main category
+Главная категория
+
+;Set as main category
+Установить главную категорию
+
+;The news was successfully deleted.
+Новость удалена.
+
+;All the dates
+По дате
+
+;All the categories
+По категории
+
+;ok
+ok
+
+;Month:
+Месяц:
+
+;Error: The requested article is not available.
+Ошибка: запрошенная статья недоступна.
+
+;Error: The requested page is not available.
+Ошибка: заявленная страница недоступна.
+
+;Article list
+Список статей
+
+;See the article
+Просмотреть Статью
+
+;New article
+Новая статья
+
+;No article
+Статей нет
+
+;Are you sure you want to delete this article?
+Вы уверены, что хотите удалить эту статью?
+
+;Article pages
+Страницы статьи
+
+;See the page
+Просмотреть страницу
+
+;Your are editing page %s of the article: %s.
+Вы редактируете страницу %s в статье: %s.
+
+;Your are adding a page to the article: %s.
+Вы добавляете страницу к статье: %s.
+
+;Number of the page
+Номер страницы
+
+;Page title
+Заголовок страницы
+
+;Page content
+Содержание страницы
+
+;Id to make a link:
+Id создаёт ссылку:
+
+;Edit this page
+Редактировать эту страницу
+
+;Add a page to the article
+Добавить страницу к статье
+
+;Back to the article
+Вернуться к статье
+
+;At the end
+Конец
+
+;Path
+Путь
+
+;Error: You do not have the rights to edit this article.
+Ошибка: У вас нет прав для редактирования этой статьи.
+
+;The article was successfully saved.
+Статья сохранена.
+
+;You need first to save the article, before adding a page to it.
+Сначала Вы должны сохранить статью. Потом Вы можете добавлять страницы к ней.
+
+;The page was successfully saved.
+Страница сохранена.
+
+;The page was successfully added.
+Страница добавлена.
+
+;The page must have a title.
+Страница должна иметь заголовок.
+
+;The page must have a content.
+Страница должна содержать текст.
+
+;Error: Invalid page number.
+Ошибка: Неправильный номер станицы.
+
+;Error: Invalid page id.
+Ошибка: Неправильный id страницы.
+
+;The page was deleted.
+Страница удалена.
+
+;Are you sure you want to delete this page?
+Вы уверены, что хотите удалить эту страницу?
+
+;The article was successfully deleted.
+Статья удалена.
+
+;New category
+Новая категория
+
+;See the category
+Просмотреть категория
+
+;Parent category:
+Родительская папка:
+
+;Template:
+Шаблон:
+
+;Cache time in seconds:
+Время кэширования:
+
+;Path <span class="small">(/category/ or /cat/subcat/)</span>:
+Путь <span class="small">(/категория/ или /категория/подкатегория/)</span>&nbsp;:
+
+;No categories.
+Нет категорий.
+
+;Error: Invalid path.
+Ошибка: Неправильный путь.
+
+;Category successfully saved.
+Категория сохранена.
+
+;Are you sure you want to delete this category?
+Вы уверены, что хотите удалить эту категорию?
+
+;Error: Impossible to load the list of templates, check the availability of the template folder.
+Ошибка: Невозможно загрузить список шаблонов, проверьте наличие папки шаблонов.
+
+;The category was successfully deleted.
+Категория удалена.
+
+;Error: Configuration file of the website(<strong>%s</strong>) not available.
+Ошибка: Файл конфигурации сайта (<strong>%s</strong>) недоступен.
+
+;Error: The system has no write access to the folder <strong>%s</strong>. Check the permissions.
+Ошибка: Нет доступа на запись к папке <strong>%s</strong>. Проверьте права доступа
+
+;Error: The folder <strong>%s</strong> does not exist.
+Ошибка: Папка <strong>%s</strong> не существует.
+
+;Error: The requested file does not exist.
+Ошибка: Запрошеный файл не существует.
+
+;Error: Impossible to delete the file.
+Ошибка: Невозможно удалить файл.
+
+;File deleted with success.
+Файл удалён.
+
+;Error: The size of the file excess the maximum size.
+Ошибка: Размер файла больше максимально разрешённого.
+
+;Error: File not fully transfered.
+Ошибка: Файл передан не полностью.
+
+;Error: No file.
+Ошибка: Нет файла.
+
+;An error occured during the transfer of the file.
+Ошибка при передачи файла.
+
+;File successfully uploaded.
+Файл загружен.
+
+;Files and images
+Файлы и изображения
+
+;MB
+Мб
+
+;KB
+Кб
+
+;bytes
+байты
+
+;Your files
+Ваши файлы
+
+;Try to create the thumbnail
+Попытка создать иконки предпросмотра
+
+;Are you sure you want to delete this file?
+Вы уверены, что хотите удалить этот файл?
+
+;<strong>size</strong>:
+<strong>размер</strong>&nbsp;:
+
+;No file for the moment.
+Сейчас нет файлов.
+
+;&laquo; previous page
+&laquo; предыдущая страница.
+
+;&raquo; next page
+&raquo; следующая страница.
+
+;Insert an image or a file
+Вставка изображения или файла
+
+;Title of the file or image:
+Заголовок изображения или файла:
+
+;<strong>Current site</strong>:
+<strong>Текущий сайт</strong>&nbsp;:
+
+;Change
+Изменения
+
+;See the site
+Просмотр сайта
+
+;Resource off-line
+Ресурсы off-line
+
+;Resource on-line
+Ресурсы on-line
+
+;Resource in edition
+Редактируемые ресурсы
+
+;Resource waiting for validation
+Ресурсы, ожидающие одобрения
+
+;New author
+Новый автор
+
+;page(s):
+страница(ы)&nbsp;:
+
+;resource(s)
+Ресурс(ы)
+
+;Name:
+Имя:
+
+;Email <span class="small">(not shown)</span>:
+E-mail <span class="small">(не отображается)</span>&nbsp;:
+
+;Public email:
+Публичный e-mail:
+
+;(keep empty not to change it)
+(Оставите поле пустым если не собираетесь изменять его)
+
+;Back to the list of authors
+Вернуться к списку авторов
+
+;Attention, you are modifying your profile. You will be logged out if changes are successfully made.
+Внимание! Вы изменяете свой профиль. Вы должны будете перелогиниться чтобы увидить изменения.
+
+;Identity
+тождественность
+
+;Levels
+Уровни
+
+;Default website to edit:
+Сайт по умолчанию для редактирования:
+
+;If saved in a cookie, the last edited website is proposed after login.
+Если сохранены cookie, последний редактируемый сайт откроется после авторизации.
+
+;Site <strong>%s</strong>:
+Сайт <strong>%s</strong>&nbsp;:
+
+;Administrator
+Администратор
+
+;Advanced author
+Продвинутый автор
+
+;Intermediate author
+Промежуточный автор
+
+;Simple author
+Автор
+
+;No access
+Нет доступа
+
+;Are you sure you want to delete this author?
+Вы действительно хотите удалить этого автора?
+
+;The author has been successfully saved.
+Автор сохранён.
+
+;Error: The login is not valid, only letters and digits allowed.
+Ошибка: Неправильный логин, разрешаются только буквы латинского алфавита и цифры.
+
+;Error: This login is already used, please use another one.
+Ошибка: Логин уже используется, используйте другой.
+
+;Error: You need to give a password.
+Ошибка: Вы должны ввести пароль.
+
+;Error: You need to give a name.
+Ошибка: Вы должны ввести имя.
+
+;Error: You do not have the rights to modify this user.
+Ошибка: У Вас нет прав изменять этого пользователя.
+
+;Error: This user cannot be deleted.
+Ошибка: Этот пользователь не может быть удалён.
+
+;Author successfully deleted.
+Автор удалён.
+
+;New site
+Новый сайт
+
+;Back to the list of the sites
+Вернуться к списку сайтов
+
+;This site is not available.
+Сайт не принят.
+
+;Error: Permissions of the configuration prevent the addition or modification of the sites.
+Ошибка: Конфигурация запрещает добавление или изменение сайта
+
+;Site name:
+Имя сайта&nbsp;:
+
+;Site id:
+Id сайта:
+
+;Main language of the website:
+Основной язык сайта:
+
+;Error: You must give a name.
+Ошибка: Вы должны указать имя.
+
+;Error: You must give a description.
+Ошибка: Вы должны указать описание.
+
+;Error: Invalid id, it must contain only letters and digits.
+Ошибка: Неправильный id, id должен содержать только буквы латинского алфавита и цифры.
+
+;Error: Impossible to create the configuration file.
+Ошибка: Невозможно создать файл конфигурации.
+
+;Error: The site can only be deleted if empty.
+Ошибка: Сайт может быть удалён только если он будет пуст.
+
+;Are you sure you want to delete this site?
+Вы уверены, что хотите удалить этот сайт?
+
+;Add a file to the current folder
+Добавить файл в текущую папку
+
+;Add the file
+Добавить файл
+
+;Create a sub-folder
+Создать папку
+
+;You are in the folder <strong>%s</strong>
+Текущая папка <strong>%s</strong>
+
+;Error: Impossible to create the new folder.
+Ошибка: Невозможно создать новую папку.
+
+;The folder was successfully created, you can already add files and images in.
+Папка была создана, Вы можете добавлять в неё файлы и изображения.
+
+;Create
+Создать
+
+;Are you sure you want to delete this folder?
+Вы уверены что хотите удалить эту папку?
+
+;Delete this folder
+Удалить эту папку
+
+;Error: Impossible to delete the folder.
+Ошибка: Невозможно удалить папку.
+
+;Folder successfully deleted.
+Папка удалена.
+
+;Impossible to open the file
+Невозможно открыть файл
+
+;Invalid plugin
+Поврежденный плагин
+
+;Impossible to delete the existing plugin
+Невозможно удалить существующий плагин
+
+;An error occured during the download of the file.
+Ошибка при загрузке файла.
+
+;An error occured when writing the file.
+Ошибка при записи файла.
+
+;Tools and plugins
+Инструменты и плагины
+
+;No active or available tools.
+Нет активных инструментов.
+
+;Back to the tools
+Вернуться к инструментам
+
+;The automatic install is not available on your system, do the manual install.
+Автоматическая установка не доступна в Вашей системе, установите вручную. 
+
+;Preferences successfully saved.
+Настройки сохранены.
+
+;Online help
+Помощь в интернете
+
+;Help topics
+Помощь по разделу
+
+;More help
+Справка
+
+;Close this window
+Закрыть окно
+
+;Interface language:
+Язык интерфейса:
+
+;Wiki syntax
+Синтаксис Wiki
+
+;XHTML coding
+XHTML coding
+
+;Resource types
+Типы ресурсов
+
+;New type
+Новый тип
+
+;Name of the type:
+Имя типа:
+
+;Article
+Статья
+
+;Yes
+Да
+
+;No
+Нет
+
+;Have associated link to news items:
+Ассоциированные с новостями ссылки:
+
+;List the types
+Список типов
+
+;The type was successfully saved. 
+Тип сохранён.
+
+;You must provide a name.
+Вы должны ввести имя.
+
+;You must provide a template.
+Вы должны ввести шаблон
+
+;The cachetime must be an integer.
+Время кеширования должно быть целым числом.
+
+;Types of news
+Типы новостей
+
+;Type of articles
+Типы статей
+
+;Are you sure you want to delete this type of resource?
+Вы уверены что хотите удалить этот тип ресурсов?
+
+;Impossible to delete this type as it is in use.
+Невозможно удалить этот тип, т.к. он используется
+
+;The type of resource was successfully deleted.
+Тип ресурсов удалён.
+
+;You need to <a href="%s">add 2 types of resource</a>, one for the articles and one for the news.
+Вы должны <a href="%s">добавить 2 типа ресурсов</a>, один для статей и один для новостей.
+
+;Manager Themes
+Менеджер тем
+
+;version:
+версия:
+
+;Use this theme
+Использовать тему
+
+;Theme successfully changed.
+Тема изменена.
+
+;New website name
+Имя нового сайта
+
+;Description of the __new website__.
+Описание  __нового сайта__.
+
+;No rights to edit this website.
+Нет прав на редактирование этого сайта.
+
+;No rights to add a website.
+Нет прав на добавление сайта.
+
+;Site <strong>%s</strong> successfully saved.
+Сайт <strong>%s</strong> сохранён.
+
+;Site <strong>%s</strong> successfully added.
+Сайт <strong>%s</strong> добавлен.
+
+;Site successfully deleted. No file was removed from the document root.
+Сайт удалён. Ни один файл не был удален из папки документов.
+
+;Log of the installation:
+Лог установки:
+
+;If you see warnings, check them carefully and look at the online documentation to see the impact. You may need to complete the installation manually.
+Если вы видете предупреждения, проверьте их тщательно и посмотрите в онлайн документации об этом. Вы можете закончить установку вручную.
+
+;To see the new website in the manager, you need to logout and login again.
+Чтобы видеть сайт в панеле управления, вы должны повторно авторизироваться.
+
+;If you are using the nice url option, you need to configure the webserver to use these url with this new website.
+Если вы используете сложные url, вы должны настроить веб-сервер на использование этих url с новым сайтом.
+
+;<a href="%s">Manage the subtypes of resources</a>.
+<a href="%s">Управление типами ресурсов</a>.
+
+;Website address:
+Адрес сайта:
+
+;For example put <em>https://www.mydomain.com/mysite/</em> or <em>http://www.mydomain.com/</em>. Do not forget the <em>http(s)</em>.
+К примеру <em>https://www.moi_domen.com/moi_sait/</em> или <em>http://www.moi_domen.com/</em>. Не забудьте <em>http(s)</em>.
+
+;Path to the document root of the website:
+Путь к корневой папке документов на сайте:
+
+;Path on the server side. For example <em>/home/login/www</em> or <em>c:/http</em>. The document root is the folder where the <em>index.php</em> will be placed.
+Путь к WWW папке сервера. К примеру <em>/home/login/www</em> или <em>c:/http</em>. Документ <em>index.php</em> в папке будет заменён.
+
+;Name of the file and image folder:
+Имя папки для файлов и изображений:
+
+;For example put <em>xmedia</em> or <em>documents</em>.
+Например <em>xmedia</em> или <em>documents</em>.
+
+;If all the informations you provided are valid, the system will copy the required files in the right folders. The complete log of those files will be shown to you. No file already available on the system will be overwritten.
+Если вся информация которую вы предоставили правильная, система скопирует необходимые файлы в правильные папки. Полный лог этих файлов будет показан Вам. Файлы уже существующие в системе будут заменены.
+
+;Create the new website
+Создать новый сайт
+
+;File not found:
+Файл не найден:
+
+;Error: Internal error, please report your actions leading to this error message.
+Ошибка: Внутренная ошибка, пожалуйста, опишите Ваши действия перед этим сообщением.
+
+;Error: File and image folder %s not available. Check the name you gave.
+Ошибка: Каталог %s с файлом и изображением недоступен. Проверьте имя, которое вы дали.
+
+;Error: No write access to the file and image folder %s. Check the name you gave.
+Ошибка: Нет доступа на запись к папке файлов и изображений %s. Провельте используемое вами имя.
+
+;Error: The document root folder %s is not available.
+Ошибка: Корневой документ папки  %s недоступен.
+
+;Error: No write access to the root folder %s.
+Ошибка: Нет доступа на запись к папке %s.
+
+;Error: You must give a website address.
+Ошибка: Вы должны указать адресс сайта.
+
+;Error: You must provide a valid website address.
+Ошибка: Вы должны указать правильный адрес сайта.
+
+;Error: The configuration file %s is not writeable.
+Ошибка: Файл конфигурации %s не может быть записан.
+
+;Error: Id already used.
+Ошибка: Id уже используется.
+
+;Error: The configuration folder %s is not writeable.
+Ошибка: Папка конфигурации %s не может быть записана.
+
+;Home Page
+Домашняя страница
+
+;Root category, that plays the role of homepage.
+Главная категория - главная страница.
+
+;homepage, index, default
+домашняя страница, index, по умолчанию
+
+;Thumbnail folder %s created successfully.
+Папка иконок предпросмотра %s создана.
+
+;Unable to create the thumbnail folder %s.
+Невозможно создать папку иконок предпросмотра %s.
+
+;Theme folder %s created successfully.
+Папка темы %s создана.
+
+;Unable to create the theme folder %s.
+Невозможно создать папку темы %s.
+
+;Template folder %s created successfully.
+Папка шаблона %s создана.
+
+;Unable to create the template folder %s.
+Невозможно создать папку шаблона %s.
+
+;Theme files successfully copied from %s to the theme folder.
+Файлы темы скопированы из %s в папку темы.
+
+;Unable to copy the theme files from %s to the theme folder.
+Невозможно скопировать файлы темы из %s в папку с темой.
+
+;Templates files successfully copied from %s to the template folder.
+Файлы шаблона скопированы из %s в папку шаблона.
+
+;Unable to copy the templates files from %s to the template folder.
+Невозможно скопировать файлы шаблона из %s в папку шаблонов.
+
+;Config file successfully copied from %s to the document root folder.
+Файл конфигурации скопирован из %s в корневую папку документов.
+
+;Unable to copy the config file from %s to the document root folder.
+Невозможно скопировать файл конфигурации из %s в корневую папку документов.
+
+;Index file successfully copied from %s to the document root folder.
+Index файл скопирован из %s в корневую папку документов.
+
+;Unable to copy the index file from %s to the document root folder.
+Невозможно скопировать index файл из %s в корневую папку документов.
+
+;Prepend file successfully copied from %s to the document root folder.
+Присоеденённый файл скопирован из %s в корневую папку документов.
+
+;Unable to copy the prepend file from %s to the document root folder.
+Невозможно скопировать присоеденённый файл из %s в корневую папку документов.
+
+;Rss file successfully copied from %s to the document root folder.
+RSS файл был скопирован из %s в корневую папку документов.
+
+;Unable to copy the rss file from %s to the document root folder.
+Невозможно скопировать Rss файл из %s в корневую папку документов.
+
+;Search file successfully copied from %s to the document root folder.
+Найденный файл скопирован из %s в корневую папку документов.
+
+;Unable to copy the search file from %s to the document root folder.
+Невозможно копировать найденный файл из %s в корневую папку документов.
+
+;Config file %s successfully updated.
+Файл настроек %s обновлён.
+
+;Unable to update the config file %s.
+Невозможно обновить файл настроек %s.
+
+;Links:
+Ссылки
+
+;Default theme
+Тема по умолчанию
+
+;Default PLUME CMS theme.
+Тема PLUME CMS по умолчания
+
+;Error: Not an authorized type of file. The file name must contain only simple letters, digits, "-", "_" and a recognized extension. No spaces allowed.
+Ошибка: Неправильное имя или тип файла. Имя файла должно содержать только латинские буквы, цифры, "-", "_" и тип файла должен быть разрешён. 
+
+;Error: Invalid folder name, it must contain only letters, digits, "_" and "-".
+Ошибка: Неправильное имя папки. Имя может содержать только латинские буквы, цифры "_" и "-".
+
+;Id to use in the templates:
+Id используется в шаблоне:
+
+;Parent folder
+Родительская папка
+
+;Go one folder up.
+Вверх
+
+;You need now to add the first page of the article. After adding the first page, you can validate and put online the article.
+Сейчас вы должны добавить первую страницу статьи. После её добавление вы сможете утверждать и помещать статьи в онлайн.
+
+;The comment was successfully deleted.
+Комментарий был успешно удалён.
+
+;The requested comment does not exist.
+Запрошенный комментарий не существует.
+
+;The comment was successfully saved.
+Комментарий был успешно сохранён.
+
+;Error: Configuration file of the website (<strong>%s</strong>) not available. Please check your installation.
+Ошибка: Файл настроек сайта (<strong>%s</strong>) недоступен. Пожалуйста, проверьте вашу установку.
+
+;Choose a file (maximum size %s)
+Выберите файл (максимальный размер %s)
+
+;Type of:
+Тип:
+
+;Comments
+Комментарии
+
+;Latest online comments
+Последние онлайн комментарии
+
+;Latest comments
+Последние комментарии
+
+;Delete all the junk comments listed here.
+
+
+;Delete the junk listed here
+
+
+;The junk comments were successfully deleted.
+
+
+;Error: The requested category is not available.
+Ошибка: Запрошенная категория не найдена.
+
+;The page %s already exists in the installer
+Страница %s уже существует в инсталляторе.
+
+;The test %s is already defined. Each test id must be unique.
+Тест %s уже определён. Каждый тест должен имеет уникальный id.
+
+;The test function %s is not defined.
+Функция теста %s не определена.
+
+;The page %s is not available.
+Страница %s не доступна.
+
+;Please confirm the password:
+Пожалуйста подтвердите пароль:
+
+;The provided file and image folder %s is not available. Please check the folder you gave.
+Установленный каталог файлов и изображений %s недоступен. Проверьте каталог, который вы указали.
+
+;The document root folder of the website %s is not available. Please check the folder you gave.
+Корневой каталог документов веб-сайта %s недоступен. Проверьте каталог, который вы указали.
+
+;The website language must be composed of the 2 ISO standard letters, for example de (German), fr (French), jp (Japanese).
+Язык веб-сайта должен быть составлен из 2 букв стандарта ISO, например: ru (Русский), de (Немецкий), fr (Французский), jp (Японский).
+
+;You must give a website address.
+Вы должны предоставить адрес веб-сайта.
+
+;You must give the URL to the file and image folder.
+Вы должны предоставить URL каталога файлов и изображений.
+
+;The website address must start with http(s)://.
+Адрес веб-сайта должен начинаться с http(s)://.
+
+;The URL to the file and image folder must start with http(s)://.
+URL каталога файлов и изображений должен начинаться с http(s)://.
+
+;You must provide a website description.
+Вы должны предоставить описание веб-сайта.
+
+;You must give a website name.
+Вы должны указать имя веб-сайта.
+
+;The system has no write access to the file and image folder %s. Check the permissions on the server.
+Система не имеет прав записи в каталог файлов и изображений %s. Проверьте настройки доступа на сервере.
+
+;The system has no write access to the document root folder %s. Check the permissions on the server.
+Система не имеет прав записи в каталог документов %s. Проверьте настройки доступа на сервере.
+
+;The system has no write access to the configuration folder <em>manager/conf/</em>. Check the permissions on the server.
+Система не имеет прав записи в каталог конфигураций <em>manager/conf/</em>. Проверьте настройки доступа на сервере.
+
+;The system has no write access to the template folder <em>manager/templates/</em>. Check the permissions on the server.
+Система не имеет прав записи в каталог шаблонов <em>manager/templates/</em>. Проверьте настройки доступа на сервере.
+
+;Adding a new website with id %s, but a website with this id already exists.
+Во время добавления веб-сайта с id %s оказалось, что веб-сайт с таким id уже существует.
+
+;You need to provide your name.
+Вы должны указать ваше имя.
+
+;You need to provide a valid  address.
+Вы должны предоставить настоящий  адрес email .
+
+;The website address must start with http://.
+Адрес сайта должен начинаться с http://.
+
+;Empty comments are not comments.
+Пустые комментарии не являются комментариями.
+
+;Error: You do not have the correct rights to edit this resource.
+Ошибка&nbsp;: Вы не имеете прав на редактирование этого ресурса.
+
+;You do not have the rights to save a category
+Вы не имеете прав сохранять категорию
+
+;You do not have the rights to remove a category
+Вы не имеете прав удаления категории
+
+;This comment is not available.
+Этот комментарий недоступен.
+
+;Error: You do not have the rights to edit this comment.
+Ошибка&nbsp;: Вы не имеете прав редактирования этого комментария.
+
+;Error: you are trying to update a non existing page.
+Ошибка&nbsp;: Попытка обновления несуществующей страницы.
+
+;A path for the article must be provided.
+Необходимо указать путь к статье.
+
+;Illegal characters in the path. Please read the help to know how to choose the right path for your article.
+Недоступные символы в пути. Пожалуйста, прочитайте справку, чтобы узнать, как выбирать символы для пути к вашей статье.
+
+;An article is already using the path: <em>%s</em>. Please use another one.
+Статья уже использует путь&nbsp;: <em>%s</em>. Пожалуйста используйте другой.
+
+;The resource is not in this category it must be removed from.
+Ресурс, который вы хотите удалить, находится в другой категории
+
+;The resource cannot be removed from the main category
+Ресурс не может быть удалён из основной категории
+
+;Invalid author.
+Неверный автор.
+
+;Try to add a non existing author to the resource.
+Попробуйте добавить несуществующего автора к ресурсу.
+
+;The author to be removed is not associated to the resource.
+Автор, выбранный для удаления, не существует в данном ресурсе.
+
+;Impossible to remove the unique author of the resource.
+Невозможно удалить автора ресурса.
+
+;Error: No details to be removed for the current news.
+Ошибка&nbsp;: Нет параметров для удаления для текущей новости.
+
+;This path is already used by another category, please change it.
+Путь уже используется другой категорией, пожалуйста, измените его.
+
+;The category template seems invalid, please select another one from the form..
+Возможно, шаблон категории  неисправен.  Пожалуйста, выберите его в форме.
+
+;You need to provide a name for the category.
+Вы должны указать имя категории.
+
+;Error: A root category cannot be deleted.
+Ошибка&nbsp;: корневая категория не может быть удалена.
+
+;Error: A category must be empty to be deleted.
+Ошибка&nbsp;: Удаляемая категория должна быть пустой.
+
+;Search for an article:
+Поиск статьи&nbsp;:
+
+;No comments.
+Нет комментариев.
+
+;Comment off-line
+Комментарий оффлайн
+
+;Comment on-line
+Комментарий онлайн
+
+;Comment waiting for validation
+Комментарий ожидает подтверждения
+
+;Comment
+Комментарий
+
+;To
+для
+
+;No comments for the moment.
+На данный момент комментариев нет. 
+
+;Show/hide edition form
+Показать/спрятать форму редактирования
+
+;with the IP address:
+с IP адрессом&nbsp;:
+
+;Author
+Автор
+
+;Email
+Email
+
+;Website
+Веб-сайт
+
+;Content of the comment
+Содержание комментария
+
+;Save
+Сохранить
+
+;Delete
+Удалить
+
+;Are you sure you want to delete this comment?
+Вы действительно хотите удалить этот комментарий?
+
+;Add a comment
+Добавить комментарий.
+
+;Search for a news item:
+Поиск новостей&nbsp;:
+
+;Comments open
+Комментарии доступны
+
+;Comments closed
+Комментарии недоступны
+
+;You do not have the rights to edit this website.
+Вы не имеете прав редактировать этот веб-сайт.
+
+;The theme is invalid. It must contain only letters and digits.
+Неверный id темы. Он должен содержать только числа и буквы.
+
+;Impossible to save the configuration file.
+Невозможно сохранить файл настроек.
+
+;DB error:
+Ошибка базы данных&nbsp;:
+
+;The theme of the site has been successfully changed. You may need to copy the style files in the xmedia folder.
+Тема сайта была успешно изменена. Вам может понадобиться сделать копию файлов стилей в каталоге xmedia.
+
+;Support of the comments:
+Поддержка комментариевs&nbsp;:
+
+;Defined for each individual resource
+Установлено для каждого индивидуального ресурса
+
+;Default status of the comments:
+Статус комментариев по уолчанию&nbsp;:
+
+;Need validation
+Требуется подтверждение
+
+;Online
+Онлайн
+
+;Website Themes
+Темы Веб-сайта
+
+;Blue theme
+Голубая тема
+
+;Blue PLUME CMS theme.
+Голубая тема Plume CMS.
+
+;Dotclear
+Dotclear
+
+;Mimic the Dotclear interface.
+Имитировать интерфейс Dotclear.
+
+;Default Plume CMS theme
+Тема Plume CMS по умолчанию
+
+;Junk
+Спам
+
+;Error: The id of the website "%s" can only contain letters and numbers.
+Ошибка&nbsp;: id веб-сайта "%s" может содержать только буквы и цифры.
+
+;Show the category content
+Показать содержание категории
+
+;show
+Показать
+
+;Comment is junk
+Комментарий является спамом
+
+;You can read the <a href="http://pxsystem.sourceforge.net/documentation.html">complete online documentation</a>.
+Вы можете прочитать <a href="http://pxsystem.sourceforge.net/fr/documentation.html">полную документацию онлайн</a>.
+
+;You can also ask your questions to the community on the <a href="http://pxsystem.sourceforge.net/participate.html">forum</a>.
+Вы также можете задать ваши вопросы на <a href="http://pxsystem.sourceforge.net/fr/participate.html">форуме</a> сообщества.
+
+;Manager Access
+Менеджер Доступа
+
+# Accesskeys for Main Menu
+##########################
+
+# Content
+;c
+а
+
+# Comments
+;m
+м
+
+# Categories
+;a
+К
+
+# Authors
+;r
+А
+
+# Preferences
+;f
+ы
+
+# Tools
+;t
+И
+
+# Sites
+;e
+т
+
+# Help
+;h
+П
+
+# Other accesskeys (not underlined)
+###################################
+
+# Logout
+;o
+o
+
+# See the current site
+;i
+i
+# Accesskey for submit buttons
+##############################
+
+# Visualize [v] => the [key] after line 190 must fit to the defined accesskey
+;v
+v
+
+# Save [s] => the [key] after line 190 must fit to the defined accesskey
+;s
+s
+
+# Transform in XHTML [x] => the [key] after line 190 must fit to the defined accesskey
+;x
+x
+
+# Delete [d] => the [key] after line 190 must fit to the defined accesskey
+;d
+d
+
+###############################
+# Strings for alertcom plugin #
+###############################
+
+;A comment has been left on your Plume CMS site.
+
+
+;This comment has been left on your Plume CMS website:
+
+
+;Author:
+
+
+;Email:
+
+
+;Website:
+
+
+;IP:
+
+
+;Comment content
+
+
+;Go to the comments in the Manager:
+
+
+;junk
+
+
+;published
+
+
+;Comment status:

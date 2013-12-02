@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+<head><title>Aide Wiki</title>
+<meta name="author" content="Loïc d'Anterroches" />
+<meta name="description" content="modifi&eacute; par cilia puis Jojaba" />
+</head>
+<body>
+
+<h4>Éléments de formatage de type bloc&nbsp;:</h4>
+
+<dl class="help">
+<dt>Paragraphe (balise &lt;p&gt;)</dt><dd>2 retours à la ligne</dd>
+<dt>Trait (balise &lt;hr/&gt;)</dt><dd><code>====</code> (4 signes "égal" ou plus) + retour à la ligne</dd>
+<dt>Liste (balise &lt;ul&gt; et &lt;li&gt; ou &lt;ol&gt; et &lt;li&gt;)</dt><dd>une ou plusieurs <code>*</code> ou  <code>-</code> (liste à puces) ou <code>#</code> (liste numérotée) par élément + retour à la ligne</dd>
+<dt>Tableaux (balise &lt;table&gt;)</dt><dd><span><code> | </code>texte<code> | </code>texte</span>  ( <code> | </code>  = caractère séparateur de colonne avec un espace de chaque côté, chaque ligne écrite = une ligne de tableau</dd>
+<dt>Titres de tableau (balise &lt;th&gt;)</dt><dd><span><code> | </code>!texte!<code> | </code>!texte!</span></dd>
+<dt>Sous-titre niveau 3 (balise &lt;h3&gt;)</dt><dd><span><code>!!!</code>titre</span> + retour à la ligne</dd>
+<dt>Sous-titre niveau 4 (balise &lt;h4&gt;)</dt><dd><span><code>!!</code>titre</span> + retour à la ligne</dd>
+<dt>Sous-titre niveau 5 (balise &lt;h5&gt;)</dt><dd><span><code>!</code>titre</span> + retour à la ligne</dd>
+<dt>Texte préformaté (balise &lt;pre&gt;)</dt><dd>un espace + texte + retour à la ligne</dd>
+<dt>Citation (balise &lt;blockquote&gt;)</dt><dd><span><code>&gt;</code>texte</span> + retour à la ligne</dd>
+<dt>Définitions (balises &lt;dl&gt; &lt;dt&gt; et &lt;dd&gt;)</dt><dd><span><code>;</code>terme<code> : </code>définition</span> + retour à la ligne (espaces autour de <code>:</code>)</dd>
+<dt>Galerie (balises &lt;div class="gallery"&gt;, &lt;img&gt;, &lt;a&gt; et &lt;p&gt; )</dt><dd><span><code>$</code> <code>((</code>liens vers l'image<code>|</code>texte alternatif<code>|</code>gal:200x200<code>|</code>description de l'image<code>))</code></span> (nb: gal:200x200 = dimension de la vignette g&eacute;n&eacute;r&eacute;e)</dd>
+</dl>
+
+<h4>Éléments de formatage de type inline&nbsp;:</h4>
+
+<dl class="help">
+<dt>Mettre en gras (balise &lt;strong&gt;)</dt><dd><span><code>__</code>texte<code>__</code></span> (2 underscores)</dd>
+<dt>Mettre en italique (balise &lt;em&gt;)</dt><dd><span><code>''</code>texte<code>''</code></span> (deux apostrophes)</dd>
+<dt>Retour à la ligne forcé (balise &lt;br/&gt;)</dt><dd><code>%%%</code> </dd>
+<dt>Lien (balise &lt;a&gt;)</dt><dd><span><code>[</code>nomdulien<code>|</code>lien<code>|</code>langue<code>|</code>description (titre)<code>]</code></span> </dd>
+<dt>Lien vers une ressource (balise &lt;a&gt;)</dt><dd><span><code>[</code>Nom du lien<code>|</code>xlink://ressource-id/<code>]</code></span></dd>
+<dt>Courriel (balise &lt;a&gt;)</dt><dd><span><code>[</code>nom du lien<code>|</code>mailto:address@example.com<code>]</code></span> L'adresse courriel est automatiquement prot&eacute;g&eacute;e contre le spam.</dd>
+<dt>Images (balise &lt;img&gt;)</dt><dd><span><code>((</code>url image<code>|</code>texte alternatif<code>|</code>position<code>|</code>longue description<code>))</code></span>  position = G, D, C ( alignée à Gauche, Droite ou Centr&eacute;e)</dd>
+<dt>Code (balise &lt;code&gt;)</dt><dd><span><code>@@</code>code<code>@@</code></span></dd>
+<dt>Citation (balise &lt;q&gt;)</dt><dd><span><code>^^</code>phrase<code>|</code>lien source<code>^^</code></span></dd>
+<dt>Référence (balise &lt;cite&gt;)</dt><dd><span><code>{{</code>référence<code>}}</code></span></dd>
+<dt>Acronyme (balise &lt;acronym&gt;)</dt><dd><span><code>??</code>acronyme<code>|</code>signification<code>??</code></span></dd>
+<dt>Ancre</dt><dd><span><code>~~</code>monancre</span><code>~~</code></dd>
+</dl>
+
+<h4>Autre</h4>
+
+<dl class="help">
+<dt>Caract&egrave;re d'&eacute;chappement</dt><dd><span><code>\</code></span> (exemple : [\ ndlr : dublabla \] )</dd>
+</dl>
+
+</body>
+</html>

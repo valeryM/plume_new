@@ -1,0 +1,710 @@
+/* ***** BEGIN LICENSE BLOCK *****
+ * Version: MPL 1.1/GPL 2.0/LGPL 2.1
+ *
+ * The contents of this file are subject to the Mozilla Public License Version
+ * 1.1 (the "License"); you may not use this file except in compliance with
+ * the License. You may obtain a copy of the License at
+ * http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the License is distributed on an "AS IS" basis,
+ * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+ * for the specific language governing rights and limitations under the
+ * License.
+ *
+ * The Original Code is DotClear Weblog.
+ *
+ * The Initial Developer of the Original Code is
+ * Olivier Meunier.
+ * Portions created by the Initial Developer are Copyright (C) 2003
+ * the Initial Developer. All Rights Reserved.
+ *
+ * Contributor(s):
+ *
+ * Arrabie C�dric
+ *
+ * Alternatively, the contents of this file may be used under the terms of
+ * either the GNU General Public License Version 2 or later (the "GPL"), or
+ * the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+ * in which case the provisions of the GPL or the LGPL are applicable instead
+ * of those above. If you wish to allow use of your version of this file only
+ * under the terms of either the GPL or the LGPL, and not to allow others to
+ * use your version of this file under the terms of the MPL, indicate your
+ * decision by deleting the provisions above and replace them with the notice
+ * and other provisions required by the GPL or the LGPL. If you do not delete
+ * the provisions above, a recipient may use your version of this file under
+ * the terms of any one of the MPL, the GPL or the LGPL.
+ *
+ * ***** END LICENSE BLOCK ***** */
+  body { margin: 0pt;
+    padding: 0pt;
+    background: rgb(255, 255, 255) url(images/fond.jpg) repeat scroll 0% 50%;
+    -moz-background-clip: initial;
+    -moz-background-origin: initial;
+    -moz-background-inline-policy: initial;
+    font-family: Arial,Helvetica,sans-serif;
+    }
+
+  a { color: rgb(51, 102, 204);
+    }
+
+  h1, h2, h3, h4 { font-family: "Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+    }
+
+  h1 { color: rgb(34, 67, 127);
+    position: relative;
+    }
+h1#title_article {
+        background: transparent url(images/ico_article_title.png) no-repeat left center;
+        padding-left: 38px;
+}
+
+h1#title_comments {
+        background: transparent url(images/ico_comments.png) no-repeat left center;
+        padding-left: 38px;
+}
+
+h1#title_categories {
+        background: transparent url(images/ico_cat.png) no-repeat left center;
+        padding-left: 38px;
+}
+
+h1#title_authors {
+        background: transparent url(images/ico_authors.png) no-repeat left center;
+        padding-left: 38px;
+}
+
+
+h1#title_help {
+        background: transparent url(images/ico_help.png) no-repeat left center;
+        padding-left: 38px;
+}
+
+h1#title_sites {
+        background: transparent url(images/ico_sites.png) no-repeat left center;
+        padding-left: 38px;
+}
+
+
+h1#title_tools {
+        background: transparent url(images/ico_tools.png) no-repeat left center;
+        padding-left: 38px;
+}
+
+
+h1#title_prefs {
+        background: transparent url(images/ico_pref.png) no-repeat left center;
+        padding-left: 38px;
+}
+
+h1#title_news {
+        background: transparent url(images/ico_news_title.png) no-repeat left center;
+        padding-left: 38px;
+}
+
+h1#title_rsslinks {
+        background: transparent url(images/rss.png) no-repeat left center;
+        padding-left: 38px;
+}
+
+h1#title_files {
+        background: transparent url(images/ico_files_title.png) no-repeat left center;
+        padding-left: 38px;
+}
+
+h1#title_index {
+        background: transparent url(images/ico_content.png) no-repeat left center;
+        padding-left: 38px;
+}
+
+h1#title_subtypes {
+        background: transparent url(images/ico_subtypes_title.png) no-repeat left center;
+        padding-left: 38px;
+}
+
+  div > h2 { position: static;
+    }
+
+  h2, h3 { color: rgb(255, 102, 0);
+    }
+
+  h4 { color: rgb(0, 153, 0);
+    }
+
+  p { margin: 1em 0pt;
+    }
+
+  img { border: 0pt none ;
+    }
+
+  dt { margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    }
+
+  dd { margin-left: 0.5em;
+    }
+
+  pre, code, kbd, samp { font-family: "Courier New",Courier,monospace;
+    font-size: 1.1em;
+    }
+
+  code { color: rgb(102, 102, 102);
+    font-weight: bold;
+    }
+
+  hr.invisible { clear: both;
+    visibility: hidden;
+    }
+
+  #menu { z-index: 2;
+    position: absolute;
+    left: 5px;
+    width: 12em;
+    font-size: 0.9em;
+    }
+
+  #side-right ul { margin: 0pt;
+    padding: 0pt;
+    list-style-type: square;
+    list-style-image: none;
+    list-style-position: inside;
+    }
+
+  #side-nav-label { display: none;
+    }
+
+  #menu { border-left: 1px solid rgb(89, 118, 178);
+    border-right: 1px solid rgb(89, 118, 178);
+    border-bottom: 1px solid rgb(89, 118, 178);
+    margin: 0pt;
+    padding: 0pt;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+    background-color: rgb(34, 67, 127);
+    }
+
+  #menu li { border-top: 1px solid rgb(89, 118, 178);
+    border-bottom: 1px solid rgb(34, 67, 127);
+    margin: 0pt;
+    padding: 0pt 0pt 0pt 5px;
+    font-weight: bold;
+    color: rgb(167, 178, 201);
+    }
+#menu li:hover {
+	cursor:pointer;
+}
+  #menu a { margin: 0pt 5px;
+    padding: 4px 2px;
+    font-weight: bold;
+    color: White;
+    text-decoration: none;
+    }
+
+  #menu img { vertical-align: middle;
+    }
+
+  #menu li:hover { font-weight: bold;
+    background-color: rgb(70, 101, 158);
+    }
+
+  #main { margin: 3px 0em 3px 11em;
+    font-size: 0.9em;
+    width: auto;
+    min-width: 120px;
+    z-index: 3;
+    padding-left: 24px;
+    padding-right: 3px;
+    }
+
+  #content { border: 2px solid rgb(167, 178, 201);
+    padding: 15px;
+    background-color: rgb(214, 214, 214);
+    }
+
+  .content { margin: 0pt 1em;
+    }
+
+  #submenu { border: 1px solid rgb(89, 118, 178);
+    margin: 3px 0pt;
+    font-size: 0.9em;
+    width: auto;
+    z-index: 3;
+    min-width: 120px;
+    padding-left: 0pt;
+    padding-right: 0pt;
+    background-color: rgb(34, 67, 127);
+    color: rgb(34, 67, 127);
+    }
+
+  #submenu li { display: inline;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+    }
+
+  #submenu ul { margin: 0pt;
+    padding: 0pt;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: inside;
+    }
+
+  #submenu a { margin: 0pt 5px;
+    padding: 4px 2px;
+    font-weight: bold;
+    color: White;
+    text-decoration: none;
+    }
+
+  #submenu img { vertical-align: middle;
+    }
+
+  #footer { margin: 10px 3px 5px 0pt;
+    text-align: right;
+    }
+
+  #footer img { border: medium none ;
+    }
+
+  hr.hidden { border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 1px 0pt 0pt;
+    height: 1px;
+    }
+
+  hr.thin { border-style: solid;
+    border-color: rgb(221, 221, 221);
+    border-width: 1px 0pt 0pt;
+    height: 1px;
+    }
+
+  .small { font-size: 0.8em;
+    }
+
+  .center { text-align: center;
+    }
+
+  p.sans-marge { margin: 0pt;
+    }
+
+  .message { color: rgb(255, 102, 0);
+    font-weight: bold;
+    }
+
+  .resourcebox { border-style: dotted;
+    border-color: rgb(34, 67, 127);
+    border-width: 5px 1px 1px;
+    margin: 0pt 0pt 0.5em;
+    padding: 0pt 0.5em;
+    }
+
+  .resourcebox img.status { 
+    margin: 5px 0 0 5px;
+    float: right;
+    }
+
+  .resourcebox img.show_button {
+        float: left;
+        margin: 8px 2px 0 0;
+}
+
+.resourcebox p.action {
+	float: right;
+}
+
+.resourcebox p.resource_title {
+        margin: 5px 0 5px 5px;
+        padding: 2px;
+}
+
+.resourcebox p.infos {
+        margin: 0 2px 0 15px;
+        padding: 2px;
+}
+
+.resourcebox p.datetime {
+        font-size: 0.9em;
+        margin: 0 0 10px 40px;
+        padding: 0 0 0 3px;
+}
+
+.resourcebox div.description_style{
+	margin: 5px 20px;
+	padding: 5px;
+	border-top: #22437F dotted 1px;
+        border-bottom: #22437F dotted 1px;
+}
+span.date-time {
+        padding: 0 0 0 27px;
+        margin-left: 20px;
+	    background: transparent url(images/ico_datetime_small.png) no-repeat left center;
+}
+
+span.art_style {
+        padding-left: 16px;
+        font-weight: bold;
+        margin: 0;
+        display: inline;
+        background: transparent url(images/ico_article_small.png) no-repeat left center;
+}
+
+span.news_style {
+        padding: 0% 0% 0% 20px;
+        font-weight: bold;
+        margin: 0;
+        display: inline;
+        background: transparent url(images/ico_news_small.png) no-repeat left center;
+}
+
+span.rsslinks_style {
+        padding: 0% 0% 0% 20px;
+        font-weight: bold;
+        margin: 0;
+        display: inline;
+        background: transparent url(images/rss_small.png) no-repeat left center;
+}
+span.news_style {
+        padding: 0% 0% 0% 20px;
+        font-weight: bold;
+        margin: 0;
+        display: inline;
+        background: transparent url(images/ico_events_small.png) no-repeat left center;
+}
+
+span.author_style {
+        margin: 0;
+        padding-left: 18px;
+        display: inline;
+        background: transparent url(images/ico_auth_small.png) no-repeat left center;
+}
+
+span.category_style {
+        padding: 0% 0% 0% 18px;
+        margin: 0;
+        display: inline;
+        background: transparent url(images/dossier.png) no-repeat left center;
+}
+span.locked {
+	padding: 2px 0 2px 16px;
+	background: transparent url(images/ico_locked.png) no-repeat left center;
+}
+  .thumbnail { border: 1px solid rgb(0, 0, 0);
+    }
+
+  .thumbnailicon { border: 0px none ;
+    }
+
+  .erreur { border-left: 6px solid rgb(255, 153, 51);
+    padding: 0pt 0pt 0pt 0.5em;
+    }
+
+  .erreur strong { color: rgb(255, 102, 0);
+    }
+
+  .errno { color: rgb(102, 102, 102);
+    }
+
+  .errmsg { color: rgb(204, 0, 0);
+    font-weight: bold;
+    }
+
+  .post-info { color: rgb(255, 102, 0);
+    }
+
+  .cancel, .cancel .post-info { color: rgb(102, 102, 102);
+    }
+
+  .user-info { border: 1px solid rgb(167, 178, 201);
+    margin: 0pt;
+    padding: 5px 5px 5px 40px;
+    background: white url(images/ico_author.png) no-repeat scroll 3px 0.5em;
+    float: right;
+    position: relative;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-topright: 8px;
+    -moz-border-radius-bottomright: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    white-space: nowrap;
+    -moz-background-clip: initial;
+    -moz-background-origin: initial;
+    -moz-background-inline-policy: initial;
+    z-index: 2;
+    }
+
+  
+  .nowrap {
+	white-space: nowrap;
+}
+
+.bloc-droite {
+	display: block;
+	/*float: right;*/
+	text-align:right;
+	/*position: relative; */
+	border: 1px solid rgb(167, 178, 201);
+	margin: 0pt;
+	padding: 5px 0px 0px 5px;
+	background-color: rgb(34, 67, 127);
+	font-size: 0.9em;
+	width: auto;
+   
+}
+
+.bloc-droite a {
+	margin: 0pt 10px;
+	font-weight: bold;
+	color: White;
+	text-decoration: none;
+}
+.bloc-droite img {
+	vertical-align: middle;
+}
+
+dl.plugin-list dt {
+	margin: 0;
+	padding: 0 0 0 35px;
+}
+
+dl.plugin-list dt img {
+	float: left;
+	margin-left: -35px;
+    position: relative;
+}
+
+dl.plugin-list dd {
+	margin: 0.5em 0 1.5em 35px;
+}
+
+dl.credits-list dt {
+	margin: 0;
+	padding: 0 0 0 110px;
+}
+
+dl.credits-list dt img {
+	float: left;
+	margin-left: -110px;
+    position: relative;
+}
+
+dl.credits-list dd {
+	margin: 0.5em 0 1.5em 110px;
+}
+
+dl.themes-list dt {
+	margin: 0;
+	padding: 0 0 0 420px;
+}
+
+dl.themes-list dt img {
+	float: left;
+	margin-left: -420px;
+    position: relative;
+	border: 2px outset Black;
+	padding: 5px;
+}
+
+dl.themes-list dd {
+	margin: 0.5em 0 1.5em 425px;
+	height: 160px;
+}
+  table.clean-table { border-collapse: collapse;
+    }
+
+  table.clean-table tr {  }
+
+  table.clean-table th { border: 1px solid rgb(0, 0, 0);
+    padding: 0.5em;
+    }
+
+  table.clean-table td { border: 1px solid rgb(102, 102, 102);
+    padding: 0.5em;
+    }
+
+  ul.folders { margin-left: 0pt;
+    padding-left: 0pt;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+    }
+
+  ul.folders li { padding-left: 20px;
+    background-image: url(images/dossier.png);
+    background-repeat: no-repeat;
+    background-position: 0pt 50%;
+    }
+
+  input, textarea, option, select { background: White none repeat scroll 0%;
+    -moz-background-clip: initial;
+    -moz-background-origin: initial;
+    -moz-background-inline-policy: initial;
+    color: rgb(0, 0, 0);
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 1em;
+    margin-top: 2px;
+    }
+
+  input, textarea { border: 1px inset rgb(34, 67, 127);
+    }
+
+  label, span.label { display: block;
+    }
+
+  input.submit { border-style: outset;
+    background: rgb(34, 67, 127) none repeat scroll 0%;
+    -moz-background-clip: initial;
+    -moz-background-origin: initial;
+    -moz-background-inline-policy: initial;
+    font-weight: bold;
+    color: white;
+    }
+
+  input.submit:hover, input.submit:focus { background: rgb(70, 101, 158) none repeat scroll 0%;
+    -moz-background-clip: initial;
+    -moz-background-origin: initial;
+    -moz-background-inline-policy: initial;
+    }
+
+  input.submit:active { border-style: inset;
+    }
+
+  p.field { margin: 0pt;
+    padding: 1em 0pt 0pt;
+    clear: left;
+    }
+
+  label.float, span.label { position: relative;
+    float: left;
+    width: 25%;
+    padding-right: 0.5em;
+    }
+
+  div.login { border: 1px solid rgb(89, 118, 178);
+    margin: auto;
+    padding: 2em 1em;
+    background: rgb(214, 214, 214) none repeat scroll 0%;
+    width: 14em;
+    text-align: left;
+    -moz-background-clip: initial;
+    -moz-background-origin: initial;
+    -moz-background-inline-policy: initial;
+    color: rgb(34, 67, 127);
+    }
+
+  #switch p {
+	text-align: right;
+}
+
+  .preview { border: 2px outset Black;
+    padding: 0.5em;
+    background-color: white;
+    }
+
+  .preview h1 { color: rgb(255, 102, 0);
+    font-size: 1.6em;
+    }
+
+  .preview h3 { color: rgb(51, 102, 204);
+    }
+
+  .preview h2 { color: rgb(51, 102, 204);
+    }
+
+.previewButton {
+	/*float: right; */
+	position: relative;
+	left: 2%;
+	top:-5px;
+	border: 1px solid #CCCC;
+	-moz-border-radius: 8px;
+	margin: 0;
+	padding: 4px 4px 4px 28px;
+	white-space: nowrap;
+	background: #BBBBBB url("images/stock_zoom-page.png") no-repeat 2px 2px;
+	/* background: #e7e7e7 url("images/bg-header-light.png"); */
+    z-index: 2;
+}
+.filterButton {
+	/*float: right; */
+	position: relative;
+	left: 2%;
+	top:-5px;
+	border: 1px solid #CCCC;
+	-moz-border-radius: 8px;
+	margin: 0;
+	padding: 4px 4px 4px 28px;
+	white-space: nowrap;
+	width:30px;
+	height:30px;
+	background: #BBBBBB url("images/stock_zoom-page.png") no-repeat 2px 2px;
+	/* background: #e7e7e7 url("images/bg-header-light.png"); */
+    z-index: 2;
+}
+.resetButton {
+	/*float: right; */
+	position: relative;
+	left: 2%;
+	top:-5px;
+	border: 1px solid #CCCC;
+	-moz-border-radius: 8px;
+	margin: 0;
+	padding: 4px 4px 4px 28px;
+	white-space: nowrap;
+	width:30px;
+	height:30px;
+	background: #BBBBBB url("images/cc-gohome2-24x24.png") no-repeat 4px 2px;
+	/* background: #e7e7e7 url("images/bg-header-light.png"); */
+    z-index: 2;
+}
+.actionButton {
+	/*float: left;*/
+	position: relative;
+	top:-4px;
+	border: 1px solid #CCCC;
+	-moz-border-radius: 8px;
+	margin: 0;
+	padding: 4px 4px 4px 4px
+	white-space: nowrap;
+	background: url("images/bg-header.png") ;
+	/* background: #e7e7e7 url("images/bg-header-light.png"); */
+    z-index: 2;
+}
+
+div.gallery-img {
+	float: left;
+	padding: 0 1em;
+}
+
+p.gallery-legend {
+	text-align: center;
+}
+
+img.px-center {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.px-right {
+	float: right;
+}
+
+img.px-left {
+	float: left;
+}
+
+.categoryList {
+	font-family: Helvetica,Trebuchet,Arial,"Trebuchet MS",sans-serif;
+	font-size : 12px;	
+ }
+.categoryMain {
+	font-family: Helvetica,Trebuchet,Arial,"Trebuchet MS",sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #7DA6D2;	
+ }
+ 
+.line:hover {
+	background: #eeeeee;
+} 

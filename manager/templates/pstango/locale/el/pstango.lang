@@ -1,0 +1,172 @@
+﻿# -*- coding: utf-8 -*-
+# (C) 2007 Sonickydon <your@email>
+;404 Page not found !
+404. Δε βρέθηκε η σελίδα
+
+;404 Error - Page not found
+Σφάλμα 404 - Δε βρέθηκε η σελίδα
+
+;The page you are looking for is not available anymore. We tried to search for the pages that match your request. Feel free to refine the search.
+Δεν είναι διαθέσιμη πλέον η σελίδα που ζητήσατε. Αναζητήσαμε τις σελίδες που ταιριάζουν με τα κριτήρια αναζήτησής σας. Μπορείτε να βελτιώσετε την αναζήτηση
+
+;Results of the search on:
+Αποτελέσματα αναζήτησης για&nbsp;:
+
+;by
+από
+
+;In %s
+Σε %s
+
+;Number of comments:
+Αριθμός σχολίων&nbsp;:
+
+;and
+&nbsp;και&nbsp;
+
+;Score:
+Βαθμολογία&nbsp;:
+
+;%Y-%m-%d at %H:%M
+%d-%m-%Y στις %H:%M
+
+;<p><a href="%s">Previous Page</a></p>
+<p><a href="%s">Προηγούμενη σελίδα</a></p>
+
+;<p><a href="%s">Next Page</a></p>
+<p><a href="%s">Επόμενη σελίδα</a></p>
+
+;Back to
+Πίσω σε
+
+;Links
+Δεσμοί
+
+;Link
+Σύνδεση
+
+;No resources
+Δεν υπάρχουν πόροι
+
+;1 resource
+1 πόρος
+
+;<strong>%s</strong> resources
+<strong>%s</strong> πόροι
+
+;in this category.
+σ' αυτή την κατηγορία.
+
+;, publisher of
+, εκδότης του
+
+;Categories
+Κατηγορίες
+
+;In short
+Σε συντομία
+
+;Add a comment
+Προσθηκη σχολιου
+
+;Author:
+Συγγραφέας&nbsp;:
+
+;Email:
+Email&nbsp;:
+
+;required but not shared or displayed
+Απαιτούμενη - δεν εμφανίζεται
+
+;Website:
+Ιστότοπος&nbsp;:
+
+;Comment
+Σχόλιο
+
+;Preview
+Προεπισκόπιση
+
+;Submit
+Υποβολή
+
+;The comments are closed for this resource.
+Δεν υπάρχει δυνατότητα σχολιασμού για τον πόρο
+
+;Comments
+Σχόλια
+
+;Comment preview
+Προεπισκόπηση σχόλιου
+
+;Your post will be online after validation by the webmaster.
+Η εγγραφή σας θα δημοσιευθεί αφού εγγριθεί από το διαχειριστή της ιστοσελίδας
+
+;Go to the content
+Μετάβαση στο περιεχόμενο
+
+;Go to the menu
+Μετάβαση στο μενού
+
+;POWERED by
+Τροφοδοτείται από
+
+;Powered by PLUME CMS
+Τροφοδοτείται από το PLUME CMS
+
+;Logo of Plume CMS
+Λογότυπο του Plume CMS
+
+;DESIGN by
+Σχεδιασμός από
+
+;Recent news
+Πρόσφατες ειδήσεις
+
+;%Y&bull;%m&bull;%d
+%d&bull;%m&bull;%Y
+
+;Feeds
+Αρχεία ροής
+
+;Sitemap
+Χάρτης ιστότοπου
+
+;<div id="art-pages-list"><h3>Pages of the article</h3> %s</div>
+<div id="art-pages-list"><h3>Σελίδες του άρθρου</h3> %s</div>
+
+;Results
+Αποτελέσματα
+
+;Home
+Σπίτι
+
+;Read
+διαβάστε
+
+;<div id="subcat"><h3>Subcategories</h3> %s</div>
+<div id="subcat"><h3>Υποκατηγορίες</h3> %s</div>
+
+;Recent articles
+Πρόσφατα άρθρα
+
+;<h3 class="error">Error !</h3>%s<h3 class="comment-add">Modify your comment</h3>
+<h3 class="error">Λάθος !</h3>%s<h3 class="comment-add">Επεξεργασία σχόλιου</h3>
+
+;1.2.3 new Default theme
+
+
+;New Default Plume CMS theme for version 1.2.3
+
+
+;Design by Jojaba
+
+
+;Jojaba
+
+
+;Search
+Αναζήτηση
+
+;OK
+OK

@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		
+		<title>Juiz DropDown Menu in jQuery - CreativeJuiz - Infographie</title>
+		
+		<meta name="description" content="Gagnez en fluidité et organisation de vos menus grâce à ce plugin simple à mettre en place" />
+		<meta name="keywords" content="jQuery, plugin, creative, juiz, juice, personnalisable, customisable, menu, déroulant, drop, down, formulaire, geoffrey, crofte, aside, mise en page, page, organisation" />
+		<meta name="subject" content="Développement de plugins jQuery" />
+		<meta name="author" content="Geoffrey Crofte, CreativeJuiz" />
+		<meta name="DC.title" content="Juiz DropDown Menu in jQuery - CreativeJuiz - Infographie" />
+		<meta name="viewport" content="width=device-width">
+		<link href="css/styles.css" rel="stylesheet" type="text/css" />
+		<link href="css/juizDropDownMenu.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+
+		<h1>Juiz DropDown Menu</h1>		
+
+	
+			<ul id="dropdown">
+				<li><a href="#accueil">Home</a></li>
+				<li><a href="#rea">Services</a>
+					<ul>
+						<li><a href="#print">Print</a></li>
+						<li>
+							<a href="#web">Web</a>
+							<ul>
+								<li><a href="#analyzes">Analyzes</a></li>
+								<li><a href="#ux">UX</a></li>
+								<li><a href="#submenu">Submenu</a></li>
+								<li><a href="#ssmenu">Sub-sub-menu</a></li>
+							</ul>
+						</li>
+						<li><a href="#marketing">Marketing</a></li>
+						<li><a href="#ref">SEO</a></li>
+						<li>
+							<a href="#access">Accessibility</a>
+							<ul>
+								<li><a href="#analyzes">Analyzes</a></li>
+								<li><a href="#ux">UX</a></li>
+								<li><a href="#submenu">Submenu</a></li>
+								<li><a href="#ssmenu">Sub-sub-menu</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="#comp">About</a>
+					<ul>
+						<li><a href="#who">Who we are</a></li>
+						<li><a href="#what">Our competences</a></li>
+						<li><a href="#ref">Our references</a></li>
+					</ul>
+				</li>
+				<li><a href="#contact">Contact us</a></li>
+			</ul>
+
+		<p>Try the <strong>Tabulation</strong> key on your keyboard</p>
+		<p class="back"><a href="http://jq.creativejuiz.fr/plugins-jquery/dropdown-menu.php">The plugin homepage</a></p>
+		
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>	
+		<script type="text/javascript" src="js/juizDropDownMenu-2.0.0.min.js"></script>
+		<script type="text/javascript">
+		$(function(){
+			$("#dropdown").juizDropDownMenu({
+				'showEffect' : 'fade',
+				'hideEffect' : 'slide'
+			});
+		});
+		</script>
+	</body>
+</html>

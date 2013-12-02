@@ -1,0 +1,193 @@
+# -*- coding: utf-8 -*-
+# (C) 2006 Miriam Ruiz
+;Links manager
+Gestor de enlaces
+
+;Web interface to configure your links.
+Interfaz web para configurar tus enlaces
+
+;Drag items to change their positions.
+Arrastra los elementos para modificar sus posiciones.
+
+;You must provide at least a label and an URL
+Debes introducir al menos una etiqueta y una URL.
+
+;You must provide a valid URL
+Debes introducir una URL v&aacute;lida
+
+;All values
+Todos
+
+;Back
+Volver
+
+;Edit link
+Modificar un enlace
+
+;Error(s)
+Error(es)
+
+;No link
+Sin enlace
+
+;None
+Ning&uacute;n
+
+;Label
+Etiqueta
+
+;URL
+URL
+
+;Language
+Idioma
+
+;optional
+opcional
+
+;Description
+Descripci&oacute;n
+
+;save
+grabar
+
+;save order
+grabar el orden
+
+;XFN
+XFN
+
+;Me
+Yo
+
+;Another link for myself
+Otro enlace propio
+
+;Friendship
+Amistad
+
+;Contact
+Contacto
+
+;Acquaintance
+Conocida&#47;o
+
+;Friend
+Amiga&#47;o
+
+;Physical
+F&iacute;sico
+
+;Met
+Encontrada&#47;o
+
+;Professional
+Profesional
+
+;Co-worker
+Compa&ntilde;era&#47;o de trabajo
+
+;Colleague
+Colega
+
+;Geographical
+Geogr&aacute;fico
+
+;Co-resident
+Co-residente
+
+;Neighbor
+Vecina&#47;o
+
+;Family
+Familia
+
+;Child
+Ni&ntilde;a&#47;o
+
+;Parent
+Madre&#47;Padre
+
+;Sibling
+Hermana&#47;o
+
+;Spouse
+Marido&#47;Mujer
+
+;Kin
+Familiar
+
+;Romantic
+Rom&aacute;ntico
+
+;Muse
+Musa
+
+;Crush
+Crush
+
+;Date
+Cita
+
+;Sweetheart
+Cari&ntilde;o
+
+;Edit rubric
+Modificación de una categor&iacute;a
+
+;Title
+T&iacute;tulo
+
+;New rubric
+Nueva categor&iacute;a
+
+;New link
+Nuevo enlace
+
+;Are you sure you want to delete this %s?
+&iquest;Est&aacute;s segura&#47;o de querer eliminar este %s?
+
+;link
+enlace
+
+;Are you sure you want to delete this category?
+&iquest;Est&aacute;s segura&#47;o de querer eliminar esta categor&iacute;a?
+
+;delete
+eliminar
+
+;Move %s up
+Mover %s hacia arriba
+
+;Move %s down
+Mover %s hacia abajo
+
+;Usage
+Uso
+
+;Database table installed
+Tabla de la base de datos instalada
+
+;Errors during database table installation
+Errores durante la instalaci&oacute;n de la tabla en la base de datos
+
+;To replace your static links list by this one, just put the following code in your template:
+Pour remplacer votre liste de liens statique par celle-ci, insérez simplement le code suivant dans votre gabarit :
+
+;Create table %s
+
+
+;Table %s exists
+
+
+;Creation of link Plume
+
+
+;Creation of link FSF
+
+
+;Creation of link Your link 1
+
+
+;Creation of link to Your link 2
+

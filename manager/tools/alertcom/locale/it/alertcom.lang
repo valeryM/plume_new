@@ -1,0 +1,100 @@
+# -*- coding: utf-8 -*-
+# (C) 2008 your@email.com
+
+##############
+# Index page #
+##############
+
+;You do not have the rights to access this plugin.
+
+
+;Error: please provide a valid e-mail or list of email!
+
+
+;Error: The file <strong>%s</strong> is not available for writing.
+
+
+;Error: Error while saving the config file, check the permissions of the file.
+
+
+;The configuration was successfully updated.
+
+
+;Alertcom
+
+
+;Alert/comment processing
+
+
+;Alertcom status:
+
+
+;Disabled
+
+
+;Notify published comments (default)
+
+
+;Notify All comments
+
+
+;Here you can disable Alertcom or set which type of comments should it notify for : the published ones (Valid) or all (including the junk comments).
+
+
+;Recipient(s) address(es):
+
+
+;Each time a comment is left on the site an alert message will be sent to the above address (you can also define multiple comma seperated addresses).
+
+
+;Save [s]
+
+
+;s
+
+
+#################
+# register file #
+#################
+
+;A comment has been left on your Plume CMS site.
+
+
+;This comment has been left on your Plume CMS website:
+
+
+;Author:
+
+
+;Email:
+
+
+;Website:
+
+
+;IP:
+
+
+;Comment content
+
+
+;Go to the comments in the Manager:
+
+
+;junk
+
+
+;published
+
+
+;Comment status:
+
+
+####################
+# Description file #
+####################
+
+;Alertcom (Alert/Comments)
+
+
+;Send an alert mail each time a comment is left on the site.

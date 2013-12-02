@@ -1,0 +1,179 @@
+# -*- coding: utf-8 -*-
+# (C) 2006 your name <your @ email>
+;Results of the search on:
+
+
+;Categories
+
+
+;Links
+
+
+;404 Error - Page not found
+
+
+;The page you are looking for is not available anymore. We tried to search for the pages that match your request. Feel free to refine the search.
+
+
+;Sorry, the search engine found no result.
+
+
+;Number of comments:
+
+
+;The
+
+
+;Publish Date of:
+
+
+;%Y-%m-%d
+
+
+;at %H:%M
+
+
+; and 
+
+
+;by
+
+
+;publisher of:
+
+
+;In %s
+
+
+;Read the whole story
+
+
+;Score:
+
+
+;No resources
+
+
+;1 resource
+
+
+;<strong>%s</strong> resources
+
+
+;in this category.
+
+
+;<h2>Categories</h2> %s
+
+
+;Main categories
+
+
+;<p><a href="%s">Previous Page</a></p>
+
+
+;<p><a href="%s">Next Page</a></p>
+
+
+;%Y-%m-%d</a> at %H:%M
+
+
+;, publisher of
+
+
+;Comments for this resource
+
+
+;Add a comment
+
+
+;Author:
+
+
+;Email:
+
+
+;required but not shared or displayed
+
+
+;Website:
+
+
+;Comment
+
+
+;Preview
+
+
+;Submit
+
+
+;The comments are closed for this resource.
+
+
+;Comment preview
+
+
+;<h3 class="px-comment-add">There are some errors with your comment !</h3><div class="px-comment-error">%s</div>
+
+
+;Validate your comment
+
+
+;Your post will be online after validation by the webmaster.
+
+
+;Plain cherry
+
+
+;Full width design. Two columns. Tested under Firefox 2, Opera 9, IE 5+. Feel free to use, modify and share alike. under Creative Commons Attribution 3.0 License.
+
+
+;Go to content
+
+
+;Go to menu
+
+
+;Search
+
+
+;Back to the home page
+
+
+;Powered by PLUME CMS
+
+
+;CMS
+
+
+;Template by Léo Studer
+
+
+;Template
+
+
+;Template under Creative Commons license
+
+
+;Under
+
+
+;Recent news
+
+
+;Feeds
+
+
+;Sitemap
+
+
+;<div class="col-content-green"><div class="menuleft-green-top"></div><h2>Articles pages</h2> %s<div class="menuleft-green-bottom"></div></div>
+
+
+;<div id="art-pages-list"><h3>Pages of the article</h3> %s</div>
+
+
+;Site Map
+
+

@@ -1,0 +1,205 @@
+# -*- coding: utf-8 -*-
+# (C) YYYY Who?
+;Links manager
+Gestionnaire de liens
+
+;Web interface to configure your links.
+Interface Web pour configurer vos liens.
+
+;Drag items to change their positions.
+Faites glisser les éléments pour modifier leurs positions.
+
+;You must provide at least a label and an URL
+Vous devez indiquer au moins un intitulé et une URL
+
+;You must provide a valid URL
+Vous devez fournir une URL valide
+
+;You must provide a valid area
+Vous devez fournir une zone valide
+
+;You must provide a valid area and a label
+Vous devez fournir une zone et un intitulé 
+
+;All values
+Toutes
+
+;Back
+Retour
+
+;Edit link
+Édition du lien
+
+;Error(s)
+Erreur(s)
+
+;No link
+Aucun lien
+
+;None
+Aucun
+
+;Label
+Intitulé
+
+;URL
+URL
+
+;Language
+Langue
+
+;optional
+Optionnel
+
+;Description
+Description
+
+;save
+Enregistrer
+
+;save order
+Enregistrer l'ordre
+
+;Area name
+Zone d'affichage
+
+;Category name
+Nom de la catégorie
+
+;XFN
+XFN
+
+;Me
+Moi
+
+;Another link for myself
+Autre adresse Web de moi
+
+;Friendship
+Amitié
+
+;Contact
+Contact
+
+;Acquaintance
+Connaissance
+
+;Friend
+Ami(e)
+
+;Physical
+Physique
+
+;Met
+Rencontré(e)
+
+;Professional
+Professionel
+
+;Co-worker
+Camarade de travail
+
+;Colleague
+Collègue
+
+;Geographical
+Géographique
+
+;Co-resident
+Co-résident(e)
+
+;Neighbor
+Voisin(e)
+
+;Family
+Famille
+
+;Child
+Enfant
+
+;Parent
+Parent
+
+;Sibling
+Frère/soeur
+
+;Spouse
+Epoux/épouse
+
+;Kin
+Famille
+
+;Romantic
+Romantique
+
+;Muse
+Muse
+
+;Crush
+Bluette
+
+;Date
+Rendez-vous
+
+;Sweetheart
+Chérie
+
+;Edit rubric
+Modification de la catégorie
+
+;Title
+Titre
+
+;New rubric
+Nouvelle catégorie
+
+;New link
+Nouveau lien
+
+;Are you sure you want to delete this %s?
+Souhaitez-vous vraiment supprimer ce lien ?
+
+;link
+Lien
+
+;Are you sure you want to delete this category?
+Souhaitez-vous vraiment supprimer cette catégorie ?
+
+;delete
+Supprimer
+
+;Move %s up
+Déplacer %s vers le haut
+
+;Move %s down
+Déplacer %s vers le bas
+
+;Usage
+Utilisation
+
+;Database table installed
+Table de base de données installée
+
+;Errors during database table installation
+Erreurs pendant l'installation de la table de base de données
+
+;To replace your static links list by this one, just put the following code in your template:
+Pour remplacer votre liste statique de liens par celle-ci, ajoutez ce code dans vos gabarits à l'endroit où vous voulez les voir s'afficher&nbsp;:
+
+;Create table %s
+Créer la table %s
+
+;Table %s exists
+La table %s existe
+
+;Creation of link Plume
+Création du lien Plume
+
+;Creation of link FSF
+Création du lien FSF
+
+;Creation of link Your link 1
+Création du lien «Votre lien 1»
+
+;Creation of link to Your link 2
+Création du lien «Votre lien 2»

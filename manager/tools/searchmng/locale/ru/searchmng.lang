@@ -1,0 +1,62 @@
+# -*- coding: utf-8 -*-
+# (C) 2009 your name <your @ email>
+;Search Manager
+
+
+;Indexed resources
+
+
+;Maintenance of the search index.
+
+
+;Index the resource
+
+
+;Up to date
+
+
+;Index too old
+
+
+;Not indexed
+
+
+;The resource has been successfully indexed.
+
+
+;Status
+
+
+;Resource title
+
+
+;Last indexation
+
+
+;Number
+
+
+;No resources.
+
+
+;The index has been cleaned with <strong>%s</strong> unused word(s) removed.
+
+
+;Index maintenance
+
+
+;<a href="%s">Clean the index of unused words</a>. This operation may take a long time and is database intensive.
+
+
+;Y/m/d&\nb\sp;H:i:s
+
+
+;&laquo; previous page
+
+
+;&raquo; next page
+
+
+;page(s):
+
+

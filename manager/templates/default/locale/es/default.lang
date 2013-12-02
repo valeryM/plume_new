@@ -1,0 +1,176 @@
+# -*- coding: utf-8 -*-
+# (C) 2009 Nickname <your@email.com>
+# Spanish translation
+
+;404 Page not found !
+
+
+;404 Error - Page not found
+
+
+;The page you are looking for is not available anymore. We tried to search for the pages that match your request. Feel free to refine the search.
+
+
+;Results of the search on:
+
+
+;On
+
+
+;%Y-%m-%d</a> at %H:%M
+
+
+;by
+
+
+; In %s
+
+
+; and 
+
+
+;Number of comments:
+
+ 
+;<a id="edit-ressource" href="%s" title="Edit the resource">Edit</a>
+
+
+;Score:
+
+
+;Main categories
+
+
+;%Y-%m-%d at %H:%M
+
+
+;<p><a href="%s">Previous Page</a></p>
+
+
+;<p><a href="%s">Next Page</a></p>
+
+
+;Back to
+
+
+;<h2>Categories</h2> %s
+
+
+;Links
+
+
+;No resources
+
+
+;1 resource
+
+
+;<strong>%s</strong> resources
+
+
+;in this category.
+
+
+;Publish Date of:
+
+
+;, publisher of
+
+
+;Categories
+
+
+;In short
+
+
+;Add a comment
+
+
+;Author:
+
+
+;Email:
+
+
+;required but not shared or displayed
+
+
+;Website:
+
+
+;Comment
+
+
+;Preview
+
+
+;Submit
+
+
+;The comments are closed for this resource.
+
+
+;Comments
+
+
+;Comment preview
+
+
+;<div class="px-comment-error">%s</div><h3 class="px-comment-add">Modify your comment</h3>
+
+
+;Your post will be online after validation by the webmaster.
+
+
+;1.2 Default theme
+
+
+;Default Plume CMS theme
+
+
+;Go to the content
+
+
+;Go to the menu
+
+
+;POWERED by
+
+
+;Powered by PLUME CMS
+
+
+;Logo of Plume CMS
+
+
+;DESIGN by
+
+
+;Design by Kiwii
+
+
+;Logo of Kiwii
+
+
+;Recent news
+
+
+;%Y•%m•%d
+
+
+;Feeds
+
+
+;Sitemap
+
+
+;<div id="art-pages-list"><h3>Pages of the article</h3> %s</div>
+
+
+;<h2>Articles pages</h2> %s
+
+
+;Results
+
+
+;Search

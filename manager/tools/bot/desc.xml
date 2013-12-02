@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin name="bot" version="1.0" rootonly="true" active="true">
+  <author>Loïc Moriamé</author>
+  <label>Box of Tools</label>
+  <desc>Add new tools to Plume's templates.</desc>
+</plugin>

@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+/*=================================================*/
+/* Orange Buddy template for Plume! CMS				*/
+/* Original flavour											*/
+/* By Léo Studer http://www.leo-studer.com			*/
+/* Feel free to use, modify & redistribute			*/
+/* Under Creative Commons Attribution 3.0 License.	*/
+/*=================================================*/
+
+#content a,.menuright a{color:#b00}
+#content a:hover,.menuright a:hover{color:#b00}
+#banner h1 a{color:#bb4f00}
+#banner h1 a:hover{color:#bb4f00}
+span.recent-news-date{color: #8F6B29}

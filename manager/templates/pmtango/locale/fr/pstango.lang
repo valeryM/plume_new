@@ -1,0 +1,172 @@
+# -*- coding: utf-8 -*-
+# (C) 2007 jojaba <joja.ba@laposte.net>
+;404 Page not found !
+404 page introuvable !
+
+;404 Error - Page not found
+Erreur 404 - page introuvable !
+
+;The page you are looking for is not available anymore. We tried to search for the pages that match your request. Feel free to refine the search.
+La page que vous recherchez n'est plus disponible. Nous avons tenté de rechercher les pages qui correspondent à votre demande. N'hésitez pas à préciser votre recherche.
+
+;Results of the search on:
+Résultats des recherches concernant :
+
+;by
+par
+
+;In %s
+Dans %s
+
+;and
+&nbsp;et&nbsp;
+
+;Number of comments:
+Nombre de commentaires&nbsp;:
+
+;Score:
+Pertinence :
+
+;%Y-%m-%d at %H:%M
+%d-%m-%Y à %H:%M
+
+;<p><a href="%s">Previous Page</a></p>
+<p><a href="%s">Page précédente</a></p>
+
+;<p><a href="%s">Next Page</a></p>
+<p><a href="%s">Page suivante</a></p>
+
+;Back to
+Revenir à
+
+;Links
+Liens
+
+;Link
+Lien
+
+;No resources
+Aucune ressource
+
+;1 resource
+1 ressource
+
+;<strong>%s</strong> resources
+<strong>%s</strong> ressources
+
+;in this category.
+dans cette catégorie.
+
+;, publisher of
+, rédacteur de
+
+;Categories
+Catégories
+
+;In short
+En bref
+
+;Add a comment
+Ajouter un commentaire
+
+;Author:
+Auteur :
+
+;Email:
+Courriel :
+
+;required but not shared or displayed
+Nécessaire mais ni communiqué, ni affiché.
+
+;Website:
+Site Web :
+
+;Comment
+Commentaire
+
+;Preview
+Aperçu
+
+;Submit
+Valider
+
+;The comments are closed for this resource.
+Pas de commentaires possibles pour cette ressource
+
+;Comments
+Commentaires
+
+;Comment preview
+Aperçu du commentaire
+
+;Your post will be online after validation by the webmaster.
+Votre message sera publié après validation par le Webmestre.
+
+;Go to the content
+Aller au contenu
+
+;Go to the menu
+Aller au menu
+
+;POWERED by
+PROPULSÉ par
+
+;Powered by PLUME CMS
+Propulsé par PLUME CMS
+
+;Logo of Plume CMS
+Logo de Plume CMS
+
+;DESIGN by
+DESIGN par
+
+;Recent news
+Brèves récentes
+
+;%Y&bull;%m&bull;%d
+%d&bull;%m&bull;%Y
+
+;Feeds
+Flux RSS
+
+;Sitemap
+Plan du site
+
+;<div id="art-pages-list"><h3>Pages of the article</h3> %s</div>
+<div id="art-pages-list"><h3>Chapitres de l'article</h3> %s</div>
+
+;Results
+Résultats
+
+;Search
+Recherche
+
+;Home
+Accueil
+
+;Read
+Lire
+
+;<div id="subcat"><h3>Subcategories</h3> %s</div>
+<div id="subcat"><h3>Sous-catégories</h3> %s</div>
+
+;Recent articles
+Articles récents
+
+;<h3 class="error">Error !</h3>%s<h3 class="comment-add">Modify your comment</h3>
+<h3 class="error">Erreur !</h3>%s<h3 class="comment-add">Modifiez votre commentaire</h3>
+
+;1.2.3 new Default theme
+;1.2.3 nouveau thème par défaut
+
+;New Default Plume CMS theme for version 1.2.3
+Nouveau thème par défaut pour la version 1.2.3 de Plume CMS
+
+;Design by Jojaba
+Design par Jojaba
+
+;Jojaba
+Jojaba
+
+;OK
+OK

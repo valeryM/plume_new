@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin name="info" version="1.0" rootonly="true" active="true">
+  <author>Loïc d'Anterroches</author>
+  <label>Plume CMS information</label>
+  <desc>Information about Plume CMS and your system.</desc>
+</plugin>

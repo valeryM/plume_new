@@ -1,0 +1,467 @@
+# -*- coding: utf-8 -*-
+# (C) 2004 Robert Zelník
+# (C) 2007 SlovakSoft
+
+;Welcome on the PLUME CMS installation
+Vitajte v inštalácii PLUME CMS
+
+;A possible previous installation of PLUME CMS is detected. You are invited to <a href="%s">upgrade your installation</a>.
+Bola objavená predošlá inštalácia PLUME CMS. Bude vhodné <a href="%s">aktualizovať svoju inštaláciu</a>.
+
+;Language:
+Jazyk:
+
+;Next
+Ďalej
+
+;PLUME CMS Installation
+Inštalácia PLUME CMS
+
+;%s%% of the installation completed
+%s%% inštalácie dokončených
+
+;The installed PHP version is: %s.
+Nainštalovaná verzia PHP je: %s.
+
+;The installed PHP version is: %s. PHP 4.1 or higher is required.
+Nainštalovaná verzia PHP je %s. Vyžaduje sa PHP 4.1 alebo novšie.
+
+;The MySQL module is available.
+Modul MySQL je dostupný.
+
+;The MySQL module is not available.
+Modul MySQL nie je dostupný.
+
+;The output buffering functions are available.
+Funkcie výstupného zásobníka sú dostupné.
+
+;The output buffering functions are not available.
+Funkcie výstupného zásobníka nie sú dostupné.
+
+;The GD library is available.
+Knižnica GD je dostupná.
+
+;The GD library is not available. Thumbnails will not be created automatically.
+Knižnica GD nie je dostupná. Miniatúry nebudú automaticky vytvorené.
+
+;The XML module is available.
+Modul XML je dostupný.
+
+;The XML module is not available.
+Modul XML nie je dostupný.
+
+;The system can write in the configuration folder: %s
+Systém môže zapisovať do priečinka konfigurácie: %s
+
+;The system cannot write in the configuration folder: %s. Check the permissions.
+Systém nemôže zapisovať do priečinka konfigurácie: %s. Skontrolujte oprávnenia.
+
+;The system can write in the cache folder: %s
+Systém môže zapisovať do priečinka vyrovnávacej pamäte: %s
+
+;The system cannot write in the cache folder: %s. Check the permissions.
+Systém nemôže zapisovať do priečinka vyrovnávacej pamäte: %s. Skontrolujte oprávnenia.
+
+;The system can write in the template folder: %s
+Systém môže zapisovať do priečinka šablón: %s
+
+;The system cannot write in the template folder: %s. Check the permissions.
+Systém nemôže zapisovať do priečinka šablón: %s. Skontrolujte oprávnenia.
+
+;The system can write in the document folder: %s
+Systém môže zapisovať do priečinka dokumentov: %s.
+
+;The system cannot write in the document folder: %s. Check the permissions.
+Systém nemôže zapisovať do priečinka dokumentov: %s. Skontrolujte oprávnenia.
+
+;The system can write in the thumbnail folder: %s
+Systém môže zapisovať do priečinka miniatúr: %s.
+
+;The system cannot write in the thumbnail folder: %s. Check the permissions or you will not be able to have automatic creation of the thumbnails.
+Systém nemôže zapisovať do priečinka miniatúr: %s. Skontrolujte oprávnenia, inak nebude možné využívať automatické vytváranie miniatúr.
+
+;The system cannot write in the theme folder: %s. Check the permissions.
+Systém nemôže zapisovať do priečinka tém: %s. Skontrolujte oprávenia.
+
+;The system can write in the theme folder: %s
+Systém môže zapisovať do priečinka tém: %s
+
+;Check of the PLUME CMS support by the system
+Skontrolujte, či systém podporuje PLUME CMS
+
+;Congratulations, your system supports PLUME CMS. Warnings will not prevent your use of PLUME CMS.
+Blahoželáme, váš systém podporuje PLUME CMS. Upozornenia nebudú brániť používaniu systému PLUME CMS.
+
+;No irreversible action is taken during the installation process. You can revert your choices from the manager at a later time.
+Počas inštalácie neprebehnú žiadne nezvratné akcie. Svoje predvoľby môžete neskôr zmeniť v správcovi.
+
+;<a href="%s">Continue with the choice of languages</a>.
+<a href="%s">Pokračovať výberom jazyka</a>
+
+;Some errors prevent the installation of PLUME CMS on your system. You can fix them and restart the wizard afterwards.
+Nejaké chyby bránia nainštalovaniu PLUME CMS do systému. Môžete ich opraviť a potom znova spustiť sprievodcu.
+
+;The system was unable to connect to the database, please check the error message and the information you provided to fix the problem.
+Systém neumožnil pripojiť sa do databázy. Opravte problém – skontrolujte chybové hlásenie a informáciu, ktorá bola zadaná.
+
+;Error message: %s
+Chybové hlásenie: %s
+
+;Database information
+Informácia o databáze
+
+;The content of the website is saved into a MySQL database. Please provide the necessary data in order to connect to the database.
+Obsah webstránky je uložený v databáze MySQL. Zadajte údaje potrebné na pripojenie do databázy.
+
+;Database server:
+Databázový server:
+
+;Database name:
+Názov databázy:
+
+;Login to access the database:
+Prihlas. meno pre prístup do databázy:
+
+;Password to access the database:
+Heslo pre prístup do databázy:
+
+;Prefix for the tables in the database:
+Predpona pre tabuľky v databáze:
+
+;Change it only if you have several installations of PLUME CMS with the same database.
+Zmena predpony má význam vtedy, ak máte viacero inštalácií PLUME CMS v jednej databáze.
+
+;In the next step the database will be initialized with the necessary tables for PLUME CMS.
+V ďalšom kroku bude databáza inicializovaná a budú do nej vytvorené tabuľky potrebné pre PLUME CMS.
+
+;Database installation
+Inštalácia databázy
+
+;Errors during database initialization procedure.
+Chyby počas priebehu inicializácie databázy.
+
+;In the next step the first user will be registered to use the system. <a href="%s">Next</a>.
+V ďalšom kroku bude registrovaný prvý používateľ systému. <a href="%s">Ďalej</a>
+
+;Default language for the manager
+Predvolený jazyk správcu
+
+;The default language of the manager is the one the users entering the manager for the first time will see. At any time they can change it in their preferences.
+Predvolený jazyk správcu je ten, ktorý používatelia vstupujúci do správcu uvidia ako prvý. Kedykoľvek ho môžu zmeniť v ich nastaveniach.
+
+;Default manager language:
+Predvolený jazyk správcu:
+
+;First user creation
+Vytvorenie prvého používateľa
+
+;Errors during the installation of the first user. Please check the error messages.
+Chyby počas inštalácie prvého používateľa. Skontrolujte chybové hlásenia.
+
+;The first user will be the global administrator of the PLUME CMS installation.
+Prvý používateľ bude globálnym správcom inštalácie PLUME CMS.
+
+;Login:
+Prihlas. meno:
+
+;The login must contain only letters and digits and no spaces.
+Prihlas. meno môže obsahovať iba písmená alebo číslice a nesmie obsahovať medzery.
+
+;Name:
+Meno:
+
+;Email <span class="small">(not shown)</span>:
+E-mail <span class="small">(nebude zobrazený)</span>:
+
+;Public email:
+Verejný e-mail:
+
+;Password:
+Heslo:
+
+;New website name
+Názov novej webstránky:
+
+;Description of the new website.
+Popis novej webstránky.
+
+;Site <strong>%s</strong> successfully added.
+Stránka <strong>%s</strong> bola úspešne vytvorená.
+
+;First website creation
+Vytvorenie prvej webstránky
+
+;Errors during the installation of the first website. Please check the error messages.
+Chyby počas inštalácie prvej webstránky. Skontrolujte chybové hlásenia.
+
+;Simply provide the necessary information so the system can create the default website for you.
+Zadajte požadované informácie, aby mohol systém pre vás vytvoriť predvolenú webstránku.
+
+;Normally you do not have to change anything except the name and the description.
+Zvyčajne nie je potrebné meniť nič okrem názvu a popisu.
+
+;Site name:
+Názov stránky:
+
+;Website address:
+Adresa webstránky:
+
+;For example put <em>https://www.mydomain.com/mysite/</em> or <em>http://www.mydomain.com/</em>. Do not forget the <em>http(s)</em>.
+Zadajte napríklad <em>https://www.mojadomena.sk/mojastranka/</em> alebo <em>http://www.mojadomena.sk/</em>. Nezabudnite <em>http(s)</em>.
+
+;Path to the document root of the website:
+Cesta ku koreňovému priečinku dokumentov webstránky:
+
+;Path on the server side. For example <em>/home/login/www</em> or <em>c:/http</em>. The document root is the folder where the <em>index.php</em> will be placed.
+Cesta na strane servera. Napríklad <em>/home/login/www</em> alebo <em>c:/http</em>. Koreňový priečinok dokumentov je priečinok, v ktorej sa nachádza súbor <em>index.php</em>.
+
+;Name of the file and image folder:
+Názov priečinka súborov a obrázkov:
+
+;For example put <em>xmedia</em> or <em>documents</em>.
+Zadajte napríklad <em>xmedia</em> alebo <em>dokumenty</em>.
+
+;Description:
+Popis:
+
+;If all the informations you provided are valid, the system will copy the required files in the right folders. The complete log of those files will be shown to you. No file already available on the system will be overwritten.
+Ak sú všetky informácie, ktoré ste vložili, správne, systém skopíruje potrebné súbory do správnych preičinkov. Úplný zoznam týchto súborov sa vám zobrazí. Žiadny súbor nebude prepísaný.
+
+;Create the website
+Vytvoriť webstránku
+
+;Log of the installation:
+Priebeh inštalácie:
+
+;If you see warnings, check them carefully and look at the online documentation to see the impact. You may need to complete the installation manually.
+Ak uvidíte upozornenia, dôkladne ich preskúmajte a v dokumentácii online zistite príčinu. Možno bude treba dokončiť inštaláciu ručne.
+
+;In the next step the global configuration will be created. <a href="%s">Next</a>.
+V ďalšom kroku bude vytvorená globálna konfigurácia. <a href="%s">Ďalej</a>.
+
+;Error: Impossible to create the configuration file.
+Chyba: nie je možné vytvoriť konfiguračný súbor.
+
+;End of the installation
+Koniec inštalácie
+
+;Errors during the creation of the configuration file. Check the online documentation to get the solution!
+Chyby počas vytvárania konfiguračného súboru. Ríešenie hľadajte v dokumentácii online!
+
+;Congratulations, PLUME CMS has been installed!
+Blahoželáme, PLUME CMS bol nainštalovaný!
+
+;The very last step is your work. You just have to create a new article or news into you website.
+Posledný krok je už na vás. Vytvorte nový článok alebo novinku pre svoju webstránku.
+
+;You can now access the manager with the login and password you provided before. <a href="%s">Access the manager</a>.
+Do správcu môžete pristupovať s prihlasovacím menom a heslom, ktoré ste predtým zadali. <a href="%s">Prístup do správcu</a>
+
+;Upgrade of the installation
+Inovácia inštalácie
+
+;The encoding configuration variable is already set in the configuration file.
+Konfiguračná premenná kódovania už bola odoslaná do konfiguračného súboru.
+
+;Impossible to set the encoding configuration variable in the configuration file.
+V konfiguračnom súbore nie je možné nastaviť premennú kódovania.
+
+;The 404 error logging configuration variable is already set in the configuration file.
+V konfiguračnom súbore už je nastavená premenná chyby 404.
+
+;Impossible to set the 404 error logging configuration variable in the configuration file.
+V konfiguračnom súbore nie je možné nastaviť premennú chyby 404.
+
+;Copy of the template <em>%s</em> to <em>%s</em>
+Kopírovanie šablóny <em>%s</em> do <em>%s</em>
+
+;Error in the copy of the template <em>%s</em> to <em>%s</em>
+Chyba počas kopírovania šablóny <em>%s</em> do <em>%s</em>
+
+;Unable to get the list of websites to copy the new 404.php template. Please do it manually.
+Nie je možné získať zoznam webstránok na kopírovanie šablóny 404.php. Urobte tak ručne.
+
+;Some errors occured during the upgrade procedure. Please check carefully the messages to see if you need to finish the upgrade manually.
+Počas aktualizácie sa vyskytli nejaké chyby. Skontrolujte dôkladne hlásenia, aby ste zistili, či treba dokončiť aktualizáciu ručne.
+
+;Congratulations, PLUME CMS has been upgraded!
+Blahoželáme, PLUME CMS bol aktualizovaný!
+
+;You can now access the manager. <a href="%s">Access the manager</a>.
+Teraz sa môžete prihlásiť do správcu. <a href="%s">Prístup do správcu</a>.
+
+;The encoding configuration variable has been added to the configuration file.
+Do konfiguračného súboru bola pridaná premenná kódovania.
+
+;The 404 error logging configuration variable has been added to the configuration file.
+Do konfiguračného súboru bola pridaná premenná chyby 404.
+
+;The default size of the page textarea has been added to the configuration file.
+Predvolená veľkosť textovej plochy stránky bola pridaná do konfiguračného súboru.
+
+;The default size of the page textarea is already set in the configuration file.
+Predvolená veľkosť textovej plochy stránky už bola nastavená v konfiguračnom súbore.
+
+;Impossible to set the default size of the page textarea in the configuration file.
+Nie je možné nastaviť predvolenú veľkosť textovej plochy stránky v konfiguračnom súbore.
+
+;The default size of the article description textarea has been added to the configuration file.
+Predvolená veľkosť textovej plochy popisu článku bola pridaná do konfiguračného súboru.
+
+;The default size of the article description textarea is already set in the configuration file.
+Predvolená veľkosť textovej plochy popisu článku už bola nastavená v konfiguračnom súbore.
+
+;Impossible to set the default size of the article description textarea in the configuration file.
+Nie je možné nastaviť predvolenú veľkosť textovej plochy popisu článku v konfiguračnom súbore.
+
+;The default size of the news content textarea has been added to the configuration file.
+Predvolená veľkosť textovej plochy obsahu novinky bola pridaná do konfiguračného súboru.
+
+;The default size of the news content textarea is already set in the configuration file.
+Predvolená veľkosť textovej plochy obsahu novinky už bola nastavená v konfiguračnom súbore.
+
+;Impossible to set the default size of the news content textarea in the configuration file.
+Nie je možné nastaviť predvolenú veľkosť textovej plochy obsahu novinky v konfiguračnom súbore.
+
+;The default size of the category description textarea has been added to the configuration file.
+Predvolená veľkosť textovej plochy popisu kategórie bola pridaná do konfiguračného súboru.
+
+;The default size of the category description textarea is already set in the configuration file.
+Predvolená veľkosť textovej plochy popisu kategórie už bola nastavená v konfiguračnom súbore.
+
+;Impossible to set the default size of the category description textarea in the configuration file.
+Nie je možné nastaviť predvolenú veľkosť textovej plochy popisu kategórie v konfiguračnom súbore.
+
+;Create table %s
+Vytvoriť tabuľku %s
+
+;Table %s exists
+Tabuľka %s existuje
+
+;Creation of the table %s
+Vytvorenie tabuľky %s
+
+;The table %s already exists.
+Tabuľka %s už existuje.
+
+;Dropping of the index %s
+Vynechanie indexu %s
+
+;The index %s has already been dropped.
+Index %s už bol vynechaný.
+
+;Creation of the index %s
+Vytvorenie indexu %s
+
+;The index %s already exists.
+Index %s už existuje.
+
+;Set the auto_increment for %s
+Nastavenie auto_increment pre %s
+
+;The auto_increment for %s already exists.
+Auto_increment pre %s už existuje.
+
+;Removal of the table %s
+Odstránenie tabuľky %s
+
+;The table %s has already been removed.
+Tabuľka %s už bola odstránená.
+
+;Please choose the language of the installation wizard.
+Vyberte jazyk sprievodcu inštaláciou.
+
+;The default status of a comment has been added to the configuration file.
+Predvolený stav komentára bol pridaný do konfiguračného súboru.
+
+;The default status of a comment is already set in the configuration file.
+Predvolený stav komentára už je nastavený v konfiguračnom súbore.
+
+;Impossible to set the default status of a comment in the configuration file.
+Nie je možné nastaviť predvolený stav komentára v konfiguračnom súbore.
+
+;The secret key has been added to the configuration file.
+Tajný kľúč bol pridaný do konfiguračného súboru.
+
+;The secret key is already set in the configuration file.
+Tajný kľúč už je nastavený v konfiguračnom súbore.
+
+;Impossible to set the secret key in the configuration file.
+Nie je možné nastaviť tajný kľúč v konfiguračnom súbore.
+
+;Table %s exists.
+Tabuľka %s existuje.
+
+;<strong>Warning</strong>, the upgrade will convert your installation from iso-8859-1 to utf-8, please perform a backup of your database.
+<strong>Upozornenie:</strong> táto aktualizácia prekonvertuje inštaláciu z kódovania iso-8859-1 na utf-8. Odporúčame vytvoriť zálohu databázy.
+
+;Add the comment support column on table %s
+Pridať do tabuľky %s stĺpec podpory komentárov
+
+;The column %s has already been added.
+Stĺpec %s už bol pridaný.
+
+;The table %s has been converted to the utf-8 encoding.
+Tabuľka %s bola prekonvertovaná do kódovania utf-8.
+
+;Errors occured when converting the table %s to the utf-8 encoding:
+Počas konvertovania tabuľky %s do kódovania utf-8 sa vyskytla chyba:
+
+;The theme id has been set for the website %s.
+ID témy pre webstránku %s bolo nastavené.
+
+;The theme id was already set for the website %s.
+ID témy pre webstránku %s už bolo nastavené.
+
+;Impossible to set the theme id for the website %s.
+Nie je možné nastaviť ID témy pre webstránku %s.
+
+;The default comment status has been set for the website %s.
+Predvolený stav komentára pre webstránku %s bol nastavený.
+
+;The default comment status was already set for the website %s.
+Predvolený stav komentára pre webstránku %s už bol nastavený.
+
+;Impossible to set the default comment status for the website %s.
+Nie je možné nastaviť predvolený stav komentára pre webstránku %s.
+
+;The support of comments has been set for the website %s.
+Podpora komentárov pre webstránku %s bola nastavená.
+
+;The support of comments was already set for the website %s.
+Podpora komentárov pre webstránku %s už bola nastavená.
+
+;Impossible to set the support of comments for the website %s.
+Nie je možné nastaviť podporu komentárov pre webstránku %s.
+
+;The encoding has been set to utf-8 in the configuration file.
+V konfiguračnom súbore bolo nastavené kódovanie utf-8.
+
+;Impossible to set encoding to utf-8 in the configuration file.
+V konfiguračnom súbore nie je možné nastaviť kódovanie utf-8.
+
+;The version of the database engine has been added to the configuration file.
+Verzia databázového servera bola pridaná do konfiguračného súboru.
+
+;The version of the database engine is already set in the configuration file.
+Verzia databázového servera už je uložená v konfiguračnom súbore.
+
+;Impossible to set the version of the database engine in the configuration file.
+Nie je možné uložiť verziu databázového servera do konfiguračného súboru.
+
+;The Alertcom status has been added to the configuration file.
+
+
+;The Alertcom status is already set in the configuration file.
+
+
+;Impossible to set the status of Alertcom in the configuration file.
+
+
+;The Email to send the notification to has been added to the configuration file.
+
+
+;The Email to send the notification to is already set in the configuration file.
+
+
+;Impossible to set the Email to send the notification to in the configuration file.

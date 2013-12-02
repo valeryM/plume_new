@@ -1,0 +1,793 @@
+/* PLUME CMS Style Sheets for 1.2 version */
+
+html
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	margin: 20px;
+	padding: 0px;
+	color: #000;
+        font-size: 1em;
+	background: #ddd;
+	font-family: Verdana,Arial,Helevetica,sans-serif;
+}
+/*******************/
+/* General styling */
+/*******************/
+
+h1, h2, h3, h4 {
+	font-family: Helvetica,Trebuchet,Arial,"Trebuchet MS",sans-serif;
+}
+
+h2
+{
+        color: #396194;
+        font-size: 1.6em;
+        margin: 8px 5px 5px 5px;
+}
+
+h3
+{
+        color: #697409;
+        font-size: 1.4em;
+        margin: 8px 5px 5px 7px;
+}
+
+h4
+{
+        color: #81A5CF;
+        font-size: 1.3em;
+        margin: 8px 5px 5px 10px; 
+}
+
+h5
+{
+        color: #999;
+        font-size: 1em;
+        margin: 8px 5px 5px 10px;
+}
+
+form, fieldset
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+a 
+{
+	color: #05b;
+        text-decoration: none;
+         border-bottom: #05b 1px dashed;
+}
+
+a:hover 
+{
+        color: #697409;
+        border-bottom: #697409 1px dashed;
+}
+
+ul li, ol.tree li
+{
+        list-style-type: none;
+	padding-left: 18px;
+        background: transparent url(img/ico-li.png) no-repeat;
+}
+
+dl
+{
+        margin: 10px 20px;
+}
+
+dt
+{
+        font-weight: bold;
+}
+
+dd
+{
+        border-left: 2px #999 solid;
+        padding-left: 5px;
+        margin: 0 10px 10px 10px;
+}
+
+hr.invisible
+{
+        visibility: hidden;
+        clear: both;
+}
+
+pre
+{
+	border: 1px #999 solid;
+        color: #999;
+        font-family:"Courier New",Courier,monospace;
+	padding: 5px;
+        width: 90%;
+        margin: 5px auto;
+	overflow: scroll;
+}
+
+abbr, acronym
+{ 
+	font-style: normal;
+	border-bottom: dotted 1px #000;
+	cursor: help;
+}
+
+blockquote
+{
+	color: #666;
+	padding: 0;
+        margin: 20px;
+	font-style: italic;
+	border-left: 5px solid #999;
+        border-top: 2px dashed #999;
+        border-right: 2px dashed #999;
+        border-bottom: 2px dashed #999;
+}
+
+code
+{
+	font-family:"Courier New",Courier,monospace;
+        color: #999;
+}
+
+q, cite
+{
+	font-style: italic;
+	color: #666;
+}
+
+p
+{
+        margin: 5px;
+}
+
+
+/**************/
+/* Breadcrumb */
+/**************/
+
+ol.tree
+{
+	margin: 0;
+	padding: 10px 5px;
+	color: #6887A4;
+        background: transparent url(img/bg-grey-light.png);
+}
+
+ol.tree li
+{
+	display: inline;
+	list-style-type: none;
+        margin-left: 10px;
+	padding-left: 18px;
+        background: transparent url(img/ico-li.png) no-repeat center left;
+}
+
+ol.tree a
+{
+        border: none;
+}
+
+/*********/
+/* Title */
+/*********/
+
+#title, #footer
+{
+        position: relative;
+        margin: 0;
+        padding: 0;
+        background: transparent url("img/bg-grey.png");
+        height: 75px;
+}
+
+#easy-access
+{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        padding: 5px;
+        width: 210px;
+        font-size: 0.8em;
+        border: #CCC solid 1px;
+        -moz-border-radius: 5%;
+        background: #E7E7E7;
+        text-align: center;
+}
+
+#easy-access p
+{
+        margin: 2px 0;
+        padding: 0;
+}
+
+#easy-access a
+{
+        border: none;
+}
+
+#easy-access a img
+{
+        border: none;
+}
+
+#easy-access #q 
+{
+	width: 120px;
+	vertical-align: middle;
+}
+
+#easy-access #search-s 
+{
+	vertical-align: middle;
+}
+
+#title h1
+{
+	margin: 0 240px 0 5px;
+        padding: 5px 0 0 45px;
+        font-size: 2.3em;
+        background: transparent url(img/logo.png) no-repeat left center;
+        
+}
+
+#title p.description
+{
+        margin: 0 240px 10px 30px;
+        padding: 0;
+        font-size: 0.8em;
+        color: #777;
+}
+
+/*******************************/
+/* Main containers of the page */
+/*******************************/
+
+#page
+{
+        margin: 0;
+        padding: 0;
+        border: #999 1px solid;
+        background: #FFF;
+}
+
+
+#main
+{
+	margin: 0;
+        padding: 0;
+}
+
+#content
+{
+        position: relative;
+        margin: 10px 220px 10px 10px;
+        padding: 0;
+}
+
+
+#menu
+{
+	float: right;
+	width: 200px;
+        margin: 10px 0;
+        padding: 5px;
+        background: #FFF;
+        border-top: #999 solid 1px;
+        border-left: #999 solid 1px;
+        border-bottom: #999 solid 1px;
+       -moz-border-radius-bottomleft: 15%;
+        -moz-border-radius-topleft: 15%;
+}
+
+#footer
+{
+	margin: 0;
+        padding: 0;
+	clear: both;
+        text-align: center;
+}
+
+#footer p
+{
+        padding: 10px;
+}
+
+#footer img
+{
+        border: none;
+        vertical-align: middle;
+}
+
+#footer img a
+{
+        text-decoration: none;
+}
+
+/******/
+/*Menu*/
+/******/
+
+#menu h2
+{
+        border-bottom: #396194 1px solid;
+}
+
+#menu h2.category
+{
+        background: transparent url(img/ico-category.png) no-repeat;
+        padding-left: 30px;
+}
+
+#menu h2.link
+{
+        background: transparent url(img/ico-link.png) no-repeat;
+        padding-left: 30px;
+}
+
+#menu h2.short
+{
+        background: transparent url(img/ico-short.png) no-repeat;
+        padding-left: 30px;
+}
+
+#menu h2.back
+{
+        background: transparent url(img/ico-back.png) no-repeat;
+        padding-left: 30px;
+}
+
+#menu h3
+{
+        margin: 5px 15px 0 15px;
+        border-bottom: dashed 1px #697409;
+}
+
+#menu ul
+{
+        margin: 10px;
+        padding: 0;
+}
+
+#menu li
+{
+        margin: 0 10px;
+}
+#menu li a
+{
+        text-decoration: none;
+        border: none;
+}
+
+/*********/
+/*Content*/
+/*********/
+
+/* Special title styling */
+/*************************/
+
+h2.news, h3.news
+{
+        background: transparent url(img/ico-news.png) no-repeat;
+        padding-left: 37px;
+}
+
+h2.article, h3.article
+{
+        background: transparent url(img/ico-article.png) no-repeat;
+        padding-left: 30px;
+}
+
+h2.category, #sitemap h3
+{
+        background: transparent url(img/ico-category.png) no-repeat;
+        padding-left: 30px;
+}
+
+h2.link
+{
+        background: transparent url(img/ico-link.png) no-repeat;
+        padding-left: 30px;
+}
+
+h2#comments
+{
+        background: transparent url(img/ico-comment.png) no-repeat;
+        padding-left: 30px;
+}
+
+h3.comment-add
+{
+        background: transparent url(img/ico-comment-add.png) no-repeat;
+        padding-left: 30px;
+}
+
+h2.search-results
+{
+        background: transparent url(img/ico-search-results.png) no-repeat;
+        padding-left: 30px;
+}
+
+h2.err404, h3.error
+{
+        background: transparent url(img/ico-err404.png) no-repeat;
+        padding-left: 30px;
+}
+
+#subcat h3, #art-pages-list h3
+{
+        background: transparent url(img/ico-subcat.png) no-repeat;
+        padding-left: 25px;
+        margin-top: 0;
+        margin-bottom: 0;
+}
+
+/* Special inline styling */
+/**************************/
+
+span.author
+{
+        background: transparent url(img/ico-author-small.png) no-repeat center left;
+        padding-left: 18px;
+}
+
+span.datetime
+{
+        background: transparent url(img/ico-datetime-small.png) no-repeat center left;
+        padding-left: 26px;
+}
+
+span.comments
+{
+        background: transparent url(img/ico-comment-small.png) no-repeat center left;
+        padding-left: 22px;
+}
+
+span.score
+{
+        background: transparent url(img/ico-score-small.png) no-repeat center left;
+        padding-left: 23px;
+}
+
+span.link, p.associated-link a
+{
+        background: transparent url(img/ico-link-small.png) no-repeat center left;
+        padding-left: 20px;
+}
+
+span.cat, li.subcatlism a
+{
+        background: transparent url(img/ico-category-small.png) no-repeat center left;
+        padding-left: 23px;
+}
+
+span.errmsg
+{
+        background: transparent url(img/ico-error-small.png) no-repeat center left;
+        padding-left: 20px;
+}
+
+#content img
+{
+        padding: 5px;
+        border: 1px solid #ccc;
+}
+
+/* block elements */
+/******************/
+
+div.column
+{
+        float:left;
+        padding: 0;
+        width: 48%;
+        margin: 0.5%;
+}
+
+div.resource
+{
+        margin: 10px;
+        padding: 5px;
+        border-left:#E7E7E7 2px solid; 
+        border-bottom:#E7E7E7 2px solid;
+         border-right:#E7E7E7 1px solid; 
+        border-top:#E7E7E7 1px solid;
+}
+
+#article-content, #news-content
+{
+        margin: 15px;
+        padding: 5px;
+}
+
+div.infos
+{
+        border-left: 2px solid #E7E7E7;
+        margin-left: 20px;
+}
+
+div.infos p
+{
+        margin: 3px 5px;
+        padding: 0;
+        font-size: 0.8em;
+}
+
+
+div.description
+{
+        margin: 5px;
+        padding: 5px;
+        border-top: #E7E7E7 1px solid;
+        border-bottom: #E7E7E7 1px solid;
+}
+
+#article-content p, #news-content p, .description p
+{
+        margin-left: 15px;
+        text-align: justify;
+}
+
+p.read
+{
+        float: right;
+        margin: 0;
+        padding: 0;
+        font-size: 0.9em;
+}
+
+p.read a
+{
+        background: transparent url(img/ico-read-small.png) no-repeat center left;
+        padding-left: 20px;
+}
+
+p.associated-link, p.score
+{
+        text-align: right;
+        font-size: 0.9em;
+         margin: 0;
+}
+
+#subcat, #art-pages-list
+{
+        margin : 0 20px;
+}
+
+
+#subcat ul, #art-pages-list ol
+{
+        margin: 0 10px 10px 10px;
+}
+
+ol li.current a
+{
+	text-decoration: none;
+	color: #697409;
+        border: none;
+}
+
+#article-content ol, #news-content ol, .description ol
+{
+        margin-left: 20px;
+}
+/* Support for wiki formating */
+/******************************/
+
+/*Images position*/
+
+img.px-left 
+{ 
+	float: left;
+        margin: 5px;
+}
+
+img.px-center
+{ 
+        text-align: center;
+	display: block;
+        margin: 8px auto;
+}
+
+img.px-right
+{ 
+	float: right;
+        margin: 5px;
+}
+
+/*Gallery*/
+
+div.gallery 
+{
+        width: 100%;
+        margin:0;
+        padding: 0;
+
+}
+div.gallery-top 
+{
+         margin:0;
+        padding: 0;
+}
+
+div.gallery-bottom 
+{ 
+	clear: left;
+}
+
+div.gallery-img 
+{
+        float: left;
+        margin: 5px 10px 5px 5px;
+        padding: 0;
+        height: 300px;
+}
+
+div.gallery-thumb img a {}
+
+img.gallery-thumb 
+{
+       display: block;
+}
+
+p.gallery-legend
+{ 
+	font-style: italic;
+        font-size: 0.6em;
+        margin: 0;
+        padding: 0;
+        width: 120px;
+}
+
+/* Tables */
+
+table.wiki-table, table
+{
+	border: 1px #999 solid;
+	margin : 10px auto;
+	border-collapse: collapse;
+        text-align: center;
+}
+
+table.wiki-table td, table td
+{
+	border: 1px #ccc solid;
+        padding: 5px;
+	
+}
+
+table.wiki-table th, table th
+{
+	border: 1px #ccc solid;
+	background: #999;
+	padding: 5px;
+        color: #FFF;
+	
+}
+
+/* Forms styling */
+/*****************/
+
+input, textarea 
+{
+	border-width: 1px;
+	border-color: #ccc;
+}
+
+input[type], textarea[name]
+{
+	background: #fff;
+}
+
+input[type=submit], input[type=reset] 
+{
+	border-style: solid;
+	border-color: #999;
+	color: #000;
+	background-image: url(img/bg-grey.png);
+	font-weight: bold;
+}
+
+input[type=submit]:hover,  input[type=submit]:focus
+{
+	background: #d2e0e6 url(img/bg-blue-gradient.png) repeat-x 0 100%;
+}
+
+/************/
+/* Comments */
+/************/
+
+div.comment-content
+{
+        margin: 0% 15px 20px 15px;
+        background: #E7E7E7;
+        border: #CCC solid 1px;
+}
+
+form.px-comment
+{
+	padding: 10px 16px 10px 16px;
+	margin: 0;
+        border: 1px solid #CCC;
+	background-color: #E7E7E7;
+	font-size: .8em;
+}
+
+form.px-comment p
+{
+	margin: 0;
+}
+
+form.px-comment textarea
+{
+	width:100%;
+}
+
+form.px-comment textarea, form.px-comment input
+{
+	background-color: #fff;
+}
+
+.input-submit
+{
+	text-align: right;
+	padding-top: 8px;
+}
+
+form.px-comment label
+{
+	float: left;
+	display: block;
+	width: 100px; 
+	font-size: 110%;
+}
+
+form.px-comment submit
+{
+	margin:0;
+	text-align: right;
+}
+
+.px-comment-validation
+{
+	color: #EF8100;
+        text-align: center;
+}
+
+.px-comment-required-email
+{
+	font-size: 0.8em;
+	font-style: italic;
+	color: #666;
+}
+
+/***********/
+/* Sitemap */
+/***********/
+
+#sitemap p
+{
+        margin: 2px 15px;
+        padding: 5px;
+        border-top: #CCC 1px solid;
+        border-bottom: #CCC 1px solid;
+}
+
+#sitemap ul
+{
+        margin: 0;
+        padding: 0 40px;
+}
+
+#sitemap li
+{
+        list-style-type: none;
+        list-style-position: inside;
+}

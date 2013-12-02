@@ -1,0 +1,1782 @@
+# -*- coding: utf-8 -*-
+# (C) 2004 Loïc d'Anterroches, Cédric Arrabie
+# (C) 2007-2008 Joël Bauer
+
+# Traduction des dates
+###########################################################################
+;Monday
+Lundi
+
+;Tuesday
+Mardi
+
+;Wednesday
+Mercredi
+
+;Thursday
+Jeudi
+;Friday
+Vendredi
+;Saturday
+Samedi
+;Sunday
+Dimanche
+
+;January
+Janvier
+;February
+Février
+;March
+Mars
+;April
+Avril
+;May
+Mai
+;June
+Juin
+;July
+Juillet
+;August
+Août
+
+;September
+Septembre
+;October
+Octobre
+;November
+Novembre
+;December
+Décembre
+
+;There is an error with your login or your password.
+Il y a une erreur dans votre identifiant ou votre mot de passe.
+
+;Login:
+Identifiant&nbsp;:
+
+;Password:
+Mot de passe&nbsp;:
+
+;Ok
+Ok
+
+;You need to accept the cookies to access the manager.
+Vous devez accepter les cookies pour accéder au Manager.
+
+# Main Menu (for accesskey translation see accesskey section below)
+####################################################################
+;News
+Brèves
+
+;Articles
+Articles
+
+;Rss
+Flux Rss
+
+;Files or images
+Fichiers ou images
+
+;Logout
+Déconnexion
+
+;Content
+Contenu
+
+;Preferences
+Préférences
+
+;Authors
+Rédacteurs
+
+;Tools
+Outils
+
+;Sites
+Sites
+
+;Help
+Aide
+
+;Home
+Accueil
+
+;Resource list
+Liste des ressources
+
+;No resource.
+Aucune ressource.
+
+;Show all
+Tout afficher
+
+;Hide all
+Tout masquer
+
+;show/hide
+Afficher/masquer
+
+;Show/hide
+Afficher/masquer
+
+;by
+par
+
+;Edit author profile
+Éditer le profil de l'auteur
+
+;in
+dans
+
+;on 
+le
+
+;Y/m/d at H:i:s
+d/m/Y à H:i:s
+
+;%Y-%m-%d at %H:%M
+%d-%m-%Y à %H:%M
+
+;Search:
+Rechercher&nbsp;:
+
+;edit
+Éditer
+
+;copy
+Copier
+
+;Copy of
+Copie de
+
+;visualize
+Visualiser
+
+;The associated link must start with http:// or a valid protocol.
+Le lien associé doit commencer par http:// ou un autre protocole valide.
+
+;Back to the list of resources
+Retour à la liste du contenu
+
+;News list
+Liste des brèves
+
+;See the news
+Voir la brève
+
+;Rsslink
+Lien Rss
+
+;Rsslinks
+Liens Rss
+
+;New news
+Nouvelle brève
+
+;Error: The requested news is not available.
+Erreur&nbsp;: La brève demandée n'est pas disponible.
+
+;Error: You do not have the rights to edit this news.
+Erreur&nbsp;: Vous n'avez pas l'autorisation d'éditer cette brève.
+
+;Rss links list
+Liste des flux Rss
+
+;New rss link
+Nouveau flux Rss
+
+;See the rss link
+Voir le flux Rss
+
+;Content of the rss link
+Contenu du lien Rss
+
+
+;Are you sure you want to delete this rss link?
+Souhaitez-vous vraiment supprimer ce lien Rss&nbsp;?
+
+;The rss link was successfully deleted.
+Le lien Rss a bien été supprimé.
+
+;No rss links.
+Pas de lien Rss.
+
+;Search for a rss link item:
+Rechercher dans un lien Rss :
+
+;Category
+Catégorie
+
+;Category:
+Catégorie&nbsp;:
+
+;Categories
+Catégories
+
+;Hidden category
+Catégorie fantôme
+
+;Allowed categories
+Catégories autorisées
+
+;shrink textarea
+Diminuer la taille de l'éditeur [-]
+
+;grow textarea
+Augmenter la taille de l'éditeur [+]
+
+;On-line
+En ligne
+
+;Off-line
+Hors-ligne
+
+;Waiting for validation
+En attente de validation
+
+;In edition
+En cours de rédaction
+
+;Format
+Format
+
+;Format:
+Format&nbsp;:
+
+;Status
+État
+
+;Title
+Titre
+
+;Title:
+Titre&nbsp;:
+
+;Description:
+Description&nbsp;:
+
+;Description
+Description
+
+;Keywords:
+Mots-clés&nbsp;:
+
+;Keywords
+Mots-clés
+
+;Associated website title
+Titre du site Web associé
+
+;Associated website address
+Adresse du site Web associé
+
+;Publication date
+Date de publication
+
+;Expiration date
+Date de retrait automatique
+
+;Do not use an expiration date.
+Ne pas définir de date de retrait automatique.
+
+;Time:
+Horaire&nbsp;:
+
+;Remove from this category
+Retirer de cette catégorie
+
+;Add in another category
+Ajouter dans une autre catégorie
+
+;Add
+Ajouter
+
+# ;FilRouge
+# Afficher dans la zone fil rouge
+#;StatusFilRouge
+#Apparaît dans la zone fil rouge
+
+# Submit buttons (to modify the accesskeys, see the accesskey section below)
+############################################################################
+
+;Visualize [v]
+Visualiser [v]
+
+;Save [s]
+Enregistrer [r]
+
+;Transform in XHTML [x]
+Transformer en XHTML [x]
+
+;Delete [d]
+Supprimer [p]
+
+;Are you sure you want to delete this news?
+Souhaitez-vous vraiment supprimer cette brève&nbsp;?
+
+;Content of the news
+Contenu de la brève
+
+;You need to give a title.
+Vous devez indiquer un titre.
+
+;The publication date is wrong.
+La date de publication n'est pas bonne.
+
+;The off-line date is wrong.
+La date de retrait automatique n'est pas bonne.
+
+;The proposed category is invalid.
+La catégorie proposée n'est pas valide.
+
+;Type
+Type
+
+;A type of resource is needed.
+Vous devez définir un type de ressource.
+
+;No news.
+Aucune brève.
+
+;The news was successfully saved.
+La brève a été enregistrée avec succès.
+
+;Main category
+Catégorie principale
+
+;Set as main category
+Définir comme catégorie principale
+
+;The news was successfully deleted.
+Brève supprimée avec succès.
+
+;All the dates
+Toutes les dates
+
+;All the categories
+Toutes les catégories
+
+;ok
+Ok
+
+;Month:
+Mois&nbsp;:
+
+;Error: The requested article is not available.
+Erreur&nbsp;: L'article demandé n'est pas disponible ou n'existe pas.
+
+;Error: The requested page is not available.
+Erreur&nbsp;: Le chapitre demandé n'est pas disponible ou n'existe pas.
+
+;Article list
+Liste des articles
+
+;See the article
+Voir l'article
+
+;New article
+Nouvel article
+
+;No article
+Aucun article
+
+;Are you sure you want to delete this article?
+Souhaitez-vous vraiment supprimer cet article&nbsp;?
+
+;Article pages
+Chapitres de l'article
+
+;See the page
+Voir le chapitre
+
+;Your are editing page %s of the article: %s.
+Vous êtes en train d'éditer le chapitre %s de l'article %s.
+
+;Your are adding a page to the article: %s.
+Vous êtes en train d'ajouter un chapitre à l'article %s.
+
+;Number of the page
+Numéro du chapitre
+
+;Page title
+Titre du chapitre
+
+;Page content
+Contenu du chapitre
+
+;Id to make a link:
+Identifiant pour créer un lien&nbsp;:
+
+;Edit this page
+Éditer ce chapitre
+
+;Add a page to the article
+Ajouter un chapitre à l'article
+
+;Back to the article
+Retour à l'article
+
+;At the end
+À la fin
+
+;Path
+Chemin
+
+;Error: You do not have the rights to edit this article.
+Erreur&nbsp;: Vous n'avez pas l'autorisation d'éditer cet article.
+
+;The article was successfully saved.
+L'article a été enregistré avec succès.
+
+;You need first to save the article, before adding a page to it.
+Le contenu d'un article est constitué de chapitres qui se consultent comme une suite de pages Web. Il faut d'abord enregistrer l'article avant de pouvoir créer un ou plusieurs chapitres.
+
+;The page was successfully saved.
+Le chapitre a été enregistré avec succès.
+
+;The page was successfully added.
+Le chapitre a été ajouté avec succès.
+
+;The page must have a title.
+Le chapitre doit comporter un titre.
+
+;The page must have a content.
+Le chapitre doit contenir du texte.
+
+;Error: Invalid page number.
+Erreur&nbsp;: Le numéro de chapitre n'est pas correct.
+
+;Error: Invalid page id.
+Erreur&nbsp;: L'identifiant du chapitre n'est pas correct.
+
+;The page was deleted.
+Chapitre supprimé avec succès.
+
+;Are you sure you want to delete this page?
+Souhaitez-vous vraiment supprimer ce chapitre&nbsp;?
+
+;The article was successfully deleted.
+Article supprimé avec succès.
+
+;New category
+Nouvelle catégorie
+
+;See the category
+Voir la catégorie
+
+;Parent category:
+Catégorie parente&nbsp;:
+
+;Template:
+Gabarit&nbsp;:
+
+;is hidden from the parent category except for admin
+est invisible depuis la catégorie parente sauf pour les admin
+
+;Cache time in seconds:
+Durée de mise en cache en secondes&nbsp;:
+
+;Path <span class="small">(/category/ or /cat/subcat/)</span>:
+Chemin <span class="small">(/catégorie/ ou /cat/sous-cat/)</span>&nbsp;:
+
+;No categories.
+Aucune catégorie.
+
+;Error: Invalid path.
+Erreur&nbsp;: Le chemin proposé n'est pas valide.
+
+;Category successfully saved.
+Catégorie enregistrée avec succès.
+
+;Are you sure you want to delete this category?
+Souhaitez-vous vraiment supprimer cette catégorie&nbsp;?
+
+;Error: Impossible to load the list of templates, check the availability of the template folder.
+Erreur&nbsp;: Impossible de charger la liste des gabarits, veuillez vérifier si votre dossier contenant les gabarits est disponible.
+
+;The category was successfully deleted.
+Catégorie supprimée avec succès.
+
+;Error: Configuration file of the website(<strong>%s</strong>) not available.
+Erreur&nbsp;: Fichier de configuration du site Web (<strong>%s</strong>) indisponible.
+
+;Error: The system has no write access to the folder <strong>%s</strong>. Check the permissions.
+Erreur&nbsp;: Le dossier <strong>%s</strong> ne peut être modifié par le système. Vérifiez les autorisations.
+
+;Error: The folder <strong>%s</strong> does not exist.
+Erreur&nbsp;: Le dossier <strong>%s</strong> n'existe pas.
+
+;Error: The requested file does not exist.
+Erreur&nbsp;: Le fichier demandé n'existe pas.
+
+;Error: Impossible to delete the file.
+Erreur&nbsp;: Impossible de supprimer le fichier.
+
+;File deleted with success.
+Fichier supprimé avec succès.
+
+;Error: The size of the file excess the maximum size.
+Erreur&nbsp;: La taille du fichier dépasse la limite autorisée.
+
+;Error: File not fully transfered.
+Erreur&nbsp;: Le fichier n'a pas été complètement transféré.
+
+;Error: No file.
+Erreur&nbsp;: Aucun fichier.
+
+;An error occured during the transfer of the file.
+Une erreur s'est produite lors du transfert du fichier.
+
+;File successfully uploaded.
+Fichier transféré avec succès.
+
+;Files and images
+Fichiers et images
+
+;MB
+Mo
+
+;KB
+Ko
+
+;bytes
+octets
+
+;Your files
+Vos fichiers
+
+;Try to create the thumbnail
+Essayer de créer la vignette
+
+;Are you sure you want to delete this file?
+Souhaitez-vous vraiment supprimer ce fichier&nbsp;?
+
+;<strong>size</strong>:
+<strong>taille</strong>&nbsp;:
+
+;No file for the moment.
+Aucun fichier actuellement.
+
+;&laquo; previous page
+&laquo; page préc.
+
+;&raquo; next page
+page suiv. &raquo; 
+
+;Insert an image or a file
+Insérer une image ou un fichier
+
+;Title of the file or image:
+Titre du fichier ou de l'image&nbsp;:
+
+;<strong>Current site</strong>:
+<strong>Site en cours d'édition</strong>&nbsp;:
+
+;Change
+Changer
+
+;See the site
+Voir le site
+
+;Resource off-line
+Ressource hors-ligne
+
+;Resource on-line
+Ressource en ligne
+
+;Resource in edition
+Ressource en cours de rédaction
+
+;Resource waiting for validation
+Ressource en attente de validation
+
+;New author
+Nouveau rédacteur
+
+;page(s):
+Page(s)&nbsp;:
+
+;resource(s)
+Ressource(s)
+
+;Name:
+Nom&nbsp;:
+
+;Email <span class="small">(not shown)</span>:
+Courriel <span class="small">(non divulgué)</span>&nbsp;:
+
+;Public email:
+Courriel public&nbsp;:
+
+;(keep empty not to change it)
+(laissez vide pour ne pas modifier le mot de passe)
+
+;Back to the list of authors
+Retour à la liste des rédacteurs
+
+;Attention, you are modifying your profile. You will be logged out if changes are successfully made.
+Attention, vous allez modifier votre profil. Vous serez déconnecté après les modifications.
+
+;Identity
+Identité
+
+;User
+Utilisateur
+
+;Levels
+Niveaux
+
+;Default website to edit:
+Site à éditer par défaut&nbsp;:
+
+;If saved in a cookie, the last edited website is proposed after login.
+Si enregistré dans un cookie, le dernier site géré est automatiquement proposé à la session suivante.
+
+;Site <strong>%s</strong>:
+Site <strong>%s</strong>&nbsp;:
+
+;Administrator
+Administrateur
+
+;Advanced author
+Rédacteur avancé
+
+;Intermediate author
+Rédacteur Intermédiaire
+
+;Simple author
+Rédacteur simple
+
+;No access
+Aucun accès
+
+;Users groups
+Groupes d'utilisateurs
+
+;Users group
+Groupe d'utilisateurs
+
+;Users Group List
+Liste des groupes d'utilisateurs
+
+;Edit
+Modifier
+
+;Edit the group
+Modifier le groupe
+
+;The group has been successfully saved
+Le groupe a été enregistré
+
+;The group successfully deleted.
+Le groupe a été supprimé.
+
+;ID
+N°
+
+;Group name
+Nom du groupe
+
+;Action
+Action
+
+;Add a new group
+Ajouter un nouveau groupe
+
+;Are you sure you want to delete this author?
+Souhaitez-vous vraiment supprimer ce rédacteur&nbsp;?
+
+;The author has been successfully saved.
+Le rédacteur a été enregistré avec succès.
+
+;Error: The login is not valid, only letters and digits allowed.
+Erreur&nbsp;: L'identifiant n'est pas valide, il ne doit contenir que des lettres et des chiffres.
+
+;Error: This login is already used, please use another one.
+Erreur&nbsp;: L'identifiant est déjà utilisé, veuillez en proposer un autre.
+
+;Error: You need to give a password.
+Erreur&nbsp;: Vous devez indiquer un mot de passe.
+
+;Error: You need to give a name.
+Erreur&nbsp;: Vous devez indiquer un nom.
+
+;Error: You do not have the rights to modify this user.
+Erreur&nbsp;: Vous n'avez pas l'autorisation de modifier le profil de cet utilisateur.
+
+;Error: This user cannot be deleted.
+Erreur&nbsp;: Cet utilisateur ne peut pas être supprimé.
+
+;Author successfully deleted.
+L'utilisateur a été supprimé avec succès.
+
+;New site
+Nouveau site
+
+;Back to the list of the sites
+Retour à la liste des sites
+
+;This site is not available.
+Ce site Web n'est pas disponible.
+
+;Error: Permissions of the configuration prevent the addition or modification of the sites.
+Erreur&nbsp;: Les autorisations du dossier de configuration empêchent l'ajout et la modification des sites.
+
+;Site name:
+Nom du site&nbsp;:
+
+;Site id:
+Identifiant du site&nbsp;:
+
+;Main language of the website:
+Langue principale du site&nbsp;:
+
+;Error: You must give a name.
+Erreur&nbsp;: Vous devez indiquer un nom.
+
+;Error: You must give a description.
+Erreur&nbsp;: Vous devez saisir une description.
+
+;Error: Invalid id, it must contain only letters and digits.
+Erreur&nbsp;: L'identifiant n'est pas valide, il ne doit contenir que des lettres et des chiffres.
+
+;Error: Impossible to create the configuration file.
+Erreur&nbsp;: Création du fichier de configuration impossible.
+
+;Error: The site can only be deleted if empty.
+Erreur&nbsp;: Le site ne peut être supprimé que s'il ne contient aucune ressource.
+
+;Are you sure you want to delete this site?
+Souhaitez-vous vraiment supprimer ce site Web&nbsp;?
+
+;Add a file to the current folder
+Ajouter un fichier au dossier courant
+
+;Add the file
+Ajouter le fichier
+
+;Create a sub-folder
+Créer un sous-dossier
+
+;You are in the folder <strong>%s</strong>
+Vous êtes dans le dossier <strong>%s</strong>
+
+;Error: Impossible to create the new folder.
+Erreur&nbsp;: Impossible de créer le nouveau dossier.
+
+;The folder was successfully created, you can already add files and images in.
+Le dossier a été créé avec succès, vous pouvez dès maintenant ajouter des fichiers ou images.
+
+;Create
+Créer
+
+;Are you sure you want to delete this folder?
+Souhaitez-vous vraiment supprimer ce dosssier&nbsp;?
+
+;Delete this folder
+Supprimer ce dossier
+
+;Error: Impossible to delete the folder.
+Erreur&nbsp;: Impossible de supprimer le dossier.
+
+;Folder successfully deleted.
+Le dossier a été supprimé avec succès.
+
+;Impossible to open the file
+Impossible d'ouvrir le fichier
+
+;Invalid plugin
+Plugin invalide
+
+;Impossible to delete the existing plugin
+Impossible de supprimer le plugin existant
+
+;An error occured during the download of the file.
+Une erreur s'est produite lors du téléchargement du fichier.
+
+;An error occured when writing the file.
+Une erreur s'est produite lors de la modification du fichier.
+
+;Tools and plugins
+Outils et plugins
+
+;No active or available tools.
+Aucun outil n'est disponible ou actif.
+
+;Back to the tools
+Retour aux outils
+
+;The automatic install is not available on your system, do the manual install.
+L'installation automatique ne fonctionne pas sur votre système, veuillez procéder à l'installation manuelle.
+
+;Preferences successfully saved.
+Préférences enregistrées avec succès.
+
+;Online help
+Aide en ligne
+
+;Help topics
+Rubriques de l'aide
+
+;More help
+Davantage d'aide
+
+;Close this window
+Fermer cette fenêtre
+
+;Interface language:
+Langue de l'interface&nbsp;:
+
+;Wiki syntax
+Règles de formatage Wiki
+
+;XHTML coding
+Aide au codage XHTML
+
+;Resource types
+Types de ressource
+
+;New type
+Nouveau type
+
+;Name of the type:
+Nom du type&nbsp;:
+
+;Article
+Article
+
+;Yes
+Oui
+
+;No
+Non
+
+;Have associated link to news items:
+Associer un lien aux brèves&nbsp;:
+
+;List the types
+Liste des types
+
+;The type was successfully saved.
+Type de ressource enregistré avec succès.
+
+;You must provide a name.
+Vous devez indiquer un nom.
+
+;You must provide a template.
+Vous devez choisir un gabarit.
+
+;The cachetime must be an integer.
+La durée de mise en cache doit être un nombre entier.
+
+;Types of news
+Types de brèves
+
+;Types of articles
+Types d'articles
+
+;Types of events
+Types d'évènements
+
+;Types of rsslinks
+Type de liens RSS
+
+;Are you sure you want to delete this type of resource?
+Souhaitez-vous vraiment supprimer ce type de ressource&nbsp;?
+
+;Impossible to delete this type as it is in use.
+Impossible de supprimer ce type car il est encore utilisé.
+
+;The type of resource was successfully deleted.
+Type de ressource supprimé avec succès.
+
+;You need to <a href="%s">add 2 types of resource</a>, one for the articles and one for the news.
+Vous devez <a href="%s">ajouter deux types de ressource</a>, un pour les articles et un pour les brèves.
+
+;You need to <a href="%s">add 4 types of resource</a>, one for the articles, one for the news, one for the events and on for the rss links.
+Vous devez <a href="%s">ajouter 4 types de ressource</a>, un pour les articles, un pour les brèves, un pour les évènements et un pour les liens RSS.
+
+;Manager Themes
+Thèmes du Manager
+
+;version:
+version&nbsp;:
+
+;Use this theme
+Utiliser ce thème
+
+;Theme successfully changed.
+Thème changé avec succès.
+
+;New website name
+Nom du nouveau site Web
+
+;Description of the __new website__.
+Description du __nouveau site Web__.
+
+;No rights to edit this website.
+Pas d'autorisation pour éditer ce site Web.
+
+;No rights to add a website.
+Pas d'autorisation pour ajouter un site Web.
+
+;Site <strong>%s</strong> successfully saved.
+Le site <strong>%s</strong> a été enregistré avec succès.
+
+;Site <strong>%s</strong> successfully added.
+Le site <strong>%s</strong> a été ajouté avec succès.
+
+;Site successfully deleted. No file was removed from the document root.
+Site supprimé avec succès. Aucun fichier n'a été supprimé du répertoire racine.
+
+;Log of the installation:
+Compte rendu d'installation&nbsp;:
+
+;If you see warnings, check them carefully and look at the online documentation to see the impact. You may need to complete the installation manually.
+Si vous obtenez des avertissements, lisez-les attentivement et consultez la documentation en ligne pour en connaître les conséquences. Vous devrez peut-être terminer l'installation manuellement.
+
+;To see the new website in the manager, you need to logout and login again.
+Pour voir le nouveau site Web dans le Manager, vous devez vous déconnecter puis vous reconnecter.
+
+;If you are using the nice url option, you need to configure the webserver to use these url with this new website.
+Si vous souhaitez utiliser l'option «jolies URL», vous devez configurer le serveur Web afin qu'il puisse les utiliser avec ce nouveau site Web.
+
+;<a href="%s">Manage the subtypes of resources</a>.
+<a href="%s">Gérer les sous-types des ressources</a>.
+
+;Website address:
+Adresse du site Web&nbsp;:
+
+;For example put <em>https://www.mydomain.com/mysite/</em> or <em>http://www.mydomain.com/</em>. Do not forget the <em>http(s)</em>.
+Saisir, par exemple, <em>https://www.mondomaine.com/monsite/</em> ou <em>http://www.mondomaine.com/</em>. N'oubliez pas le <em>http(s)</em>.
+
+;Path to the document root of the website:
+Chemin d'accès à la racine du site Web&nbsp;:
+
+;Path on the server side. For example <em>/home/login/www</em> or <em>c:/http</em>. The document root is the folder where the <em>index.php</em> will be placed.
+Chemin d'accès côté serveur. Par exemple <em>/home/login/www</em> ou <em>c:/http</em>. La racine est le dossier dans lequel sera placé le fichier <em>index.php</em>.
+
+;Name of the file and image folder:
+Nom du dossier contenant les fichiers et les images&nbsp;:
+
+;Name of the website image:
+Nom de l'image du site&nbsp;:
+
+;For example put <em>xmedia</em> or <em>documents</em>.
+Saisir, par exemple, <em>xmedia</em> ou <em>documents</em>.
+
+;For example put <em>logo_site.png</em>.
+Saisir par exemple <em>logo_site.png</em>.
+
+;For example put <em>Login</em> or <em>Name</em>.
+Saisir, par exemple, <em>Identifiant</em> ou <em>Nom</em>.
+
+;If all the informations you provided are valid, the system will copy the required files in the right folders. The complete log of those files will be shown to you. No file already available on the system will be overwritten.
+Si toutes les informations que vous avez fournies sont correctes, le système copiera les fichiers requis dans les bons dossiers. Un compte rendu d'installation sera affiché en fin de procédure. Aucun fichier déjà présent sur le système ne sera modifié ou remplacé.
+
+;Create the new website
+Créer le site Web
+
+;File not found:
+Fichier introuvable&nbsp;:
+
+;Error: Internal error, please report your actions leading to this error message.
+Erreur&nbsp;: Erreur interne, veuillez, s'il vous plaît, nous indiquer les manipulations qui ont occasionné cette erreur.
+
+;Error: File and image folder %s not available. Check the name you gave.
+Erreur&nbsp;: Le dossier %s contenant les fichiers et les images n'est pas disponible. Veuillez vérifier le nom que vous avez donné.
+
+;Error: No write access to the file and image folder %s. Check the name you gave.
+Erreur&nbsp;: Impossible de modifier le contenu du dossier %s des fichiers et des images . Veuillez vérifier le nom que vous avez donné.
+
+;Error: The document root folder %s is not available.
+Erreur&nbsp;: Le répertoire racine %s n'est pas disponible.
+
+;Error: No write access to the root folder %s.
+Erreur&nbsp;: Impossible de modifier le contenu du répertoire racine %s.
+
+;Error: You must give a website address.
+Erreur&nbsp;: Vous devez donner l'adresse du site Web.
+
+;Error: You must provide a valid website address.
+Erreur&nbsp;: Vous devez fournir une adresse valide pour le site Web.
+
+;Error: The configuration file %s is not writeable.
+Erreur&nbsp;: Impossible de modifier Le fichier de configuration %s.
+
+;Error: Id already used.
+Erreur&nbsp;: Identifiant déjà utilisé.
+
+;Error: The configuration folder %s is not writeable.
+Erreur&nbsp;: Impossible de modifier le contenu du dossier de configuration %s.
+
+;Home Page
+Page d'accueil
+
+;Root category, that plays the role of homepage.
+Catégorie principale, qui joue le rôle de page d'accueil.
+
+;homepage, index, default
+page d'accueil, index, défaut
+
+;Thumbnail folder %s created successfully.
+Dossier des vignettes %s créé avec succès.
+
+;Unable to create the thumbnail folder %s.
+Impossible de créer le dossier des vignettes %s.
+
+;Theme folder %s created successfully.
+Dossier des thèmes %s créé avec succès.
+
+;Unable to create the theme folder %s.
+Impossible de créer le dossier des thèmes %s.
+
+;Template folder %s created successfully.
+Dossier des gabarits %s créé avec succès.
+
+;Unable to create the template folder %s.
+Impossible de créer le dossier des gabarits %s.
+
+;Theme files successfully copied from %s to the theme folder.
+Les fichiers du thème ont été copiés avec succès de %s vers le dossier des thèmes.
+
+;Unable to copy the theme files from %s to the theme folder.
+Impossible de copier les fichiers du thème de %s vers le dossier des thèmes.
+
+;Templates files successfully copied from %s to the template folder.
+Les fichiers du gabarit ont été copiés avec succès de %s vers le dossier des gabarits.
+
+;Unable to copy the templates files from %s to the template folder.
+Impossible de copier les fichiers du gabarit de %s vers le dossier des gabarits.
+
+;Config file successfully copied from %s to the document root folder.
+Le fichier de configuration a été copié avec succès de %s vers le répertoire racine.
+
+;Unable to copy the config file from %s to the document root folder.
+Impossible de copier le fichier de configuration de %s vers le répertoire racine.
+
+;Index file successfully copied from %s to the document root folder.
+Le fichier d'index a été copié avec succès de %s vers le répertoire racine.
+
+;Unable to copy the index file from %s to the document root folder.
+Impossible de copier le fichier d'index de %s vers le répertoire racine.
+
+;Prepend file successfully copied from %s to the document root folder.
+Le fichier de préchargement a été copié avec succès de %s vers le répertoire racine.
+
+;Unable to copy the prepend file from %s to the document root folder.
+Impossible de copier le fichier de préchargement de %s vers le répertoire racine.
+
+;Rss file successfully copied from %s to the document root folder.
+Le fichier de syndication Rss a été copié avec succès de %s vers le répertoire racine.
+
+;Unable to copy the rss file from %s to the document root folder.
+Impossible de copier le fichier de syndication Rss de %s vers le répertoire racine.
+
+;Search file successfully copied from %s to the document root folder.
+Le fichier de recherche a été copié avec succès de %s vers le répertoire racine.
+
+;Unable to copy the search file from %s to the document root folder.
+Impossible de copier le fichier de recherche de %s vers le répertoire racine.
+
+;Config file %s successfully updated.
+Le fichier de configuration %s a été mis à jour avec succès.
+
+;Unable to update the config file %s.
+Impossible de mettre à jour le fichier de configuration %s.
+
+;Links:
+Liens
+
+;Default theme
+Thème par défaut
+
+;Default PLUME CMS theme.
+Thème PLUME CMS par défaut
+
+;Error: Not an authorized type of file. The file name must contain only simple letters, digits, "-", "_" and a recognized extension. No spaces allowed.
+Erreur&nbsp;: type de fichier non autorisé. Le nom de fichier ne peut comporter que des lettres, des chiffres, "-", "_" et une extension reconnue. Les espaces ne sont pas autorisés.
+
+;Error: Invalid folder name, it must contain only letters, digits, "_" and "-".
+Erreur&nbsp;: nom de dossier invalide, il ne peut comporter que des lettres, des chiffres, "-" et "_". Les espaces ne sont pas autorisés.
+
+;Id to use in the templates:
+Id à utiliser dans les gabarits&nbsp;:
+
+;Parent folder
+Dossier parent
+
+;Go one folder up.
+Remonter d'un dossier
+
+;You need now to add the first page of the article. After adding the first page, you can validate and put online the article.
+Vous devez à présent ajouter le premier chapitre de l'article. Après avoir ajouté ce chapitre, vous pourrez valider et mettre en ligne l'article.
+
+;The comment was successfully deleted.
+Le commentaire a été supprimé avec succès.
+
+;The requested comment does not exist.
+Le commentaire demandé n'existe pas.
+
+;The comment was successfully saved.
+Le commentaire a été enregistré avec succès.
+
+;Error: Configuration file of the website (<strong>%s</strong>) not available. Please check your installation.
+Erreur&nbsp;: Le fichier de configuration du site (<strong>%s</strong>) n'est pas disponible. Veuillez vérifier votre installation.
+
+;Choose a file (maximum size %s)
+Choisissez un fichier (taille maximale %s)
+
+;Type of:
+Type de&nbsp;:
+
+;Comments
+Commentaires
+
+;Latest online comments
+Derniers commentaires en ligne
+
+;Latest comments
+Derniers commentaires
+
+;Delete all the junk comments listed here.
+Supprimer tous les indésirables listés ici.
+
+;Delete the junk listed here
+Supprimer les indésirables listés ci-dessus
+
+;The junk comments were successfully deleted.
+Les commentaires indésirables ont été supprimés avec succès.
+
+;Error: The requested category is not available.
+Erreur&nbsp;: La catégorie demandée n'est pas disponible.
+
+;The page %s already exists in the installer
+La page %s existe déjà dans l'installeur.
+
+;The test %s is already defined. Each test id must be unique.
+Le test %s est déjà défini. Chaque test doit être unique.
+
+;The test function %s is not defined.
+La fonction de test %s n'est pas définie.
+
+;The page %s is not available.
+La page %s n'est pas disponible.
+
+;Please confirm the password:
+Veuillez confirmer le mot de passe&nbsp;:
+
+;The provided file and image folder %s is not available. Please check the folder you gave.
+Le dossier contenant les fichiers et les images %s n'est pas disponible. Veuillez vérifier le nom de dossier que vous avez saisi.
+
+;The document root folder of the website %s is not available. Please check the folder you gave.
+Le répertoire racine du site Web %s n'est pas disponible. Veuillez vérifier le nom de dossier que vous avez donné.
+
+;The website language must be composed of the 2 ISO standard letters, for example de (German), fr (French), jp (Japanese).
+La langue du site Web doit être composée des 2 lettres du standard ISO. Par exemple : de (Allemand), fr (Français), jp (Japonais).
+
+;You must give a website address.
+Vous devez donner l'adresse du site Web.
+
+;You must give the URL to the file and image folder.
+Vous devez donner l'URL du dossier contenant les fichiers et les images.
+
+;The website address must start with http(s)://.
+L'adresse du site Web doit commencer par http(s)://.
+
+;The URL to the file and image folder must start with http(s)://.
+L'adresse du dossier contenant les fichiers et les images doit commencer par http(s)://.
+
+;You must provide a website description.
+Vous devez donner une description du site Web.
+
+;You must give a website name.
+Vous devez donner un nom au site Web.
+
+;The system has no write access to the file and image folder %s. Check the permissions on the server.
+Le système ne peut modifier le contenu du dossier des fichiers et des images %s. Veuillez vérifier les autorisations sur le serveur.
+
+;The system has no write access to the document root folder %s. Check the permissions on the server.
+Le système ne peut modifier le contenu du répertoire racine %s. Veuillez vérifier les autorisations sur le serveur.
+
+;The system has no write access to the configuration folder <em>manager/conf/</em>. Check the permissions on the server.
+Le système ne peut modifier le contenu du dossier de configuration <em>manager/conf/</em>. Veuillez vérifier les autorisations sur le serveur.
+
+;The system has no write access to the template folder <em>manager/templates/</em>. Check the permissions on the server.
+Le système ne peut modifier le contenu du dossier des gabarits <em>manager/templates/</em>. Veuillez vérifier les autorisations sur le serveur.
+
+;Adding a new website with id %s, but a website with this id already exists.
+Vous essayez d'ajouter un nouveau site Web avec l'id %s, mais un site avec cet id existe déjà.
+
+;You need to provide your name.
+Vous devez indiquer votre nom.
+
+;You need to provide a valid email address.
+Vous devez fournir une adresse courriel valide.
+
+;The website address must start with http://.
+L'adresse du site Web doit commencer par http://.
+
+;Empty comments are not comments.
+Un commentaire vide n'est pas un commentaire.
+
+;Error: You do not have the correct rights to edit this resource.
+Erreur&nbsp;: Vous n'avez pas l'autorisation d'éditer cette ressource.
+
+;You do not have the rights to save a category
+Vous n'avez pas l'autorisation d'enregistrer une catégorie.
+
+;You do not have the rights to remove a category
+Vous n'avez pas l'autorisation de supprimer une catégorie.
+
+;This comment is not available.
+Ce commentaire n'est pas disponible.
+
+;Error: You do not have the rights to edit this comment.
+Erreur&nbsp;: Vous n'avez pas l'autorisation d'éditer ce commentaire.
+
+;Error: you are trying to update a non existing page.
+Erreur&nbsp;: Vous essayez de mettre à jour une page non disponible.
+
+;A path for the article must be provided.
+Vous devez indiquer un chemin pour l'article.
+
+;Illegal characters in the path. Please read the help to know how to choose the right path for your article.
+Vous avez utilisé des caractères non autorisés dans le chemin. Veuillez lire l'aide afin de donner un chemin correct pour votre article.
+
+;An article is already using the path: <em>%s</em>. Please use another one.
+Un article utilise déjà ce chemin&nbsp;: <em>%s</em>. Veuillez utiliser un autre chemin.
+
+;The resource is not in this category it must be removed from.
+La ressource à supprimer ne se trouve pas dans cette catégorie.
+
+;The resource cannot be removed from the main category
+La ressource ne peut pas être supprimée de la catégorie principale.
+
+;Invalid author.
+Rédacteur invalide.
+
+;Try to add a non existing author to the resource.
+Vous essayez d'ajouter à cette ressource un rédacteur inexistant.
+
+;The author to be removed is not associated to the resource.
+Le rédacteur à supprimer n'est pas associé à cette ressource.
+
+;Impossible to remove the unique author of the resource.
+Il n'est pas possible de supprimer le rédacteur unique d'une ressource.
+
+;Error: No details to be removed for the current news.
+Erreur&nbsp;: Aucune information à supprimer de la brève courante.
+
+;This path is already used by another category, please change it.
+Ce chemin est déjà utilisé par une autre catégorie. Veuillez le modifier.
+
+;The category template seems invalid, please select another one from the form..
+Ce gabarit de catégorie semble invalide. Veuillez en sélectionner un dans le formulaire.
+
+;You need to provide a name for the category.
+Vous devez indiquer le nom de la catégorie.
+
+;Error: A root category cannot be deleted.
+Erreur&nbsp;: La catégorie racine ne peut être supprimée.
+
+;Error: A category must be empty to be deleted.
+Erreur&nbsp;: Une catégorie doit être vide pour être supprimée.
+
+;Search for an article:
+Chercher un article&nbsp;:
+
+;No comments.
+Pas de commentaires.
+
+;Comment off-line
+Commentaire hors-ligne
+
+;Comment on-line
+Commentaire en ligne
+
+;Comment waiting for validation
+Commentaire en attente de validation
+
+;Comment
+Commentaire
+
+;To
+À
+
+;No comments for the moment.
+Pas de commentaires pour le moment.
+
+;Show/hide edition form
+Afficher/masquer le formulaire d'édition
+
+;with the IP address:
+avec l'adresse IP&nbsp;:
+
+;Author
+Auteur
+
+;Email
+Courriel
+
+;Website
+Site Web
+
+;Content of the comment
+Contenu du commentaire
+
+;Save
+Enregistrer
+
+;Delete
+Supprimer
+
+;Are you sure you want to delete this comment?
+Souhaitez-vous vraiment supprimer ce commentaire ?
+
+;Add a comment
+Ajouter un commentaire
+
+;Search for a news item:
+Chercher une brève&nbsp;:
+
+;Comments open
+Commentaires ouverts
+
+;Comments closed
+Commentaires fermés
+
+;You do not have the rights to edit this website.
+Vous n'avez pas l'autorisation d'éditer ce site Web·
+
+;The theme is invalid. It must contain only letters and digits.
+L'id du thème n'est pas valide. Il ne doit contenir que des lettres et des chiffres.
+
+;Impossible to save the configuration file.
+Impossible d'enregistrer le fichier de configuration.
+
+;DB error:
+Erreur de base de données&nbsp;:
+
+;The theme of the site has been successfully changed. You may need to copy the style files in the xmedia folder.
+Le thème du site a été modifié avec succès. Vous devez éventuellement copier les feuilles de style (fichiers CSS) dans le dossier xmedia et vider le cache (dans l'outil «Information sur Plume CMS»).
+
+;Support of the comments:
+Support des commentaires&nbsp;:
+
+;Defined for each individual resource
+Choisir pour chaque ressource
+
+;Default status of the comments:
+État par défaut des commentaires&nbsp;:
+
+;Default value for the comment status:
+Statut des commentaires par défaut&nbsp;:
+
+;Need validation
+Validation requise
+
+;Online
+En ligne
+
+;Website Themes
+Thèmes pour le site Web
+
+;Blue theme
+Thème bleu
+
+;Blue PLUME CMS theme.
+Thème bleu pour Plume CMS.
+
+;Dotclear
+Dotclear
+
+;Mimic the Dotclear interface.
+Imitation de l'interface de Dotclear.
+
+;Default Plume CMS theme
+Thème par défaut de Plume CMS
+
+;Junk
+Indésirable
+
+;Error: The id of the website "%s" can only contain letters and numbers.
+Erreur&nbsp;: L'id du site "%s" ne peut contenir que des lettres et des chiffres.
+
+;Show the category content
+Afficher le contenu de la catégorie
+
+;show
+Afficher
+
+;Comment is junk
+Commentaire indésirable
+
+;You can read the <a href="http://pxsystem.sourceforge.net/documentation.html">complete online documentation</a>.
+Vous pouvez lire la <a href="http://pxsystem.sourceforge.net/fr/documentation.html">documentation complète en ligne</a>.
+
+;You can also ask your questions to the community on the <a href="http://pxsystem.sourceforge.net/participate.html">forum</a>.
+Vous pouvez aussi poser vos questions directement à la communauté sur <a href="http://pxsystem.sourceforge.net/fr/participate.html">le forum</a>.
+
+;Manager Access
+Accès au Manager
+
+# Accesskeys for Main Menu
+##########################
+
+# Content
+;c
+c
+
+# Comments
+;m
+m
+
+# Categories
+;a
+g
+
+# Authors
+;r
+u
+
+# Preferences
+;f
+f
+
+# Tools
+;t
+t
+
+# Sites
+;e
+e
+
+# Help
+;h
+a
+
+# Other accesskeys (not underlined)
+###################################
+
+# Logout
+;o
+d
+
+# See the current site
+;i
+i
+# Accesskey for submit buttons
+##############################
+
+# Visualize [v] => the [key] after line 190 must feet to the defined accesskey
+;v
+v
+
+# Save [s] => the [key] after line 190 must feet to the defined accesskey
+;s
+r
+
+# Transform in XHTML [x] => the [key] after line 190 must feet to the defined accesskey
+;x
+x
+
+# Delete [d] => the [key] after line 190 must feet to the defined accesskey
+;d
+p
+
+
+# Ajouts depuis le 01/12/2009
+;Event
+Evènement
+
+;Events
+Evènements
+
+;Events list
+Liste des évènements
+
+;New event
+Nouvel évènement
+
+;See the events
+Voir les évènements
+
+;See the event
+Voir l'évènement
+
+;Search for a event item:
+Rechercher un évènement:
+
+;Content of the events
+Description de l'évènement
+
+;Short Content
+Description courte
+
+;Event start date
+Début de l'évènement
+
+;Do not use an end date.
+Ne pas définir de date de fin
+
+;Event end date
+Fin de l'évènement
+
+;Are you sure you want to delete this event?
+Etes vous sur de vouloir supprimer cet évènement ?
+
+;The event was successfully saved
+L'évènement a bien été enregistré
+
+;The event was successfully saved.
+L'évènement a bien été enregistré
+
+;The event was successfully deleted.
+L'évènement a bien été supprimé.
+
+;Manager theme based on the Crystal Clear theme
+Manager theme based on the Crystal Clear theme
+
+;Crystal theme
+Crystal theme
+
+;Manager theme based on the Tango project icons for PLUME CMS 1.2.3.
+Manager theme based on the Tango project icons for PLUME CMS 1.2.3.
+
+;crystal
+crystal
+
+;PMTango theme
+PMTango theme
+
+;pmtango
+pmtango
+
+;dotclear
+dotclear
+
+;default
+default
+
+;Black theme for Plume CMS version 1.2.3.
+Black theme for Plume CMS version 1.2.3.
+
+;Black
+Black
+
+;black
+black
+
+;blue
+blue
+
+;January
+Janvier
+
+;February
+Février
+
+;March
+Mars
+;April
+Avril
+;May
+Mai
+;June
+Juin
+;July
+Juillet
+;August
+Août
+;September
+Septembre
+;October
+Octobre
+;November
+Novembre
+;December
+Décembre
+
+
+;Go to the content
+Vers le contenu
+
+;Go to the menu
+Vers le menu
+
+;Sitemap
+Carte du site
+
+;Feeds
+Flux RSS
+
+;Search
+Recherche
+;OK
+OK
+
+;Links
+Liens
+
+;In short
+En bref
+;No resources
+Pas de ressource
+;Recent articles
+Articles récents
+;Read
+Lire
+;%Y-%m-%d at %H:%M
+%d/%m/%Y à %H:%M
+;, publisher of
+ , rédacteur de
+;Number of comments:
+Nombre de commentaires:
+
+;Recent news
+Brèves récentes
+
+;POWERED by
+GENERE par
+;Powered by PLUME CMS
+Généré par PLUME CMS
+
+;Logo of Plume CMS
+Logo de Plume CMS
+
+;DESIGN by
+Définit par
+;Design by Jojaba
+Définit par Jojoba
+
+;Jojaba
+Jojoba
+
+;Back to
+Retour vers
+
+;<div id="subcat"><h3>Subcategories</h3> %s</div>
+<div id="subcat"><h3>Sous-catégories</h3> %s</div>
+
+;1 resource
+1 resource
+
+;<strong>%s</strong> resources
+<strong>%s</strong> resources
+
+;in this category.
+dans cette catégorie
+
+;<p><a href="%s">Previous Page</a></p>
+<p><a href="%s">Page précédente</a></p>
+
+;<p><a href="%s">Next Page</a></p>
+<p><a href="%s">Page suivante</a></p>
+
+;In %s
+Dans %s
+
+;and
+et
+
+;or
+ou
+
+;Generate table
+Générer un tableau
+
+;Category name
+Nom de la catégorie
+
+;Managed your categories.
+Gérer vos catégories.
+
+;Add new tools to Plume's templates.
+Ajouter de nouveaux outils à Plume.
+
+;Box of Tools
+Boîte à Outils
+
+;Plugin Manager
+Gestionnaire des plugins
+
+;New users group
+Nouveau groupe d'utilisateurs
+
+;Apply filter
+Appliquer le filtre
+
+;reset the filter
+annuler le filtre
+;Reset the filter
+Annuler le filtre
+
+;alertcom
+alertcom
+
+;babel
+babel
+
+;bot
+bot
+;ecm
+ecm
+
+;.htaccess Manager
+Gestion htaccess
+
+;info
+info
+
+;searchmng
+gestion index
+
+;smart404
+Redir 404
+
+;teditor
+teditor
+
+###############################
+# Strings for alertcom plugin #
+###############################
+
+;A comment has been left on your Plume CMS site.
+Un commentaire a été ajouté sur votre site Plume CMS.
+
+;This comment has been left on your Plume CMS website:
+Ce commentaire a été ajouté sur votre site Plume CMS :
+
+;Author:
+Auteur :
+
+;Email:
+Courriel :
+
+;Website:
+Site Web :
+
+;IP:
+IP :
+
+;Comment content
+Contenu du commentaire
+
+;Go to the comments in the Manager:
+Aller aux commentaires dans le Manager :
+
+;junk
+indésirable
+
+;published
+publié
+
+;Comment status:
+Type de commentaire :
+
+;is hidden from the parent category except for admin
+est masqué sauf pour l'admin
+
+;has it own media folder
+avec son dossier média

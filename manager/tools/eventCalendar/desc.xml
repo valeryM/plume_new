@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin name="eventCalendar" version="0.54" rootonly="true" active="true">
+  <author>Valéry MERLET</author>
+  <label>Events Calendar</label>
+  <desc>Add a calender in the templates to show events</desc>
+</plugin>

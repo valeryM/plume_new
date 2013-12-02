@@ -1,0 +1,126 @@
+# -*- coding: utf-8 -*-
+# (C) 2008 your@email.com
+
+##############
+# Index page #
+##############
+
+;You do not have the rights to access this plugin.
+Δεν έχετε τα απαραίτητα δικαιώματα πρόσβασης γι' αυτό το πρόσθετο.
+
+
+;Error: please provide a valid e-mail or list of email!
+Σφάλμα: παρακαλούμε δώστε μια έγκυρη διεύθυνση ή λίστα διευθύνσεων ηλ. ταχυδρομείου.
+
+
+;Error: The file <strong>%s</strong> is not available for writing.
+Σφάλμα: Δεν είναι διαθέσιμο για εγγραφή το αρχείο <strong>%s</strong>.
+
+
+;Error: Error while saving the config file, check the permissions of the file.
+Σφάλμα: Παρουσιάστηκε σφάλμα κατά την αποθήκευση του αρχείου ρυθμίσεων, ελέγξτε τα δικαιώματα του αρχείου.
+
+
+;The configuration was successfully updated.
+Οι ρυθμίσεις ενημερώθηκαν με επιτυχία.
+
+
+;Alertcom
+Alertcom
+
+
+;Alert/comment processing
+Επεξεργασία ειδοποίησης σχόλιων
+
+
+;Alertcom status:
+Κατάσταση Alertcom:
+
+
+;Disabled
+Απενεργοποιημένο
+
+;Notify published comments (default)
+Ειδοποίηση μόνο για δημοσιευμένα σχόλια (αρχική ρύθμιση)
+
+
+
+;Notify All comments
+Ειδοποίηση για όλα τα σχόλια
+
+
+;Here you can disable Alertcom or set which type of comments should it notify for : the published ones (Valid) or all (including the junk comments).
+Εδώ μπορείτε να ορίσετε για ποια σχόλια θα αποστέλονται ειδοποιήσεις (τα δημοσιεύμενα (έγκυρα) ή όλα (συμπεριλαμβανωμενων και των ανεπιθύμητων) ) ή και απενεργοποιήσετε το Alertcom.
+
+
+;Recipient(s) address(es):
+Διεύθυνση παραλήπτη:
+
+
+;Each time a comment is left on the site an alert message will be sent to the above address (you can also define multiple comma seperated addresses).
+Κάθε φορά που θα δημοσιεύεται σχόλιο, θα αποστέλεται ένα μήνυμα ειδοποίησης στην παραπάνω διεύθυνση (μπορείτε επίσης να ορίσετε πολλές, διαχωριζόμενες με κόμματα διευθύνσεις).
+
+;Save [s]
+Αποθήκευση [θ]
+
+;s
+θ
+
+
+#################
+# register file #
+#################
+
+;A comment has been left on your Plume CMS site.
+Έχει δημοσιευθεί σχόλιο στο ιστότοπο Plume CMS σας.
+
+
+;This comment has been left on your Plume CMS website:
+Έχει δημοσιευθεί αυτό το σχόλιο στον ιστότοπο Plume CMS σας:
+
+
+;Author:
+Συντάκτης:
+
+
+;Email:
+Διεύθυνση ηλ. ταχυδρομείου:
+
+
+;Website:
+Ιστότοπος:
+
+
+;IP:
+IP:
+
+;Comment content
+Περιεχόμενο σχόλιου
+
+
+;Go to the comments in the Manager:
+Μετάβαση στα σχόλια μέσω του διαχειριστή:
+
+
+;junk
+Ανεπιθύμητο
+
+
+;published
+Δημοσιεύμενο
+
+
+;Comment status:
+Κατάσταση σχόλιου:
+
+
+####################
+# Description file #
+####################
+
+;Alertcom (Alert/Comments)
+;Alertcom (ειδοποίηση σχόλιων)
+
+
+;Send an alert mail each time a comment is left on the site.
+Αποστολή μηνύματος ειδοποίησης κάθε φορά που δημοσιεύεται σχόλιο στον ιστότοπο.

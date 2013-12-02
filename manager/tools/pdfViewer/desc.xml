@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin name="pdfViewer" version="1.0" rootonly="true" active="true">
+  <author>Valéry MERLET</author>
+  <label>Internal viewer for PDF files</label>
+  <desc>Add a PDF file into a content.</desc>
+</plugin>

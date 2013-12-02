@@ -1,0 +1,467 @@
+# -*- coding: utf-8 -*-
+# (C) 2007 Borovskij Edvard, funalien@mail.ru
+# (C) 2006 Chermyanin Alexander, snow_wons@mail.ru
+
+;Welcome on the PLUME CMS installation
+Добро пожаловать в программу установки PLUME CMS
+
+;A possible previous installation of PLUME CMS is detected. You are invited to <a href="%s">upgrade your installation</a>.
+Обнаружена предыдущая версия PLUME CMS. <a href="%s">Обновить PLUME CMS</a>.
+
+;Language:
+Язык:
+
+;Next
+Далее
+
+;PLUME CMS Installation
+Установка PLUME CMS
+
+;%s%% of the installation completed
+установка завершена на %s%%
+
+;The installed PHP version is: %s.
+Версия PHP : %s.
+
+;The installed PHP version is: %s. PHP 4.1 or higher is required.
+Установлено PHP версии: %s. Необходим PHP 4.1 или выше.
+
+;The MySQL module is available.
+Модуль MySQL доступен.
+
+;The MySQL module is not available.
+Модуль MySQL недоступен.
+
+;The output buffering functions are available.
+Функция буферизации на выходе доступна.
+
+;The output buffering functions are not available.
+Функция буферизации на выходе недоступна.
+
+;The GD library is available.
+Библиотека GD доступна.
+
+;The GD library is not available. Thumbnails will not be created automatically.
+Библиотека GD недоступна. Миниатюры изображений не будут создаваться автоматически.
+
+;The XML module is available.
+Модуль XML доступен.
+
+;The XML module is not available.
+Модуль XML недоступен.
+
+;The system can write in the configuration folder: %s
+Доступна запись в папку конфигурации: %s
+
+;The system cannot write in the configuration folder: %s. Check the permissions.
+Не удалось произвести запись в папку настроек %s. Проверьте права доступа.
+
+;The system can write in the cache folder: %s
+Доступна запись в папку кеша: %s
+
+;The system cannot write in the cache folder: %s. Check the permissions.
+Не удалось произвести запись в папку кэша %s. Проверьте права доступа.
+
+;The system can write in the template folder: %s
+Доступна запись в папку шаблонов: %s
+
+;The system cannot write in the template folder: %s. Check the permissions.
+Не удалось произвести запись в папку шаблонов %s. Проверьте права доступа
+
+;The system can write in the document folder: %s
+Доступна запись в папку документов: %s
+
+;The system cannot write in the document folder: %s. Check the permissions.
+Не удалось произвести запись в папку документов %s. Проверьте права доступа.
+
+;The system can write in the thumbnail folder: %s
+Доступна запись в папку иконок предпросмотра: %s
+
+;The system cannot write in the thumbnail folder: %s. Check the permissions or you will not be able to have automatic creation of the thumbnails.
+Не удалось произвести запись в папку иконок предпросмотра %s. Проверьте права доступа или автоматическое создание иконок предпросмотра будет отключено.
+
+;The system cannot write in the theme folder: %s. Check the permissions.
+Не удалось произвести запись в папку тем %s. Проверьте права доступа.
+
+;The system can write in the theme folder: %s
+Доступна запись в папку тем: %s.
+
+;Check of the PLUME CMS support by the system
+Проверка поддержки системой PLUME CMS
+
+;Congratulations, your system supports PLUME CMS. Warnings will not prevent your use of PLUME CMS.
+Ваша система поддерживает PLUME CMS. Предупреждения не будут мешать Вам использовать PLUME CMS.
+
+;No irreversible action is taken during the installation process. You can revert your choices from the manager at a later time.
+В процессе установки нет неотменяемых действий. Вы можете изменить ваш выбор с помощью панели управления позже.
+
+;<a href="%s">Continue with the choice of languages</a>.
+<a href="%s">Продолжить с выбором языка</a>.
+
+;Some errors prevent the installation of PLUME CMS on your system. You can fix them and restart the wizard afterwards.
+Некоторые ошибки не позволяют установить PLUME CMS. Вы должны исправить их и перезапустить мастера установки.
+
+;The system was unable to connect to the database, please check the error message and the information you provided to fix the problem.
+Система не смогла соединиться с базой данных, изучите сообщение об ошибке и исправьте проблему.
+
+;Error message: %s
+Сообщение об ошибке: %s
+
+;Database information
+Информация о базе данных
+
+;The content of the website is saved into a MySQL database. Please provide the necessary data in order to connect to the database.
+Содержимое сайта хранится в базе данных MySQL. Подготовьте необходимые сведения для подключения к базе данных.
+
+;Database server:
+Сервер базы данных:
+
+;Database name:
+Имя базы данных:
+
+;Login to access the database:
+Имя для доступа к базе данных:
+
+;Password to access the database:
+Пароль для доступа к базе данных:
+
+;Prefix for the tables in the database:
+Префикс таблиц в базе данных:
+
+;Change it only if you have several installations of PLUME CMS with the same database.
+Измените это только если у вас уже есть несколько установок PLUME CMS в одну базу данных.
+
+;In the next step the database will be initialized with the necessary tables for PLUME CMS.
+На следующем этапе в базе данных будут созданы таблицы, необходимые PLUME CMS.
+
+;Database installation
+Установка базы данных
+
+;Errors during database initialization procedure.
+Ошибка при установке базы данных.
+
+;In the next step the first user will be registered to use the system. <a href="%s">Next</a>.
+На следующем шаге первый пользователь должен будет зарегистрироваться в системе. <a href="%s">Далее</a>
+
+;Default language for the manager
+Язык панели управления
+
+;The default language of the manager is the one the users entering the manager for the first time will see. At any time they can change it in their preferences.
+Вы можете изменить язык панели управления в любое время.
+
+;Default manager language:
+Язык панели управления:
+
+;First user creation
+Создание первого пользователя
+
+;Errors during the installation of the first user. Please check the error messages.
+Ошибка при создании первого пользователя. Проверьте сообщения об ошибках
+
+;The first user will be the global administrator of the PLUME CMS installation.
+Первый пользователь будет администратором PLUME CMS.
+
+;Login:
+Логин:
+
+;The login must contain only letters and digits and no spaces.
+Логин должен содержать только буквы латинского алфавита, цифры и не содержать пробелов.
+
+;Name:
+Имя:
+
+;Email <span class="small">(not shown)</span>:
+E-mail <span class="small">(не отображается)</span>&nbsp;:
+
+;Public email:
+Публичный E-mail:
+
+;Password:
+Пароль:
+
+;New website name
+Имя нового сайта
+
+;Description of the new website.
+Описание нового сайта.
+
+;Site <strong>%s</strong> successfully added.
+Сайт <strong>%s</strong> добавлен.
+
+;First website creation
+Создание первого сайта
+
+;Errors during the installation of the first website. Please check the error messages.
+Ошибка при создании первого сайта. Проверьте сообщения об ошибках.
+
+;Simply provide the necessary information so the system can create the default website for you.
+Укажите верную информацию. Система создаст сайт
+
+;Normally you do not have to change anything except the name and the description.
+Обычно вы не можете изменить имя и описание.
+
+;Site name:
+Имя сайта:
+
+;Website address:
+Адрес сайта:
+
+;For example put <em>https://www.mydomain.com/mysite/</em> or <em>http://www.mydomain.com/</em>. Do not forget the <em>http(s)</em>.
+Например  <em>https://www.moi-domen.com/moi_sait/</em> или <em>http://www.moi-domen.com/</em>. Не забудьте <em>http(s)</em>.
+
+;Path to the document root of the website:
+Путь к папке документов сайта:
+
+;Path on the server side. For example <em>/home/login/www</em> or <em>c:/http</em>. The document root is the folder where the <em>index.php</em> will be placed.
+Путь к папке WWW. К примеру, <em>/home/login/www</em> или <em>c:/http</em>. Файл <em>index.php</em> в корне этой папки будет заменён.
+
+;Name of the file and image folder:
+Имя папки для файлов и изображений:
+
+;For example put <em>xmedia</em> or <em>documents</em>.
+Например <em>xmedia</em> или <em>documents</em>.
+
+;Description:
+Описание:
+
+;If all the informations you provided are valid, the system will copy the required files in the right folders. The complete log of those files will be shown to you. No file already available on the system will be overwritten.
+Если вся указанная вами информация верна, система скопирует необходимые файлы в нужные папки. По завершению вы увидите, что это за файлы. Уже существующие файлы будут заменены.
+
+;Create the website
+Создание сайта
+
+;Log of the installation:
+Протокол установки:
+
+;If you see warnings, check them carefully and look at the online documentation to see the impact. You may need to complete the installation manually.
+Если вы видите предупреждения, тщательно проверьте их и посмотрите документацию в интернете чтобы их исправить. Вы можете завершить установку вручную.
+
+;In the next step the global configuration will be created. <a href="%s">Next</a>.
+На следующем этаме глобальная будет создана глобальная конфигурация. <a href="%s">Далее</a>.
+
+;Error: Impossible to create the configuration file.
+Ошибка&nbsp;: Невозможно создать файл с настройками.
+
+;End of the installation
+Завершение установки
+
+;Errors during the creation of the configuration file. Check the online documentation to get the solution!
+Во время создания файла с настройками произошли ошибки. Просмотрите онлайн документацию, чтобы узнать решение!
+
+;Congratulations, PLUME CMS has been installed!
+Поздравляем! PLUME CMS установлена!
+
+;The very last step is your work. You just have to create a new article or news into you website.
+Последний шаг вашей работы. Вы можете создавать новые статьи или новости на вашем сайте.
+
+;You can now access the manager with the login and password you provided before. <a href="%s">Access the manager</a>.
+Сейчас вы попадёте в панель управления, но перед этим введите логин и пароль которые вы ввели раньше. <a href="%s">Панель управления</a>.
+
+;Upgrade of the installation
+Обновление
+
+;The encoding configuration variable is already set in the configuration file.
+Измененая конфигурация уже сохранена в файл конфигурации.
+
+;Impossible to set the encoding configuration variable in the configuration file.
+Невозможно сохранить конфигурацию.
+
+;The 404 error logging configuration variable is already set in the configuration file.
+Переменная настроек журналирования ошибки 404 уже задана в файле конфигураций.
+
+;Impossible to set the 404 error logging configuration variable in the configuration file.
+Невозможно установить переменную настройки журналирования ошибки 404 в файле настроек.
+
+;Copy of the template <em>%s</em> to <em>%s</em>
+Копирование шаблона <em>%s</em> в<em>%s</em>.
+
+;Error in the copy of the template <em>%s</em> to <em>%s</em>
+Ошибка при копировании шаблона <em>%s</em> в <em>%s</em>.
+
+;Unable to get the list of websites to copy the new 404.php template. Please do it manually.
+Невозможно получить список веб-сайтов для копирования нового шаблоны страницы 404.php. Пожалуйста сделайте это вручную.
+
+;Some errors occured during the upgrade procedure. Please check carefully the messages to see if you need to finish the upgrade manually.
+Во время обновления возникли некоторые ошибки. Внимательно проверьте сообщения, если вы хотите завершить обновления вручную.
+
+;Congratulations, PLUME CMS has been upgraded!
+Поздравляем, PLUME CMS обновлена!
+
+;You can now access the manager. <a href="%s">Access the manager</a>.
+Вы можете войти в <a href="%s">панель управления</a>.
+
+;The encoding configuration variable has been added to the configuration file.
+Настройки кодировки были добавлены в файл настроек.
+
+;The 404 error logging configuration variable has been added to the configuration file.
+Настройки протоколирования ошибки 404 были добавлены в файл настроек.
+
+;The default size of the page textarea has been added to the configuration file.
+Размер по умолчанию для текстовой области страницы был добавлен в файл настроек.
+
+;The default size of the page textarea is already set in the configuration file.
+Размер по умолчанию для текстовой области страницы уже внесён в файл настроек.
+
+;Impossible to set the default size of the page textarea in the configuration file.
+Невозможно установить размер по умолчанию для текстовой области страницы в файле настроек.
+
+;The default size of the article description textarea has been added to the configuration file.
+Размер по умолчанию для текстовой области описания статьи был добавлен в файл настроек.
+
+;The default size of the article description textarea is already set in the configuration file.
+Размер по умолчанию для текстовой области описания статьи уже внесён в файл настроек.
+
+;Impossible to set the default size of the article description textarea in the configuration file.
+Невозможно установить размер по умолчанию для текстовой области описания статьи в файле настроек.
+
+;The default size of the news content textarea has been added to the configuration file.
+Размер по умолчанию для текстовой области содержания новости был добавлен в файл настроек.
+
+;The default size of the news content textarea is already set in the configuration file.
+Размер по умолчанию для текстовой области содержания новости уже внесён в файл настроек.
+
+;Impossible to set the default size of the news content textarea in the configuration file.
+Невозможно установить размер по умолчанию для текстовой области содержания новости в файле настроек.
+
+;The default size of the category description textarea has been added to the configuration file.
+Размер по умолчанию для текстовой области описания категории был добавлен в файл настроек.
+
+;The default size of the category description textarea is already set in the configuration file.
+Размер по умолчанию для текстовой области описания категории уже внесён в файл настроек.
+
+;Impossible to set the default size of the category description textarea in the configuration file.
+Невозможно задать размер по умолчанию текстового поля для описания категории в файле настроек
+
+;Create table %s
+Таблица %s создана
+
+;Table %s exists
+Табилица %s существует
+
+;Creation of the table %s
+Создание таблицы %s
+
+;The table %s already exists.
+Таблица %s уже существует.
+
+;Dropping of the index %s
+Сброс индекса %s
+
+;The index %s has already been dropped.
+Индекс %s уже сброшен.
+
+;Creation of the index %s
+Создание индекса %s
+
+;The index %s already exists.
+Индекс %s уже существует.
+
+;Set the auto_increment for %s
+Установка auto_increment для %s
+
+;The auto_increment for %s already exists.
+auto_increment уже установлен для %s.
+
+;Removal of the table %s
+Удаление таблицы %s
+
+;The table %s has already been removed.
+Таблица %s уже удалена.
+
+;Please choose the language of the installation wizard.
+Пожалуйста выберите язык мастера установки.
+
+;The default status of a comment has been added to the configuration file.
+Статус комментариев по умолчанию был добавлен в файл настроек.
+
+;The default status of a comment is already set in the configuration file.
+Статус комментариев по умолчанию уже был добавлен в файл настроек.
+
+;Impossible to set the default status of a comment in the configuration file.
+Невозможно установить статус комментариев по умолчанию в файле настроек.
+
+;The secret key has been added to the configuration file.
+Секретный ключ был добавлен в файл настроек.
+
+;The secret key is already set in the configuration file.
+Секретный ключ уже установлен в файле настроек.
+
+;Impossible to set the secret key in the configuration file.
+Невозможно установить секретный ключ в файле настроек.
+
+;Table %s exists.
+Таблица %s существует.
+
+;<strong>Warning</strong>, the upgrade will convert your installation from iso-8859-1 to utf-8, please perform a backup of your database.
+<strong>Внимание</strong>, обновление сконвертирует вашу установку из iso-8859-1 в utf-8, пожалуйста создайте резервную копию вашей базы данных.
+
+;Add the comment support column on table %s
+Добавить колонку в таблице для поддержки комментариев %s .
+
+;The column %s has already been added.
+Колонка в таблице %s была добавлена.
+
+;The table %s has been converted to the utf-8 encoding.
+Таблица %s была сконвертирована в кодировку utf-8.
+
+;Errors occured when converting the table %s to the utf-8 encoding:
+Произошли ошибки во время конвертирования таблицы %s в кодировку utf-8:
+
+;The theme id has been set for the website %s.
+id темы был выставлен для этого веб-сайта %s.
+
+;The theme id was already set for the website %s.
+id темы уже был выставлен для этого веб-сайта %s.
+
+;Impossible to set the theme id for the website %s.
+Невозможно установить id темы для этого веб-сайта %s.
+
+;The default comment status has been set for the website %s.
+Статус комментариев был установлен для этого веб-сайта по умолчанию %s.
+
+;The default comment status was already set for the website %s.
+Статус комментариев уже был установлен для этого веб-сайта по умолчанию %s.
+
+;Impossible to set the default comment status for the website %s.
+Невозможно установить статус комментариев для этого веб-сайта по умолчанию %s.
+
+;The support of comments has been set for the website %s.
+Поддержка комментариев для этого веб-сайта %s была установлена.
+
+;The support of comments was already set for the website %s.
+Поддержка комментариев для этого веб-сайта %s уже была установлена.
+
+;Impossible to set the support of comments for the website %s.
+Невозможно установить поддержку комментариев для этого веб-сайта %s.
+
+;The encoding has been set to utf-8 in the configuration file.
+Кодировка utf-8 была установлена в файле настроек.
+
+;Impossible to set encoding to utf-8 in the configuration file.
+Невозможно установить кодировку utf-8 в файле настроек.
+
+;The version of the database engine has been added to the configuration file.
+Номер версии движка базы данных был добавлен в фаил настроек.
+
+;The version of the database engine is already set in the configuration file.
+Номер версии движка базы данных уже был добавлен в фаил настроек.
+
+;Impossible to set the version of the database engine in the configuration file.
+Невозможно добавить номер версии движка быза данных в фаиле настроек.
+
+;The Alertcom status has been added to the configuration file.
+
+
+;The Alertcom status is already set in the configuration file.
+
+
+;Impossible to set the status of Alertcom in the configuration file.
+
+
+;The Email to send the notification to has been added to the configuration file.
+
+
+;The Email to send the notification to is already set in the configuration file.
+
+
+;Impossible to set the Email to send the notification to in the configuration file.

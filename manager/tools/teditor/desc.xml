@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin name="teditor" version="1.0.1" rootonly="true" active="true">
+  <author>Gilles Accad</author>
+  <label>Template Editor</label>
+  <desc>Online edition of templates and css files for current website</desc>
+</plugin>

@@ -1,0 +1,81 @@
+# -*- coding: utf-8 -*-
+# (C) 2009 your name <your @ email>
+;Files and images right access manager
+
+
+;Manage the access of some of the file and image subfolders.
+
+
+;Files and images access manager
+
+
+;You are in the folder <strong>%s</strong>
+
+
+;Navigation
+
+
+;Zone <strong>%s</strong>.
+
+
+;New protected zone:
+
+
+;Create the zone
+
+
+;Zone successfully created.
+
+
+;User to add:
+
+
+;Password:
+
+
+;Add
+
+
+;Username and password must contain only letters and digits without spaces.
+
+
+;Error while adding the user.
+
+
+;User successfully added.
+
+
+;List of the users
+
+
+;Delete
+
+
+;Are you sure you want to delete this user?
+
+
+;User successfully deleted.
+
+
+;Error while deleting the user.
+
+
+;Are you sure you want to delete this zone ?
+
+
+;Delete this zone
+
+
+;Zone successfully deleted.
+
+
+;Error: Configuration file of the website(<strong>%s</strong>) not available.
+
+
+;Error: The system has no write access to the folder <strong>%s</strong>. Check the permissions.
+
+
+;Error: The folder <strong>%s</strong> does not exist.
+
+
+;Error(s):

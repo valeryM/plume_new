@@ -1,0 +1,118 @@
+# -*- coding: utf-8 -*-
+# (C) 2004 Loïc d'Anterroches
+;The redirection has been deleted successfully.
+La redirection a été retirée avec succès.
+
+;The redirection has been added successfully.
+La redirection a été mise en place avec succès.
+
+;Smart 404 Errors
+Erreurs 404 intelligentes
+
+;Log of the pages not found
+Journal des pages introuvables
+
+;Remove
+Supprimer
+
+;Current redirections
+Redirections en service
+
+;Old page
+Ancienne page
+
+;Redirection
+Redirection
+
+;Last
+Dernière
+
+;Count
+Total
+
+;No redirection for the moment.
+Aucune redirection pour le moment.
+
+;Create a redirection
+Créer une redirection
+
+;Old page:
+Ancienne page&nbsp;:
+
+;The old page starts with <strong>/</strong> like <strong>/folder/oldpage.html</strong>
+L'ancienne page commence par <strong>/</strong>, par exemple : <strong>/dossier/page.html</strong>
+
+;New page:
+Nouvelle page&nbsp;:
+
+;Provide the page where you want to send people looking for the old page.
+Indiquez la page vers laquelle les utilisateurs doivent être redirigés quand ils recherchent l'ancienne page.
+
+;Create the redirection
+Créer la redirection
+
+;The old page must start with <strong>/</strong>.
+L'ancienne page doit commencer par <strong>/</strong>.
+
+;The new page must start with <strong>http://</strong>.
+La nouvelle page doit commencer par <strong>http://</strong>.
+
+;Details
+Informations
+
+;Redirections
+Redirections
+
+;The error log of this website has been successfully purged.
+Le journal des erreurs 404 a été purgé avec succès.
+
+;404 error log
+Journal des erreurs 404
+
+;Y/m/d&\nb\sp;H:i:s
+d/m/Y&\nb\sp;H:i:s
+
+;Detailled log for the page <em>%s</em>.
+Informations sur les erreurs pour la page <em>%s</em>.
+
+;<a href="%s">Create a redirection</a> to avoid this error.
+<a href="%s">Créer une redirection</a> pour éviter cette erreur.
+
+;Page
+Page
+
+;Date
+Date
+
+;From
+Depuis
+
+;User Agent
+Membre utilisateur
+
+;Are you sure you want to purge all the logs?
+Souhaitez-vous vraiment purger tous les journaux&nbsp;?
+
+;Purge the logs.
+Purger les journaux d'erreurs.
+
+;View details
+Afficher les informations
+
+;No errors.
+Aucune erreur.
+
+;Are you sure you want to delete this redirection?
+Souhaitez-vous vraiment supprimer cette redirection&nbsp;?
+
+;Prevent your visitors to fall on a not found page.
+Permet d'éviter à vos visiteurs de tomber sur une page introuvable.
+
+;&laquo; previous page
+&laquo; Page précédente
+
+;&raquo; next page
+Page suivante &raquo;
+
+;page(s):
+page(s)&nbsp;:

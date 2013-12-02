@@ -1,0 +1,49 @@
+# -*- coding: utf-8 -*-
+# (C) 2006 your name <your @ email>
+;Invalid URL.
+
+
+;Error(s):
+
+
+;Plugin manager
+
+
+;Install a plugin
+
+
+;The system has no write access to the folder %s, check its permissions.
+
+
+;Give the plugin file URL (http or ftp):
+
+
+;Install
+
+
+;List of installed plugins
+
+
+;version
+
+
+;Are you sure you want to delete this plugin?
+
+
+;delete
+
+
+;The plugin was successfully deleted.
+
+
+;The plugin was successfully installed.
+
+
+;You do not have the rights to access this plugin.
+
+
+;by
+
+
+;Information about your plugins.
+

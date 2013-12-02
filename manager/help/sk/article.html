@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+<head><title>Vytvorenie článku</title></head>
+<meta name="author" content="Robert Zelník, SlovakSoft" />
+<!-- When you translate, respect the id of the headings -->
+<body>
+<h3 id="h-category">Kategória článku</h3>
+<p>
+Keď vytvoríte nový článok, je treba ho vložiť do kategórie. Môžeme to prirovnať
+k vloženiu článku do priečinka kvôli roztriedeniu podľa témy.
+</p>
+<p>
+Článok môže byť umiestnený vo viacerých kategóriách, ale môže mať iba jednu <em>hlavnú</em> kategóriu.
+Keď vytvoríte článok, prvá kategória, ktorú vyberiete, bude <em>hlavnou</em> kategóriou.
+Po prvom uložení článku budete mať možnosť vložiť tento článok do ďalších kategórií a tiež budete môcť
+zmeniť hlavnú kategóriu za inú. Tieto zmeny je možné urobiť pomocou malých ikon v zozname kategórií článku.
+</p>
+
+<h3 id="h-format">Formát článku</h3>
+<p>
+Formát je spôsob, akým budete ukladať obsah článku. Môžete vložiť priamo obsah vo formáte
+<strong>HTML</strong>. Tento spôsob je trochu náročnejší, avšak poskytuje veľkú flexibilitu.
+Môžete tiež vložiť obsah v alternatívnej syntexe nazývanej <strong>Wiki</strong> syntax.
+Wiki syntax je zjednodušený, ale výkonný spôsob, ako vložiť obsah vašich článkov.
+Odporúčame podľa možnosti využívať Wiki syntax, pokiaľ nemáte špeciálne požiadavky.
+</p>
+<p>
+Popis a potom každá strana článku môže mať svoj vlastný formát. To znamená, že môžete napríklad
+používať Wiki syntax pre všetko okrem jednej strany, do ktorej potrebujete vložiť nejaký komplexný
+kod HTML.
+</p>
+
+<h3 id="h-status">Stav článku</h3>
+<p>
+Stav článku určuje napríklad to, či je návštevníkom stránky umožnené zobraziť si tento článok na webstránke.
+V závislosti od oprávnení môžete nastavovať článok ako:
+</p>
+<dl>
+<dt>Zverejnené</dt><dd>Článok sa zobrazí na webstránke.</dd>
+<dt>Nezverejnené</dt><dd>Článok je uložený v databáze, ale nezobrazí sa.</dd>
+<dt>Rozpracované</dt><dd>Autor pracuje na článku.</dd>
+<dt>Čaká na odsúhlasenie</dt><dd>Autor dokončil prácu na článku a čaká na schválenie redaktorom.</dd>
+</dl>
+<p>
+<strong>Poznámka:</strong> aj keď ste administrátor, nie je možné nastaviť článok ako zverejnený,
+pokiaľ doň nevložíte aspoň jednu stranu. To znamená, že musíte najprv článok uložiť ako
+<strong>Rozpracovaný</strong>, pridať stranu, a až potom ho môžete zverejniť.
+</p>
+
+<h3 id="h-comments">Status of the comments</h3>
+<p>
+The status of the comments defines if the ressource should accept comments by the visitors on the website or not.
+Depending on your rights you can set this status to:
+</p>
+<dl>
+<dt>Comments open</dt><dd>The comment form is displayed on the resource page.</dd>
+<dt>Comments closed</dt><dd>The comment form is not displayed, no comments can be added.</dd>
+</dl>
+
+<h3 id="h-title">Názov článku</h3>
+<p>
+Názov článku bude zobrazený na všetkých jeho stranách. Pomocou špeciálne formátovaného názvu
+môžete zoradiť články v kategórii.
+</p>
+
+<h3>Poradie článkov</h3>
+<p>
+Vďaka tejto funkcii môžete určiť poradie, v ktorom sa majú zobrazovať články na webstránke.
+Napríklad môžete mať tri články s názvami <cite>Prehľad názvoslovia</cite>, <cite>Cicavce</cite>
+a <cite>Ryby</cite> v kategórii <cite>Názvoslovie</cite>. Ak ich chcete zobraziť na webstránke
+v tomto poradí, nazvite ich takto: <cite><strong>1.</strong> Prehľad názvoslovia</cite>,
+<cite><strong>2.</strong> Cicavce</cite> a <cite><strong>3.</strong> Ryby</cite>.
+</p>
+<p>
+Číslo <strong>X.</strong> na začiatku určuje poradie článku v kategórii. Kategóriu môžete nastaviť
+tak, aby zobrazovala alebo nezobrazovala číslo na začiatku názvu.
+</p>
+
+<h3 id="h-description">Popis článku</h3>
+<p>
+Popis článku sa používa na opísanie obsahu článku, keď je zobrazený v kategórii alebo na stránke
+vyhľadávania. Používa sa tiež v RSS. Môžete pre tento účel použiť <a href="#h-format">formát</a>,
+ktorý si vyberiete. Dobrý popis by mal pritiahnuť čitateľovu pozornosť na prečítanie celého článku.
+Ak používate Wiki syntax pre formát popisu, je veľmi jednoduché pridať zvýrazenie pre kľúčové slová.
+</p>
+<p>
+Vyhľadávacia rutina tiež využíva popis, slová v popise majú väčšiu váhu pri hodnotení výsledkov
+vyhľadávania ako slová v jednotlivých stranách článku.
+</p>
+
+<h3 id="h-keywords">Kľúčové slová článku</h3>
+<p>
+Kľúčové slová je zoznam slov oddelených čiarkami. Môžete vložiť napríklad:
+<em>Monotremata, Tachyglossidae, Kollikodontidae, Platanistoidae, riečne delfíny</em>.
+Kľúčové slová môžu byť zložené aj z dvoch slov, napr. <em>riečne delfíny</em>.
+</p>
+<p>
+Kľúčové slová využíva vstavaný vyhľadávací nástroj, ale sú tiež použité na stránke článku, kde
+poskytujú viac podrobností o stránke pre globálne vyhľadávacie nástroje ako je Google.
+</p>
+
+<h3 id="h-path">Cesta k článku</h3>
+<p>
+Cesta k článku je dôležitou informáciou. Je to časť informácie zobrazená v políčku adresy
+webového prehliadača vašich návštevníkov. Mala by byť krátka, ľahko zapamätateľná a zapísateľná.
+Ak je napríklad váš článok v kategórii <em>O nás</em>, cesta k tejto kategórii by bola
+<em>/onas/</em> a váš článok by mal cestu <em>prezentacia</em>, vaši návštevníci budú pristupovať
+cez webovú adresu <strong>http://vasastranka.sk/onas/prezentacia</strong>.
+</p>
+<p>
+V prípade článku s viacerými stranami je každá strana dostupná cez vyššie uvedenú cestu, ku ktorej
+sa pridá číslo strany. Napríklad strana 3 článku bude dostupná cez webovú adresu
+http://vasastranka.sk/onas/prezentacia<strong>3</strong>.
+</p>
+<p>
+Predvolenou funkciou je, že keď vložíte <a href="#h-title">názov</a>, cesta sa aktualizuje.
+Takto vygenerovaná cesta je často <em>príliš dlhá</em>, ale je to dobrý začiatok na vytvorenie
+vhodnej cesty. Snažte sa dodržať maximum 3 slov oddelených znakom mínus (-). Napríklad vložte:
+</p>
+<ul>
+<li>sportove-auta</li>
+<li>riecne-delfiny</li>
+<li>apache-instalacia</li>
+</ul>
+<p>
+Poznámka: cesta by nemala obsahovať písmená so slovenskou diakritikou. Skript na automatické generovanie
+cesty takéto znaky ignoruje. Nahraďte ich písmenami bez diakritiky.
+</p>
+<p>
+Je dôležité uvedomiť si, že tieto slová sú najdôležitejšími kľúčovými slovami pre vyhľadávacie nástroje.
+</p>
+
+<h3 id="h-publication-date">Dátum zverejnenia</h3>
+<p>
+Dátum zverejnenia je dátum a čas, odkedy je článok sprístupnený na webstránke.
+Ak nastavíte budúci dátum a čas, môžete zverejňovať články v čase svojej neprítomnosti.
+</p>
+
+<h3 id="h-expiration-date">Dátum platnosti</h3>
+<p>
+Dátum platnosti je dátum a čas, kedy má článok prestať byť sprístupnený na webstránke.
+Tento dátum môžete využiť napríklad pre stránky s obmedzenou dobou platnosti (pre špeciálne udalosti).
+Odporúčame vám vyhýbať sa takýmto prípadom, keďže návštevníci prichádzajúci cez vyhľadávacie nástroje
+nemajú radi neexistujúce stránky.
+</p>
+
+<h3 id="h-page-number">Číslo strany</h3>
+<p>
+Keď editujete stranu článku, môžete zmeniť jeho poradie vzhľadom na ďalšie strany.
+Ak je napríklad strana na pozícii 4, môžete ju umiestniť do pozície 2. Poradie ostatných strán
+bude prispôsobené automaticky.
+</p>
+<p>
+Keď vytvárate novú stranu, je predvolené, že strana sa uloží na koniec článku.
+</p>
+
+<h3 id="h-page-title">Názov strany</h3>
+<p>
+Každý strana článku musí mať názov, aj vtedy, ak článok obsahuje iba jednu stranu.
+Môžete považovať strany za kapitoly článku, takže každá kapitola musí mať názov.
+</p>
+
+<h3 id="h-page-content">Obsah strany</h3>
+<p>
+Obsah strany je najdôležitejšou časťou článku. V závislosti od svojho výberu môžete vkladať obsah pomocou HTML alebo Wiki syntaxe. Nezabudnite si poriadne pozrieť,
+ako sa zobrazí to, čo vložíte, ešte predtým, než obsah strany uložíte. Od kvality vašich
+príspevkov bude záležať, či sa budú návštevníci vracať na vašu stránku, a či aj pre radosť
+z čítania dobre napísaného textu.
+</p>
+<p>
+Príspevky by nemali byť nudné, preto môžete na stránku vložiť obrázky, prepojenia a referencie na web.
+</p>
+
+</body>
+</html>

@@ -1,0 +1,177 @@
+# -*- coding: utf-8 -*-
+# (C) 2007 Edvard Borovskij, funalien@mail.ru
+# ru Translation
+
+;404 Page not found !
+404 Страница не найдена !
+
+;404 Error - Page not found
+Ошибка 404 - Страница не найдена
+
+;The page you are looking for is not available anymore. We tried to search for the pages that match your request. Feel free to refine the search.
+Запрошенная вами страница недоступна. Мы пытались найти страницу, которая соответствовала бы вашему запросу. Вы можете уточнить запрос поиска.
+
+;Results of the search on:
+Результаты поиска:
+
+;On
+&nbsp;
+
+;%Y-%m-%d</a> at %H:%M
+%Y-%m-%d</a> в %H:%M
+
+;by
+&nbsp;
+
+; In %s
+ В %s
+
+; and 
+&nbsp;и&nbsp;
+
+;Number of comments:
+Число комментариев:
+
+;<a id="edit-ressource" href="%s" title="Edit the resource">Edit</a>
+<a id="edit-ressource" href="%s" title="Редактировать этот ресурс">Редактировать</a>
+
+;Score:
+Релевантность:
+
+;Main categories
+Основные категории
+
+;%Y-%m-%d at %H:%M
+%Y-%m-%d в %H:%M
+
+;<p><a href="%s">Previous Page</a></p>
+<p><a href="%s">Предыдущая страница</a></p>
+
+;<p><a href="%s">Next Page</a></p>
+<p><a href="%s">Следующая страница</a></p>
+
+;Back to
+Вернуться к
+
+;<h2>Categories</h2> %s
+<h2>Категории</h2> %s
+
+;Links
+Ссылки
+
+;No resources
+Нет ресурсов
+
+;1 resource
+1 ресурс
+
+;<strong>%s</strong> resources
+<strong>%s</strong> ресурса/ов
+
+;in this category.
+в этой категории.
+
+;Publish Date of:
+Дата публикации:
+
+;, publisher of
+, автор
+
+;Categories
+Категории
+
+;In short
+Кратко
+
+;Add a comment
+Добавить комментарий
+
+;Author:
+Автор
+
+;Email:
+E-mail
+
+;required but not shared or displayed
+необходимо, но публиковаться не будет.
+
+;Website:
+Веб-сайт
+
+;Comment
+Комментарий
+
+;Preview
+Просмотр
+
+;Submit
+Подтвердить
+
+;The comments are closed for this resource.
+Для этого ресурса комментарии недоступны.
+
+;Comments
+Комментарии
+
+;Comment preview
+Просмотр комментария
+
+;<div class="px-comment-error">%s</div><h3 class="px-comment-add">Modify your comment</h3>
+<div class="px-comment-error">%s</div><h3 class="px-comment-add">Изменить ваш комментарий</h3>
+
+;Your post will be online after validation by the webmaster.
+Ваш пост будет помещён на сайт после подтверждения веб-мастера.
+
+;1.2 Default theme
+1.2 Тема по умолчанию
+
+;Default Plume CMS theme
+Тема Plume CMS по умолчанию
+
+;Go to the content
+Перейти к содержанию
+
+;Go to the menu
+Перейти к меню
+
+;POWERED by
+На движке
+
+;Powered by PLUME CMS
+На движке PLUME CMS
+
+;Logo of Plume CMS
+Логотип Plume CMS
+
+;DESIGN by
+Дизайн
+
+;Design by Kiwii
+Дизайн Kiwii
+
+;Logo of Kiwii
+Логотип Kiwii
+
+;Recent news
+Последние новости
+
+;%Y&bull;%m&bull;%d
+%Y&bull;%m&bull;%d
+
+;Feeds
+Ленты
+
+;Sitemap
+Карта сайта
+
+;<div id="art-pages-list"><h3>Pages of the article</h3> %s</div>
+<div id="art-pages-list"><h3>Страницы этой статьи</h3>%s</div>
+
+;<h2>Articles pages</h2> %s
+<h2>Cтраницы статьи</h2> %s
+
+;Results
+Результаты
+
+;Search
+

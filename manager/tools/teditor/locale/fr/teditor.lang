@@ -1,0 +1,224 @@
+# -*- coding: utf-8 -*-
+# (C) 2004-2006 Gilles Accad
+;Template Editor
+Éditeur de gabarits
+
+;Online edition of templates and css files for current website
+Édition en ligne des gabarits et fichiers css du site en cours
+
+;Error: unable to copy configuration file
+Erreur : impossible de copier le fichier de configuration
+
+;Selection
+Sélection
+
+;Choose a file:
+Choisissez un fichier&nbsp;:
+
+;No edition, only visualize:
+Pas d'édition, juste visualiser&nbsp;:
+
+;Error: File does not exist.
+Erreur : Le fichier n'existe pas
+
+;Error: Unable to read file.
+Erreur : Impossible de lire le fichier
+
+;Creation
+Création
+
+;Save
+Enregistrer
+
+;Error : Invalid template name, it must contain only letters, digits, "_" and "-"
+Erreur : Nom de gabarit invalide, il ne peut contenir que des lettres, chiffres, "_" et "-"
+
+;Edition area
+Zone d'édition
+
+;Height (number of lines):
+Hauteur (nombre de lignes)&nbsp;:
+
+;Area Width:
+Largeur de la zone&nbsp;:
+
+;Text color:
+Couleur du texte&nbsp;:
+
+;Background color:
+Couleur du fond&nbsp;:
+
+;Source vizualisation
+Affichage de la source
+
+;Number line color:
+Couleur des numéros de lignes&nbsp;:
+
+;Number line background color:
+Couleur d'arrière-plan des numéros de lignes&nbsp;:
+
+;Error : Unable to save configuration
+Erreur : impossible de sauvegarder la configuration
+
+;Configuration saved
+Configuration sauvegardée
+
+;Templates list
+Liste des gabarits
+
+;Categories templates
+Gabarits de catégories
+
+;Resources templates
+Gabarits de ressources
+
+;Comments templates
+Gabarits de commentaires
+
+;Other templates
+Autres gabarits
+
+;Configuration
+Configuration
+
+;Category template edition
+Édition de gabarit de catégorie
+
+;Resource template edition
+Édition de gabarit de ressource
+
+;Comments template edition
+Édition de gabarit de commentaire
+
+;Error : you must give a name
+Erreur : vous devez donner un nom
+
+;Templates operations
+Opérations sur gabarits
+
+;Plugin configuration
+Configuration du plugin
+
+;*Use CSS values
+*Utilisez des valeurs CSS
+
+;Error : Your PHP version is too old for showing source
+Erreur : votre version de PHP est trop ancienne pour afficher la source
+
+;Choose the template to edit in the listbox above.
+Choisissez le gabarit à éditer dans la liste ci-dessus.
+
+;CSS
+CSS
+
+;Other templates edition
+Édition des autres gabarits
+
+;CSS edition
+Edition de CSS
+
+;CSS files
+Fichiers CSS
+
+;No CSS files. Check your <a href="tools.php?p=teditor&amp;w=conf">configuration</a> settings
+Pas de fichiers CSS. Vérifiez votre <a href="tools.php?p=teditor&amp;w=conf">configuration</a>
+
+;CSS Folder to edit
+Dossier des CSS à éditer
+
+;Path to folder:
+Chemin vers le dossier
+
+;In:&nbsp;
+Dans :&nbsp;
+
+;File name
+Nom du fichier
+
+;Size
+Taille
+
+;Last modification date
+Date de modification
+
+;Vizualisation
+Visualisation
+
+;Edition
+Edition
+
+;Suppression
+Suppression
+
+;Insert tabulation
+Insérer une tabulation
+
+;Select all
+Tout sélectionner
+
+;Resource
+Ressource
+
+;Category
+Catégorie
+
+;Comment
+Commentaire
+
+;Others
+Autres
+
+;Css
+CSS
+
+;Name of the new file:
+Nom du nouveau fichier :
+
+;Type of the file:
+Type du fichier :&nbsp;
+
+;Error : File <em>%s</em> not saved
+Erreur : Fichier <em>%s</em> non sauvegardé
+
+;File <em>%s</em> saved
+Fichier <em>%s</em> sauvegardé
+
+;Error : Invalid name extension, use css or php
+Erreur : Extension ivalide, utilisez css ou php
+
+;File <em>%s</em> created
+Fichier <em>%s</em> sauvegardé
+
+;File <em>%s</em> deleted
+Fichier <em>%s</em> supprimé
+
+;Ok
+Ok
+
+;Are you sure you want to delete this file?
+Êtes-vous sûr de vouloir supprimer ce fichier ?
+
+;Get path to &quot;/xmedia/theme/default/&quot;
+Récuperer le chemin vers &quot;/xmedia/theme/default/&quot;
+
+;The path must begin and end with a "/"<br />
+Le chemin doit commencer et terminer par un "/"<br />
+
+;Example: <em>/var/www/sites/plume/xmedia/theme/default</em>
+Exemple : <em>/var/www/sites/plume/xmedia/theme/default</em>
+
+;Error : The file creation failed
+Erreur : la création du fichier a échoué
+
+;Error : File <em>%s</em> already exists
+Erreur : le fichier <em>%s</em> existe déjà
+
+;Error : Unable to delete file
+Erreur : impossible de supprimer le fichier
+
+;Error : File empty or not readable
+Erreur : fichier vide ou non lisible
+
+;Error: Configuration file of the website(<strong>%s</strong>) not available.
+Erreur : le fichier de configuration du site (<strong>%s</strong>) n'a pas été trouvé
+

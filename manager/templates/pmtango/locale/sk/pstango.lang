@@ -1,0 +1,166 @@
+# -*- coding: utf-8 -*-
+# (C) 2007 SlovakSoft, <info@slovaksoft.com>, http://www.slovaksoft.com
+;404 Page not found !
+404 – Stránka sa nenašla!
+
+;404 Error - Page not found
+Chyba 404 – Stránka sa nenašla
+
+;The page you are looking for is not available anymore. We tried to search for the pages that match your request. Feel free to refine the search.
+Stránka, ktorú hľadáte, už nie je k dispozícii. Pokúsime sa vyhľadať stránky, ktoré zodpovedajú vašej požiadavke. Skúste znova definovať hľadanie.
+
+;Results of the search on:
+Výsledky hľadania:
+
+;by
+Od
+
+;In %s
+V %s
+
+;and
+&nbsp;a&nbsp;
+
+;Number of comments:
+Počet komentárov:
+
+;Score:
+Skóre
+
+;<p><a href="%s">Previous Page</a></p>
+<p><a href="%s">Predch. stránka</a></p>
+
+;<p><a href="%s">Next Page</a></p>
+<p><a href="%s">Nasled. stránka</a></p>
+
+;Back to
+Späť na
+
+;Links
+Prepojenia
+
+;Link
+ohnivo
+
+;No resources
+Žiadne príspevky
+
+;1 resource
+1 príspevok
+
+;<strong>%s</strong> resources
+Príspevkov: <strong>%s</strong>
+
+;in this category.
+v tejto kategórii
+
+;, publisher of
+, vydavateľ
+
+;Categories
+Kategórie
+
+;In short
+V skratke
+
+;Add a comment
+Pridať komentár
+
+;Author:
+Autor:
+
+;Email:
+E-mail:
+
+;required but not shared or displayed
+povinné, ale nezdieľané a nezobrazené
+
+;Website:
+Webová stránka
+
+;Comment
+Komentár
+
+;Preview
+Ukážka
+
+;Submit
+Odoslať
+
+;The comments are closed for this resource.
+K tomuto príspevku nie sú komentáre povolené.
+
+;Comments
+Komentáre
+
+;Comment preview
+Ukážka komentára
+
+;Your post will be online after validation by the webmaster.
+Príspevok sa objaví po schválení webmasterom.
+
+;Go to the content
+Prejsť na obsah
+
+;Go to the menu
+Prejsť do ponuky
+
+;POWERED by
+SYSTÉM:
+
+;Powered by PLUME CMS
+Systém: PLUME CMS
+
+;Logo of Plume CMS
+Logo Plume CMS
+
+;DESIGN by
+DIZAJN:
+
+;Recent news
+Najnovšie správy
+
+;Feeds
+Kanály
+
+;Sitemap
+Mapa stránky
+
+;<div id="art-pages-list"><h3>Pages of the article</h3> %s</div>
+<div id="art-pages-list"><h3>Strany článku</h3> %s</div>
+
+;Results
+Výsledky
+
+;Home
+Domaci
+
+;Read
+Cital
+
+;<div id="subcat"><h3>Subcategories</h3> %s</div>
+
+
+;Recent articles
+
+
+;<h3 class="error">Error !</h3>%s<h3 class="comment-add">Modify your comment</h3>
+<h3 class="error">nepresnost !</h3>%s<h3 class="comment-add">Upraviť môj komentár</h3>
+
+;1.2.3 new Default theme
+
+
+;New Default Plume CMS theme for version 1.2.3
+
+
+;Design by Jojaba
+Design by Jojaba
+
+;Jojaba
+Jojaba
+
+;Search
+prehliadka
+
+;OK
+OK

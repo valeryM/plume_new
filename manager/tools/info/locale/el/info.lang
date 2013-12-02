@@ -1,0 +1,85 @@
+﻿# -*- coding: utf-8 -*-
+# (C) 2004 Loïc d'Anterroches, Cédric Arrabie
+;Information
+Πληροφορίες
+
+;General information
+Γενικές πληροφορίες
+
+;Name
+Όνομα
+
+;Records
+Εγγραφές
+
+;Size
+Μέγεθος
+
+;File information
+Πληροφορίες σελίδας
+
+;The system has write access on the file %s.
+Το σύστημα έχει δικαίωμα εγγραφής στο αρχείο %s.
+
+;The system has write access on the folder %s.
+Το σύστημα έχει δικαίωμα εγγραφής στον κατάλογο %s.
+
+;The system has no write access on the file %s.
+Το σύστημα δεν έχει δικαίωμα εγγραφής στο αρχείο %s.
+
+;The system has no write access on the folder %s.
+Το σύστημα δεν έχει δικαίωμα εγγραφής στον κατάλογο %s.
+
+;Server information
+Πληροφρίες διακομιστή
+
+;Your PHP version is <strong>%s</strong>.
+Η έκδοση PHP που χρησιμοποιείτε είναι η <strong>%s</strong>.
+
+;Your MySQL version is <strong>%s</strong>.
+Η έκδοση MySQL που χρησιμοποιείτε είναι η <strong>%s</strong>.
+
+;Your webserver is <strong>%s</strong>.
+Ο διακομσιτής δικτύου είναι ο <strong>%s</strong>.
+
+;Your GD graphic library version is <strong>%s</strong>.
+Η έκδοση της βιβλιοθήκης γραφικών GD είναι η <strong>%s</strong>.
+
+;Cache information
+Πληροφορίες λανθάνουσας
+
+;Website
+Ιστότοπος
+
+;Cache size
+Μέγεθος λανθάνουσας
+
+;Reset the cache
+Μηδενισμός της λανθάνουσας
+
+;Reset
+Μηδενισμός
+
+;Error&nbsp;: Website not available.
+Σφάλμα&nbsp;: Δεν είναι διαθέσιμος ο ιστότοπος.
+
+;The cache of the website has been reset.
+Η λανθάνουσα του ιστότοπου μηδενίστηκε.
+
+;If you are making modifications to your templates, you should clean the cache before testing them.
+Αν κάνετε τροποποιήσεις στα πρότυπά σας, θα πρέπει να μηδενίσετε τη λανθάνουσα πριν τα ελέγξετε.
+
+;You are using PLUME CMS version <strong>%s</strong>.
+Χρησιμοποιείτε την έκδοση <strong>%s</strong> του PLUME CMS.
+
+;The PLUME CMS tables in your database are:
+Οι πίνακες του PLUME CMS στη βάση δεδομένων σας είναι οι&nbsp;:
+
+;Plume CMS information
+Πληροφορίες Plume CMS
+
+;Information about Plume CMS and your system.
+Πληροφορίες για το Plume CMS και το σύστημά σας.
+
+;You do not have the rights to access this plugin.
+

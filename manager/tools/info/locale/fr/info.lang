@@ -1,0 +1,85 @@
+# -*- coding: utf-8 -*-
+# (C) 2004 Loïc d'Anterroches, Cédric Arrabie
+;Information
+Informations
+
+;General information
+Informations générales
+
+;Name
+Nom
+
+;Records
+Enregistrements
+
+;Size
+Taille
+
+;File information
+Informations sur les fichiers
+
+;The system has write access on the file %s.
+Le fichier %s peut être modifié par le système.
+
+;The system has write access on the folder %s.
+Le contenu du dossier %s peut être modifié par le système.
+
+;The system has no write access on the file %s.
+Le fichier %s ne peut pas être modifié par le système.
+
+;The system has no write access on the folder %s.
+Le contenu du dossier %s ne peut pas être modifié par le système.
+
+;Server information
+Informations sur le serveur
+
+;Your PHP version is <strong>%s</strong>.
+La version de PHP que vous utilisez est <strong>%s</strong>.
+
+;Your MySQL version is <strong>%s</strong>.
+La version de MySQL que vous utilisez est <strong>%s</strong>.
+
+;Your webserver is <strong>%s</strong>.
+Votre serveur Web est <strong>%s</strong>.
+
+;Your GD graphic library version is <strong>%s</strong>.
+La version de la bibliothèque GD que vous utilisez est <strong>%s</strong>.
+
+;Cache information
+Informations sur le cache
+
+;Website
+Site Web
+
+;Cache size
+Taille du cache
+
+;Reset the cache
+Nettoyer le cache
+
+;Reset
+Nettoyer
+
+;Error&nbsp;: Website not available.
+Erreur&nbsp;: Ce site Web n'est pas disponible.
+
+;The cache of the website has been reset.
+Le cache du site a été nettoyé.
+
+;If you are making modifications to your templates, you should clean the cache before testing them.
+Si vous modifiez vos gabarits, pensez à nettoyer le cache avant de les tester.
+
+;You are using PLUME CMS version <strong>%s</strong>.
+Vous utilisez la version <strong>%s</strong> de PLUME CMS.
+
+;The PLUME CMS tables in your database are:
+Les tables PLUME CMS de votre base de données sont&nbsp;:
+
+;Plume CMS information
+Informations sur Plume CMS
+
+;Information about Plume CMS and your system.
+Informations à propos de Plume CMS et de votre système.
+
+;You do not have the rights to access this plugin.
+Vous n'avez pas l'autorisation d'accéder à ce plugin.

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme name="default" version="1.2" active="true">
+  <author>Loïc d'Anterroches</author>
+  <label>Default theme</label>
+  <desc>Default PLUME CMS theme.</desc>
+</theme>

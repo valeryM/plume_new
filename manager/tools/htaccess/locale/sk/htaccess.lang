@@ -1,0 +1,82 @@
+# -*- coding: utf-8 -*-
+# (C) 2004 Robert Zelník
+;Files and images access manager
+Správca prístupu k súborom a obrázkom
+
+;Manage the access of some of the file and image subfolders.
+Spravuje prístup k niektorým podpriečinkom súborov a obrázkov.
+
+;Files and images right access manager
+Správca prístupu k súborom a obrázkom
+
+;You are in the folder <strong>%s</strong>
+Nachádzate sa v priečinku <strong>%s</strong>
+
+;Navigation
+Navigácia
+
+;Zone <strong>%s</strong>.
+Oblasť <strong>%s</strong>.
+
+;New protected zone:
+Nová chránená oblasť:
+
+;Create the zone
+Vytvoriť oblasť
+
+;Zone successfully created.
+Oblasť úspešne vytvorená.
+
+;User to add:
+Pridať používateľa:
+
+;Password:
+Heslo:
+
+;Add
+Pridať
+
+;Username and password must contain only letters and digits without spaces.
+Le nom d'utilisateur et le mot de passe ne doivent contenir que des lettres et des chiffres et ne peuvent pas contenir d'espaces.
+
+;Error while adding the user.
+Počas pridávania používateľa sa vyskytla chyba.
+
+;User successfully added.
+Používateľ úspešne pridaný.
+
+;List of the users
+Zoznam používateľov
+
+;Delete
+Odstrániť
+
+;Are you sure you want to delete this user?
+Naozaj chcete odstrániť tohto používateľa?
+
+;User successfully deleted.
+Používateľ úspešne odstránený.
+
+;Error while deleting the user.
+Počas odstraňovania používateľa sa vyskytla chyba.
+
+;Are you sure you want to delete this zone ?
+Naozaj chcete odstrániť túto oblasť?
+
+;Delete this zone
+Odstrániť túto oblasť
+
+;Zone successfully deleted.
+Oblasť úspešne odstránená.
+
+;Error: Configuration file of the website(<strong>%s</strong>) not available.
+Chyba: konfiguračný súbor webstránky (<strong>%s</strong>) nie je dostupný.
+
+;Error: The system has no write access to the folder <strong>%s</strong>. Check the permissions.
+Chyba: systém nemá práva zápisu do priečinka <strong>%s</strong>. Skontrolujte oprávnenia.
+
+;Error: The folder <strong>%s</strong> does not exist.
+Chyba: priečinok <strong>%s</strong> neexistuje.
+
+;Error(s):
+Chyby:

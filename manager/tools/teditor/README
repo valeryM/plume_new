@@ -1,0 +1,12 @@
+#############################################################################
+# TEDITOR PLUGIN INSTALLATION
+#############################################################################
+
+Just unpack the archive in the "tools" folder of your Plume CMS 1.1.X installation
+Then Teditor plugin will be present in the manager's tools section, but only 
+the Administrator of Plume CMS can view and use it.
+
+Décompresser simplement l'archive dans le répertoire "tools de votre installation
+de Plume CMS 1.1.x
+Le plugin Teditor sera alors disponible dans la section des outils du manager, 
+mais seul l'administrateur de Plume CMS peut le voir et l'utiliser.

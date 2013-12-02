@@ -1,0 +1,85 @@
+# -*- coding: utf-8 -*-
+# (C) 2004 Robert Zelník
+;Information
+Informácie
+
+;General information
+Všeobecné informácie
+
+;Name
+Názov
+
+;Records
+Záznamy
+
+;Size
+Veľkosť
+
+;File information
+Informácie o súbore
+
+;The system has write access on the file %s.
+Systém má oprávnenie pre zápis do súboru %s.
+
+;The system has write access on the folder %s.
+Systém má oprávnenie pre zápis do priečinka %s.
+
+;The system has no write access on the file %s.
+Systém nemá oprávnenie pre zápis do súboru %s.
+
+;The system has no write access on the folder %s.
+Systém nemá oprávnenie pre zápis do priečinka %s.
+
+;Server information
+Informácie o serveri
+
+;Your PHP version is <strong>%s</strong>.
+Verzia vášho PHP je <strong>%s</strong>.
+
+;Your MySQL version is <strong>%s</strong>.
+Verzia vášho MySQL je <strong>%s</strong>.
+
+;Your webserver is <strong>%s</strong>.
+Váš server je <strong>%s</strong>.
+
+;Your GD graphic library version is <strong>%s</strong>.
+Verzia vašej grafickej knižnice GD je <strong>%s</strong>.
+
+;Cache information
+Informácie o vyrovnávacej pamäti
+
+;Website
+Webstránka
+
+;Cache size
+Veľkosť vyrovnávacej pamäte
+
+;Reset the cache
+Vyprázdniť vyrovnávaciu pamäť
+
+;Reset
+Vyprázdniť
+
+;Error&nbsp;: Website not available.
+Chyba: webstránka nie je dostupná.
+
+;The cache of the website has been reset.
+Vyrovnávacia pamäť webstránky bola vyprázdnená.
+
+;If you are making modifications to your templates, you should clean the cache before testing them.
+Ak robíte zmeny vo svojich šablónach, mali by ste vymazať vyrovnávaciu pamäť ešte predtým, než ich začnete testovať.
+
+;You are using PLUME CMS version <strong>%s</strong>.
+Používate PLUME CMS verziu <strong>%s</strong>.
+
+;The PLUME CMS tables in your database are:
+Tabuľky PLUME CMS vo vašej databáze:
+
+;Plume CMS information
+
+
+;Information about Plume CMS and your system.
+
+
+;You do not have the rights to access this plugin.
+Nemáte oprávnenie na prístup k tomuto zásuvnému modulu.

@@ -1,0 +1,49 @@
+# -*- coding: utf-8 -*-
+# (C) 2004 Loïc d'Anterroches, Cédric Arrabie
+;Invalid URL.
+Die URL ist ungültig.
+
+;Error(s):
+Fehler&nbsp;:
+
+;Plugin manager
+Plugin-Verwaltung
+
+;Install a plugin
+Plugin installieren
+
+;The system has no write access to the folder %s, check its permissions.
+Das System hat keinen Schreibzugriff auf Ordner %s. Bitte überprüfen Sie die Berechtigungen.
+
+;Give the plugin file URL (http or ftp):
+URL (http oder ftp) des Plugins&nbsp;:
+
+;Install
+Installieren
+
+;List of installed plugins
+Liste der installierten Plugins
+
+;version
+Version
+
+;Are you sure you want to delete this plugin?
+Soll dieses Plugin gelöscht werden?
+
+;delete
+Löschen
+
+;The plugin was successfully deleted.
+Plugin wurde gelöscht.
+
+;The plugin was successfully installed.
+Plugin wurde installiert.
+
+;You do not have the rights to access this plugin.
+Sie haben keine Zugriffsrechte für dieses Plugin.
+
+;by
+von
+
+;Information about your plugins.
+Informationen über Ihre Plugins.

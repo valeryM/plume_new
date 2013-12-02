@@ -1,0 +1,118 @@
+# -*- coding: utf-8 -*-
+# (C) 2005 gaba
+;The redirection has been deleted successfully.
+La redirecci&oacute;n ha sido eliminada correctamente.
+
+;The redirection has been added successfully.
+La redirecci&oacute;n ha sido a&ntilde;adida correctamente.
+
+;Smart 404 Errors
+Errores 404 Inteligentes
+
+;Log of the pages not found
+Log de las p&iacute;aginas no encontradas
+
+;Remove
+Eliminar
+
+;Current redirections
+Redirecciones actuales
+
+;Old page
+P&aacute;gina vieja
+
+;Redirection
+Redirecci&oacute;n
+
+;Last
+&Uacute;ltimo
+
+;Count
+Total
+
+;No redirection for the moment.
+Sin redirecciones por el momento.
+
+;Create a redirection
+Crear una redirecci&oacute;n
+
+;Old page:
+P&aacute;gina vieja&nbsp;:
+
+;The old page starts with <strong>/</strong> like <strong>/folder/oldpage.html</strong>
+La p&aacute;gina vieja comienza con <strong>/</strong> como por ejemplo <strong>/directorio/pagina.html</strong>
+
+;New page:
+P&acute;gina nueva&nbsp;:
+
+;Provide the page where you want to send people looking for the old page.
+P&aacute;gina a la que quieres enviar a la gente que busque la p&aacute;gina vieja.
+
+;Create the redirection
+Crear la redirecci&oacute;n
+
+;The old page must start with <strong>/</strong>.
+La p&aacute;gina vieja debe comenzar con <strong>/</strong>.
+
+;The new page must start with <strong>http://</strong>.
+La p&aacute;gina nueva debe comenzar con <strong>http://</strong>.
+
+;Details
+Detalles
+
+;Redirections
+Redirecciones
+
+;The error log of this website has been successfully purged.
+El log de errores de este sitio web ha sido eliminado correctamente.
+
+;404 error log
+Log de errores 404
+
+;Y/m/d&\nb\sp;H:i:s
+Y/m/d&\nb\sp;H:i:s
+
+;Detailled log for the page <em>%s</em>.
+Log detallado para la p&aacute;gina <em>%s</em>.
+
+;<a href="%s">Create a redirection</a> to avoid this error.
+<a href="%s">Crear una redirecci&oacute;n</a> para evitar este error.
+
+;Page
+P&aacute;gina
+
+;Date
+Fecha
+
+;From
+Desde
+
+;User Agent
+Agente del usuario
+
+;Are you sure you want to purge all the logs?
+Estas segura/o de querer eliminar todos los logs?
+
+;Purge the logs.
+Eliminar los logs.
+
+;View details
+Ver los detalles
+
+;No errors.
+Sin errores.
+
+;Are you sure you want to delete this redirection?
+Estas segura/o de querer eliminar esta redirecci&oacute;n?
+
+;Prevent your visitors to fall on a not found page.
+Evita que tus visitantes terminen en una p&aacute;gina no encontrada.
+
+;&laquo; previous page
+
+
+;&raquo; next page
+
+
+;page(s):
+

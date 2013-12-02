@@ -1,0 +1,182 @@
+# -*- coding: utf-8 -*-
+# (C) 2008 Jojaba <joja.ba@laposte.net>
+;Results of the search on:
+Résulats de la recherche pour :
+
+;Categories
+Catégories
+
+;Links
+Liens
+
+;404 Error - Page not found
+Erreur 404 - Page introuvable
+
+
+;The page you are looking for is not available anymore. We tried to search for the pages that match your request. Feel free to refine the search.
+La page que vous recherchez n'est plus en ligne. Nous avons tenté de rechercher les pages correspondant à votre requête. N'hésitez pas à l'affiner si nécessaire.
+
+;Sorry, the search engine found no result.
+Désolé, le moteur de recherche n'a trouvé aucun résultat.
+
+;Number of comments:
+Nombre de commentaires:
+
+;The 
+Le
+
+;Publish Date of:
+Date de publication de :
+
+;%Y-%m-%d
+%d-%m-%Y
+
+;at %H:%M
+à %H:%M
+
+;by
+par
+
+; and 
+&nbsp;et&nbsp;
+
+;publisher of:
+auteur de :
+
+
+;In %s
+Dans %s
+
+;Read the whole story
+Lire toute l'information
+
+;Score:
+Pertinence :
+
+;No resources
+Aucune ressource
+
+;1 resource
+1 ressource
+
+;<strong>%s</strong> ressources
+<strong>%s</strong> ressources
+
+;in this category.
+dans cette catégorie.
+
+;<h2>Categories</h2> %s
+<h2>Catégories</h2> %s
+
+;Main categories
+Catégories principales
+
+;<p><a href="%s">Previous Page</a></p>
+<a href="%s">Page précédente</a></p>
+
+;<p><a href="%s">Next Page</a></p>
+<p><a href="%s">Page suivante</a></p>
+
+;%Y-%m-%d</a> at %H:%M
+%d-%m-%Y</a> à %H:%M
+
+;, publisher of
+, auteur de
+
+;Comments for this resource
+Commentaires à propos de cette ressource
+
+;Add a comment
+Ajouter un commentaire
+
+;Author:
+Auteur :
+
+;Email:
+Courriel :
+
+;required but not shared or displayed
+requis mais ni communiqué, ni affiché
+
+;Website:
+Site Web :
+
+;Comment
+Commentaire
+
+;Preview
+Aperçu
+
+;Submit
+Envoyer
+
+;The comments are closed for this resource.
+Les commentaires sont fermés pour cette ressource.
+
+;Comment preview
+Aperçu du commentaire
+
+;<h3 class="px-comment-add">There are some errors with your comment !</h3><div class="px-comment-error">%s</div>
+<h3 class="px-comment-add">Des erreurs ont été détectées dans votre commentaire !</h3><div class="px-comment-error">%s</div>
+
+;Validate your comment
+Valider votre commentaire
+
+;Your post will be online after validation by the webmaster.
+Votre message sera publié après validation par le webmestre.
+
+;Plain cherry
+Plain cherry
+
+;Full width design. Two columns. Tested under Firefox 2, Opera 9, IE 5+. Feel free to use, modify and share alike. under Creative Commons Attribution 3.0 License.
+Design en pleine largeur. Deux colonnes. Testé avec Firefox 2, Opera 9, IE 5+. N'hésitez pas à l'utiliser, le modifier, le partager à votre convenance. Sous licence Creative
+Commons Attribution 3.0.
+
+;Go to content
+Aller au contenu
+
+;Go to menu
+Aller au menu
+
+;Search
+Recherche
+
+;Back to the home page
+Retour à l'accueil
+
+;Powered by PLUME CMS
+Propulsé par PLUME CMS
+
+;CMS
+SGC
+
+;Template by Léo Studer
+Gabarit par Léo Studer
+
+;Template
+Gabarit
+
+;Template under Creative Commons license
+Gabarit sous licence Creative Commons
+
+;Under
+Licence
+
+;Recent news
+Brèves récentes
+
+;Feeds
+RSS
+
+;Sitemap
+Plan du site
+
+;<div class="col-content-green"><div class="menuleft-green-top"></div><h2>Articles pages</h2> %s<div class="menuleft-green-bottom"></div></div>
+<div class="col-content-green"><div class="menuleft-green-top"></div><h2>Chapitres</h2> %s<div class="menuleft-green-bottom"></div></div>
+
+;<div id="art-pages-list"><h3>Pages of the article</h3> %s</div>
+<div id="art-pages-list"><h3>Chapitres de l'article</h3> %s</div>
+
+;Site Map
+Plan du site
+

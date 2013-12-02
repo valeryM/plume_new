@@ -1,0 +1,467 @@
+# -*- coding: utf-8 -*-
+# (C) 2004 Cédric Arrabie
+# (C) 2005 Miriam Ruiz
+
+;Welcome on the PLUME CMS installation
+Bienvenida&#47;o al asistente de instalaci&oacute;n de PLUME CMS
+
+;A possible previous installation of PLUME CMS is detected. You are invited to <a href="%s">upgrade your installation</a>.
+Une éventuelle installation de PLUME CMS à été détectée. Vous êtes invités à <a href="%s">mettre à jour votre installation</a>.
+
+;Language:
+Idioma&nbsp;:
+
+;Next
+Siguiente
+
+;PLUME CMS Installation
+Instalaci&oacute;n de PLUME CMS
+
+;%s%% of the installation completed
+%s%% de la instalaci&oacute;n completa
+
+;The installed PHP version is: %s.
+La versi&oacute;n de PHP instalada es &nbsp;: %s.
+
+;The installed PHP version is: %s. PHP 4.1 or higher is required.
+La versi&oacute;n de PHP instalada es &nbsp;: %s. Se necesita PHP 4.1 o superior.
+
+;The MySQL module is available.
+El m&oacute;dulo MySQL est&aacute; disponible.
+
+;The MySQL module is not available.
+El m&oacute;dulo MySQL no est&aacute; disponible.
+
+;The output buffering functions are available.
+Las funciones de buffer de salida est&aacute;n disponibles.
+
+;The output buffering functions are not available.
+Las funciones de buffer de salida no est&aacute;n disponibles.
+
+;The GD library is available.
+La biblioteca GD est&aacute; disponible.
+
+;The GD library is not available. Thumbnails will not be created automatically.
+La biblioteca GD no est&aacute; disponible. Las im&aacute;genes en miniatura no ser&aacute;n creadas autom&aacute;ticamente.
+
+;The XML module is available.
+El m&oacute;dulo XML est&aacute; disponible.
+
+;The XML module is not available.
+El m&oacute;dulo XML no est&aacute; disponible.
+
+;The system can write in the configuration folder: %s
+El sistema puede escribir en el directorio de configuraci&oacute;n&nbsp;: %s
+
+;The system cannot write in the configuration folder: %s. Check the permissions.
+El sistema no puede escribir en el directorio de configuraci&oacute;n&nbsp;: %s. Comprueba los permisos.
+
+;The system can write in the cache folder: %s
+El sistema puede escribir en el directorio de cach&eacute;&nbsp;: %s
+
+;The system cannot write in the cache folder: %s. Check the permissions.
+El sistema no puede escribir en el directorio de cach&eacute;&nbsp;: %s. Comprueba los permisos.
+
+;The system can write in the template folder: %s
+El sistema puede escribir en el directorio de plantillas&nbsp;: %s
+
+;The system cannot write in the template folder: %s. Check the permissions.
+El sistema no puede escribir en el directorio de plantillas&nbsp;: %s. Comprueba los permisos.
+
+;The system can write in the document folder: %s
+El sistema puede escribir en el directorio de documentos&nbsp;: %s
+
+;The system cannot write in the document folder: %s. Check the permissions.
+El sistema no puede escribir en el directorio de documentos&nbsp;: %s. Comprueba los permisos.
+
+;The system can write in the thumbnail folder: %s
+El sistema puede escribir en el directorio de im&aacute;genes en miniatura&nbsp;: %s
+
+;The system cannot write in the thumbnail folder: %s. Check the permissions or you will not be able to have automatic creation of the thumbnails.
+El sistema no puede escribir en el directorio de im&aacute;genes en miniatura&nbsp;: %s.  Comprueba los permisos o no tendr&aacute;s disponible la creaci&oacute;n autom&aacute;tica de miniaturas.
+
+;The system cannot write in the theme folder: %s. Check the permissions.
+El sistema no puede escribir en el directorio de temas&nbsp;: %s. Comprueba los permisos.
+
+;The system can write in the theme folder: %s
+El sistema puede escribir en el directorio de temas&nbsp;: %s.
+
+;Check of the PLUME CMS support by the system
+Comprobaci&oacute;n de que PLUME CMS est&aacute; soportado por el sistema
+
+;Congratulations, your system supports PLUME CMS. Warnings will not prevent your use of PLUME CMS.
+Enhorabuena, tu sistema soporta PLUME CMS. Los avisos que haya habido no impiden que puedas usar PLUME CMS.
+
+;No irreversible action is taken during the installation process. You can revert your choices from the manager at a later time.
+No se realiza ninguna acci&oacute;n irreversible durante el proceso de instalaci&oacute;n. Puedes deshacer los cambios desde el administrador del sistema m&aacute;s adelante.
+
+;<a href="%s">Continue with the choice of languages</a>.
+<a href="%s">Continuar con la elecci&oacute;n de idioma</a>.
+
+;Some errors prevent the installation of PLUME CMS on your system. You can fix them and restart the wizard afterwards.
+Algunos errores impiden la instalaci&oacute;n de PLUME CMS en tu sistema. Puedes corregirlos y reiniciar el asistente.
+
+;The system was unable to connect to the database, please check the error message and the information you provided to fix the problem.
+El sistema no ha sido capaz de conectar con la base de datos, por favor comprueba el mensaje de error y la informaci&oacute;n introducida para solucionar el problema.
+
+;Error message: %s
+Mensaje de error&nbsp;: %s
+
+;Database information
+Informaci&oacute;n de la base de datos
+
+;The content of the website is saved into a MySQL database. Please provide the necessary data in order to connect to the database.
+El contenido del sitio web ser&aacute; grabado en una base de datos MySQL. Por favor, introduce los datos necesarios para poder conectar con ella.
+
+;Database server:
+Servidor de base de datos&nbsp;:
+
+;Database name:
+Nombre de la base de datos&nbsp;:
+
+;Login to access the database:
+Identificaci&oacute;n para acceder a la base de datos&nbsp;:
+
+;Password to access the database:
+Contrase&ntilde;a para acceder a la base de datos&nbsp;:
+
+;Prefix for the tables in the database:
+Prefijo para las tablas en la base de datos&nbsp;:
+
+;Change it only if you have several installations of PLUME CMS with the same database.
+Modif&iacute;calo &uacute;nicamente si est&aacute;s usando varias instalaciones diferentes de PLUME CMS en la misma base de datos.
+
+;In the next step the database will be initialized with the necessary tables for PLUME CMS.
+En el paso siguiente, la base de datos ser&aacute; inicializada con las tablas necesarias para PLUME CMS.
+
+;Database installation
+Instalaci&oacute;n de la base de datos
+
+;Errors during database initialization procedure.
+Errores durante el proceso de inicializaci&oacute;n de la base de datos.
+
+;In the next step the first user will be registered to use the system. <a href="%s">Next</a>.
+En el paso siguiente se crear&aacute; el primer registro de usuaria&#47;o para usar el sistema. <a href="%s">Siguiente</a>
+
+;Default language for the manager
+Idioma por defecto para la administraci&oacute;n
+
+;The default language of the manager is the one the users entering the manager for the first time will see. At any time they can change it in their preferences.
+El idioma de administraci&oacute;n  por defecto es el que ver&aacute;n las&#47;os usuarias&#47;os que entren por primera vez en el administrador. En cualquier momento podr&aacute;n cambiar sus preferencias.
+
+;Default manager language:
+Idioma de administraci&oacute;n por defecto&nbsp;:
+
+;First user creation
+Creaci&oacute;n de la primera usuaria&#47;o
+
+;Errors during the installation of the first user. Please check the error messages.
+Errores durante la creaci&oacute;n de la primera usuaria&#47;o. Por favor, comprueba los mensajes de error.
+
+;The first user will be the global administrator of the PLUME CMS installation.
+La primera usuaria&#47;o ser&aacute; ser&aacute; la primera persona con capacidad de administraci&oacute;n global de PLUME CMS.
+
+;Login:
+Login&nbsp;:
+
+;The login must contain only letters and digits and no spaces.
+El Login debe contener &uacute;nicamente letras y n&uacute;meros, y ning&uacute;n espacio.
+
+;Name:
+Nombre&nbsp;:
+
+;Email <span class="small">(not shown)</span>:
+Email <span class="small">(no ser&aacute; mostrado)</span>&nbsp;:
+
+;Public email:
+Email p&uacute;blico&nbsp;:
+
+;Password:
+Contrase&ntilde;a&nbsp;:
+
+;New website name
+Nombre del nuevo sitio web
+
+;Description of the new website.
+Descripci&oacute;n del nuevo sitio web
+
+;Site <strong>%s</strong> successfully added.
+Sitio web <strong>%s</strong> a&ntilde;adido correctamente.
+
+;First website creation
+Creaci&oacute;n del primer sitio web
+
+;Errors during the installation of the first website. Please check the error messages.
+Ha habido errores durante la instalaci&oacute;n del primer sitio web. Por favor comprueba los mensajes de error.
+
+;Simply provide the necessary information so the system can create the default website for you.
+Introduce simplemente la informaci&oacute;n necesaria para que el sistema sea capaz de crear el sitio web por defecto por t&iacute;.
+
+;Normally you do not have to change anything except the name and the description.
+Normalmente no hace falta que cambies nada excepto el nombre y la descripci&oacute;n.
+
+;Site name:
+Nombre del sitio&nbsp;:
+
+;Website address:
+Direcci&oacute;n deñ sitio web&nbsp;:
+
+;For example put <em>https://www.mydomain.com/mysite/</em> or <em>http://www.mydomain.com/</em>. Do not forget the <em>http(s)</em>.
+Por ejemplo pon <em>https://www.midominio.org/misitioweb/</em> o <em>http://www.midominio.org/</em>. No olvides el prefijo <em>http(s)</em>.
+
+;Path to the document root of the website:
+Ruta al documento raiz del sitio web:
+
+;Path on the server side. For example <em>/home/login/www</em> or <em>c:/http</em>. The document root is the folder where the <em>index.php</em> will be placed.
+Ruta en el lado del servidor. Por ejemplo <em>/home/login/www</em> o <em>c:/http</em>. El documento raiz es el directorio en el que se encuentra el fichero <em>index.php</em>.
+
+;Name of the file and image folder:
+Nombre del directorio de ficheros e im&aacute;genes&nbsp;:
+
+;For example put <em>xmedia</em> or <em>documents</em>.
+Por ejemplo pon <em>xmedia</em> o <em>documentos</em>.
+
+;Description:
+Descripci&oacute;n&nbsp;:
+
+;If all the informations you provided are valid, the system will copy the required files in the right folders. The complete log of those files will be shown to you. No file already available on the system will be overwritten.
+Si todos los datos que has introducido son correctos, el sistema proceder&aacute; a copiar los ficheros necesarios en los directorios que les corresponden. Al final se mostrar&aacute; el log completo de esos ficheros. Ning&uacute;n fichero presente en tu sistema ser&aacute; sobreescrito.
+
+;Create the website
+Crear el sitio web
+
+;Log of the installation:
+Log de la instalaci&oacute;n&nbsp;:
+
+;If you see warnings, check them carefully and look at the online documentation to see the impact. You may need to complete the installation manually.
+Si ves advertencias, compru&eacute;balas con cuidado y consulta la documentaci&oacute;n en l&iacute;nea para analizar su impacto. Tal vez tengas que completar la instalaci&oacute;n manualmente.
+
+;In the next step the global configuration will be created. <a href="%s">Next</a>.
+En el paso siguiente se crear&aacute; la configuraci&oacute;n global. <a href="%s">Siguiente</a>.
+
+;Error: Impossible to create the configuration file.
+Error&nbsp;: Imposible crear el fichero de configuraci&oacute;n.
+
+;End of the installation
+Fin de la instalaci&oacute;n
+
+;Errors during the creation of the configuration file. Check the online documentation to get the solution!
+Ha habido errores durante la creaci&oacute;n del fichero de configuraci&oacute;n. consulta la documentaci&oacute;n en l&iacute;nea para intentar solucionarlos.
+
+;Congratulations, PLUME CMS has been installed!
+&iexcl;Enhorabuena!, &iexcl;PLUME CMS ha sido instalado!
+
+;The very last step is your work. You just have to create a new article or news into you website.
+El &uacute;ltimo paso es necesario que lo hagas t&uacute;. Lo &uacute;nico que tienes que hacer es crear un art&iacute;culo nuevo o una noticia para tu sitio web.
+
+;You can now access the manager with the login and password you provided before. <a href="%s">Access the manager</a>.
+Ahora puedes acceder al sistema de administraci&oacute;n con el Login y la contrase&ntilde;a que has introducido antes. <a href="%s">Acceder al sistema de administraci&oacute;n</a>.
+
+;Upgrade of the installation
+Actualizaci&oacute;n de la instalaci&oacute;n
+
+;The encoding configuration variable is already set in the configuration file.
+La variable de configuraci&oacute;n de la codificaci&oacute;n ya est&aacute; definida en el fichero de configuraci&oacute;n.
+
+;Impossible to set the encoding configuration variable in the configuration file.
+Ha sido imposible definir la variable de configuraci&oacute;n de la codificaci&oacute;n en el fichero de configuraci&oacute;n.
+
+;The 404 error logging configuration variable is already set in the configuration file.
+La variable de configuraci&oacute;n del log de errores 404 ya est&aacute; definida en el fichero de configuraci&oacute;n.
+
+;Impossible to set the 404 error logging configuration variable in the configuration file.
+Ha sido imposible definir la variable de configuraci&oacute;n del log de errores 404 en el fichero de configuraci&oacute;n.
+
+;Copy of the template <em>%s</em> to <em>%s</em>
+Copia de la plantilla <em>%s</em> en <em>%s</em>.
+
+;Error in the copy of the template <em>%s</em> to <em>%s</em>
+Error en la copia de la plantilla <em>%s</em> en <em>%s</em>.
+
+;Unable to get the list of websites to copy the new 404.php template. Please do it manually.
+Ha sido imposible obtener la lista de sitios web para copiar la nueva plantilla 404.php. Por favor, hazlo manualmente.
+
+;Some errors occured during the upgrade procedure. Please check carefully the messages to see if you need to finish the upgrade manually.
+Se han producido algunos errores durante el proceso de actualizaci&oacute;n. Por favor, comprueba cuidadosamente los mensajes para ver si es necesario que termines la actualizaci&oacute;n de forma manual.
+
+;Congratulations, PLUME CMS has been upgraded!
+Enhorabuena, PLUME CMS ha sido actualizado.
+
+;You can now access the manager. <a href="%s">Access the manager</a>.
+Ahora puedes acceder al sistema de administraci&oacute;n. <a href="%s">Acceder al sistema de administraci&oacute;n</a>.
+
+;The encoding configuration variable has been added to the configuration file.
+La variable de configuraci&oacute;n de la codificaci&oacute;n ha sido a&ntilde;adida al fichero de configuraci&oacute;n.
+
+;The 404 error logging configuration variable has been added to the configuration file.
+La variable de configuraci&oacute;n del log de errores 404 ha sido a&ntilde;adida al fichero de configuraci&oacute;n.
+
+;The default size of the page textarea has been added to the configuration file.
+El tama&ntilde;o por defecto del &aacute;rea de texto de las p&aacute;ginas ha sido a&ntilde;adido al fichero de configuraci&oacute;n.
+
+;The default size of the page textarea is already set in the configuration file.
+El tama&ntilde;o por defecto del &aacute;rea de texto de las p&aacute;ginas ya est&aacute; definido en el fichero de configuraci&oacute;n.
+
+;Impossible to set the default size of the page textarea in the configuration file.
+Ha sido imposible definir el tama&ntilde;o por defecto del &aacute;rea de texto de las p&aacute;ginas en el fichero de configuraci&oacute;n.
+
+;The default size of the article description textarea has been added to the configuration file.
+El tama&ntilde;o por defecto del &aacute;rea de texto de la descripci&oacute;n de los art&iacute;culos ha sido a&ntilde;adido al fichero de configuraci&oacute;n.
+
+;The default size of the article description textarea is already set in the configuration file.
+El tama&ntilde;o por defecto del &aacute;rea de texto de la descripci&oacute;n de los art&iacute;culos ya est&aacute; definido en el fichero de configuraci&oacute;n.
+
+;Impossible to set the default size of the article description textarea in the configuration file.
+Ha sido imposible definir el tama&ntilde;o por defecto del &aacute;rea de texto de la descripci&oacute;n de los art&iacute;culos en el fichero de configuraci&oacute;n.
+
+;The default size of the news content textarea has been added to the configuration file.
+El tama&ntilde;o por defecto del &aacute;rea de texto del contenido de las noticias ha sido a&ntilde;adido al fichero de configuraci&oacute;n.
+
+;The default size of the news content textarea is already set in the configuration file.
+El tama&ntilde;o por defecto del &aacute;rea de texto del contenido de las noticias ya est&aacute; definido en el fichero de configuraci&oacute;n.
+
+;Impossible to set the default size of the news content textarea in the configuration file.
+Ha sido imposible definir el tama&ntilde;o por defecto del &aacute;rea de texto del contenido de las noticias en el fichero de configuraci&oacute;n.
+
+;The default size of the category description textarea has been added to the configuration file.
+El tama&ntilde;o por defecto del &aacute;rea de texto de la descripci&oacute;n de las categor&iacute;as ha sido a&ntilde;adido al fichero de configuraci&oacute;n.
+
+;The default size of the category description textarea is already set in the configuration file.
+El tama&ntilde;o por defecto del &aacute;rea de texto de la descripci&oacute;n de las categor&iacute;as ya est&aacute; definido en el fichero de configuraci&oacute;n.
+
+;Impossible to set the default size of the category description textarea in the configuration file.
+Ha sido imposible definir el tama&ntilde;o por defecto del &aacute;rea de texto de la descripci&oacute;n de las categor&iacute;as en el fichero de configuraci&oacute;n.
+
+;Create table %s
+Crear tabla %s
+
+;Table %s exists
+La tabla %s existe
+
+;Creation of the table %s
+Creaci&oacute;n de la tabla %s
+
+;The table %s already exists.
+La tabla %s ya existe.
+
+;Dropping of the index %s
+Eliminaci&oacute;n del &iacute;ndice %s
+
+;The index %s has already been dropped.
+El &iacute;ndice %s ya hab&iacute;a sido eliminado.
+
+;Creation of the index %s
+Creaci&oacute;n del &iacute;ndice %s
+
+;The index %s already exists.
+El &iacute;ndice %s ya existe.
+
+;Set the auto_increment for %s
+Configurar el auto-incremento para %s
+
+;The auto_increment for %s already exists.
+El auto-incremento para %s ya existe.
+
+;Removal of the table %s
+Eliminaci&oacute;n de la tabla %s
+
+;The table %s has already been removed.
+La tabla %s ya hab&iacute; sido eliminada.
+
+;Please chose the language of the installation wizard.
+Por favor, elige el idioma del asistente de instalaci&oacute;n.
+
+;The default status of a comment has been added to the configuration file.
+
+
+;The default status of a comment is already set in the configuration file.
+
+
+;Impossible to set the default status of a comment in the configuration file.
+
+
+;The secret key has been added to the configuration file.
+
+
+;The secret key is already set in the configuration file.
+
+
+;Impossible to set the secret key in the configuration file.
+
+
+;Table %s exists.
+
+
+;<strong>Warning</strong>, the upgrade will convert your installation from iso-8859-1 to utf-8, please perform a backup of your database.
+
+
+;Add the comment support column on table %s
+
+
+;The column %s has already been added.
+
+
+;The table %s has been converted to the utf-8 encoding.
+
+
+;Errors occured when converting the table %s to the utf-8 encoding:
+
+
+;The theme id has been set for the website %s.
+
+
+;The theme id was already set for the website %s.
+
+
+;Impossible to set the theme id for the website %s.
+
+
+;The default comment status has been set for the website %s.
+
+
+;The default comment status was already set for the website %s.
+
+
+;Impossible to set the default comment status for the website %s.
+
+
+;The support of comments has been set for the website %s.
+
+
+;The support of comments was already set for the website %s.
+
+
+;Impossible to set the support of comments for the website %s.
+
+
+;The encoding has been set to utf-8 in the configuration file.
+
+
+;Impossible to set encoding to utf-8 in the configuration file.
+
+
+;The version of the database engine has been added to the configuration file.
+
+
+;The version of the database engine is already set in the configuration file.
+
+
+;Impossible to set the version of the database engine in the configuration file.
+
+
+;The Alertcom status has been added to the configuration file.
+
+
+;The Alertcom status is already set in the configuration file.
+
+
+;Impossible to set the status of Alertcom in the configuration file.
+
+
+;The Email to send the notification to has been added to the configuration file.
+
+
+;The Email to send the notification to is already set in the configuration file.
+
+
+;Impossible to set the Email to send the notification to in the configuration file.

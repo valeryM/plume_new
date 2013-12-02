@@ -1,0 +1,193 @@
+# -*- coding: utf-8 -*-
+# (C) YYYY Who?
+;Links manager
+Link-Manager
+
+;Web interface to configure your links.
+Webinterface zur Linkkonfiguration.
+
+;Drag items to change their positions.
+Verschieben Sie die Elemente, um deren Position zu ändern.
+
+;You must provide at least a label and an URL
+Sie müssen mindestens eine Bezeichnung und eine URL angeben
+
+;You must provide a valid URL
+Sie müssen eine gültige URL angeben
+
+;All values
+Alle
+
+;Back
+Zurück
+
+;Edit link
+Link bearbeiten
+
+;Error(s)
+Fehler
+
+;No link
+Kein Link
+
+;None
+Nichts
+
+;Label
+Bezeichung
+
+;URL
+URL
+
+;Language
+Sprache
+
+;optional
+Optional
+
+;Description
+Beschreibung
+
+;save
+Speichern
+
+;save order
+Reihenfolge speichern
+
+;XFN
+XFN
+
+;Me
+Ich
+
+;Another link for myself
+Eine weitere Webadresse von mir
+
+;Friendship
+Freunschaft
+
+;Contact
+Kontakt
+
+;Acquaintance
+Bekannter
+
+;Friend
+Freund
+
+;Physical
+Physikalisch
+
+;Met
+Getroffen
+
+;Professional
+Beruf
+
+;Co-worker
+Mitarbeiter
+
+;Colleague
+Kollege
+
+;Geographical
+Geografisch
+
+;Co-resident
+Mitbewohner
+
+;Neighbor
+Nachbar
+
+;Family
+Familie
+
+;Child
+Kind
+
+;Parent
+Elternteil
+
+;Sibling
+Geschwisterteil
+
+;Spouse
+Ehepartner
+
+;Kin
+Verwandter
+
+;Romantic
+Romantisch
+
+;Muse
+Muse
+
+;Crush
+Verknallt
+
+;Date
+Treffen
+
+;Sweetheart
+Liebling
+
+;Edit rubric
+Rubrik bearbeiten
+
+;Title
+Titel
+
+;New rubric
+Neue Rubrik
+
+;New link
+Neuer Link
+
+;Are you sure you want to delete this %s?
+Sind Sie sicher, dass %s gelöscht werden soll ?
+
+;link
+Link
+
+;Are you sure you want to delete this category?
+Sind Sie sicher, daß diese Kategorie gelöscht werden soll ?
+
+;delete
+Löschen
+
+;Move %s up
+Um %s nach oben verschieben
+
+;Move %s down
+Um %s nach unten verschieben
+
+;Usage
+Verwendung
+
+;Database table installed
+Installierte Datenbanktabellen
+
+;Errors during database table installation
+Fehler während der Datenbank-Installation
+
+;To replace your static links list by this one, just put the following code in your template:
+Um Ihre statische Linkliste gegen diese Liste auszutauschen, fügen Sie den folgenden Code in Ihre Vorlage ein:
+
+;Create table %s
+Erstelle Tabelle %s
+
+;Table %s exists
+Tabelle %s existiert bereits
+
+;Creation of link Plume
+Erstelle Link Plume
+
+;Creation of link FSF
+Erstelle Link FSF
+
+;Creation of link Your link 1
+Erstelle Link «Ihr Link 1»
+
+;Creation of link to Your link 2
+Erstelle Link «Ihr Link 2»

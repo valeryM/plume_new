@@ -1,0 +1,82 @@
+﻿# -*- coding: utf-8 -*-
+# (C) 2004 Loïc d'Anterroches, Cédric Arrabie
+;Files and images right access manager
+Διαχειριστής δικαιωμάτων πρόσβασης αρχείων και εικόνων
+
+;Manage the access of some of the file and image subfolders.
+Διαχειριστείτε την πρόσβαση σε μερικούς από τους υποκαταλόγους αρχείων και εικόνων.
+
+;Files and images access manager
+Διαχειριστής πρόσβασης αρχείων και εικόνων
+
+;You are in the folder <strong>%s</strong>
+Βρίσκεστε στον κατάλογο <strong>%s</strong>
+
+;Navigation
+Πλοήγηση
+
+;Zone <strong>%s</strong>.
+Ζώνη <strong>%s</strong>.
+
+;New protected zone:
+Νέα προστατευμένη ζώνη&nbsp;:
+
+;Create the zone
+Δημιουργία ζώνης
+
+;Zone successfully created.
+Η ζώνη δημιουργήθηκε με επιτυχία.
+
+;User to add:
+Χρήστης για προσθήκη&nbsp;:
+
+;Password:
+Κωδικός&nbsp;:
+
+;Add
+Προσθήκη
+
+;Username and password must contain only letters and digits without spaces.
+Το όνομα χρήστη και ο κωδικός πρέπει να περιέχει μόνο γράμματα και αριθμούς, χωρίς κενά διαστήματα.
+
+;Error while adding the user.
+Παρουσιάστηκε σφάλμα κατά την προσθήκη του χρήστη.
+
+;User successfully added.
+Ο χρήστης προστέθηκε με επιτυχία.
+
+;List of the users
+Λίστα χρηστών
+
+;Delete
+Διαγραφή
+
+;Are you sure you want to delete this user?
+Θέλετε να διαγραφεί ο χρήστης;
+
+;User successfully deleted.
+Ο χρήστης διαγράφηκε με επιτυχία.
+
+;Error while deleting the user.
+Παρουσιάστηκε σφάλμα κατά τη διαγραφή του χρήστη.
+
+;Are you sure you want to delete this zone ?
+Θέλετε να διαγραφεί η ζώνη;
+
+;Delete this zone
+Διαγραφή ζώνης
+
+;Zone successfully deleted.
+Η ζώνη διαγράφηκε με επιτυχία.
+
+;Error: Configuration file of the website(<strong>%s</strong>) not available.
+
+
+;Error: The system has no write access to the folder <strong>%s</strong>. Check the permissions.
+
+
+;Error: The folder <strong>%s</strong> does not exist.
+
+
+;Error(s):
+

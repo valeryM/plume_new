@@ -1,0 +1,124 @@
+# -*- coding: utf-8 -*-
+# (C) 2006 Loïc d'Anterroches
+;visual
+Visuel
+
+;source
+Source
+
+;You can use the following shortcuts to format your text.
+Vous pouvez utiliser les raccourcis suivants pour mettre en forme votre texte.
+
+;Block Format
+Types de blocs
+
+;-- none --
+-- Aucun --
+
+;- Block Format -
+- Type de bloc -
+
+;Paragraph
+Paragraphe
+
+;Header 1
+Titre 1
+
+;Header 2
+Titre 2
+
+;Header 3
+Titre 3
+
+;Header 4
+Titre 4
+
+;Header 5
+Titre 5
+
+;Header 6
+Titre 6
+
+;Strong emphasis
+Gras
+
+;Emphasis
+Italique
+
+;Inserted
+Souligné
+
+;Deleted
+Barré
+
+;Inline quote
+Courte citation
+
+;Code
+Code
+
+;Generic inline tag
+Balise générique de formatage inline
+
+;Line break
+Retour à la ligne
+
+;Blockquote
+Bloc de citation
+
+;Preformated text
+Texte pré-formaté
+
+;Generic block tag
+Balise générique de formatage de bloc
+
+;Unordered list
+Liste à puce
+
+;Ordered list
+Liste numérotée
+
+;Link
+Lien
+
+;URL?
+URL ?
+
+;Language?
+Langue ?
+
+;CSS style (leave blank if no style):
+Style CSS (laisser vide pour insertion sans style) :
+
+;External image
+Image sur un autre site
+
+;Remove text formating
+Nettoyer le formatage du texte
+
+;Image chooser
+Choisir une image
+
+;Add a link
+Ajouter un lien
+
+;Close this window
+Fermer cette fenêtre
+
+;Required field
+Champ requis
+
+;Link URL:
+Addresse de la cible du lien :
+
+;Link title:
+Titre du lien :
+
+;Link language:
+Langue de la cible du lien :
+
+;cancel
+Annuler
+
+;insert link
+Insérer le lien

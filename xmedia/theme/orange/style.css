@@ -1,0 +1,636 @@
+@charset "utf-8";
+
+/*=================================================*/
+/* Orange Buddy template for Plume! CMS				*/
+/* By Léo Studer http://www.leo-studer.com			*/
+/* Feel free to use, modify & redistribute			*/
+/* Under Creative Commons Attribution 3.0 License.	*/
+/*=================================================*/
+
+html{
+  margin:0px;
+  padding:0px}
+
+body{
+  position:absolute;
+  width:100%;height:100%;
+  margin:0px;padding:0px;
+  text-align:center;
+  background-color:white}
+
+div {
+  margin:0px;
+  padding:0px}
+
+/*==================================*/
+/* Fonts & sizes & colors of titles */
+/*==================================*/
+
+abbr, acronym
+{
+	border-bottom: dotted 1px black;
+	cursor: help;
+}
+
+p,blockquote,li,h2,h3,h1,dd,dt{
+  font-family:Verdana,"Lucida Grande",Tahoma,Helvetica,San-Serif;
+  font-size:0.8em;font-weight:normal}
+
+#content ul, #content ol {
+  font-size:1.2em;
+}
+
+#content a,.menuright a{
+  text-decoration:none;
+}
+
+#content a:hover,.menuright a:hover{
+  text-decoration:underline;
+}
+
+#content,.col-content{
+  font-family:Verdana,"Lucida Grande",Tahoma,Helvetica,San-Serif;
+  font-size:0.8em;font-weight:normal}
+
+#content h3{
+  font-weight:bold;text-decoration:underline overline;
+  font-size:0.8em;padding:5px 0px 0px 0px;font-style:italic;}
+
+#content p{
+  font-size:1em;text-align:justify;
+  margin:0px 10px 0px 10px}
+
+#content p.modified, .col-content p.modified{
+  font-size:0.7em;text-align:right;
+  font-style:italic;
+  margin: 0px 10px 0px 0px}
+  
+#content span.links-foot-art
+{
+  float:right;clear:both;
+  margin-top:5px;margin-right:10px;line-height:22px;height:22px;
+  font-size:0.7em;
+  font-style:italic;
+  font-weight:bold;
+}
+
+#content a.readmore, #content a.laisser-comment, #content span.score-search
+{
+  padding:2px 0 2px 20px;
+  margin-left:10px;
+}
+
+#content a.readmore
+{
+  background:url("img/face-glasses.png") 0% 50% no-repeat;
+}
+
+#content a.laisser-comment
+{
+  background:url("img/face-smile-big.png") 0% 50% no-repeat;
+}
+
+#content span.score-search
+{
+  font-weight:bold;
+  background:url("img/application-certificate.png") 0% 50% no-repeat;
+}
+
+h1{
+  margin:0px}
+
+hr{
+  display:none}
+
+h2,h3{
+  font-size:1em}
+
+#banner h1{
+  position:absolute;top:0px;
+  padding:20px 0px 0px 30px;
+  font-size: 2.4em;font-weight:bold;
+  font-family:Georgia,Times,"Times New Roman",Serif;}
+
+#banner h1 a{
+  text-decoration:none}
+
+#banner h1 a:hover{
+  text-decoration:underline}
+
+pre{
+  border:1px solid #d7d7d6;
+  background-color:#eee;
+  padding:5px;margin:10px;overflow:auto}
+
+ol li.current a, #art-pages-list ol li.current a{
+  color:#000}
+
+#content h2 a{
+  color:#000}
+  
+h2.art-page-title{
+  padding:0px 0px 0px 30px;font-size:1.3em;
+  font-family:Georgia,Times,"Times New Roman",Serif;
+  background:url("img/icon_pp.png") 3% 50% no-repeat;
+  font-style:italic;text-decoration:underline}
+
+h2.restitle,h2.commentz{
+  padding:0px 17px;
+  margin-bottom:5px;
+  font-size:1.5em;font-style:italic;
+  font-family:Georgia,Times,"Times New Roman",Serif;
+  background:url("img/icon_pg.png") 0% 50% no-repeat}
+
+body.category #content h2,h2.art-description{
+  font-size:1.5em;font-style:italic;
+  font-family:Georgia,Times,"Times New Roman",Serif;}
+
+body.category #content h1,h1.art-description{
+  font-size:1.8em;font-weight:bold;
+  font-family:Georgia,Times,"Times New Roman",Serif;}
+
+body.news #content h2,h2.art-description{
+  font-size:1.5em;font-style:italic;
+  font-family:Georgia,Times,"Times New Roman",Serif;}
+
+#col-content h2{font-style:normal;}
+
+body.news #content h1,h1.art-description{
+  font-size:1.8em;font-weight:bold;
+  font-family:Georgia,Times,"Times New Roman",Serif;}
+
+body.news #content h2 a{
+  padding:0px 26px 0px 0px;
+  background:url("img/system-search.png") 100% 50% no-repeat}
+
+body.category #content h2 a{
+  padding:0px 26px 0px 0px;
+  background:url("img/system-search.png") 100% 50% no-repeat}
+
+blockquote {
+  padding:8px 0px 10px 25px;
+  margin:0px 20px 5px 20px;
+  background:url("img/audio-volume-high.png") 10px 5px no-repeat;
+  border:2px dashed #d7d7d6;font-size:1em;
+  border-top:none;border-right:none}
+
+#content img{
+  border-width:1px;border-color:#ccc;
+  border-style:solid;float:left;
+  padding:5px;margin:10px;
+  max-width:450px;}
+  
+#footer img,div.col-content img{
+  border:none}
+
+/*===========*/
+/* Plan Site */
+/*===========*/
+
+li.nodeco {
+  list-style-type:none;
+}
+
+#plan-site ul{
+  padding:10px 10px 10px 30px;
+  margin:0;
+  border:2px dashed #d7d7d6;
+}
+
+li.subcatlism{
+  font-style:italic;font-size:0.6em;
+  list-style-type:none;
+  font-weight:bold;text-decoration:underline overline;
+  margin:10px 0 10px -20px;
+}
+
+li.subcatlism p{
+  font-size:0.6em;
+}
+
+/*=============*/
+/* Main layout */
+/*=============*/
+#page{
+  position:relative;margin-left:auto;
+  margin-right:auto;text-align:left;
+  width:740px;
+  background:url("img/body.jpg") top left repeat-y}
+#content{
+  padding:0px 10px 0px 10px;
+  width:500px;
+  float:left;
+  margin:-100px 0px 0px 0px;
+  z-index:8}
+#banner{
+  left:0px;margin-top:10px;
+  width:740px;height:220px;
+  background:url("img/header.jpg") top left no-repeat}
+#footer a{
+  text-decoration:none;
+  border:none;color:#555555}
+ol.tree{
+  margin:0;padding:0;
+  background-image:url("img/navig.png");
+  width:499px;padding-left:10px;
+  margin-top:10px;
+  padding-top:0px;
+  height:20px}
+ol.tree li{
+  display:inline;font-size:0.7em;
+  list-style-type:none;
+  padding-right:0.7em;
+  padding-left:0}
+ol.tree li:before{
+  content: '»  '}
+
+#art-pages-list
+{
+  clear:both;
+}
+
+/*========*/
+/* Footer */
+/*========*/
+#footer{
+  font-family:Georgia,Times,"Times New Roman",Serif;
+  font-size:0.8em;text-align:left;
+  margin-bottom:10px;width:700px;
+  clear:both;border:none;height:160px;
+  background:url("img/footer.jpg") top left no-repeat;
+  padding: 110px 0px 0px 40px;height:45px}
+
+#footer a.cms{
+  background:url("img/plume-cms-powered.png") 100% 50% no-repeat;
+  padding:10px 90px 10px 0px;margin:0px 10px 0px 0px}
+#footer a.design{
+  background:url("img/leo_s_design.png") 100% 50% no-repeat;
+  padding:10px 35px 10px 0px;margin:0px 10px 0px 0px}
+#footer a.design_license{
+  background:url("img/somerights.png") 100% 50% no-repeat;
+  padding:5px 25px 5px 0px;margin:0px 10px 0px 0px}
+
+#footer a.cms:hover{
+  background:url("img/plume-cms-powered-srv.png") 100% 50% no-repeat;
+  color:red}
+#footer a.design:hover{
+  background:url("img/leo_s_design_srv.png") 100% 50% no-repeat;
+  color:green}
+#footer a.design_license:hover{
+  background:url("img/somerights_srv.png") 100% 50% no-repeat;
+  color:blue}
+
+/*=============================*/
+/* Easy access: always visible */
+/*=============================*/
+#easy-access{
+  background:transparent;position:absolute;
+  display:block;top:110px;
+  margin-left:-18px;width:16px;
+  height:100px;position:fixed}
+
+a.backhome,a.backcontent,a.backmenu,a.backtop,a.chercher{
+  width:16px;height:16px;
+  display:block;margin-bottom:2px}
+a.backhome{
+  background:url("img/go-home.png") top left no-repeat}
+a.backcontent{
+  background:url("img/text-x-generic.png") top left no-repeat}
+a.backmenu{
+  background:url("img/edit-copy.png") top left no-repeat}
+a.backtop{
+  background:url("img/go-up.png") top left no-repeat}
+a.chercher{
+  background:url("img/edit-find.png") top left no-repeat}
+
+/*=============================*/
+/* Fixed width right side menu */
+/*=============================*/
+#col-content{
+  width:210px;float:right;
+  margin:-110px 0px 0px 0px;
+  background: url("img/menufond_body.png") top left repeat-y;
+  z-index:18}
+#col-content-head{
+  position:relative;width:210px;
+  top:-20px;height:20px;
+  background: url("img/menufond_head.png") top left no-repeat;
+  margin-bottom:-50px}
+#col-content-foot{
+  float:right;width:210px;
+  top:34px;height:20px;
+  margin:0px 0px -20px 0px;
+  background: url("img/menufond_foot.png") bottom left no-repeat}
+
+div.col-content{
+  padding:0px 10px;
+  width:170px}
+div.col-content h2{
+  text-align:right;
+  padding:0px 26px 0px 0px;
+  margin:0px 0px 5px 0px}
+div.col-content li{
+  list-style:auto;
+  margin-left:10px}
+div.col-content ol li{
+  list-style-type:decimal;
+  margin-left:1.8em}
+div.col-content ul,div.col-content ol,div.col-content p{
+  margin:0px 0px 5px 0px;
+  padding:0px 0px 0px 0px}
+div.col-content h2{
+  font-family:Georgia,Times,"Times New Roman",Serif;
+  font-size:1.3em;}
+input,textarea{
+  border-width:1px;
+  border-color:#ccc}
+input[type],textarea[name]{
+  background:#eee}
+input[type=submit],input[type=reset]{
+  background:#bbb;color:#000}
+input[type=submit]:hover{
+  background:#999;color:#fff}
+
+.menuright_head{
+  background-repeat:no-repeat;
+  position:relative;display:block;
+  height:10px;width:190px;top:-10px;
+  margin:40px 0px -5px 0px;
+  background-image:url("img/menuright_head.png")}
+.menuright_foot{
+  clear:both;
+  background-repeat: no-repeat;
+  width:190px;height:10px;
+  background-position:bottom;
+  position:relative;top:10px;
+  margin:-10px 0px -10px 0px;
+  background-image:url("img/menuright_foot.png")}
+
+.menuright{
+  padding:0px 20px 0px 0px;
+  position:relative;
+  left:10px;top:0px;
+  width:170px;
+  background: url("img/menuright_body.png") top left repeat-y}
+
+.bouton-chercher
+{
+  clear:both;
+  float:right;
+  margin-top:-20px;
+}
+
+.champ-chercher
+{
+  clear:both;
+  float:left;
+  width:130px;
+}
+
+
+/*===========================*/
+/* Icons for the menu titles */
+/*===========================*/
+h2.descmenu{
+  background:url("img/go-home-22.png") 100% 50% no-repeat}
+h2.flavour{
+  background:url("img/preferences-system.png") 100% 50% no-repeat}
+h2.categories{
+  background:url("img/folder.png") 100% 50% no-repeat}
+h2.formsearch{
+  background:url("img/edit-find-replace.png") 100% 50% no-repeat}
+h2.links{
+  background:url("img/internet-web-browser.png") 100% 50% no-repeat}
+h2.categoryz{
+  background:url("img/help-browser.png") 100% 50% no-repeat}
+h2.subcategories{
+  background:url("img/folder-drag-accept.png") 100% 50% no-repeat}
+h2.pagesarticles{
+  background:url("img/dialog-information.png") 100% 50% no-repeat}
+h2.commentz{
+  background:url("img/comment.png") 0% 50% no-repeat;padding:10px 35px;margin-left:10px;}
+h2.goback{
+  background:url("img/go-first.png") 100% 50% no-repeat}
+h2.nouvelles{
+  background:url("img/internet-news-reader.png") 100% 50% no-repeat}
+h2.err404{
+  background:url("img/edit-delete.png") 100% 50% no-repeat}
+
+/*==================*/
+/* Feed and Sitemap */
+/*==================*/
+.feeds, .sitemap, .firefox{
+  font-size: 0.8em;float:right;line-height:16px;
+  padding:4px 20px 0px 0px;
+  margin:15px 25px 0px 0px}
+.firefox{
+  font-size: 0.8em;float:right;line-height:16px;
+  padding:4px 20px 0px 0px;
+  margin:5px 25px 0px 0px}
+.feeds {
+  background: url("img/feed.png") 100% 50% no-repeat}
+.sitemap {
+  background: url("img/sitemap_color.png") 100% 50% no-repeat}
+.firefox {
+  background: url("img/firefox.png") 100% 50% no-repeat}
+a.feeds ,a.sitemap, a.firefox {
+  color: #959595;text-decoration:none}
+a:hover.feeds ,a:hover.sitemap, a:hover.firefox {
+  color:#B0B0B0;text-decoration:underline}
+
+/*=========*/
+/* Galerie */
+/*=========*/
+
+div.gallery {
+  text-align:center;
+  margin:10px;padding:0;
+  border:1px solid #d7d7d6;
+  background:#eee;
+}
+div.gallery-top {
+  height:24px;
+  margin-bottom:10px;
+  background: #d7d7d6 url("img/camera-photo.png") 2% 50% no-repeat;
+  border:1px solid #eee;
+}
+
+div.gallery-bottom
+{
+	clear: left;
+  height:24px;
+  margin-top:5px;
+  background: #d7d7d6 url("img/camera-photo.png") 98% 50% no-repeat;
+  border:1px solid #eee;
+}
+
+div.gallery-thumb a
+{
+	float: left;
+	display: block;
+}
+
+#content img.gallery-thumb
+{
+	margin:0;
+	border:none;
+	float:none ;
+  background: #d7d7d6 url("img/image-x-generic.png") 90% 98% no-repeat;
+  padding-bottom:25px;
+  border:1px solid #eee;
+}
+
+div.gallery-img
+{
+ float: left;
+	width: auto;
+	padding: 0 0 0 10px;
+  margin: 0 10px 10px 0;
+}
+
+p.gallery-legend
+{
+ text-align: center;
+  font-style: italic;
+	color: #7f7f7f;
+}
+
+/*=========================================*/
+/* Recent news (from Plume! default theme) */
+/*=========================================*/
+.recent-news{
+  font-size: 1em;
+  margin-top:4px;
+  font-style: italic;
+  text-decoration: none}
+  
+.recent-news h3{
+  font-family:Verdana,"Lucida Grande",Tahoma,Helvetica,San-Serif;
+  font-weight:bold;
+  background: url("img/icon_pp.png") 0% 50% no-repeat;
+  margin:0;
+  padding:0 0 0 15px;
+  font-size:0.8em;}
+
+span.associated-link{
+  float:right;  
+  font-size:0.8em;}
+  
+span.associated-link a{
+  background: url("img/link.png") 100% 50% no-repeat;
+  padding:0 17px 0 0;}
+  
+span.recent-news-date{
+  float:right;padding:0;
+  font-size:0.8em;
+  font-weight:bold;}
+  
+.recent-news-boite{
+  margin:Opx;
+  padding:2px 0 0 0;
+  clear:both;}
+
+.recent-news p{
+  margin:0;clear:both}
+  
+.recent-news img{max-width:170px;}
+
+/*=======*/
+/* Boxes */
+/*=======*/
+.resource{
+  background:url("img/article_body.png") top left repeat-y;
+  padding: 0px 5px 0px 5px;
+  width:499px;height:auto;
+  margin: 20px 0px 0px 0px}
+  
+.resource_head{
+  background:url("img/article_head.png");
+  position:relative;top:-10px;
+  margin: 0px 0px -25px -5px
+  }
+  
+.resource_foot{
+  background:url("img/article_foot.png")}
+  
+.resource_head,.resource_foot{
+  height:10px;width:509px;}
+
+.art-description_head,.news-infos_head,.px-commente-head{
+  background:url("img/desc_head.jpg") top left no-repeat;
+  margin:10px 0px 0px -10px}
+  
+.art-description_foot,.news-infos_foot,.px-commente-foot{
+  clear:both;
+  background:url("img/desc_foot.jpg") top left no-repeat;
+  margin:0px 0px 0px -10px}
+
+.art-description,.news-infos{
+  background:url("img/desc_body.jpg") top left repeat-y;
+  width:489px;height:auto;
+  margin:0px 0px 0px 0px;
+  padding:0px 10px 0px 10px;}
+  
+.art-description_head,.news-infos_head,.art-description_foot,.news-infos_foot,.px-commente-head,.px-commente-foot{
+  height:10px;width:509px}
+
+.px-commente-head,.px-commente-foot{
+  float:left;
+  margin:0px 0px 0px -5px}
+
+.px-commente-liste{
+  background:url("img/desc_body.jpg") top left repeat-y;
+  overflow:hidden;padding: 0px 5px 0px 5px;
+  width:499px;height:auto;margin-top:10px;text-align:left;
+  font-family:Verdana,"Lucida Grande",Tahoma,Helvetica, San-Serif}
+
+/*==========*/
+/* Comments */
+/*==========*/
+#content h3.comment-auteur, #content h3.comment-email, #content h3.comment-site,#content h3.comment-ecrire{
+  padding:3px 0px 3px 20px;float:left;
+  margin:0px 5px 0px 5px;line-height:16px;
+  display:block;height:16px;}
+#content h3.comment-auteur{
+  background:url("img/system-users.png") 0% 50% no-repeat}
+#content h3.comment-email{
+  background:url("img/mail-reply-sender.png") 0% 50% no-repeat}
+
+#content h3.comment-site{
+  background:url("img/text-html.png") 0% 50% no-repeat;
+  text-decoration:none}
+
+#content h3.comment-ecrire{
+  background:url("img/accessories-text-editor.png") 0% 50% no-repeat;
+  margin:0px 0px 5px 0px}
+
+span.px-comment{
+  padding:0px 0px 0px 10px}
+
+.px-commente input{
+  width:130px;
+}
+
+.px-commente{
+  background:url("img/desc_body.jpg") top left repeat-y;
+  text-align:right;height:auto;
+  font-family:Verdana,"Lucida Grande",Tahoma,Helvetica,San-Serif;
+  padding: 0px 10px 0px 10px;margin:10px 0px 0px 0px;text-align:center;
+  width:489px}
+
+p.input-submit{
+  text-align:center}
+
+.input-submit input{
+  margin: 0 0 0 50%;
+  background-color:white;}
+
+.input-submit input:hover{
+	color:light grey}
+
+
+
+/* CSS HACK:  position:relative needed by IE6 otherwise the header and col 2 don't show up on initial rendering - they're there but you have to minimise the window or switch to another app and back to see the full effect. But IE5(pc) doesn't like it. And nor does NN4.
+NB. the use of pos:rel has to go way beyond skin-deep - any nested element that needs a background colour appears to require to be be relatively positioned */
+/*/*/
+#page,#mainfloat,#content,#menuright,h2{p\osition:relative}

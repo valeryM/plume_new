@@ -1,0 +1,70 @@
+<?php 
+/* automatically generated file from: F:/User/www/aslcpsa/plume/manager/tools/link/locale/sk/link.lang  */
+
+if (basename($_SERVER['SCRIPT_NAME']) == 'link.lang') exit;
+
+$GLOBALS['_PX_locale']['Links manager'] = 'Správca prepojení';
+$GLOBALS['_PX_locale']['Web interface to configure your links.'] = 'Webové rozhranie na nastavenie vašich prepojení';
+$GLOBALS['_PX_locale']['Drag items to change their positions.'] = 'Presunutím položiek zmeňte ich polohu.';
+$GLOBALS['_PX_locale']['You must provide at least a label and an URL'] = 'Je potrebné vložiť aspoň jednu menovku a URL';
+$GLOBALS['_PX_locale']['You must provide a valid URL'] = 'Je potrebné vložiť platnú URL';
+$GLOBALS['_PX_locale']['All values'] = 'Všetko';
+$GLOBALS['_PX_locale']['Back'] = 'Späť';
+$GLOBALS['_PX_locale']['Edit link'] = 'Upraviť prepojenie';
+$GLOBALS['_PX_locale']['Error(s)'] = 'Chyby';
+$GLOBALS['_PX_locale']['No link'] = 'Žiadne prepojenie';
+$GLOBALS['_PX_locale']['None'] = 'Nič';
+$GLOBALS['_PX_locale']['Label'] = 'Menovka';
+$GLOBALS['_PX_locale']['URL'] = 'URL';
+$GLOBALS['_PX_locale']['Language'] = 'Jazyk';
+$GLOBALS['_PX_locale']['optional'] = 'Voliteľné';
+$GLOBALS['_PX_locale']['Description'] = 'Popis';
+$GLOBALS['_PX_locale']['save'] = 'Uložiť';
+$GLOBALS['_PX_locale']['save order'] = 'Uložiť poradie';
+$GLOBALS['_PX_locale']['XFN'] = 'XPN';
+$GLOBALS['_PX_locale']['Me'] = 'Ja';
+$GLOBALS['_PX_locale']['Another link for myself'] = 'Ďalšie prepojenie pre mňa';
+$GLOBALS['_PX_locale']['Friendship'] = 'Priateľstvo';
+$GLOBALS['_PX_locale']['Contact'] = 'Kontakt';
+$GLOBALS['_PX_locale']['Acquaintance'] = 'Známosť';
+$GLOBALS['_PX_locale']['Friend'] = 'Priateľ';
+$GLOBALS['_PX_locale']['Physical'] = 'Fyzický';
+$GLOBALS['_PX_locale']['Met'] = 'Známy';
+$GLOBALS['_PX_locale']['Professional'] = 'Profesionál';
+$GLOBALS['_PX_locale']['Co-worker'] = 'Spolupracovník';
+$GLOBALS['_PX_locale']['Colleague'] = 'Kolega';
+$GLOBALS['_PX_locale']['Geographical'] = 'Geografický';
+$GLOBALS['_PX_locale']['Co-resident'] = 'Spolubývajúci';
+$GLOBALS['_PX_locale']['Neighbor'] = 'Sused';
+$GLOBALS['_PX_locale']['Family'] = 'Rodina';
+$GLOBALS['_PX_locale']['Child'] = 'Dieťa';
+$GLOBALS['_PX_locale']['Parent'] = 'Rodič';
+$GLOBALS['_PX_locale']['Sibling'] = 'Súrodenec';
+$GLOBALS['_PX_locale']['Spouse'] = 'Manžel(ka)';
+$GLOBALS['_PX_locale']['Kin'] = 'Príbuzný';
+$GLOBALS['_PX_locale']['Romantic'] = 'Romantický';
+$GLOBALS['_PX_locale']['Muse'] = 'Múza';
+$GLOBALS['_PX_locale']['Crush'] = 'Neopätovaná láska';
+$GLOBALS['_PX_locale']['Date'] = 'Dátum';
+$GLOBALS['_PX_locale']['Sweetheart'] = 'Miláčik';
+$GLOBALS['_PX_locale']['Edit rubric'] = 'Upraviť rubriku';
+$GLOBALS['_PX_locale']['Title'] = 'Názov';
+$GLOBALS['_PX_locale']['New rubric'] = 'Nová rubrika';
+$GLOBALS['_PX_locale']['New link'] = 'Nové prepojenie';
+$GLOBALS['_PX_locale']['Are you sure you want to delete this %s?'] = 'Naozaj chcete odstrániť %s?';
+$GLOBALS['_PX_locale']['link'] = 'Prepojenie';
+$GLOBALS['_PX_locale']['Are you sure you want to delete this category?'] = 'Naozaj chcete odstrániť túto kategóriu?';
+$GLOBALS['_PX_locale']['delete'] = 'Odstrániť';
+$GLOBALS['_PX_locale']['Move %s up'] = 'Posunúť %s nahor';
+$GLOBALS['_PX_locale']['Move %s down'] = 'Posunúť %s nadol';
+$GLOBALS['_PX_locale']['Usage'] = 'Použitie';
+$GLOBALS['_PX_locale']['Database table installed'] = 'Databázová tabuľka nainštalovaná';
+$GLOBALS['_PX_locale']['Errors during database table installation'] = 'Počas inštalácie databázovej tabuľky sa vyskytli chyby';
+$GLOBALS['_PX_locale']['Create table %s'] = 'Vytvoriť tabuľku %s';
+$GLOBALS['_PX_locale']['Table %s exists'] = 'Tabuľka %s existuje';
+$GLOBALS['_PX_locale']['Creation of link Plume'] = 'Vytvorenie prepojenia Plume';
+$GLOBALS['_PX_locale']['Creation of link FSF'] = 'Vytvorenie prepojenia FSF';
+$GLOBALS['_PX_locale']['Creation of link Your link 1'] = 'Vytvorenie prepojenia Vaše prepojenie 1';
+$GLOBALS['_PX_locale']['Creation of link to Your link 2'] = 'Vytvorenie prepojenia Vaše prepojenie 2';
+
+?>

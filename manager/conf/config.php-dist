@@ -1,0 +1,60 @@
+<?php
+// Configuration file. Make the change to match your config
+
+// Database informations
+$_PX_config['db']['db_server']    = 'localhost'; // Server
+$_PX_config['db']['db_database']  = 'plume'; // Name of the database
+$_PX_config['db']['db_login']     = 'root'; // User/login to the database
+$_PX_config['db']['db_password']  = ''; // Password
+$_PX_config['db']['db_type']      = 'mysql'; // Type of database engine
+$_PX_config['db']['table_prefix'] = 'plume_'; // Prefix on the tables to access them
+                                              // (if you want 2 installations of PLUME CMS in the same database)
+
+/* Version of the database engine */
+$_PX_config['db_version'] = '';
+
+// Some other informations
+$_PX_config['lang']  = 'en'; // Default language (fr or en available with default install)
+$_PX_config['encoding'] = 'utf-8'; // If one of your sites may use other languages than the
+                                        // Western ones, please chose 'UTF-8'. Do not change this
+                                        // value without knowing the impact! All your output pages
+                                        // will have this encoding.
+$_PX_config['content_format'] = 'html'; //default format of the content, including descriptions
+
+// you don't need to look starting here
+$_PX_config['debug'] = true; // Display some debug informations (execution time, number of queries)
+$_PX_config['session_inactive'] = 3600; // Inactivity time of a session before not valid
+$_PX_config['url_format'] = 'simple'; // use 'mod_rewrite' if you want nice looking URL, check plume-cms.net
+                                      // for details about the configuration of mod_rewrite
+$_PX_config['max_upload_size'] = 100 * 1024; // maximum size of uploaded file (here 100KB)                     
+
+/* Create a log of the 404 errors */
+$_PX_config['log404errors'] = false;
+
+/* mode d'affichage par défaut */
+$_PX_config['mode_affichage_contenu']='list';
+
+/* Default status of a comment, 1: online 5:waiting for validation. */
+$_PX_config['comment_default_status'] = 1;
+
+/* Default size of the textarea when adding a page */
+$_PX_config['article_textarea_page'] = '15';
+
+/* Default size of the description textarea of an article */
+$_PX_config['article_textarea_description'] = '7';
+
+/* Default size of the content textarea of a news */
+$_PX_config['news_textarea_content'] = '12';
+
+/* Default size of the description of a category */
+$_PX_config['category_textarea'] = '7';
+
+/* Secret key for your Plume installation, do not give it to anybody! */
+$_PX_config['secret_key'] = 'put-here-random-string-!';
+
+/* Alertcom (comments notification) configuration - 0: disabled ; 1: only published comments notified ; 2: all comments notified */
+$_PX_config['comment_notification_status'] = 1;
+
+/* Email to send the notification to (could be multiple coma seperated) */
+$_PX_config['email_for_sending_notification'] = 'your@email.com';
+?>

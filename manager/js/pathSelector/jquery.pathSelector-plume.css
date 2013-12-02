@@ -1,0 +1,118 @@
+/* Generic context menu styles */
+.contextMenu {
+	position: absolute;
+	z-index: 99999;
+	border: solid 1px #CCC;
+	background: #EEE;
+	font-size:1em;
+	font-weight:normal;
+	color:black;
+	padding: 0px;
+	margin: 0px;
+	display: none;
+	width:auto;
+    max-width: 400px;
+    text-align:left;
+}
+
+.contextMenu LI {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.contextMenu a {
+	color: #333;
+	font-weight:normal;
+	text-decoration: none;
+	display: block;
+	line-height: 20px;
+	height: 20px;
+	background-position: 6px center;
+	background-repeat: no-repeat;
+	outline: none;
+	white-space: nowrap;
+	overflow:hidden;
+}
+
+.contextMenu LI.hover a {
+	color: #FFF;
+	border:0;
+	background: repeat #3399FF;
+}
+
+.contextMenu LI.disabled a {
+	color: #AAA;
+	cursor: default;
+}
+
+.contextMenu LI.hover.disabled A {
+	background-color: transparent;
+}
+
+.contextMenu LI.separator {
+	border-top: solid 1px #CCC;
+}
+
+.pathSelector{
+    padding:2px;
+    margin:0px;
+	font-size:1em;
+	color:#7DA6D2;
+    border-spacing:0px;
+    border-collapse:collapse;
+    border-left: 0px solid #E1E1E1;
+    height:1.8em;
+}
+
+.pathSelector .arrowButton, .pathSelector .level{
+    border-right: solid 0px #E1E1E1;
+    border-top: solid 0px #E1E1E1;
+    border-bottom: solid 0px #E1E1E1;
+    border-left: solid 0px #E1E1E1;
+    border-collapse: collapse;
+    line-height:1.3em;
+}
+
+.pathSelector a{
+    color:#7DA6D2;
+	font-weight:bold;
+    text-decoration:none;
+    width:100%;
+    line-height:1.3em;
+}
+
+.pathSelector .level{
+    border-collapse:collapse;
+}
+
+.pathSelector .level a:hover{
+
+}
+
+.pathSelector .arrowButton a{
+    padding:0px;
+    background-image:url("arrowrgt.gif");
+    background-position:center;
+    background-repeat:no-repeat;
+    border:none;
+    width:1.2em;
+    height:1.3em;
+    display:inline-block;
+    color:white;
+}
+
+.pathSelector .arrowButton .pressed{
+    background-image:url("arrowdwn.gif");
+    color: #cfe2f5;
+}
+
+.pathSelector .arrowButton a:hover{
+    color: #cfe2f5;
+}
+
+.pathSelector a:hover{
+    background-color: #daedd0;
+}
+
+

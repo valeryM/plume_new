@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin name="ecm" version="1.0" rootonly="true" active="true">
+  <author>Loïc Moriamé</author>
+  <label>Easy Category Manager</label>
+  <desc>Managed your categories.</desc>
+</plugin>

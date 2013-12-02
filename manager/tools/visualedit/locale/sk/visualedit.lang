@@ -1,0 +1,124 @@
+# -*- coding: utf-8 -*-
+# (C) 2007 SlovakSoft, info@slovaksoft.com, http://www.slovaksoft.com
+;visual
+Vizuálne
+
+;source
+Zdrojovo
+
+;You can use the following shortcuts to format your text.
+Na formátovanie textu môžete použiť nasledujúce odkazy.
+
+;Block Format
+Formát bloku
+
+;-- none --
+– žiadny –
+
+;- Block Format -
+– Formát bloku –
+
+;Paragraph
+Odsek
+
+;Header 1
+Nadpis 1
+
+;Header 2
+Nadpis 2
+
+;Header 3
+Nadpis 3
+
+;Header 4
+Nadpis 4
+
+;Header 5
+Nadpis 5
+
+;Header 6
+Nadpis 6
+
+;Strong emphasis
+Tučné
+
+;Emphasis
+Kurzíva
+
+;Inserted
+Podčiarknuté
+
+;Deleted
+Prečiarknuté
+
+;Inline quote
+Vložená citácia
+
+;Code
+Kód
+
+;Generic inline tag
+Všeobecný vkladaný tag
+
+;Line break
+Zalomenia riadka
+
+;Blockquote
+Bloková citácia
+
+;Preformated text
+Predformátovaný text
+
+;Generic block tag
+Všeobecný tag bloku
+
+;Unordered list
+Nečíslovaný zoznam
+
+;Ordered list
+Číslovaný zoznam
+
+;Link
+Prepojenie
+
+;URL?
+Adresa
+
+;Language?
+Jazyk
+
+;CSS style (leave blank if no style):
+Štýl CSS (bez štýlu nechajte prázdne):
+
+;External image
+Externý obrázok
+
+;Remove text formating
+Odstrániť formátovanie textu
+
+;Image chooser
+Výber obrázka
+
+;Add a link
+Pridať prepojenie
+
+;Close this window
+Zavrieť okno
+
+;Required field
+Povinné pole
+
+;Link URL:
+Adresa prepojenia:
+
+;Link title:
+Názov prepojenia:
+
+;Link language:
+Jazyk prepojenia:
+
+;cancel
+Zrušiť
+
+;insert link
+Vložiť prepojenie

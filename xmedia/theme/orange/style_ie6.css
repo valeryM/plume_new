@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+/*=================================================*/
+/* Orange Buddy template for Plume! CMS				*/
+/* By Léo Studer http://www.leo-studer.com			*/
+/* Feel free to use, modify & redistribute			*/
+/* Under Creative Commons Attribution 3.0 License.	*/
+/* CSS Hacks for IE v6 and under							*/
+/*=================================================*/
+
+#banner{
+  margin-top:0px;height:230px;
+  background:white url("img/header.jpg") bottom left no-repeat}
+
+#footer{
+  margin-bottom:0px;height:170px;
+  background:white url("img/footer.jpg") top left no-repeat;
+  padding: 118px 0px 0px 40px;height:40px}
+
+.menuright{
+  padding:10px 0px 0px 0px;position:relative;
+  left:10px;top:10px;margin:30px 0px 0px 0px}
+
+div.col-content{
+  padding:0px 10px;position:relative;
+  top:-20px;margin:0px 0px 0px 0px}
+
+.menuright_head{
+  top:-20px;margin:0px 0px 0px 0px}
+.menuright_foot{
+  position:relative;top:0px;margin:-30px 0px -20px 0px}
+  
+.art-description_head{
+  margin:0px 0px 0px -10px}
+.px-commente-head,.news-infos_head{
+  margin:0px 0px 0px 0px}
+.art-description_foot{
+  margin:0px 0px -6px -10px}
+.px-commente-foot,.news-infos_foot{
+  margin:0px 0px -6px 0px}
+
+#easy-access{
+  display:none}
+
+.art-description,.news-infos{
+  margin:6px -10px 0px 0px;
+  padding:0px 10px 0px 10px;}
+
+#content{
+  padding:0px 0px 0px 0px;
+  float:left;
+  margin:-100px 0px 0px 5px;
+  z-index:8}
+
+#col-content{
+  width:150px;}
+
+.resource{
+  width:509px;padding:0px 0px 0px 0px;}
+.resource_head{
+  margin:0px 0px -35px 0px}
+.resource_head,.resource_foot{
+  background-repeat:no-repeat}
+
+ol.tree{
+  padding:3px 10px 0px 10px;width:489px;height:17px}
+  
+.px-commente{
+  background:url("img/desc_body.jpg") top left repeat-y;text-align:left;
+  padding: 0px 0px 0px 0px;width:509px;margin:10px 0px 0px 0px}
+.px-commente textarea{margin-left:10px;}
+.px-commente input{margin-left:10px;}
+
+.px-commente-liste{
+  background-image:url("img/desc_body.jpg") top left repeat-y;
+  padding: 0px 0px 0px 0px;width:509px;
+  margin:10px 0px 0px 0px}
+
+#col-content-foot{
+  position:relative;top:0px;}
+  
+h2.commentz{
+  padding:10px 35px}

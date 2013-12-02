@@ -1,0 +1,864 @@
+/* PLUME CMS Style Sheets for 1.2 version */
+
+html
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	color: #000;
+	background: #fff url("img/bg-body.png") repeat-x;
+	font: .9em Optima, "Trebuchet MS", Lucida, Arial, Geneva, "Lucida Grande", Tahoma, Helvetica, sans-serif;
+}
+
+div
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+p, blockquote, li, h2, h3, dd, dt
+{
+	font-weight: normal;
+}
+
+h1
+{
+	margin: 0px;
+}
+
+h2, h3
+{
+	font-size: 1em;
+	font-weight: bold;
+	color: #036;
+}
+
+form, fieldset
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+a
+{
+	text-decoration: none;
+	color: #6887A4;
+}
+
+hr
+{
+	display: none;
+}
+
+pre
+{
+	border-width: 1px;
+	border-color: #ccc;
+	border-style: solid;
+	background-color: #eee;
+	padding: 5px;
+	margin: 10px;
+	overflow: auto;
+}
+
+abbr, acronym
+{ 
+	font-style: normal;
+	border-bottom: dotted 1px #ccc;
+	cursor: help;
+}
+
+blockquote, cite
+{
+	color: #666;
+	padding: 0 20px 0 20px;
+	font-style: italic;
+	border-left: 1px dotted #ccc;
+}
+
+code
+{
+	margin: 10px;
+	display: block;
+}
+
+q
+{
+	font-style: italic;
+	color: #666;
+}
+
+/* ====================================================================
+COLUMNS LAYOUT
+-------------------------------------------------------------------- */
+
+#page
+{
+	width: 96%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mainfloat
+{
+	float: left;
+	width: 75%;
+}
+
+#content
+{
+	float: right;
+	width: 73%;
+	margin-top: 14px;
+	font-family: "Optima", Arial, sans-serif;
+}
+
+* html #content
+{
+	margin-top: 34px; /* hack IE */
+}
+
+#menuleft
+{
+	margin-right: 74%;
+	text-align: right;
+}
+
+#menuright
+{
+	margin-left: 76%;
+}
+
+#menuleft, #menuright
+{
+	padding: 6px;
+	border: none;
+}
+
+/* VERTICAL PADDING ABOVE COLUMNS */
+
+/* CSS HACK:  position:relative needed by IE6 otherwise the header and col 2 don't show up on initial rendering - they're there but you have to minimise the window or switch to another app and back to see the full effect. But IE5(pc) doesn't like it. And nor does NN4.
+NB. the use of pos:rel has to go way beyond skin-deep - any nested element that needs a background colour appears to require to be be relatively positioned */
+/*/*/
+#page, #mainfloat, #content, #menuleft, #menuright, h2
+{ 
+	p\osition: relative; 
+}
+
+div#footer
+{
+	text-align: center;
+	border-top: 1px dotted #ccc;
+	margin: 10px auto 0 20%;
+	width: 54%;
+}
+
+#footer
+{
+	padding: 0.5em;
+	clear: both;
+	border: none
+}
+
+/* ====================================================================
+BANNER
+-------------------------------------------------------------------- */
+
+#banner
+{
+	margin: 12px 0 20px 0;
+	height: 50px;
+	vertical-align: middle;
+}
+
+#banner .description, #websitename
+{
+	margin: -2px 0 0 2px;
+	color: #98B3C7;
+	font: 120% Verdana, Arial, Helvetica, sans-serif;
+}
+
+#banner p.description
+{
+	font-size: 1em;
+}
+
+#banner h1, #banner h1 a
+{
+	color: #fff;
+	width: 70%;
+}
+
+#top
+{
+	margin: 12px 0 0 0;
+}
+
+#easy-access
+{
+	right: 0;
+	position: absolute;
+	text-align: right;
+}
+
+#easy-access, #easy-access a
+{
+	color: #98B3C7;
+}
+
+#easy-access a:hover
+{
+	color: #fff;
+}
+
+#easy-access form
+{
+	margin-top: -10px;
+}
+
+#easy-access #q 
+{
+	width: 100px;
+	height: 14px;
+	vertical-align: middle;
+}
+
+#easy-access #search-s 
+{
+	vertical-align: middle;
+}
+
+/* ====================================================================
+CONTENT
+-------------------------------------------------------------------- */
+
+body.category #content h2, .comment-preview
+{
+	padding-bottom: 0;
+	background-position: 0% 40%;
+	font-size: 1.6em;
+}
+
+body.category #content h2.restitle, body.news #content h2.restitle
+{
+	color: #f06;
+	font-size: 1.4em;
+	padding-bottom: 4px;
+}
+
+body.category #content h2 a
+{
+	color: #f06;
+}
+
+body.category #content h2 a:hover
+{
+	color: #999;
+	text-decoration: none;
+}
+
+#menuleft h2
+{
+	font-size: 120%;
+	background: transparent url("img/h2-left.png") 100% 100% no-repeat;
+}
+
+#menuright h2
+{
+	background: transparent url("img/h2-right.png") 0% 100% no-repeat;
+	font-size: 120%;
+}
+
+#menuleft h3
+{
+	font-size: 100%;
+	background: transparent url("img/h3-left.png") 100% 100% no-repeat;
+}
+
+#menuright ul a, #menuleft ul a
+{
+	text-decoration: none;
+}
+
+#menuright ul a:hover, #menuleft ul a:hover
+{
+	text-decoration: none;
+	color: #f06;
+}
+
+#menuleft ul, #menuright ul
+{
+	margin:0;
+}
+
+#content h2 a 
+{
+	color: #000;
+}
+
+#content a:hover
+{
+	text-decoration: underline;
+}
+
+#footer a
+{
+	text-decoration: none;
+	border: none;
+	color: #000;
+}
+
+ol.tree
+{
+	margin: 30px 0 0 0;
+	padding: 0;
+	color: #6887A4;
+}
+
+ol.tree li
+{
+	display: inline;
+	list-style-type: none;
+	padding-right: 0.7em;
+	padding-left: 0;
+}
+
+ol.tree li:before
+{
+	content: ' \00bb  ';
+}
+
+#content img
+{
+	border-width: 1px;
+	border-color: #ccc;
+	border-style: solid;
+	padding: 5px;
+	margin: 6px 10px 0 0;
+	float: left;
+	display: block;
+}
+
+p.modified
+{ 
+	color: #666;
+	font-size: .8em;
+	padding: 4px 0 0 13px;
+	margin: -1.5em 1em -0.5em 0;
+	background: url("img/p-modified.png") 0 6px no-repeat;
+}
+
+p.comment-count
+{ 
+	color: #666;
+	font-size: .8em;
+	padding: 4px 0 0 13px;
+	margin: 0 0 0 1em;
+	background: url("img/comments-count.png") 0% 80% no-repeat;
+}
+
+#edit-ressource
+{ 
+	color: #666;
+	font-size: .8em;
+	padding: 4px 0 0 13px;
+	margin: 0 0 0 1em;
+	background: url("img/edit-icon.png") 0% 80% no-repeat;
+}
+
+.modified a, a#edit-ressource
+{
+	color: #6887A4;
+}
+
+.modified a:hover, a#edit-ressource:hover
+{
+	color: #1771A0;
+	text-decoration: underline;
+}
+
+.resources-number, .comment-closed
+{
+	color: #999;
+	font-style: italic;
+}
+
+.resource
+{
+	float: left;
+}
+/*
+#art-description {}
+*/
+#footer img, div.col-content img
+{
+	border: none;
+	vertical-align: bottom;
+}
+
+#footer p
+{
+	color: #ccc;
+	font-size: .8em;
+}
+
+#banner h1 a
+{
+	margin: 0;
+	font: 120% Verdana, Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-weight: 100;
+}
+
+#art-title
+{
+	margin: 10px 0 -10px 0;
+	font-size: 2.2em;
+	color: #000;
+	font-variant: small-caps;
+	font-weight: 100;
+}
+
+#art-pages-list h3
+{
+	font-weight: bold;
+}
+
+div.col-content
+{
+	padding: 1em 10px;
+}
+
+div.col-content h2, div.col-content h3
+{
+	padding-bottom: 0;
+	margin-bottom: 0.2em;
+}
+
+div.col-content li
+{
+	list-style: none;
+}
+
+div.col-content ol li
+{
+	list-style-type: decimal;
+	margin-left: 1.2em;
+}
+
+div.col-content a
+{
+	text-decoration: underline;
+}
+
+div.col-content ul, div.col-content ol
+{
+	margin-top: 0;
+	margin-left: 7px;
+	padding-left: 0;
+	margin-right: 10px;
+	padding-right: 0;
+}
+
+ol li.current a
+{
+	text-decoration: none;
+	color: #000;
+}
+
+.feeds, .sitemap
+{
+	font-size: .9em;
+	padding-left: 18px;
+	color: #ccc;
+}
+
+.feeds
+{
+	background: transparent url("img/feeds.png") 4% 40% no-repeat;
+}
+
+.sitemap
+{
+	background: transparent url("img/sitemap.png") 0% 40% no-repeat;
+}
+
+.score
+{
+	font-size: 90%;
+	color: #090;
+	margin-top: -10px;
+	text-align: right;
+	border-top: 1px dotted #BEE5BE;
+	padding: 2px 4px;
+	background-color: #ECF7EC;
+}
+
+.err404
+{
+	padding: 20px 0 0 60px;
+	background: transparent url("img/err404.gif") 0% 80% no-repeat;
+	font-weight: 100;
+	font-size: 2.5em;
+}
+
+img.px-left 
+{ 
+	margin:3px 12px 10px 0;
+	float: left;
+	display:block;
+}
+
+img.px-center
+{ 
+	margin:8px auto 8px auto;
+	display: block;
+}
+
+img.px-right
+{ 
+	margin:3px 0 10px 12px;
+	float: right;
+	display:block;
+}
+
+#menuright .feeds, #menuright .sitemap
+{
+	text-decoration: none;
+	margin: 0;
+}
+
+#menuright a.feeds:hover
+{
+	color: #F7A802;
+}
+
+#menuright a.sitemap:hover
+{
+	color: #8CAD36;
+}
+
+.recent-news
+{
+	background-color: #EFF4FA;
+	border: 1px solid #DBE1E5;
+	padding: 2px 10px 10px 10px;
+	margin: 4px 0 10px 0;
+	color: #036;
+	font-size: 90%;
+	font-style: italic;
+	text-decoration: none;
+}
+
+.recent-news h3
+{
+	margin: 0;
+	padding-top:6px;
+	font-size: 120%;
+}
+
+.recent-news h2
+{
+	margin: 0;
+	font-size: 120%;
+}
+
+.recent-news .recent-news-date
+{
+	color: #91A8C0;
+	text-align: right;
+}
+
+.recent-news p
+{
+	margin-top: 0;
+}
+
+ul.extra
+{
+	margin: 0;
+	padding: 0;
+}
+
+ul.extra li
+{
+	display: inline;
+	list-style-type: none;
+	padding-right: 1em;
+	padding-left: 0;
+}
+
+.associated-link
+{
+	text-align: right;
+}
+
+input, textarea 
+{
+	border-width: 1px;
+	border-color: #ccc;
+}
+
+input[type], textarea[name]
+{
+	background: #fff;
+}
+
+input[type=submit], input[type=reset] 
+{
+	background: #bbb;
+	color: #000;
+}
+
+input[type=submit]:hover 
+{
+	background: #999;
+	color: #ccc;
+}
+
+/* ====================================================================
+COMMENTS
+-------------------------------------------------------------------- */
+
+div.px-comment
+{ 
+	background-color: #FFFFF1;
+	padding: 0 14px 0 16px;
+	border: 1px solid #FFF2CB;
+	margin-bottom: 6px;
+	color: #666;
+	font-style: italic;
+}
+
+div.px-comment a
+{ 
+	color: #666;
+}
+
+div.px-comment a:hover
+{ 
+	color: #000;
+}
+
+.px-comment-info
+{ 
+	font-weight: bold;
+	padding-left:20px;
+	background: url("img/comment-icon.png") 0% 70% no-repeat;
+}
+
+.px-comment .px-comment-info-website
+{
+	color: #ccc;
+}
+
+form.px-comment
+{
+	padding: 10px 16px 10px 16px;
+	margin-bottom: 20px;
+	background-color: #FFF3F8;
+	border: 1px solid #FFE3EE;
+	font: .8em Verdana, "Lucida Grande", Tahoma, Helvetica, San-Serif;
+}
+
+form.px-comment p
+{
+	margin: 0;
+}
+
+form.px-comment textarea
+{
+	width:100%;
+}
+
+form.px-comment textarea, form.px-comment input
+{
+	background-color: #fff;
+}
+
+.input-submit
+{
+	text-align: right;
+	padding-top: 8px;
+}
+
+form.px-comment label
+{
+	float: left;
+	display: block;
+	width: 100px; 
+	font-size: 110%;
+}
+
+.px-comment-add
+{
+	padding-bottom: 4px;
+	border-bottom: 1px solid #E6E6E6;
+	font-variant: small-caps;
+	font-size: 120%;
+}
+
+form.px-comment submit
+{
+	margin:0;
+	text-align: right;
+}
+
+.px-comment-error
+{
+	border: 1px dotted #FF8080;
+	padding-bottom: 10px;
+	width: 80%;
+}
+
+.px-comment-error ul
+{
+	padding-top: 6px;
+}
+
+.px-comment-error li
+{
+	color: red;
+	list-style-type: none;
+	background: url("img/errmsg.gif") 0% 50% no-repeat;
+	padding-left: 20px;
+}
+
+.px-comment-preview
+{
+	padding: 0 20px 10px 40px;
+	font-style: italic;
+	color: #999;
+	background: url("img/comment-preview.png") 0% 0% no-repeat;
+}
+
+.px-comment-validation
+{
+	padding-left: 16px;
+	font-style: italic; 
+	color: #999;
+	background: url("img/comment-validation.gif") 0% 50% no-repeat;
+}
+
+.px-comment-required-email
+{
+	font-size: 90%;
+	font-style: italic;
+	color: #666;
+}
+
+/* ====================================================================
+GALLERY
+-------------------------------------------------------------------- */
+
+div.gallery {}
+div.gallery-top {}
+
+div.gallery-bottom 
+{ 
+	clear: left;
+}
+
+div.gallery-thumb a 
+{	
+	float: left;
+	display: block;
+}
+
+#content img.gallery-thumb 
+{	
+	margin: 0 0 10px 0;
+}
+
+div.gallery-img 
+{ 
+	float: left;
+	width: 200px;
+	padding: 0 0 0 10px; 
+	margin: 0 10px 10px 0;
+}
+
+p.gallery-legend
+{ 
+	text-align: center;
+	line-height: 100%;
+	font-style: italic;
+	color: #A5A569;
+}
+
+/* ====================================================================
+SITEMAP
+-------------------------------------------------------------------- */
+
+#sitemap
+{
+	padding: 0 20px;
+	margin-bottom: 20px; 
+}
+
+#sitemap h1
+{
+	padding: 20px 0 0 0;
+	font-weight: 200;
+	color: #0E5A8A;
+}
+
+#sitemap h3
+{
+	font-size: 120%;
+	border-bottom: 1px solid #EDEDED;
+	background-color: #F9F9F9;
+	padding: 0px 4px;
+}
+
+#sitemap h3 a, #sitemap li.subcatlism a
+{
+	color: #f06;
+}
+
+#sitemap li
+{
+	font-size: .9em;
+	color: #6887A4;
+}
+
+#sitemap li.nodeco
+{
+	list-style-type: none;
+}
+
+#sitemap li.nodeco a
+{
+	color: #98C6E6;
+}
+
+#sitemap li.nodeco li
+{
+	list-style-type: circle;
+	color: #98C6E6;
+}
+
+#sitemap li.subcatlism
+{
+	list-style-type: circle;
+	color: #f06;
+}
+
+#sitemap li.subcatlism p
+{
+	padding: 10px 0 0 0;
+}
+
+#sitemap p
+{
+	color: #666;
+	font-size: 90%;
+	font-style: italic;
+	margin-top: -10px;
+}

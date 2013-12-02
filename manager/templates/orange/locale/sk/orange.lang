@@ -1,0 +1,224 @@
+# -*- coding: utf-8 -*-
+# Theme released under Creative Commons Attribution 3.0 License.
+# 200x your name <your @ email>
+
+;Error 404
+
+
+;<p>The page you are looking for is not available anymore. We tried to search for the pages that match your request.</p><p class="modified">Feel free to refine the search.</p>
+
+
+
+;Categorie(s)
+
+
+;Recent news
+
+
+;Links
+
+
+;The search engine was unable to find any result.
+
+
+;Result(s) of the search on
+
+
+;Read the whole story:
+
+
+;Read the comments for:
+
+
+; and 
+
+
+;The
+
+
+;Publish Date of:
+
+
+;%Y-%m-%d at %H:%M
+
+
+;by
+
+
+;, publisher of:
+
+
+;In %s
+
+
+;Score:
+
+
+;Read the whole story
+
+
+;No resources
+
+
+;1 resource
+
+
+;<strong>%s</strong> resources
+
+
+;in this category.
+
+
+;Back to
+
+
+;<h2 class="subcategories">Categorie(s)</h2> %s
+
+
+;Main Categorie(s)
+
+
+;Write a comment for:
+
+
+;Write a comment
+
+
+;<p><a href="%s">Previous Page</a></p>
+
+
+;<p><a href="%s">Next Page</a></p>
+
+
+;Sorry,
+
+
+;Check back later...
+
+
+;There is no resource for the moment in this category.
+
+
+;Welcome
+
+
+;%Y-%m-%d</a> at %H:%M
+
+
+;Comment(s) for this article
+
+
+;Feel free to express yourself.
+
+
+;Write your comment
+
+
+;A valid email is required but not shared or displayed
+
+
+;Author:
+
+
+;Email:
+
+
+;Website:
+
+
+;Comment:
+
+
+;Comments are closed for this article
+
+
+;Sorry for the inconvenience
+
+
+;Comments
+
+
+;Comment preview
+
+
+;This is how your comment will look like.
+
+
+;Modify your comment
+
+
+;Orange Buddy
+
+
+;Fixed-width design. Icons from <i>Tango</i> and <i>famfamfam</i>. Designed for Firefox, works with Opera v9, IE v5 and higher. Feel free to use under Creative Commons Attribution 2.5 License.</p>
+
+
+;Back to the home page
+
+
+;Go to content
+
+
+;Go to menu
+
+
+;Search this website
+
+
+;Back to the top of the page
+
+
+;Powered by PLUME CMS
+
+
+;CMS
+
+
+;Template by Léo Studer
+
+
+;Template
+
+
+;Template under Creative Commons license
+
+
+;Under
+
+
+;%Y&bull;%m&bull;%d
+
+
+;Feed
+
+
+;Sitemap
+
+
+;Get Firefox 2
+
+
+;Best seen with
+
+
+;Search
+
+
+;<div class="menuright"><div class="menuright_head"></div><div class="col-content"><h2 class="pagesarticles">Pages of the article</h2> %s </div><div class="menuright_foot"></div></div>
+
+
+;<div id="art-pages-list"><h3>Pages of the article</h3> %s</div>
+
+
+;Result(s)
+
+
+;We tried to search for the pages that match your request.
+
+
+;Feel free to refine the search.
+
+
+;All the content of the website in one eye blink
+
+

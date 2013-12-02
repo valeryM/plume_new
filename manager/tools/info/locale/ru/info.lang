@@ -1,0 +1,85 @@
+# -*- coding: utf-8 -*-
+# (C) 2009 your name <your @ email>
+;Information
+
+
+;General information
+
+
+;Name
+
+
+;Records
+
+
+;Size
+
+
+;File information
+
+
+;The system has write access on the file %s.
+
+
+;The system has write access on the folder %s.
+
+
+;The system has no write access on the file %s.
+
+
+;The system has no write access on the folder %s.
+
+
+;Server information
+
+
+;Your PHP version is <strong>%s</strong>.
+
+
+;Your MySQL version is <strong>%s</strong>.
+
+
+;Your webserver is <strong>%s</strong>.
+
+
+;Your GD graphic library version is <strong>%s</strong>.
+
+
+;Cache information
+
+
+;Website
+
+
+;Cache size
+
+
+;Reset the cache
+
+
+;Reset
+
+
+;Error&nbsp;: Website not available.
+
+
+;The cache of the website has been reset.
+
+
+;If you are making modifications to your templates, you should clean the cache before testing them.
+
+
+;You are using PLUME CMS version <strong>%s</strong>.
+
+
+;The PLUME CMS tables in your database are:
+
+
+;Plume CMS information
+
+
+;Information about Plume CMS and your system.
+
+
+;You do not have the rights to access this plugin.
+

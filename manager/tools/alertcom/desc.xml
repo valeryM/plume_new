@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin name="alertcom" version="0.0.1" active="1">
+  <author>Kato Fong</author>
+  <label>Alertcom (Alert/Comments)</label>
+  <desc>Send an alert mail each time a comment is left on the site.</desc>
+</plugin>

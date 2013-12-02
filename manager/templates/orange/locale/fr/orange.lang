@@ -1,0 +1,232 @@
+# -*- coding: utf-8 -*-
+# Template released under Creative Commons Attribution 3.0 License.
+# Traduction originale 01/2008 Jojaba <joja.ba@laposte.net>
+# Adaptation légère 02/2008 Léo <leo.studer@gmail.com>
+
+;Error 404
+Erreur 404
+
+;<p>The page you are looking for is not available anymore. We tried to search for the pages that match your request.</p><p class="modified">Feel free to refine the search.</p>
+<p>La page que vous recherchez n'est plus disponible. Nous avons tenté de rechercher les pages correspondant à votre requête.</p><p class="modified">N'hésitez pas à affiner la recherche.</p>
+
+;Categorie(s)
+Catégories
+
+;Recent news
+Brèves récentes
+
+;Links
+Liens
+
+;The search engine was unable to find any result.
+Le moteur de recherche n'était pas en mesure de trouver de résultat.
+
+;Result(s) of the search on
+Résultat(s) de la recherche pour
+
+;Read the whole story:
+Lire toute l'information
+
+;Read the comments for:
+Lire les commentaires pour:
+
+;The
+Le
+
+;Publish Date of:
+Date de publication de :
+
+;%Y-%m-%d at %H:%M
+%d-%m-%Y à %H:%M
+
+;by
+par
+
+;, publisher of:
+, auteur de :
+
+;In %s
+Dans %s
+
+; and 
+&nbsp;et&nbsp;
+
+;Score:
+Pertinence :
+
+;Read the whole story
+Lire toute l'information
+
+;No resources
+Aucune ressource
+
+;1 resource
+1 ressource
+
+;<strong>%s</strong> resources
+<strong>%s</strong> ressources
+
+;in this category.
+dans cette catégorie.
+
+;Preview
+Aperçu
+
+;Back to
+Revenir à
+
+;<h2 class="subcategories">Categorie(s)</h2> %s
+<h2 class="subcategories">Catégorie(s)</h2> %s
+
+;Main Categorie(s)
+Catégorie(s) principale(s)
+
+;Write a comment for:
+Écrire un commentaire pour :
+
+;Write a comment
+Écrire un commentaire
+
+;<p><a href="%s">Previous Page</a></p>
+<a href="%s">Page précédente</a></p>
+
+;<p><a href="%s">Next Page</a></p>
+<a href="%s">Page suivante</a></p>
+
+;Sorry,
+Désolé,
+
+;Check back later...
+Veuillez revenir plus tard...
+
+;There is no resource for the moment in this category.
+Aucune ressource dans cette catégorie pour le moment.
+
+;Welcome
+Bienvenue
+
+;%Y-%m-%d</a> at %H:%M
+%d-%m-%Y</a> à %H:%M
+
+;Comment(s) for this article
+Commentaire(s) pour cet article
+
+;Feel free to express yourself.
+N'hésitez pas à vous exprimer !
+
+;Write your comment
+Écrire votre commentaire
+
+;A valid email is required but not shared or displayed
+Un courriel valide est requis mais ni commmuniqué, ni affiché
+
+;Author:
+Auteur :
+
+;Email:
+Courriel :
+
+;Website:
+Site Web :
+
+;Comment:
+Commentaire :
+
+;Comments are closed for this article
+Pas de commentaires possibles pour cet article
+
+;Sorry for the inconvenience
+Désolé pour le désagrément
+
+;Comments
+Commentaires
+
+;Comment preview
+Aperçu du commentaire
+
+;This is how your comment will look like.
+Voici de quoi aura l'air votre commentaire.
+
+;Modify your comment
+Modifier votre commentaire
+
+;Orange Buddy
+Orange Buddy
+
+;Fixed-width design. Icons from <i>Tango</i> and <i>famfamfam</i>. Designed for Firefox, works with Opera v9, IE v5 and higher. Feel free to use under Creative Commons Attribution 2.5 License.</p>
+Design à largeur fixe. Icônes de <em>Tango</em> et <em>famfamfam</em>. Créé pour Firefox, fonctionne avec Opera v9, IE v5 et supérieur. N'hésitez pas à l'utiliser sous licence Creative Commons Attribution 2.5.</p> 
+
+;Back to the home page
+Retour à l'accueil
+
+;Go to content
+Aller au contenu
+
+;Go to menu
+Aller au menu
+
+;Search this website
+Rechercher sur ce site
+
+;Back to the top of the page
+Retour au début de la page
+
+;Powered by PLUME CMS
+Propulsé par PLUME CMS
+
+;CMS
+SGC
+
+;Template by Léo Studer
+Gabarit par Léo Studer
+
+;Template
+Gabarit
+
+;Template under Creative Commons license
+Gabarit sous licence Creative Commons
+
+;Under
+Licence
+
+;%Y&bull;%m&bull;%d
+%d&bull;%m&bull;%Y
+
+;Feed
+Flux RSS
+
+;Sitemap
+Plan du site
+
+;Get Firefox 2
+Obtenir Firefox
+
+;Best seen with
+Conçu pour
+
+;Search
+Rechercher
+
+;<div class="menuright"><div class="menuright_head"></div><div class="col-content"><h2 class="pagesarticles">Pages of the article</h2> %s </div><div class="menuright_foot"></div></div>
+<div class="menuright"><div class="menuright_head"></div><div class="col-content"><h2 class="pagesarticles">Chapitres de l'article</h2> %s </div><div class="menuright_foot"></div></div>
+
+;<div id="art-pages-list"><h3>Pages of the article</h3> %s</div>
+<div id="art-pages-list"><h3>Chapitres de l'article</h3> %s</div>
+
+;Result(s)
+Résultat(s)
+
+;We tried to search for the pages that match your request.
+Nous avons tenté de rechercher les pages correspondant à votre requête.
+
+;Feel free to refine the search.
+N'hésitez pas à redéfinir la recherche.
+
+;All the content of the website in one eye blink
+Tout le contenu du site Web en un coup d'oeil
+
+;Associated Link:
+Page associée :
+
+;Number of comments:
+Nombre de commentaires :

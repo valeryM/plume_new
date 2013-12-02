@@ -1,0 +1,193 @@
+# -*- coding: utf-8 -*-
+# (C) 2006 Robert Zelník
+;Links manager
+Správca prepojení
+
+;Web interface to configure your links.
+Webové rozhranie na nastavenie vašich prepojení
+
+;Drag items to change their positions.
+Presunutím položiek zmeňte ich polohu.
+
+;You must provide at least a label and an URL
+Je potrebné vložiť aspoň jednu menovku a URL
+
+;You must provide a valid URL
+Je potrebné vložiť platnú URL
+
+;All values
+Všetko
+
+;Back
+Späť
+
+;Edit link
+Upraviť prepojenie
+
+;Error(s)
+Chyby
+
+;No link
+Žiadne prepojenie
+
+;None
+Nič
+
+;Label
+Menovka
+
+;URL
+URL
+
+;Language
+Jazyk
+
+;optional
+Voliteľné
+
+;Description
+Popis
+
+;save
+Uložiť
+
+;save order
+Uložiť poradie
+
+;XFN
+XPN
+
+;Me
+Ja
+
+;Another link for myself
+Ďalšie prepojenie pre mňa
+
+;Friendship
+Priateľstvo
+
+;Contact
+Kontakt
+
+;Acquaintance
+Známosť
+
+;Friend
+Priateľ
+
+;Physical
+Fyzický
+
+;Met
+Známy
+
+;Professional
+Profesionál
+
+;Co-worker
+Spolupracovník
+
+;Colleague
+Kolega
+
+;Geographical
+Geografický
+
+;Co-resident
+Spolubývajúci
+
+;Neighbor
+Sused
+
+;Family
+Rodina
+
+;Child
+Dieťa
+
+;Parent
+Rodič
+
+;Sibling
+Súrodenec
+
+;Spouse
+Manžel(ka)
+
+;Kin
+Príbuzný
+
+;Romantic
+Romantický
+
+;Muse
+Múza
+
+;Crush
+Neopätovaná láska
+
+;Date
+Dátum
+
+;Sweetheart
+Miláčik
+
+;Edit rubric
+Upraviť rubriku
+
+;Title
+Názov
+
+;New rubric
+Nová rubrika
+
+;New link
+Nové prepojenie
+
+;Are you sure you want to delete this %s?
+Naozaj chcete odstrániť %s?
+
+;link
+Prepojenie
+
+;Are you sure you want to delete this category?
+Naozaj chcete odstrániť túto kategóriu?
+
+;delete
+Odstrániť
+
+;Move %s up
+Posunúť %s nahor
+
+;Move %s down
+Posunúť %s nadol
+
+;Usage
+Použitie
+
+;Database table installed
+Databázová tabuľka nainštalovaná
+
+;Errors during database table installation
+Počas inštalácie databázovej tabuľky sa vyskytli chyby
+
+;To replace your static links list by this one, just put the following code in your template:
+
+
+;Create table %s
+Vytvoriť tabuľku %s
+
+;Table %s exists
+Tabuľka %s existuje
+
+;Creation of link Plume
+Vytvorenie prepojenia Plume
+
+;Creation of link FSF
+Vytvorenie prepojenia FSF
+
+;Creation of link Your link 1
+Vytvorenie prepojenia Vaše prepojenie 1
+
+;Creation of link to Your link 2
+Vytvorenie prepojenia Vaše prepojenie 2

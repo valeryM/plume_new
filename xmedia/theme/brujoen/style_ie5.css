@@ -1,0 +1,56 @@
+@charset "utf-8";
+#page{width: 96.5%}
+#menu_mask{margin:0px 0px 0px 0px;background:url("img/menu_mask.gif") top left no-repeat}
+#banner_body{padding-top:20px;height:70px}
+#banner{position:relative;top:-180px;left:1px;background:url("img/titre.gif") top left no-repeat;
+height:190px;width:100%;margin-bottom:-200px}
+#banner_body{margin:10px 0px 0px 75px;background:url("img/titre_body.gif") repeat-x;height:90px}
+#banner_right{background:url("img/titre_right.gif") top left no-repeat}
+#main_frame{float: right;margin: 0px 0px 0px 302px}
+#col-content{width:254px;float:left;background:url("img/menu_body.gif") repeat-y;margin:9px 0px 0px 0px}
+.tjrs_visible{display:none}#menuleft_foot{background:url("img/menu_bottom.gif") top left no-repeat}
+#pages_head{background:url("img/desc_head.gif") top left no-repeat}
+#pages_foot{background:url("img/desc_foot.gif") top left no-repeat}
+#pages_head,#pages_foot,#desc_head,.contenair,#secontenair{margin: 0px 0px 0px 0px}
+#desc_head{background:url("img/desc_head.gif") top left no-repeat}
+#desc_foot{top:0px;margin:0px 0px 20px 0px;background:url("img/desc_foot.gif") top left no-repeat}
+#descontenair,#pagescontenair{width:400px;background:url("img/desc_body.gif") top left repeat-y}
+#navig_left{background:url("img/navig_left.gif") top left no-repeat}
+#navig_right{background:url("img/navig_right.gif") top left no-repeat}
+ol.tree,ol.erreur,ol.chercho{margin:0px 0px 0px 0px;height:44px;background:url("img/navig_body.gif") repeat-x}
+p.modificated,.modif_left{margin: 0px 0px 5px 0px}
+p.modificated{background:url("img/navig_body.gif") top repeat-x;height:44px}
+body.category #content h2, h2.restitle{background: url("img/menu_bd.gif") top right repeat-y;
+position:relative;top:4px;right:22px}
+.modif_left{background:url("img/navig_left.gif") top left no-repeat}
+.modif_right{background:url("img/navig_right.gif") top left no-repeat;margin: 0px 10px 5px 0px}
+.footer_titre{height:28px;padding: 0px 0px 0px 0px;margin:0px 22px 10px -18px;
+background: url("img/menu.gif") bottom right no-repeat}
+.credits{height:60px;padding: 20px 0px 0px 0px;
+background:url("img/credits.gif") top right no-repeat}
+a.chercher_desc {margin:5px 0px -10px 0px}
+p.score{float:right;margin:-40px 10px 13px 0px}
+.comment{background:url("img/comment_w_bd.gif") top repeat-y;width:360px;}
+.comment_head{background:url("img/comment_w_head.gif") top left no-repeat}
+.comment_foot{background:url("img/comment_w_foot.gif") top left no-repeat}
+#comment-titre{width:auto}
+#comment-titre-left{background:url("img/comment_titre_left.gif") bottom left no-repeat}
+#comment-titre-right{background:url("img/comment_titre_right.gif") bottom left no-repeat}
+#comment-titre-body{width:auto;background:url("img/comment_titre_bd.gif") top repeat-x}
+#comment-titre-body h3{width:360px;background:url("img/groomsman_32.gif") bottom left no-repeat}
+#comment-list-cont{margin:80px 0px 0px -410px}
+#px-comment-add {background:url("img/comments_add.gif") top left no-repeat}
+#px-comment-add h3{width:160px;background:url("img/comments.gif") bottom right no-repeat}
+.auteur_comment h3{background:url("img/user.gif") 0% 50% no-repeat}
+.mail_comment h3{background:url("img/email_link.gif") 0% 50% no-repeat}
+.web_comment h3{background:url("img/world_link.gif") 0% 50% no-repeat}
+.text_comment h3{background:url("img/comment_add.gif") 0% 50% no-repeat}
+.px-comment-info{background:url("img/comment_aut_bd.gif") top repeat-y}
+.px-comment-info_txt{background:url("img/comment_bd.gif") top repeat-y}
+.px-comment-info_hd{background:url("img/comment_head.gif") top left no-repeat}
+.px-comment-info_mid{background:url("img/comment_mid.gif") top left no-repeat}
+.px-comment-info_foot{background:url("img/comment_foot.gif") top left no-repeat}
+blockquote {background:url("img/quote.gif") top left no-repeat}
+h2.category {background: url("img/bronze-shield_32.gif") top left no-repeat}
+div.resource h2 a {background: url("img/emerald-shield_32.gif") bottom left no-repeat}
+h2.category,div.resource h2 a{padding:4px 0px 4px 40px;margin:0px 0px 0px 0px}
