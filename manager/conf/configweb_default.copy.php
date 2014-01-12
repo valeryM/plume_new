@@ -14,7 +14,7 @@
 
 $_PX_website_config['website_id'] = 'default';
 
-// $_PX_website_config['document_root'] = ;
+$_PX_website_config['document_root'] = dirname(__FILE__).'/../..';
 $_PX_website_config['xmedia_root'] = dirname(__FILE__).'/../../xmedia';
 
 /* for example '127.0.0.1' if you have 'http://127.0.0.1/plume' */

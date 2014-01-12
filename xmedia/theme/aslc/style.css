@@ -62,6 +62,9 @@ hr
 	display: none;
 }
 
+hr.visible {
+	display:block;
+}
 pre
 {
 	border-width: 1px;
@@ -135,7 +138,7 @@ COLUMNS LAYOUT
 #content
 {
 	float: right;
-	width: 95%;
+	width: 98%;
 	margin-top: 14px;
 	font-family: "Optima", Arial, sans-serif;
 }
@@ -164,6 +167,26 @@ COLUMNS LAYOUT
 	/*height:100%;*/
 	/*border: none;*/
 }
+
+
+
+.art-title, .art-page-title
+{
+	color: #1F427F;
+    font-family: "Century Gothic";
+    font-size: 1.67em;
+    font-style: normal;
+    font-weight: bold;
+}
+.art-page-title
+{
+    font-size: 1.5em;
+}
+.art-pages-list h3
+{
+	font-weight: bold;
+}
+
 
 /* VERTICAL PADDING ABOVE COLUMNS */
 
@@ -228,6 +251,7 @@ BANNER
 	margin: 5px 0 0 5px;
 	z-index:910;
 	line-height:60px;
+	font-size:50px;
 }
 #banner .description
 {
@@ -871,13 +895,10 @@ GALLERY
 div.gallery {
     display: block;
     height: 250px;
-    width: 90%;
+    width: 95%;
     border:solid 1px #d3d3d3;
 	box-shadow:0 0 15px #999;
 	border-radius:5px;
-	position:relative;
-	overflow:hidden;
-	align:center;
 }
 
 div.gallery-top {}
@@ -998,18 +1019,18 @@ ul.topnav {
 	width: 100%;	
 	/*background: #222;*/
 	z-index:900;
-	font-size: 1.1em;
+	font-size: 1em;
 	background: url(img/bg_menu_50.png) repeat-x;
 }
 ul.topnav li {
 	float: left;
 	margin: 0;	
-	padding: 0 10px 0 5px;
+	padding: 0 5px 0 5px;
 	position: relative; /*--Declare X and Y axis base for sub navigation--*/
 	
 }
 ul.topnav li a{
-	padding: 5px;
+	padding: 5px 3px;
 	color: #fff;
 	display: block;
 	text-decoration: none;
@@ -1019,13 +1040,14 @@ ul.topnav li a:hover{
 	background: #002F99 ;
 }
 ul.topnav li span { /*--Drop down trigger styles--*/
-
 	width: 17px;
 	height: 35px;
 	float: left;
 	background: url(img/arrow-d15.gif) no-repeat center bottom;
 }
-ul.topnav li span.subhover {background-position: center bottom; cursor: pointer;} /*--Hover effect for trigger--*/
+ul.topnav li span.subhover { /*--Hover effect for trigger--*/
+	background-position: center bottom; cursor: pointer;
+} 
 
 ul.topnav li ul.subnav {
 	list-style: none;
@@ -1064,4 +1086,66 @@ ul.topnav li ul.subnav li a {
 }
 ul.topnav li ul.subnav li:hover { /*--Hover effect for subnav links--*/
 	background: #002F99 ;	 
+}
+
+
+/* calendrier Evenements */
+
+#Calendrier a:hover {
+	text-decoration:none;
+}
+a.button {
+    background: transparent url('img/bg_button_a.gif') no-repeat scroll top right;
+    color: #444;
+    display: block;
+    float: left;
+    font: normal 12px arial, sans-serif;
+    height: 24px;
+    width : 75px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.button span {
+    background: transparent url('img/bg_button_span.gif') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+} 
+a.button:active {
+    background-position: bottom right;
+    color: #000;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.button:active span {
+    background-position: bottom left;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+}
+
+
+a.buttonSel  {
+    background: transparent url('img/bg_button_a.gif') no-repeat scroll top right;
+    display: block;
+    float: left;
+    font: normal 12px arial, sans-serif;
+    height: 24px;
+    width : 75px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+	background-position: bottom right;
+    outline: none; /* hide dotted outline in Firefox */
+	color: #2B92CC;
+	text-decoration: none;
+ 	font-weight: bold;
+}
+
+a.buttonSel span {
+    background: transparent url('img/bg_button_span.gif') no-repeat;
+    display: block;
+    line-height: 14px;
+	background-position: bottom left;
+    padding: 6px 0 4px 18px; /* push text down 1px */
 }

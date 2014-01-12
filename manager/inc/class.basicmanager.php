@@ -237,9 +237,9 @@ class BasicManager extends CError
         			$sql .= ' AND category_path LIKE \''.$flt->f('category_path') . '%\' ';
         		} else {
         			if ($level == PX_USER_LEVEL_ADMIN)
-        				$sql .= ' AND category_parentid = '.$parentid .' AND category_id != '.$parentid.' ';
+        				$sql .= ' AND category_parentid = '.$parentid .' AND plume_categories.category_id != '.$parentid.' ';
         			else 
-        				$sql .= ' AND category_parentid >= '.$parentid .' AND category_id != '.$parentid.' ';
+        				$sql .= ' AND category_parentid >= '.$parentid .' AND plume_categories.category_id != '.$parentid.' ';
         		}
         	}
             

@@ -109,6 +109,7 @@ if ($px_m == 'alldate') {
 //$fltFilRouge = (!empty($_GET['fltFilRouge'])) ? $_GET['fltFilRouge'] : 0;
 //$m->user->savePref('fltFilRouge', $fltFilRouge, $_SESSION['website_id'], true);
 $pageNum = 0;
+$cptRes=1;
 if (empty($px_q)) {
 	if (isset($_GET['page'])) {
 		$pageNum = $_GET['page'];

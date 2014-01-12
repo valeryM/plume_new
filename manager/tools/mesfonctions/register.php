@@ -694,7 +694,6 @@ function pxRenderEventsContent($catSelected, $catList, $Annee, $Mois, $return=fa
 			*/	
 		// n'affiche que le bloc concerné par la valeur sélectionnée
 		$rep .= '			var idFilterChecked = $("#"+$("#flt_used").val());'."\n";
-		$rep .= '			//var idFilterChecked = $(".flt_agenda:checked");'."\n";
 		$rep .= '			idFilterChecked.trigger("click");'."\n";
 		$rep .= '			idFilterChecked.attr("checked","checked");'."\n";
 		$rep .= '			/* sélection du bloc */'."\n";

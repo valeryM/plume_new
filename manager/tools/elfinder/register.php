@@ -50,7 +50,6 @@ class ElFinderTool
 				    	var opts = {
 				    		lang: "'.$lang.'",      // language (OPTIONAL)
 							url : "'.$path.'/manager/tools/elfinder/php/connector.php",  //  connector URL (REQUIRED)
-							/*tmbUrl:*/
 							commands : [
 								"reload", "home", "up", "back", "forward", "quicklook", 
 								"download", "rm", "duplicate", "rename", "mkdir", "mkfile", "upload", "copy", 

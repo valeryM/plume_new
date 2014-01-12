@@ -21,8 +21,6 @@
 
 include './config.php';
 include './prepend.php';
-// to Synchronize folders
-exec("cp -Ru /homez.34/pontpean/www/xmedia/admin /homez.34/pontpean/test_v3/plume/xmedia");
 
 Dispatcher::Launch($_SERVER['QUERY_STRING']);
 

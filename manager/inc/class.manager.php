@@ -20,7 +20,7 @@
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 #
 # ***** END LICENSE BLOCK ***** */
-
+/*
 require_once dirname(__FILE__).'/class.l10n.php';
 require_once dirname(__FILE__).'/class.resource.php';
 require_once dirname(__FILE__).'/class.basicmanager.php';
@@ -30,8 +30,8 @@ require_once dirname(__FILE__).'/class.news.php';
 require_once dirname(__FILE__).'/class.rsslinks.php';
 require_once dirname(__FILE__).'/class.events.php';
 require_once dirname(__FILE__).'/class.mail.php';
-//require_once dirname(dirname(__FILE__)).'/tools/htmlValidator/Services/W3C/HTMLValidator.php';
-
+require_once dirname(dirname(__FILE__)).'/tools/htmlValidator/Services/W3C/HTMLValidator.php';
+*/
 include_once dirname(__FILE__).'/class.basicmanager.php';
 
 class Manager extends BasicManager
@@ -200,7 +200,9 @@ class Manager extends BasicManager
         //getAllDates returns the values in time DESC order
         foreach ($this->getAllDates('m', $type, $cat_id) as $k => $v) {
             if (empty($last)) $last = $k;
-            $arry_months[__(strftime('%B',date::unix($k))).' '.strftime('%Y',date::unix($k))] = $k;
+            //$arry_months[__(strftime('%B',date::unix($k))).' '.strftime('%Y',date::unix($k))] = $k;
+            $dateTimestamp = strtotime($v);
+            $arry_months[__(date('F',$dateTimestamp)).' '.date('Y',$dateTimestamp)] = $k;
         }
         return array($k, $last, $arry_months);
     }
@@ -1018,8 +1020,8 @@ class Manager extends BasicManager
         $insReq .= 'website_path   = \''.$this->con->escapeStr('').'\', ';
         $insReq .= 'website_xmedia_reurl   = \''.$this->con->escapeStr($xmedia_reurl).'\', ';
         $insReq .= 'website_xmedia_path   = \''.$this->con->escapeStr($xmedia_path).'\', ';
-        $insReq .= 'website_description  = \''.$this->con->escapeStr($description).'\' ';
-        //$insReq .= 'website_img = \''.$this->con->escapeStr($image_new_site).'\' ';
+        $insReq .= 'website_description  = \''.$this->con->escapeStr($description).'\', ';
+        $insReq .= 'website_img = \''.$this->con->escapeStr($image_new_site).'\' ';
         if ($update) {
             $insReq .= 'WHERE website_id =\''.$this->con->escapeStr($id).'\'';
         }

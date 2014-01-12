@@ -1825,6 +1825,16 @@ SITEMAP
 .links.industrie {
 	background:url(img/icons/industrial.png) no-repeat  scroll 0 transparent;
 }
+.links.beausoleil {
+	background:url(img/icons/eB_infos.png) no-repeat  scroll 0 transparent;
+}
+.links.marchesPublics {
+	background:url(img/icons/marchespublics_infos.png) no-repeat  scroll 0 transparent;
+}
+.links.polar {
+	background:url(img/icons/target_infos.png) no-repeat  scroll 0 transparent;
+}
+
 /* zone fluxRss Rennes métropole */
 #FluxRss {
 	align:right;
