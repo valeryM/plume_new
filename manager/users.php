@@ -210,7 +210,7 @@ if (!empty($_POST['save'])) {
 		        $m->delUserCats($px_id);
 		        // sauvegarde des catégories autorisées
 		        foreach($u_cats as $u_cat) {
-		        	$m->saveUserCats($px_id, $u_cat);
+		        	$m->saveUserCats($id, $u_cat);
 		        }
 				if ($id == $m->user->f('user_id')) {
 					header('Location: login.php?logout=1');

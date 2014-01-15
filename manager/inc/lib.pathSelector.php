@@ -120,11 +120,9 @@ class PathSelector {
 		
 		
 		if ($location == '' && $cat_id != '') {
-
 			$location = PathSelector::getPath($cat_id, $cat_id);
 			
 		} elseif ( $catparent_id != '') {
-
 			$location = PathSelector::getPath('', $catparent_id);
 
 		} else if ($location =='' && $cat_id == '') {
@@ -151,11 +149,8 @@ class PathSelector {
 		
 		if ($location == '' && empty($_SESSION['location']))  {
 			// charger la catégorie "root"
-			$location = $m->getCategory('/')->f('category_id');
-			//if (!$rsCat->EOF()) {
-			//	$location = $rsCat->f('category_id');
-			//} else $location = '1';
-			//$cat_id = $location;
+			//$location = $m->getCategory('/')->f('category_id');
+
 		}
 		
 		// Sauvegarde de la localisation pour les pages index et articles
