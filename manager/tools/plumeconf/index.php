@@ -135,7 +135,7 @@ if (!empty($_POST['save'])) {
   </p>
   
   <p class="field"><label class="float" for="c_format" style="display:inline"><strong><?php  echo __('Default content format:'); ?></strong></label>
-  <?php echo form::combobox('c_format', array('HTML'=>'html','Wiki'=>'wiki'), $px_format); ?>
+  <?php echo form::combobox('c_format', array('Html'=>'html','Wiki'=>'wiki'), $px_format); ?>
   </p>
 
   <p class="field"><label class="float" for="c_max_size" style="display:inline"><strong><?php  echo __('Maximum size of the files and images in KB:'); ?></strong></label>

@@ -48,7 +48,7 @@ $thisCatName = pxSingleCatTitle('%s', true);
 								<?php pxGetLastResources(5,'news,events',$thisCatPath.'%',true); ?>
 								<?php while (!$last->EOF() ): ?>
 									<h3><a href="<?php pxLastResPath(); ?>"><?php pxLastResTitle(); ?></a></h3>
-									<?php pxLastResDescription('%s',300); ?>
+									<?php pxLastResDescription('%s',250); ?>
 									<?php pxLastResAssociatedLink(); ?>
 									<div class="recent-news-date"><small><?php pxLastResDateModification(__('%Y&bull;%m&bull;%d')); ?></small></div>
 									<?php
@@ -70,7 +70,7 @@ $thisCatName = pxSingleCatTitle('%s', true);
 										?>
 										<a href="<?php pxLastResPath(); ?>"><?php pxLastResTitle(); ?></a>
 									</h3>
-									<?php pxLastResDescription('%s',300); ?>
+									<?php pxLastResDescription('%s',250); ?>
 									<?php pxLastResAssociatedLink(); ?>
 									<div class="recent-news-date"><small><?php pxLastResDateModification(__('%Y&bull;%m&bull;%d')); ?></small></div>
 									<?php

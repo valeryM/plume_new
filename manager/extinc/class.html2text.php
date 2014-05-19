@@ -143,8 +143,8 @@ class html2text
         "\n\n",                                 // <ul> and </ul>
         "\t*",                                  // <li>
         "\n",                                  // </li>
-        '$this->_build_link_list($link_count++, "\\1", "\\2")',
-                                                // <a href="">
+        //'$this->_build_link_list($link_count++, "\\1", "\\2")',  // <a href="">
+        "\n",										// <a href="">
         "\n-------------------------\n",        // <hr>
         "\n\n",                                 // <table> and </table>
         "\n",                                   // <tr> and </tr>

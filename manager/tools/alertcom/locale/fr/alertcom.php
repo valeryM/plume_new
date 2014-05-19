@@ -32,5 +32,11 @@ $GLOBALS['_PX_locale']['published'] = 'publié';
 $GLOBALS['_PX_locale']['Comment status:'] = 'Type de commentaire :';
 $GLOBALS['_PX_locale']['Alertcom (Alert/Comments)'] = 'Alertcom (notification de commentaires)';
 $GLOBALS['_PX_locale']['Send an alert mail each time a comment is left on the site.'] = 'Envoie une notification par courriel chaque fois qu\'un commentaire est publié sur le site.';
-
+$GLOBALS['_PX_locale']['A category has been added to your Plume CMS site.'] = 'Une catégorie a été ajoutée à votre site Plume.';
+$GLOBALS['_PX_locale']['A article has been added to your Plume CMS site.'];
+$GLOBALS['_PX_locale']['This article has been added'];
+$GLOBALS['_PX_locale']['An event has been added to your Plume CMS site.'];
+$GLOBALS['_PX_locale']['This event has been added'];
+$GLOBALS['_PX_locale']['A news has been added to your Plume CMS site.'];
+$GLOBALS['_PX_locale']['This news has been added'];
 ?>

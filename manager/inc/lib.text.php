@@ -79,12 +79,12 @@ class text
     public static function parseContent($text='', $output='Html')
     {
         if (0 == strlen($text)) return '';
-        $output = 'To'.$output;
+        $output = 'To'.ucfirst(strtolower($output));
 
-        $format = 'wiki';
+        $format = 'Wiki';
         if (preg_match('/^=([A-Za-z]{4})\s*/', $text, $match)) {
             $text = substr($text, 5);
-            $format  = trim($match[1]);
+            $format  = ucfirst(strtolower(trim($match[1])));
         }
         /*
         $log = date::stamp().' - lib.text::parseContent()'.chr(10);

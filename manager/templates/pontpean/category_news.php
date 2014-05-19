@@ -77,10 +77,10 @@ pxTemplateInit('order_res_manual|res_per_page:10|remove_numbers');
 											//récupère l'article
 											//echo var_dump($GLOBALS['_PX_render']['res']->cur);
 											// affiche le résumé de la page 1
-											echo text::parseContent($GLOBALS['_PX_render']['res']->cur->f('page_content'), 'html');
+											echo text::parseContent($GLOBALS['_PX_render']['res']->cur->f('page_content'), 'Html');
 										} else {
 							    			//pxResDescription('%s',300);
-							    			echo text::parseContent($GLOBALS['_PX_render']['res']->f('description'), 'html');
+							    			echo text::parseContent($GLOBALS['_PX_render']['res']->f('description'), 'Html');
 							    		}
 							    	?>					    
 							    </p>					    		

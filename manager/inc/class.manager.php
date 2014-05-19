@@ -288,8 +288,12 @@ class Manager extends BasicManager
         if (auth::asLevel(PX_USER_LEVEL_ADVANCED,$res->f('website_id'))
 		|| (auth::asLevel(PX_USER_LEVEL_INTERMEDIATE,$res->f('website_id'))
 			&& $res->f('user_id') == $this->user->getId())
-				||($res->f('user_id') == $this->user->getId()
-					 && $res->f('status') !=PX_RESOURCE_STATUS_VALIDE)
+		||($res->f('user_id') == $this->user->getId()
+			&& $res->f('status') !=PX_RESOURCE_STATUS_VALIDE)
+        ||(isset($res->cats) && $this->user->hasCategoryRigth($res->cats->f('category_id')) 
+        	&& $res->f('status') !=PX_RESOURCE_STATUS_VALIDE)
+        ||($this->user->hasCategoryRigth($res->extf('cats','category_id'))
+        	&& $res->f('status') !=PX_RESOURCE_STATUS_VALIDE)
             ) {
             return true;
         } else {
@@ -382,8 +386,8 @@ class Manager extends BasicManager
         } else {
         	// Send a mail to notify what's adding
         	//if (PX_CONFIG_MAIL_ON_CREATE == true)
-        		//@TODO : Envoil mail à la création 
         		//$this->sendEmail('Ajout d\'une resource dans une catégorie', 'catégorie='.$catid, $cat->f('website_id'),PX_CONFIG_MAIL_LEVEL);
+        	Hook::run('onCategoryAfterSave', array('cat' => &$cat, 'm' => &$this));
         }
         $this->triggerMassUpdate();
         return true;
@@ -1343,9 +1347,9 @@ class Manager extends BasicManager
             return false;
         } else {
         	// Send a mail to notify what's adding
-        	//@TODO : Envoil mail à la création 
         	//if (PX_CONFIG_MAIL_ON_CREATE == true) 
         	//	$this->sendEmail('Ajout/Modification d\'une catégorie', 'Catégorie : '.$cat->f('category_id') , $cat->f('website_id'),PX_CONFIG_MAIL_LEVEL);
+        	Hook::run('onCategoryAfterSave', array('cat' => &$cat, 'm' => &$this));
         }
         if($cat->f('has_xmedia_folder')==1){
         	if (!$this->checkMediaFolder(config::f('xmedia_root').$cat->f('category_path')) )
@@ -1476,7 +1480,7 @@ class Manager extends BasicManager
         }
         $this->indexResource($news);
         $this->triggerMassUpdate();
-        Hook::run('onNewsSave', array('news' => &$news, 'm' => &$m));
+        Hook::run('onNewsAfterSave', array('news' => &$news, 'm' => &$this));
         return $news->f('resource_id');
     }
 
@@ -1595,7 +1599,7 @@ class Manager extends BasicManager
         }
         $this->indexResource($events);
         $this->triggerMassUpdate();
-        Hook::run('onEventsSave', array('events' => &$events, 'm' => &$m));
+        Hook::run('onEventAfterSave', array('event' => &$events, 'm' => &$this));
         return $events->f('resource_id');
     }
 
@@ -1655,7 +1659,7 @@ class Manager extends BasicManager
         }
         $this->indexResource($ar);
         $this->triggerMassUpdate();
-        Hook::run('onArticleSave', array('art' => &$ar, 'm' => &$m));
+        Hook::run('onArticleAfterSave', array('art' => &$ar, 'm' => &$this));
         return $ar->f('resource_id');
     }
 
@@ -1994,6 +1998,21 @@ class Manager extends BasicManager
         return $help;
     }
 
+    /**
+     * get the list of email 
+     * @return array list of email
+     */
+    public function getEmailSendTo($website, $level) {
+    	$to_emails = array();
+    	$users = $this->getUsers();
+    	while(!$users->EOF()) {
+    		if ($users->getWebsiteLevel($website) >= $level) {
+    			$to_emails[] = $users->f('user_email');
+    		}
+    		$users->moveNext();
+    	}
+    	return $to_emails;
+    }
 
     /**
      * Send an email to the users of the website.

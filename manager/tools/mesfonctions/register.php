@@ -641,7 +641,8 @@ function pxRenderEventsContent($catSelected, $catList, $Annee, $Mois, $return=fa
 
 	// Si il y a quelque chose à afficher
 	if (false != $last)  {
-		$rep .= '<div id="contenus" style="height:650px;display:block;overflow-y:auto;overflow-x:hidden;">';
+		//$rep .= '<div id="contenus" style="height:650px;display:block;overflow-y:auto;overflow-x:hidden;">';
+		$rep .= '<div id="contenus" style="display:block;">';
 		$cpt=0;
 		$newestEvent = false;
 		//echo $Annee.'/'.$Mois;
@@ -693,11 +694,13 @@ function pxRenderEventsContent($catSelected, $catList, $Annee, $Mois, $return=fa
 		$rep .= '			$("#contenus").animate({scrollTop: posTop },"slow"); '."\n";
 			*/	
 		// n'affiche que le bloc concerné par la valeur sélectionnée
-		$rep .= '			var idFilterChecked = $("#"+$("#flt_used").val());'."\n";
+		$rep .= '			var flt_value = $("#flt_used").val();'."\n";
+		$rep .= '			var idFilterChecked = $("#flt_"+flt_value);'."\n";
 		$rep .= '			idFilterChecked.trigger("click");'."\n";
 		$rep .= '			idFilterChecked.attr("checked","checked");'."\n";
 		$rep .= '			/* sélection du bloc */'."\n";
-		$rep .= '			var $target= $("#contenus");console.log($target);'."\n";
+		$rep .= '			var $target= $("#contenus");'."\n";
+		$rep .= '			console.log($target);'."\n";
 		$rep .= '			$target.scrollTo(".newestEvent");'."\n";
 		
 		$rep .= '		}'."\n";

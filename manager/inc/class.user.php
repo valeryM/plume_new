@@ -368,12 +368,26 @@ class User extends RecordSet
 		$user = $this->f('user_id');
 		$this->con =& pxDBConnect();
 		$req = SQL::getCategoryForUser($user);
-		if ( ($cats=$this->con->select($req) ) !== false ) {
+		if ( ($this->cats=$this->con->select($req) ) !== false ) {
 			return true;
 		} else {
 			return false;
 		}
 	}
+	
+	function hasCategoryRigth($categoryId) {
+		$this->loadCategories();
+		if ($this->cats == null) return false;
+		$this->cats->moveStart();
+		while (!$this->cats->EOF()) {
+			if ($this->cats->f('category_id') == $categoryId)
+				return true;
+			
+			$this->cats->moveNext();
+		}
+		return false;
+	}
+	
 	
 	function loadArrayCategoriesFromId($id)  
 	{

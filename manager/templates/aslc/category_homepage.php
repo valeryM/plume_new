@@ -39,7 +39,7 @@ pxTemplateInit('remove_numbers');
 								<?php pxGetLastResources(3,'news','/Actualites%/',true); ?>
 								<?php while (!$last->EOF() ): ?>
 									<h3><a href="<?php pxLastResPath(); ?>"><?php pxLastResTitle(); ?></a></h3>
-									<?php pxLastResDescription(); ?>
+									<?php pxLastResDescription('%s',250); ?>
 									<?php pxLastResAssociatedLink(); ?>
 									<div class="recent-news-date"><small><?php pxLastResDateModification(__('%Y&bull;%m&bull;%d')); ?></small></div>
 									<?php
@@ -54,7 +54,7 @@ pxTemplateInit('remove_numbers');
 								<?php pxGetLastResources(5,'news','/Section%/',true); ?>
 								<?php while (!$last->EOF() ): ?>
 									<h3>[<?php pxLastResCategories(); ?>] - <a href="<?php pxLastResPath(); ?>"><?php pxLastResTitle(); ?></a></h3>
-									<?php pxLastResDescription(); ?>
+									<?php pxLastResDescription('%s',250); ?>
 									<?php pxLastResAssociatedLink(); ?>
 									<div class="recent-news-date"><small><?php pxLastResDateModification(__('%Y&bull;%m&bull;%d')); ?></small></div>
 									<?php

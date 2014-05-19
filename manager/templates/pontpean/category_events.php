@@ -177,7 +177,6 @@ pxTemplateInit('order_res_manual|res_per_page:10|remove_numbers');
 					</div>
 					<?php 
 					
-					//$menu->afficheEventsContent($catList, $Annee, $Mois);
 					pxRenderEventsContent($catSelected, $catList, $Annee, $Mois);
 					?>
 				
