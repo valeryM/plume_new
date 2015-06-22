@@ -26,6 +26,10 @@ if (basename($_SERVER['SCRIPT_NAME']) == 'news-edit.php') exit;
 /* =================================================== *
  * Preview of the content if some content is available *
  * =================================================== */
+$display = 'none';
+if (!$is_editable)
+	$display = 'block';
+	
 if (strlen($news->getUnformattedContent('description'))) {
 	/*
     echo '<div class="preview">';
@@ -35,7 +39,7 @@ if (strlen($news->getUnformattedContent('description'))) {
 
     echo "<hr class='invisible' id=\"xxx-prevent\" /></div>\n\n";
     */
-    echo '<div id="preview" class="preview" style="display:none">';
+    echo '<div id="preview" class="preview" style="display:'.$display.'">';
 	echo '<h2>'.$news->getTextContent('title').'</h2>';
 	echo $news->getFormattedContent('description', 'html');
 	echo '<br>';

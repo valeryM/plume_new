@@ -545,6 +545,7 @@ class Article extends Resource
         $update = (0 < (int) $this->f('resource_id')) ? true : false;
 		 
         if ($update) {
+        	$this->isNew = false;
             $req = 'UPDATE '.$this->con->pfx.'resources SET
                subject     = \''.$this->con->esc($this->f('subject')).'\',
                subtype_id  = \''.$this->con->esc($this->f('subtype_id')).'\',
@@ -560,6 +561,7 @@ class Article extends Resource
                resource_id = \''.$this->con->esc($this->f('resource_id')).'\'';
             //               filRouge	   = \''.$this->con->esc($this->f('filRouge')).'\' 
         } else {
+        	$this->isNew = true;
             $req = 'INSERT INTO '.$this->con->pfx.'resources SET
                 website_id  = \''.$this->con->esc($this->f('website_id')).'\',
                 type_id     = \''.PX_RESOURCE_MANAGER_ARTICLE.'\',

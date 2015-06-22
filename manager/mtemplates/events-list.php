@@ -95,6 +95,7 @@ if ($res->isEmpty()) {
 	        case PX_RESOURCE_STATUS_OFFLINE:
 	            $res_class = 'cancel';
 	            $res_img = '<img src="themes/'.$_px_theme.'/images/check_off.png" title="'.__('Resource off-line').'" alt="'.__('Resource off-line').'" class="status" />';
+	            $seeonweblink = '';
 	            break;
 	        case PX_RESOURCE_STATUS_VALIDE:
 	            $res_class = 'published';
@@ -103,11 +104,13 @@ if ($res->isEmpty()) {
 	        case PX_RESOURCE_STATUS_TOBEVALIDATED:
 	            $res_class = 'published';
 	            $res_img = '<img src="themes/'.$_px_theme.'/images/check_wait.png" title="'. __('Resource waiting for validation').'" alt="'.__('Resource waiting for validation').'" class="status" />';
+	            $seeonweblink = '';
 	            break;
 	        case PX_RESOURCE_STATUS_INEDITION:
 	        default:
 	            $res_class = 'published';
 	            $res_img = '<img src="themes/'.$_px_theme.'/images/check_edit.png" title="'.__('Resource in edition').'" alt="'.__('Resource in edition').'" class="status" />';
+	            $seeonweblink = '';
 	            break;
 	        }
 	        echo '<div class="resourcebox '.$res_class.'" id="p'.$res->f('resource_id').'">'.

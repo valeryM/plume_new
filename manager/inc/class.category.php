@@ -32,8 +32,8 @@ class Category extends recordset
 {
     var $con = null; /**< Connection object. */
     var $res = null; /**< Current resources in the category. */
-    var $isModified = False; /**< is update of the DB needed. */    
-
+    var $isModified = false; /**< is update of the DB needed. */    
+	var $isNew = false;
     /**
      * Constructor.
      */
@@ -475,8 +475,9 @@ class Category extends recordset
 
         $this->getConnection();
         $update = (0 < (int) $this->f('category_id')) ? true : false;
-
+		
         if ($update) {
+        	$this->isNew = false;
             $req = 'UPDATE '.$this->con->pfx.'categories SET
                 category_parentid = \''.$this->con->esc($this->f('category_parentid')).'\',
                 category_name = \''.$this->con->esc($this->f('category_name')).'\',
@@ -489,6 +490,7 @@ class Category extends recordset
                 has_xmedia_folder = '.$this->f('has_xmedia_folder').'
                 WHERE category_id = \''.$this->con->esc($this->f('category_id')).'\'';
         } else {
+        	$this->isNew = true;
             $req = 'INSERT INTO '.$this->con->pfx.'categories SET
                 category_parentid = \''.$this->con->esc($this->f('category_parentid')).'\',
                 category_name = \''.$this->con->esc($this->f('category_name')).'\',

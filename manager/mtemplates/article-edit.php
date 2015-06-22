@@ -22,12 +22,14 @@
 # ***** END LICENSE BLOCK ***** */
 
 if (basename($_SERVER['SCRIPT_NAME']) == 'article-edit.php') exit;
-
+$display = 'none';
+if (!$is_editable)
+	$display = 'block';
 /* ===================================================== *
  *  Preview of the content if some content is available  *
  * ===================================================== */
 if (strlen($ar->getUnformattedContent('description')) || $ar->getTextContent('title')) {
-    echo '<div id="preview" class="preview" style="display:none">';
+    echo '<div id="preview" class="preview" style="display:'.$display.'">';
     echo '<div>';
     echo '<h2>'.$ar->getTextContent('title').'</h2>';
     echo $ar->getFormattedContent('description','Html');

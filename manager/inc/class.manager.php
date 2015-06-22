@@ -292,7 +292,7 @@ class Manager extends BasicManager
 			&& $res->f('status') !=PX_RESOURCE_STATUS_VALIDE)
         ||(isset($res->cats) && $this->user->hasCategoryRigth($res->cats->f('category_id')) 
         	&& $res->f('status') !=PX_RESOURCE_STATUS_VALIDE)
-        ||($this->user->hasCategoryRigth($res->extf('cats','category_id'))
+        ||(method_exists($res,'extf') &&  $this->user->hasCategoryRigth($res->extf('cats','category_id'))
         	&& $res->f('status') !=PX_RESOURCE_STATUS_VALIDE)
             ) {
             return true;

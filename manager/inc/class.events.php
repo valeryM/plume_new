@@ -413,7 +413,7 @@ class Events extends Resource
         $update = (0 < (int) $this->f('resource_id')) ? true : false;
 
         if ($update) {
-        	
+        	$this->isNew = false;
         	$this->setField('publicationdate',$this->details->f('event_startdate'));
         	$this->setField('enddate', $this->details->f('event_enddate'));
         	
@@ -432,6 +432,7 @@ class Events extends Resource
                 WHERE resource_id = \''.$this->con->esc($this->f('resource_id')).'\'';
 				// filRouge		= \''.$this->con->esc($this->f('filRouge')).'\' 
         } else {
+        	$this->isNew = true;
             $req = 'INSERT INTO '.$this->con->pfx.'resources SET
                 website_id      = \''.$this->con->esc($this->f('website_id')).'\',
                 type_id         = \''.PX_RESOURCE_MANAGER_EVENTS.'\',

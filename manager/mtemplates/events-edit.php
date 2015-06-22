@@ -22,7 +22,9 @@
 # ***** END LICENSE BLOCK ***** */
 
 if (basename($_SERVER['SCRIPT_NAME']) == 'events-edit.php') exit;
-
+$display = 'none';
+if (!$is_editable)
+	$display = 'block';
 /* =================================================== *
  * Preview of the content if some content is available *
  * =================================================== */
@@ -34,7 +36,7 @@ if (strlen($events->getUnformattedContent('description'))) {
     echo $events->getFormattedContent('description','html');
     echo "<hr class='invisible' id=\"xxx-prevent\" /></div>\n\n";
     */
-    echo '<div id="preview" class="preview" style="display:none">';
+    echo '<div id="preview" class="preview" style="display:'.$display.'">';
 
 	echo '<h2>'.$events->getTextContent('title').'</h2>';
 	echo $events->getFormattedContent('description', 'html');

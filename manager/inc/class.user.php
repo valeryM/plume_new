@@ -362,6 +362,12 @@ class User extends RecordSet
         return true;
     }
 
+	function initCategories() {
+		$user = $this->f('user_id');
+		$this->con =& pxDBConnect();
+		$req = SQL::updateCategoriesForUser($user);
+		return $this->con->execute($req);
+	}
 	
 	function loadCategories()  
 	{

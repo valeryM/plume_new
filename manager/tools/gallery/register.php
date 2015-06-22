@@ -36,9 +36,9 @@ class Gallery
     	$resp = '';
 		// Core CSS File.
     	$resp .= '<link rel="stylesheet" href="manager/tools/gallery/slides/slides_default.css" />';
-    	$resp .= '<script src="manager/tools/gallery/slides/slides.min.jquery.js" type="text/javascript"></script>';
+    	$resp .= '<script src="manager/tools/gallery/slides/jquery.slides.js" type="text/javascript"></script>';
 		$resp .= '<script src="manager/js/ui/jquery-ui.custom.min.js" type="text/javascript"></script>';
-		$resp .= '<link rel="stylesheet" type="text/css" href="manager/js/ui/css/cupertino/jquery-ui-1.9.2.custom.min.css" media="screen" />';
+		$resp .= '<link rel="stylesheet" type="text/css" href="manager/js/ui/css/cupertino/jquery-ui-1.10.3.custom.min.css" media="screen" />';
         $resp .= '<script type="text/javascript">
         			var options = {"generateNextPrev": true,							
 								"next":"slides-next-horizontal",
@@ -74,13 +74,14 @@ class Gallery
         					 
         					// appel du connecteur
 			        		$.ajax({
-			        			url : "manager/tools/gallery/getGallery.php",
+			        			url : "manager/tools/gallery/getGallery2.php",
 			        			data : {"url": element.attr("data-gallery-url") },
 			        			dataType : "html",
 			        			type : "post",
 			        			success : function (data, status) {
 			        				element.html(data);
         							// déclenchement du slider
+									console.log("activer "+element.attr("id"));
 			        				initSlider(element.attr("id"));
 			        			},
 			        		});
@@ -91,32 +92,50 @@ class Gallery
 				    });
    		
 				    function initSlider(id) {
-				    	$("#"+id).slides({ 
-								container: "slides-container",
-								generateNextPrev: options["generateNextPrev"],							
-								next:options["next"],
-								prev:options["prev"],
-								pagination: options["pagination"],
-								generatePagination: options["generatePagination"],
-								slideSpeed: options["slideSpeed"],
-								play: options["play"],
-								pause : options["pause"],
-								hoverPause: options["hoverPause"],
-								autoHeight: options["autoHeight"],
-        						effect : options["effect"],
-								
-								animationStart: function(current){
+
+						$("#"+id+" div.slides-container").slidesjs({
+							width: 735,
+							//height: 250,
+							navigation: {
+								active: false,
+								// [boolean] Generates next and previous buttons.
+								// You can set to false and use your own buttons.
+								// User defined buttons must have the following:
+								//previous button: class="slidesjs-previous slidesjs-navigation",
+								//next button: class="slidesjs-next slidesjs-navigation"
+								effect: "slide"
+								// [string] Can be either "slide" or "fade".
+							},
+							pagination : {
+								active: false,
+								// [boolean] Create pagination items.
+								// You cannot use your own pagination. Sorry.
+								effect: "slide"
+								// [string] Can be either "slide" or "fade".
+							},
+							play: {
+								active: false,				// [boolean] Generate the play and stop buttons.
+															// You cannot use your own buttons. Sorry.
+								effect: "fade",			// [string] Can be either "slide" or "fade".
+								interval: 4500,				// [number] Time spent on each slide in milliseconds.
+								auto: true,					// [boolean] Start playing the slideshow on load.
+								swap: false, 				// [boolean] show/hide stop and play buttons
+								pauseOnHover: true, 		// [boolean] pause a playing slideshow on hover
+								restartDelay: 2500 			// [number] restart delay on inactive slideshow
+							},
+							callback: {
+								loaded: function(number) {
+									$(".titreAlaUne").animate({bottom:30},200);
+								},
+								start: function(number) {
 									$(".titreAlaUne").animate({bottom:-35},100);
 								},
-								animationComplete: function(current){
-									$(".titreAlaUne").animate({bottom:30},200);
-								},
-								slidesLoaded: function() {
+								complete: function(number) {
 									$(".titreAlaUne").animate({bottom:30},200);
 								}
-								
-							});	
-				    
+							}							
+							});
+			    
 				    }
         	</script>';
 

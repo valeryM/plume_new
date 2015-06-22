@@ -23,6 +23,9 @@
 
 if (basename($_SERVER['SCRIPT_NAME']) == 'rsslinks-edit.php') exit;
 
+$display = 'none';
+if (!$is_editable)
+	$display = 'block';
 /* =================================================== *
  * Preview of the content if some content is available *
  * =================================================== */
@@ -35,7 +38,7 @@ if (strlen($rsslinks->getUnformattedContent('description')) || strlen($rsslinks-
 
     echo "<hr class='invisible' id=\"xxx-prevent\" /></div>\n\n";
     */
-    echo '<div id="preview" class="preview" style="display:none">';
+    echo '<div id="preview" class="preview" style="display:'.$display.'">';
 	echo '<h2>'.$rsslinks->getTextContent('title').'</h2>';
 	echo $rsslinks->getFormattedContent('description', 'html');
 	echo '<br>';

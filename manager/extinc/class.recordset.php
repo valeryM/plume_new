@@ -42,9 +42,9 @@ require_once dirname(__FILE__).'/../inc/class.l10n.php';
 
 class recordset extends CError
 {
-    var $arry_data=array(); // tableau contenant les donn�es
+    var $arry_data=array(); // tableau contenant les données
     var $int_index; //index pour parcourir les enregistrements
-    // les enregistrements commencent � l'index 0
+    // les enregistrements commencent à l'index 0
         
     var $int_row_count=0; // nombre d'enregistrements
     var $int_col_count=0; // nombre de colonnes

@@ -52,7 +52,8 @@ class Resource extends RecordSet
     var $comments = null; /**< List of comments. */
     var $ncomments = null; /**< Number of comments (cache). */
     var $isModified = False; /**< is update of the DB needed. */
-
+	var $isNew = false;
+	
     /**
      * Constructor.
      */
@@ -63,6 +64,7 @@ class Resource extends RecordSet
         $this->authors = new RecordSet();
         $this->comments = new Comment();
         $this->isModified = True;
+        if ($data == '') $this->isNew = true;
     }
 
     /**

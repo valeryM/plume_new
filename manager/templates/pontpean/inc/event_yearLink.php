@@ -1,6 +1,6 @@
 <?php 
 	$link = $annee;
-	$href = '/?'.$queryPath.'&amp;Annee='.($annee).'&amp;Mois='.$mois.'';
+	$href = $queryPath.'&amp;Annee='.($annee).'&amp;Mois='.$mois.'';
 ?>
 		<table  style="border:0;padding:0;border-collapse: collapse;"  >
 			<tr>

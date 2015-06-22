@@ -307,8 +307,31 @@ class SQL
 		return $sql;	
     }
 
+    /**
+     * Update the categories list for a user (childs from a parent)
+     * 
+     * @param string $userId User id
+     * @return string Ready to use SQL
+     */
+	public static function updateCategoriesForUser($userId) {
+		$con =& pxDBConnect();
+		$sql = 'INSERT IGNORE INTO '.$con->pfx.'usercats (user_id, website_id, category_id) 
+			SELECT DISTINCT '.$userId.', '.$con->pfx.'categories.website_id, '.$con->pfx.'categories.category_id
+			FROM '.$con->pfx.'categories
+				INNER JOIN '.$con->pfx.'websites
+					ON '.$con->pfx.'websites.website_id='.$con->pfx.'categories.website_id
+				INNER JOIN (SELECT cats.* FROM '.$con->pfx.'categories cats
+				INNER JOIN '.$con->pfx.'usercats ON '.$con->pfx.'usercats.user_id='.$userId.'
+					AND '.$con->pfx.'usercats.website_id=cats.website_id
+					AND '.$con->pfx.'usercats.category_id=cats.category_id) AS parent_cats
+		ON '.$con->pfx.'categories.category_path LIKE CONCAT(parent_cats.category_path,\'%\')
+		WHERE '.$con->pfx.'categories.category_id != parent_cats.category_id 
+				AND '.$con->pfx.'categories.category_isGhost=0';
+		
+		return $sql;
+	}
 	
-	    /**
+	 /**
      * Get the category alllowed for a user identified by its id.
      *
      * @param int Id 
@@ -326,6 +349,7 @@ class SQL
               WHERE '.$con->pfx.'usercats.user_id='.$con->esc($userid);
 		return $sql;	
     }
+    
     /**
      * Get an online resource in a category.
      *

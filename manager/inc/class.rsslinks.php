@@ -399,6 +399,7 @@ class Rsslinks extends Resource
         $update = (0 < (int) $this->f('resource_id')) ? true : false;
 
         if ($update) {
+        	$this->isNew = false;
             $req = 'UPDATE '.$this->con->pfx.'resources SET
                 subject         = \''.$this->con->esc($this->f('subject')).'\',
                 comment_support  = \''.$this->con->esc($this->f('comment_support')).'\',
@@ -414,6 +415,7 @@ class Rsslinks extends Resource
                 WHERE resource_id = \''.$this->con->esc($this->f('resource_id')).'\'';
 
         } else {
+        	$this->isNew = true;
             $req = 'INSERT INTO '.$this->con->pfx.'resources SET
                 website_id      = \''.$this->con->esc($this->f('website_id')).'\',
                 type_id         = \''.PX_RESOURCE_MANAGER_RSSLINKS.'\',

@@ -9,10 +9,10 @@ $typeAction="";
 
 if (!empty($_REQUEST['value'])) 
 	$level_id = $_REQUEST['value'];
-if (!empty($_POST['value'])) 
-	$level_id = $_POST['value'];
-if (!empty($_GET['value'])) 
-	$level_id = $_GET['value'];
+// if (!empty($_POST['value'])) 
+// 	$level_id = $_POST['value'];
+// if (!empty($_GET['value'])) 
+// 	$level_id = $_GET['value'];
 
 if (empty($level_id) || $level_id=='' ) {  
 	$level_id=0;
@@ -20,12 +20,13 @@ if (empty($level_id) || $level_id=='' ) {
 
 //$_SESSION['location'] =$level;
 $m = new Manager();
-
 if (strpos($level_id, '.')!==false) {
 	$level_id = substr(strrchr($level_id,'.'),1);
-} 
+}
+$cats = explode('.',$level_id);
+$cat_id= $cats[count($cats)-1];
 
-$rsCat = $m->getCategoriesLightFromParent($level_id,'','',false);
+$rsCat = $m->getCategoriesLightFromParent($cat_id,'','',false);
 
 $cat=array();
 while(!$rsCat->EOF()) {

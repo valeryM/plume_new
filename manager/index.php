@@ -270,6 +270,8 @@ if ($res->isEmpty()) {
 				$span_class = 'rsslinks_style';
 				$seeonweblink = ' [<span class="link_style"><a target="_preview" href="'.$res->getPath().'">'.__('See the rss link').'</a></span>]';
 			}
+			if ($res->f('status') != PX_RESOURCE_STATUS_VALIDE)
+				$seeonweblink = '';
 			echo '<p class="resource_title"><span class="'.$span_class.'">'.$res->f('title').'</span> - '. __('by');
 		
 			$temp = '';

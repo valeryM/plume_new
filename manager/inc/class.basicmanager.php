@@ -223,8 +223,8 @@ class BasicManager extends CError
 		} else {
 			// Sinon on filtre sur la liste autorisée (dans usercats)
 			$sql='SELECT '.$this->con->pfx.'categories.category_id, category_name FROM '.$this->con->pfx.'categories LEFT JOIN '.$this->con->pfx.'usercats 
-				ON '.$this->con->pfx.'categories.category_id = '.$this->con->pfx.'usercats.category_id
-				AND '.$this->con->pfx.'categories.website_id = '.$this->con->pfx.'usercats.website_id
+				ON '.$this->con->pfx.'categories.website_id = '.$this->con->pfx.'usercats.website_id 
+				AND	'.$this->con->pfx.'categories.category_id = '.$this->con->pfx.'usercats.category_id			 
 				WHERE '.$this->con->pfx.'categories.website_id = \''.$this->user->website.'\'
 				AND user_id ='. $this->user->getId() ;			
 		}
@@ -236,10 +236,10 @@ class BasicManager extends CError
         		if (true == $all_level) {
         			$sql .= ' AND category_path LIKE \''.$flt->f('category_path') . '%\' ';
         		} else {
-        			if ($level == PX_USER_LEVEL_ADMIN)
+        			//if ($level == PX_USER_LEVEL_ADMIN)
         				$sql .= ' AND category_parentid = '.$parentid .' AND plume_categories.category_id != '.$parentid.' ';
-        			else 
-        				$sql .= ' AND category_parentid >= '.$parentid .' AND plume_categories.category_id != '.$parentid.' ';
+        			//else 
+        			//	$sql .= ' AND category_parentid = '.$parentid .' AND plume_categories.category_id != '.$parentid.' ';
         		}
         	}
             

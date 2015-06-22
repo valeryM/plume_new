@@ -15,7 +15,7 @@ pxTemplateInit('order_res_manual|res_per_page:10|remove_numbers');
 	<?php include(dirname(__FILE__).'/inc/head-meta.php'); ?>
 	<meta name="description" content="<?php pxSingleCatTitle('%s'); ?> - <?php pxMetasDescription(); ?>" />
 	<meta name="DC.Description" content="<?php pxSingleCatTitle('%s'); ?> - <?php pxMetasDescription(); ?>" />
-	<meta name="DC.source" content="<?php pxSingleCatPath(); ?>" scheme="URI" />
+	<meta name="DC.source" content="<?php pxSingleCatPath(); ?>" />
 	<meta name="DC.Title" content="<?php pxSingleCatTitle('%s'); ?> - <?php pxInfo('name'); ?> (<?php echo $GLOBALS['_PX_render']['cat']->f('category_path'); ?>)" />
 	<?php 
 	$keywords = pxSingleCatTitle('%s',true).' '.pxSingleCatPath('%s',false,true). ' ';
@@ -107,9 +107,11 @@ pxTemplateInit('order_res_manual|res_per_page:10|remove_numbers');
 					// affichage du calendrier de navigation
 					//echo $menu->afficheCalendrierNavigation($Annee,$Mois);
 					//global $eventCat; //= $this->m->getMasterCategoriesByName(PX_CONFIG_EVENTS);
+					$base= '';
+					if ($GLOBALS['_PX_config']['url_format'] == 'simple') $base .= '/?';
 					
 					$eventCat = pxGetMasterCategoriesByName(PX_CONFIG_EVENTS);
-					$queryPath = $eventCat->f('category_path');
+					$queryPath = $base.$eventCat->f('category_path');
 					
 					$Month = array('Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Août','Septembre', 'Octobre' , 'Novembre','Décembre');
 					// affiche le calendrier pour la navigation
@@ -134,13 +136,12 @@ pxTemplateInit('order_res_manual|res_per_page:10|remove_numbers');
 											</td>
 										</tr>
 										<tr>
-										<?php 
-											
+										<?php 											
 											// boucle sur le 1er semestre
 											$rep = '';
 											for ($i=0;$i<6;$i++)  {
 												$rep .= '<td class="EventMonth" width="80px" align="center" valign="middle">';
-												$href = '/?'.$queryPath.'&amp;Annee='.$Annee.'&amp;Mois='.($i+1);
+												$href = $queryPath.'&amp;Annee='.$Annee.'&amp;Mois='.($i+1);
 												$class = 'button';
 												if ($Mois == $i+1 ) $class='buttonSel';
 												$rep .= '<a class="'.$class.'" href="#" onclick="this.blur();loadEvents(\''.$href.'\');"><span>'. $Month[$i].'</span></a></td>';
@@ -154,7 +155,7 @@ pxTemplateInit('order_res_manual|res_per_page:10|remove_numbers');
 											$rep = '';
 											for ($i=6;$i<12;$i++)  {
 												$rep .= '<td class="EventMonth" width="80px" align="center" valign="middle">';
-												$href = '/?'.$queryPath.'&amp;Annee='.$Annee.'&amp;Mois='.($i+1);
+												$href = $queryPath.'&amp;Annee='.$Annee.'&amp;Mois='.($i+1);
 												$class = 'button';
 												if ($Mois == $i+1 ) $class='buttonSel';
 												$rep .= '<a class="'.$class.'" href="#" onclick="this.blur();loadEvents(\''.$href.'\');"><span>'. $Month[$i].'</span></a></td>';
@@ -177,6 +178,7 @@ pxTemplateInit('order_res_manual|res_per_page:10|remove_numbers');
 					</div>
 					<?php 
 					
+					//$menu->afficheEventsContent($catList, $Annee, $Mois);
 					pxRenderEventsContent($catSelected, $catList, $Annee, $Mois);
 					?>
 				

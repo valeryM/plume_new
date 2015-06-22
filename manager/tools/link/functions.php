@@ -62,8 +62,10 @@ class pxLink {
                     printf($category, $title);
                     $res = ''; 
                 } else {
+                	$base= '';
+                	if ($GLOBALS['_PX_config']['url_format'] == 'simple') $base .= '/?';
                     $link =
-                        '<a class="'.$zone.'" href="'.htmlspecialchars($href).'"'.
+                        '<a class="'.$zone.'" href="'.$base.htmlspecialchars($href).'"'.
                         ((!$lang) ? '' : ' hreflang="'.htmlspecialchars($lang).'"').
                         ((!$title) ? '' : ' title="'.htmlspecialchars($title).'"').
                         ((!$rel) ? '' : ' rel="'.htmlspecialchars($rel).'"').

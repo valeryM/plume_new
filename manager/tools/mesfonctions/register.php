@@ -244,6 +244,9 @@ function pxAfficheTooltipCategories($catName, $taille='1') {
 	
 	$cat = pxGetMasterCategoriesByName($catName);
 	$rep = '';
+	$base= '';
+	if ($GLOBALS['_PX_config']['url_format'] == 'simple') $base .= '/?';
+	
 	//$cat->moveStart();
 	//$fctMenuIsActivate= false;
 	if (!$cat->EOF()) {
@@ -255,7 +258,7 @@ function pxAfficheTooltipCategories($catName, $taille='1') {
 		$childCat = FrontEnd::getCategories($cat->f('category_id'),'ORDER BY category_position');
 		if ($childCat===FALSE) return '';
 		while (!$childCat->EOF()) {
-			$lien = '/?'.$childCat->f('category_path');
+			$lien = $base.$childCat->f('category_path');
 			$title = trim(text::parseContent($childCat->f('category_description'),'Text'));
 			$rep .= '<tr>'."\n";
 			$rep .= '	<td style="white-space:nowrap;">'."\n";
@@ -525,9 +528,11 @@ function pxGetListRubrique($cat, $level = 1, $last=false)  {
 		$response = '<li>'."\n";
 	
 	$itemSub = $cat->f('category_id');
-
+	$base= '';
+	if ($GLOBALS['_PX_config']['url_format'] == 'simple') $base .= '/?';
+	
 	$lien = '<a '.$classLink.' level="'.$level.'" title="'.trim(text::parseContent($cat->f('category_description'),'Text')).'"';
-	$lien .= 'href="/?'.$cat->f('category_path').'" >' . $cat->f('category_name')."\n"; 
+	$lien .= 'href="'.$base.$cat->f('category_path').'" >' . $cat->f('category_name')."\n"; 
 	$urlTheme = pxInfo('filesurl',true).'theme/'.pxInfo('theme',true);
 	
 	if ($countSubLevels>0 && $level>1) {
@@ -641,8 +646,7 @@ function pxRenderEventsContent($catSelected, $catList, $Annee, $Mois, $return=fa
 
 	// Si il y a quelque chose à afficher
 	if (false != $last)  {
-		//$rep .= '<div id="contenus" style="height:650px;display:block;overflow-y:auto;overflow-x:hidden;">';
-		$rep .= '<div id="contenus" style="display:block;">';
+		$rep .= '<div id="contenus" style="height:650px;display:block;overflow-y:auto;overflow-x:hidden;">';
 		$cpt=0;
 		$newestEvent = false;
 		//echo $Annee.'/'.$Mois;
@@ -694,13 +698,11 @@ function pxRenderEventsContent($catSelected, $catList, $Annee, $Mois, $return=fa
 		$rep .= '			$("#contenus").animate({scrollTop: posTop },"slow"); '."\n";
 			*/	
 		// n'affiche que le bloc concerné par la valeur sélectionnée
-		$rep .= '			var flt_value = $("#flt_used").val();'."\n";
-		$rep .= '			var idFilterChecked = $("#flt_"+flt_value);'."\n";
+		$rep .= '			var idFilterChecked = $("#"+$("#flt_used").val());'."\n";
 		$rep .= '			idFilterChecked.trigger("click");'."\n";
 		$rep .= '			idFilterChecked.attr("checked","checked");'."\n";
 		$rep .= '			/* sélection du bloc */'."\n";
-		$rep .= '			var $target= $("#contenus");'."\n";
-		$rep .= '			console.log($target);'."\n";
+		$rep .= '			var $target= $("#contenus");console.log($target);'."\n";
 		$rep .= '			$target.scrollTo(".newestEvent");'."\n";
 		
 		$rep .= '		}'."\n";

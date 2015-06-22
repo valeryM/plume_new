@@ -218,6 +218,9 @@ class auth
                 }
                 $website = array_pop($_tmp);
             }
+            // init the categories list
+            $u->initCategories();
+            
             $u->setWebsite($website);
             //Only after the call of the synchronize function the
             //user is effectively logged in the manager.

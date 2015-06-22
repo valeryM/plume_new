@@ -17,7 +17,7 @@ pxTemplateInit('order_res_manual|res_per_page:10|remove_numbers');
 	<meta name="DC.Description" content="<?php pxSingleCatTitle('%s'); ?> - <?php pxMetasDescription(); ?>" />
 	<meta name="DC.Creator" content="<?php pxResAuthor(); ?>" />
 	<meta name="DC.Date.modified" content="<?php pxResDateModification('%Y-%m-%d'); ?>" />
-	<meta name="DC.source" content="<?php pxResPath('fullurl')?>" scheme="URI" />
+	<meta name="DC.source" content="<?php pxResPath('fullurl')?>" />
 	<meta name="DC.Title" content="<?php pxSingleCatTitle('%s'); ?> - <?php pxInfo('name'); ?> (<?php echo $GLOBALS['_PX_render']['cat']->f('category_path'); ?>)" />
 	<?php 
 	$keywords = pxSingleCatTitle('%s',true).' '.pxSingleCatPath('%s',false,true). ' ';

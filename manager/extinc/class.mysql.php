@@ -175,7 +175,6 @@ class Connection
         if (!$this->con_id) {
             return false;
         }
-
         if ($class == '' || !class_exists($class, true)) {
             $class = 'recordset';
         }

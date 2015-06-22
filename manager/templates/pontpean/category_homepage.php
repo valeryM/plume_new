@@ -15,7 +15,7 @@ pxTemplateInit('remove_numbers');
 	<?php include(dirname(__FILE__).'/inc/head-meta.php'); ?>
 	<meta name="description" content="<?php pxSingleCatTitle('%s'); ?> - <?php pxMetasDescription(); ?>" />
 	<meta name="DC.Description" content="<?php pxSingleCatTitle('%s'); ?> - <?php pxMetasDescription(); ?>" />
-	<meta name="DC.source" content="<?php pxSingleCatPath()?>" scheme="URI" />
+	<meta name="DC.source" content="<?php pxSingleCatPath()?>" />
 	<meta name="DC.Title" content="<?php pxSingleCatTitle('%s'); ?> - <?php pxInfo('name'); ?> (<?php echo $GLOBALS['_PX_render']['cat']->f('category_path'); ?>)" />
 	<meta name="DC.Keywords" content="<?php echo pxSingleCatTitle('%s',true).' '.pxSingleCatPath('%s',false,true); ?>" />	
 </head>
@@ -65,6 +65,8 @@ pxTemplateInit('remove_numbers');
 					<div class="texteActu">
 						<div class="body_agenda">
 						<?php 
+							$base= '';
+							if ($GLOBALS['_PX_config']['url_format'] == 'simple') $base .= '/?';
 							//Afficher les évènements
 							$catList = pxArrayEventsCats(PX_CONFIG_EVENTS_CULTUREL);
 							$actus = getAllLastEventsFromCategories($catList['ids'], PX_CONFIG_TIMEBEFORE, PX_CONFIG_TIMEAFTER, 'short_content',PX_CONFIG_MAX_EVENTS_CULTUREL);
@@ -75,7 +77,7 @@ pxTemplateInit('remove_numbers');
 								$link = '&Annee='.date('Y',$startDate).'&Mois='.date('m',$startDate).'#'.$actus->f('path')
 								?>
 								<div class="event <?php  echo $catList['idTag'][$actus->f('category_id')]; ?>" >
-									<a class="texteactuCulturel" href="/?/<?php echo $actus->f('category_path').$link; ?>" >
+									<a class="texteactuCulturel" href="<?php echo $base.$actus->f('category_path').$link; ?>" >
 										<span style="font-weight:bold;"><?php echo $actus->f('title'); ?></span><br/>
 										<?php echo __(date('l',$startDate)).' '.date('d',$startDate).' '.__(date('F',$startDate)); ?>
 										<br/>
@@ -97,7 +99,7 @@ pxTemplateInit('remove_numbers');
 					</div>
 					<div class="info2">
 						<span class="seeAll" style="position:relative;left:5px;">							
-							<a href="/?<?php echo PX_CONFIG_SALLES_CULTUREL; ?>">Location des salles</a>
+							<a href="<?php echo $base.PX_CONFIG_SALLES_CULTUREL; ?>">Location des salles</a>
 						</span>
 					</div>
 				</div>
@@ -107,21 +109,21 @@ pxTemplateInit('remove_numbers');
 					<div id="zoneMenuRoot">
                     	<div id="menu">
 							<div class="menuPrincipal decouvrir">
-								<a href="/?/Decouvrir/" title=""></a>
+								<a href="<?php echo $base; ?>/Decouvrir/" title=""></a>
 								<div class="image"></div>								
 									<?php 
 									pxAfficheTooltipCategories(PX_CONFIG_MASTER_1,1.1);
 									?>									
 							</div>
 							<div class="menuPrincipal vivre">
-								<a href="/?/Vivre/" title=""></a>
+								<a href="<?php echo $base; ?>/Vivre/" title=""></a>
 								<div class="image"></div>								
 									<?php 
 									pxAfficheTooltipCategories(PX_CONFIG_MASTER_3,1.1);
 									?>								
 							</div>
 							<div class="menuPrincipal agir">
-								<a href="/?/Agir/" title=""></a>
+								<a href="<?php echo $base; ?>/Agir/" title=""></a>
 								<div class="image"></div>								
 									<?php 
 									pxAfficheTooltipCategories(PX_CONFIG_MASTER_2,1.1);
@@ -191,7 +193,7 @@ pxTemplateInit('remove_numbers');
 							</div>
 							<div class="linkActus"  >
 								<span class="seeAll">
-									<a href="/?<?php echo PX_CONFIG_ALL_ACTUS; ?>">Voir toute l'actualité</a>
+									<a href="<?php echo $base.PX_CONFIG_ALL_ACTUS; ?>">Voir toute l'actualité</a>
 								</span>
 							</div>
 						</div>
