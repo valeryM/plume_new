@@ -87,16 +87,16 @@ class html2text
         "/[\n\t]+/",                             // Newlines and tabs
         '/<script[^>]*>.*?<\/script>/i',         // <script>s -- which strip_tags supposedly has problems with
         //'/<!-- .* -->/',                         // Comments -- which strip_tags might have problem a with
-        '/<h[123][^>]*>(.+?)<\/h[123]>/ie',      // H1 - H3
-        '/<h[456][^>]*>(.+?)<\/h[456]>/ie',      // H4 - H6
+        '/<h[123][^>]*>(.+?)<\/h[123]>/i',  //e    // H1 - H3
+        '/<h[456][^>]*>(.+?)<\/h[456]>/i',  //e    // H4 - H6
         '/<p[^>]*>/i',                           // <P>
         '/<br[^>]*>/i',                          // <br>
-        '/<b[^>]*>(.+?)<\/b>/ie',                // <b>
+        '/<b[^>]*>(.+?)<\/b>/i',    //e            // <b>
         '/<i[^>]*>(.+?)<\/i>/i',                 // <i>
         '/(<ul[^>]*>|<\/ul>)/i',                 // <ul> and </ul>
         '/<li[^>]*>/i',                          // <li>
         '/<\/li[^>]*>/i',                             // </li>
-        '/<a href="([^"]+)"[^>]*>(.+?)<\/a>/ie', // <a href="">
+        '/<a href="([^"]+)"[^>]*>(.+?)<\/a>/i',//e  // <a href="">
         '/<hr[^>]*>/i',                          // <hr>
         '/(<table[^>]*>|<\/table>)/i',           // <table> and </table>
         '/(<tr[^>]*>|<\/tr>)/i',                 // <tr> and </tr>

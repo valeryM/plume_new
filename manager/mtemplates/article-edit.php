@@ -28,6 +28,8 @@ if (!$is_editable)
 /* ===================================================== *
  *  Preview of the content if some content is available  *
  * ===================================================== */
+echo '<div id="preview" class="preview" style="display:'.$display.'"></div>';
+/*
 if (strlen($ar->getUnformattedContent('description')) || $ar->getTextContent('title')) {
     echo '<div id="preview" class="preview" style="display:'.$display.'">';
     echo '<div>';
@@ -59,7 +61,8 @@ if (strlen($ar->getUnformattedContent('description')) || $ar->getTextContent('ti
 				echo '<div id="tabs-'.$cpt.'">';
 			}
            	echo '<h3>'.$ar->getTextContent('page_title', 'pages').'</h3>';
-            echo '<span style="display:block">'.$ar->getFormattedContent('page_content', 'html', 'pages').'</span>';
+            //echo '<span style="display:block">'.$ar->getFormattedContent('page_content', 'html', 'pages').'</span>';
+            //echo '<span style="display:block">'.$ar->pages->f('page_content').'</span>';
             $ar->pages->moveNext();
             
 			if ($nbrePage > 1) {
@@ -86,6 +89,8 @@ if (strlen($ar->getUnformattedContent('description')) || $ar->getTextContent('ti
 	echo '</div>';	
 
 }
+*/
+
 /*
  * Fin preview
  */
@@ -272,8 +277,13 @@ echo '</span>';
 	echo '</span>';
 	*/
 	if (strlen($ar->getUnformattedContent('description')) || $ar->getTextContent('title')) {
+// 	    echo '<span class="nowrap" style="position:absolute;left:85%">';
+// 	    echo '	<button class ="previewButton" type="button" onclick="affichePopupApercu();">Aperçu</button>';
+// 	    echo '</span>';
+// 	    echo "</p>\n";
+	    
 	    echo '<span class="nowrap" style="position:absolute;left:85%">';
-	    echo '	<button class ="previewButton" type="button" onclick="affichePopupApercu();">Aperçu</button>';
+	    echo '<button class="previewButton" type="button" data-url="'.$ar->getPath().'">'.__('Preview').'</button>';
 	    echo '</span>';
 	    echo "</p>\n";
 	}

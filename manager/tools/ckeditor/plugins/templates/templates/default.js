@@ -9,13 +9,13 @@ CKEDITOR.addTemplates('default',
 		title:'A la Une',
 		image:'template_cadre0.gif',
 		description:'Une image et la légende',		
-		html:'<div style="width:557px;height:260px;vertical-align:middle;align:center;" ><img height="240px" src="/plume/manager/themes/default/images/noimage.png" alt="placer içi une image hauteur 240px max" /></div><div class="titreAlaUne" style="width:557px;">Mettre la légende</div>'
+		html:'<div style="width:100%;height:260px;vertical-align:middle;align:center;" ><img height="240px" src="/manager/themes/default/images/noimage.png" alt="placer içi une image hauteur 240px max" /></div><div class="titreAlaUne" style="width:557px;">Mettre la légende</div>'
 	},	
 		{
 		title:'Image et Titre',
 		image:'template_cadre1.gif',
 		description:'Un tableau à 2 colonnes avec 1 image à gauche.',		
-		html:'<table border="0" cellspacing="0" cellpadding="0" style="width:600px"><tr><td height="230px" valign="middle" align="center" width="200px"><img width="190px" src="/plume/manager/themes/default/images/noimage.png" alt="image" /></td><td valign="top"><h3>Type the title here</h3><br/>Content</td></tr></table>'
+		html:'<table style="border:0; padding:0; margin:0; width:100%;"><tr><td style="vertical-align:middle;text-align:center;width:220px;padding-right:5px;"><img width="210px;" src="/manager/themes/default/images/noimage.png" alt="image" /></td><td style="vertical-align:top;"><h3>Type the title here</h3><br/>Content</td></tr></table>'
 	},
 		{
 		title:'Image et Titre',

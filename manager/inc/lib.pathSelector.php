@@ -19,10 +19,10 @@ class PathSelector {
 		$listCat = explode('.',$location);
 		if (count($listCat)>0) $id_cat=$listCat[count($listCat)-1];
 		//$id_cat = $_GET['cat_id'];
-		$rep = '<span align="center"><label for="cat_id" style="display:inline;"><strong>'.$label.' </strong></label>';
+		$rep = '<span align="center"><label for="location" style="display:inline;"><strong>'.$label.' </strong></label>';
 		$rep .= '<input name="location" type="hidden" style="height:20px" value="'.$location.'">';
 		$rep .= '<input type="hidden" name="cat_id" value="'.$id_cat.'">';
-		$rep .= '<button class="filterButton"  title="'. __('Apply filter').'" ></button>&nbsp';
+		$rep .= '<button class="filterButton"  title="'. __('Apply filter').'" ></button>&nbsp;';
 		$rep .= '<button class="resetButton" title="'. __('reset the filter').'" ></button>';	
 		$rep .= '</span>';
 		
@@ -37,7 +37,7 @@ class PathSelector {
 		// Contruction du script pour le chemin d'accès aux catégories
 		if (!empty($_SESSION['valuesPath'])) $valuesPath=$_SESSION['valuesPath'];
 		//$valuesPath[]['separator'] = '" "';
-		$rep .= '$(function(){
+		$rep .= '$(document).ready(function(){
 			// function to activate the plugin pathSelector
 			// url must have the initial parameter ?
 			var param = $("input[name=location]").attr("value");
@@ -215,12 +215,14 @@ class PathSelector {
 		
 		//$cat_id=$cats->f('category_id');
 		$rep .= 'var cat_id='.$cat_id.';'."\n";
-		$rep .= 'function setPath(el) { '."\n"
-			."\t".'if (el.value != "") {'
-			."\t".'if (el.form.cat_id.value == "allcat" || el.form.cat_id.value=="") el.form.cat_id.value=cat_id;'."\n"
-			."\t".'	el.form.c_parentid.value=el.form.cat_id.value;'."\n"
-			."\t".'	setUrl("c_name", "c_path", "cat", js_pathlist);'."\n"
-			.'}}'."\n";
+		$rep .= 'function setPath(el) { 
+					if (el.value != "") {
+						if (el.form.cat_id.value == "allcat" || el.form.cat_id.value=="") 
+							el.form.cat_id.value=cat_id;
+						el.form.c_parentid.value=el.form.cat_id.value;
+						setUrl("c_name", "c_path", "cat", js_pathlist);
+					}
+				}'."\n";
 		
 		//echo "js_pathlist[0] = '".$cats->f('category_path')."';\n";
 		while (!$categories->EOF()) {

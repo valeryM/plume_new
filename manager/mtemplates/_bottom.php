@@ -54,7 +54,7 @@ foreach ($m->user->webs as $site => $score) {
 </div>
 </div>
 <?php 
-if ($px_title !=  __('Files and images')) 
+if ($px_title !=  __('Files and images') && form::getField('op') != 'page') 
 	echo PathSelector::getScriptloader();
 ?>
 <div id="footer">

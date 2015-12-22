@@ -77,27 +77,24 @@ elseif ($page == 'edit_cat' && !empty($_REQUEST['id']))
 }
 else
 {
-	$l_label = $l_title = $l_href = $l_lang = $l_cible = '';
-	// $l_zone = $l_style = '';
+	$l_label = $l_title = $l_href = $l_lang = $l_cible = $l_cat = $l_style = $l_zone ='';
 	$c_title = '';
 	
 	# Ajout d'un lien
 	if ($action == 'add_link')
 	{
-		if (isset($_POST['l_label'])) $l_label = trim($_POST['l_label']);
-		if (isset($_POST['l_zone'])) $l_zone = trim($_POST['l_zone']);
-		if (isset($_POST['l_title'])) $l_title = trim($_POST['l_title']);
-		if (isset($_POST['l_href'])) $l_href = trim($_POST['l_href']);
-		$l_lang = trim($_POST['l_lang']);
-		$l_cat = trim($_POST['l_cat']);
-		$l_cible = trim($_POST['l_cible']);
-		$l_style = trim($_POST['l_style']);
+		if (isset($_REQUEST['l_label'])) $l_label = trim($_REQUEST['l_label']);
+		if (isset($_REQUEST['l_zone'])) $l_zone = trim($_REQUEST['l_zone']);
+		if (isset($_REQUEST['l_title'])) $l_title = trim($_REQUEST['l_title']);
+		if (isset($_REQUEST['l_href'])) $l_href = trim($_REQUEST['l_href']);
+		if (isset($_REQUEST['l_lang']))$l_lang = trim($_REQUEST['l_lang']);
+		if (isset($_REQUEST['l_cat']))$l_cat = trim($_REQUEST['l_cat']);
+		if (isset($_REQUEST['l_cible']))$l_cible = trim($_REQUEST['l_cible']);
+		if (isset($_REQUEST['l_style']))$l_style = trim($_REQUEST['l_style']);
 		
-		if ($l_label!='' || $l_href!='')
-		{
+		if ($l_label=='' || $l_href=='') {
 			$err = __('You must provide at least a label and an URL');
-		}
-		elseif ($l_zone!='') {
+		} elseif ($l_zone=='') {
 			$err = __('You must provide a valid area');
 		}
 		elseif (!$link->isURI($l_href, array('domain_check' => false, 'allowed_schemes' => $link->protocols))) {
@@ -213,7 +210,7 @@ else
 		'</div>'
 		);
 	}
-	$rs =& $link->getEntries($l_zone);
+	$rs = $link->getEntries($l_zone);
 	
 	echo(
 	'<p>'.__('Drag items to change their positions.').'</p>'.

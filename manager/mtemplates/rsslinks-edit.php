@@ -23,21 +23,15 @@
 
 if (basename($_SERVER['SCRIPT_NAME']) == 'rsslinks-edit.php') exit;
 
-$display = 'none';
-if (!$is_editable)
-	$display = 'block';
+// $display = 'none';
+// if (!$is_editable)
+// 	$display = 'block';
 /* =================================================== *
  * Preview of the content if some content is available *
  * =================================================== */
+echo '<div id="preview" class="preview" style="display:none"></div>';
+/*
 if (strlen($rsslinks->getUnformattedContent('description')) || strlen($rsslinks->details->f('rsslink_linkwebsite')) ) {
-	/*
-    echo '<div class="preview">';
-    
-    echo '<h2>'.$news->getTextContent('title').'</h2>';
-    echo $news->getFormattedContent('description','html');
-
-    echo "<hr class='invisible' id=\"xxx-prevent\" /></div>\n\n";
-    */
     echo '<div id="preview" class="preview" style="display:'.$display.'">';
 	echo '<h2>'.$rsslinks->getTextContent('title').'</h2>';
 	echo $rsslinks->getFormattedContent('description', 'html');
@@ -50,6 +44,7 @@ if (strlen($rsslinks->getUnformattedContent('description')) || strlen($rsslinks-
 	echo "</div>\n\n";
     
 }
+*/
 
 /* ================================================= *
  *  If is editable form to modify the content        * 
@@ -208,10 +203,14 @@ if ($is_editable) {
     echo 'value="'.__('Save [s]').'" accesskey="'.__('s').'" />';
     
     // affiche le bouton apercu si le contenu existe
-	if (strlen($rsslinks->getUnformattedContent('description'))) {    
+	if (strlen($rsslinks->details->f('rsslink_linkwebsite'))) {    
+// 	    echo '<span class="nowrap" style="position:absolute;left:85%">';
+// 	    echo '	<button class ="previewButton" type="button" onclick="affichePopupApercu();">Aperçu</button>';
+// 	    echo '</span>'; 
+
 	    echo '<span class="nowrap" style="position:absolute;left:85%">';
-	    echo '	<button class ="previewButton" type="button" onclick="affichePopupApercu();">Aperçu</button>';
-	    echo '</span>';    
+	    echo '<button class="previewButton" type="button" data-url="'.$rsslinks->getPath().'">'.__('Preview').'</button>';
+	    echo '</span>';	    
 	}
 	
     echo "</p>\n";

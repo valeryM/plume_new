@@ -49,21 +49,17 @@ pxTemplateInit('order_res_manual|res_per_page:10|remove_numbers');
 					
 					if ($Annee==date('Y') && $Mois == date('m') & $res->nbRowTotal()==1) {
 						// une resource sélectionnée ? on charge les infos qui correspondent
-						//$res = $m->getResource($m->array_path['res'][0],'',false);
 						$Annee = date('Y',date::unix($res->f('publicationdate')));
 						$Mois = date('m',date::unix($res->f('publicationdate')));
 						//echo 'année:'.$Annee.' mois:'.$Mois;
 					} else {
-						//$resources = $m->getResourcesFromCat($idCat);
 						while (!$res->EOF()) {
 							$array_path['res'][] = $res->f('resource_id');
 							$res->moveNext();
 						}
-						//$m->res= $m->array_path['res'];
+
 					}
-					//echo print_r($array_path,true);
-					// affichage du bandeau
-					//echo $menu->afficheBandeauEvents($catList);
+
 					?>
 					<div id="agenda_bandeau" >
 						<div style="vertical-align:bottom; height:90px">
@@ -94,7 +90,7 @@ pxTemplateInit('order_res_manual|res_per_page:10|remove_numbers');
 											<label for="flt_<?php echo $name; ?>" ><?php echo $cat->f('category_name'); ?></label><br/>
 											</td>
 									<?php
-										}
+										} // end foreach
 										
 									?>
 									<input type="hidden" id="flt_used" value="<?php echo $flt_used ?>" >
@@ -105,8 +101,6 @@ pxTemplateInit('order_res_manual|res_per_page:10|remove_numbers');
 					</div>
 					<?php 
 					// affichage du calendrier de navigation
-					//echo $menu->afficheCalendrierNavigation($Annee,$Mois);
-					//global $eventCat; //= $this->m->getMasterCategoriesByName(PX_CONFIG_EVENTS);
 					$base= '';
 					if ($GLOBALS['_PX_config']['url_format'] == 'simple') $base .= '/?';
 					
@@ -178,7 +172,6 @@ pxTemplateInit('order_res_manual|res_per_page:10|remove_numbers');
 					</div>
 					<?php 
 					
-					//$menu->afficheEventsContent($catList, $Annee, $Mois);
 					pxRenderEventsContent($catSelected, $catList, $Annee, $Mois);
 					?>
 				

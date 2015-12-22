@@ -1045,3 +1045,20 @@ img.px-left {
 .line:hover {
 	background: #eeeeee;
 }
+
+#preview.preview {
+	overflow: hidden;
+}
+div.previewFrame {
+	width:110%;
+	height:580px;
+	/*overflow: hidden;*/
+	position: relative;
+	-ms-zoom: 0.75;
+	-moz-transform: scale(0.75);
+	-moz-transform-origin: 0 0;
+	-o-transform: scale(0.75);
+	-o-transform-origin: 0 0;
+	-webkit-transform: scale(0.75);
+	-webkit-transform-origin: 0 0;	
+}

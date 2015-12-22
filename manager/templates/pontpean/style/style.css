@@ -1789,6 +1789,9 @@ SITEMAP
 	color:#e42480;
 }
 
+.links.idee{
+	background:url(img/icons/idee_reduit.png) no-repeat scroll 0 transparent;
+}
 .links.mairie{
 	background:url(img/icons/information.png) no-repeat scroll 0 transparent;
 }
@@ -1834,8 +1837,13 @@ SITEMAP
 .links.polar {
 	background:url(img/icons/target_infos.png) no-repeat  scroll 0 transparent;
 }
-
-/* zone fluxRss Rennes mÃ©tropole */
+.links.city{
+	background:url(img/icons/city.png) no-repeat scroll 0 transparent;
+}
+.links.wood{
+	background:url(img/icons/wood.png) no-repeat scroll 0 transparent;
+}
+/* zone fluxRss Rennes métropole */
 #FluxRss {
 	align:right;
 	position:relative;

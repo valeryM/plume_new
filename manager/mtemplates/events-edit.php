@@ -28,14 +28,9 @@ if (!$is_editable)
 /* =================================================== *
  * Preview of the content if some content is available *
  * =================================================== */
+echo '<div id="preview" class="preview" style="display:none"></div>';
+/*
 if (strlen($events->getUnformattedContent('description'))) {
-	/*
-    echo '<div class="preview">';
-    
-    echo '<h2>'.$events->getTextContent('title').'</h2>';
-    echo $events->getFormattedContent('description','html');
-    echo "<hr class='invisible' id=\"xxx-prevent\" /></div>\n\n";
-    */
     echo '<div id="preview" class="preview" style="display:'.$display.'">';
 
 	echo '<h2>'.$events->getTextContent('title').'</h2>';
@@ -44,7 +39,7 @@ if (strlen($events->getUnformattedContent('description'))) {
 	echo "</div>\n\n";
 	
 }
-
+*/
 /* ================================================= *
  *  If is editable form to modify the content        * 
  * ================================================= */
@@ -215,9 +210,13 @@ if ($is_editable) {
 	echo '</span>';
 	*/
     if (strlen($events->getUnformattedContent('description'))) {
+// 	    echo '<span class="nowrap" style="position:absolute;left:85%">';
+// 	    echo '	<button class ="previewButton" type="button" onclick="affichePopupApercu();">Aperçu</button>';
+// 	    echo '</span>';  
+
 	    echo '<span class="nowrap" style="position:absolute;left:85%">';
-	    echo '	<button class ="previewButton" type="button" onclick="affichePopupApercu();">Aperçu</button>';
-	    echo '</span>';    
+	    echo '<button class="previewButton" type="button" data-url="'.$events->getPath().'">'.__('Preview').'</button>';
+	    echo '</span>';	    
     }    
     echo "</p>\n";
     // title

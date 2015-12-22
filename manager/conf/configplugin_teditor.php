@@ -29,7 +29,7 @@ $_PX_pconfig['edition_style']['background'] = '#E7E7E7';
 $_PX_pconfig['source-nb_style']['color'] = 'black';
 $_PX_pconfig['source-nb_style']['background'] = 'gray';
 
-$_PX_pconfig['css_folder'] = '/user/www/plume/xmedia/theme/default/';
+$_PX_pconfig['css_folder'] = '/xmedia/theme/default/'; // specify absolute path to folder
 
 // non affiché
 $_PX_pconfig['edition_style']['margin'] = 'margin:auto';

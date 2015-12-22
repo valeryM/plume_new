@@ -359,8 +359,9 @@ function pxRssItems($return=false)
 function pxSingleCatTitle($s='%s - ', $return=false)
 {
 	$title='';
-	if (isset($GLOBALS['_PX_render']['cat']))
+	if (isset($GLOBALS['_PX_render']['cat']) && $GLOBALS['_PX_render']['cat'] instanceof Category) {
     	$title = $GLOBALS['_PX_render']['cat']->f('category_name');
+	}
     if (config::fbool('remove_numbers')) 
         $title = px_removeNumbers($title);
     $result = sprintf($s, htmlspecialchars($title));
@@ -2270,11 +2271,13 @@ function pxEventsShortContent($return=false)
 function pxEventsKeywords($s = '%s', $return=false)
 {
     $result = '';
-    $keywords = trim($GLOBALS['_PX_render']['m']->events->f('subject'));
-    if (strlen($keywords) > 0) {
-        $result = sprintf($s, $keywords);
+    if (isset($GLOBALS['_PX_render']['m'])) {
+    	
+	    $keywords = trim($GLOBALS['_PX_render']['m']->events->f('subject'));
+	    if (strlen($keywords) > 0) {
+	        $result = sprintf($s, $keywords);
+	    }
     }
-    
     if ($return) return $result;
     echo $result;
 }
@@ -2695,7 +2698,17 @@ function pxRsslinksPath($type='relative', $return=false)
 	echo $result;
 }
 
-
+/**
+ * Return Rss website link
+ * 
+ * @param string s Substitution string ('%s')
+ * @param boolean return Type of return : true, return result as a string, false (default) print in stdout
+ */
+function pxRssWebsiteLink($s="%s", $return=false) {	
+	$result = sprintf($s,$GLOBALS['_PX_render']['rsslinks']->details->f('rsslink_linkwebsite'),true);
+	if ($return) return $result;
+	echo $result;
+}
 /**
  Display the list of categories in which the rsslinks is.
 

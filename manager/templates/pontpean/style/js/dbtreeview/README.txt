@@ -1,5 +1,19 @@
 PHP DBTreeView - README file
+
+
+Version 1.0.2 (28 oct 2012)
+-------------
+bug fix for IE9: added line: xmlhttp.setRequestHeader("Content-Type", "application/xml");
+
+Version 1.0.1 (23 sept 2012)
+-------------
+bug fix in JavaScript code generated with setScript()
+
 version 1.0 (17 aug 2007)
+-----------
+Initial version
+
+
 
 
 Documentation

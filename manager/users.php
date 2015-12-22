@@ -34,11 +34,13 @@ if (empty($_POST['save'])) {
 	$token = md5(microtime().config::f('secret_key').$_COOKIE['px_session']);
 	$_SESSION['token'] = $token;
 }
+$op = isset($_REQUEST['op']) ? $_REQUEST['op'] : '';
+$user_id = isset($_REQUEST['user_id']) ? $_REQUEST['user_id'] : '';
 
 /* ================================================= *
  *       Generate sub-menu                           *
  * ================================================= */
-if (empty($_REQUEST['op']) && empty($_REQUEST['user_id'])) {
+if ($op=='' && $user_id=='' ) {
     $display_add_user = true;
 } else {
     $display_add_user = false;
@@ -59,10 +61,10 @@ $px_submenu->addItem(__('New users group'), 'users.php?op=addGroups',
  *                 Process block                          *
  * ====================================================== */
 
-if (empty($_REQUEST['op']) && empty($_REQUEST['user_id'])) { 
+if ($op=='' && $user_id=='') { 
     // list the users
     $px_users = $m->getUsers();
-} elseif ($_REQUEST['op'] == 'add' || (!empty($_REQUEST['user_id']) && $_REQUEST['op'] == 'edit') ) {
+} elseif ($op == 'add' || ($user_id!='' && $op == 'edit') || ($user_id!='' && $op=='') ) {
     // edit a user
     // set default values
     $px_is_admin = false; // Has the user the admin level somewhere?
@@ -88,8 +90,8 @@ if (empty($_REQUEST['op']) && empty($_REQUEST['user_id'])) {
 	//$categories = array();
 	$categories = $m->getArrayCategories();
 	$user_groups = $m->getArrayUserGroups();
-    if (!empty($_REQUEST['user_id'])) {
-        $px_user = $m->getUserById($_REQUEST['user_id']);
+    if ($user_id != '') {
+        $px_user = $m->getUserById($user_id);
         $px_id       = $px_user->f('user_id');
         $px_username = $px_user->f('user_username');   	  
         $px_realname = $px_user->f('user_realname');  	  
@@ -113,8 +115,8 @@ if (empty($_REQUEST['op']) && empty($_REQUEST['user_id'])) {
             }
         } 
         reset($px_user->webs);     
-        if (auth::asLevel(PX_AUTH_ROOT)
-            || !$px_is_admin || $px_id == $m->user->f('user_id')) {
+        if ($op!='' && (auth::asLevel(PX_AUTH_ROOT)
+            || !$px_is_admin || $px_id == $m->user->f('user_id'))) {
             $px_edit_ok = true;
         }                                                                  
     } else {
@@ -122,7 +124,7 @@ if (empty($_REQUEST['op']) && empty($_REQUEST['user_id'])) {
         $px_edit_ok = true;
     }        
         
-} elseif ($_REQUEST['op']=='addGroups' || ($_REQUEST['op'] == 'edit' && !empty($_REQUEST['group_id'])) )  {
+} elseif ($op =='addGroups' || ($op == 'edit' && !empty($_REQUEST['group_id'])) )  {
 	// edit the users groups
 	$user_groups = $m->getArrayUserGroups();
 	if (auth::asLevel(PX_AUTH_ROOT)
@@ -263,7 +265,7 @@ if ( !empty($_POST['delete']) && !empty($px_id)) {
 	}
 }
 
-if (isset($_REQUEST['op']) && $_REQUEST['op']=='del' && !empty($_REQUEST['group_id'])) {
+if ($op =='del' && !empty($_REQUEST['group_id']) ) {
 	$users = $m->getUsedGroups($_REQUEST['group_id']);
 	if ($users->nbRow()>0) {
 		$m->setError(__('Error: This user cannot be deleted.'), 400);
@@ -287,15 +289,15 @@ if (isset($_REQUEST['op']) && $_REQUEST['op']=='del' && !empty($_REQUEST['group_
 $px_title =  __('Authors');
 include dirname(__FILE__).'/mtemplates/_top.php';
 
-if (empty($_REQUEST['op'])) {
+if ($op == '') {
 	echo '<h1 id="title_authors">'. __('Authors')."</h1>\n\n";
-} elseif ($_REQUEST['op'] == 'addGroups') {
+} elseif ($op == 'addGroups') {
 	echo '<h1 id="title_authors">'. __('Users groups')."</h1>\n\n";
 } else {
 	echo '<h1 id="title_authors">'. __('Authors')."</h1>\n\n";
 }
 	
-if (empty($_REQUEST['op']) && empty($_REQUEST['user_id'])) { 
+if ($op=='' && $user_id=='') { 
     // list the users
     while(!$px_users->EOF()) {
         $res = $px_users->getListResources(config::f('website_id'));
@@ -318,8 +320,8 @@ if (empty($_REQUEST['op']) && empty($_REQUEST['user_id'])) {
 
 		$px_users->moveNext();			
 	} 
-} elseif ($_REQUEST['op'] == 'add' || (!empty($_REQUEST['user_id']) && $_REQUEST['op'] == 'edit') ) {
-    if ($m->user->f('user_id') == $px_id) {
+} elseif ($op == 'add' || ($user_id!='' && $op == 'edit') || ($user_id!='' && $op=='') ) {
+    if ($op!='' && $m->user->f('user_id') == $px_id) {
         echo '<p class="message">'. __('Attention, you are modifying your profile. You will be logged out if changes are successfully made.').'</p>'."\n\n";
     }
 
@@ -327,13 +329,13 @@ if (empty($_REQUEST['op']) && empty($_REQUEST['user_id'])) {
 <h2><?php  echo __('Identity'); ?></h2>
 <form action="users.php" method="post" id="formPost">
 	<table style="border:0;cellpadding:0;cellspacing:0;width:100%">
-		<tr><td >
+		<tr><td style="width:40%;">
 	<h2><?php  echo __('User'); ?></h2>
   <p class="field"><label class="float" for="u_username" style="display:inline"><span class="login_style"><?php  echo __('Login:'); ?></span></label>
   <?php if ($px_edit_ok) { 
             echo form::textField('u_username', 30, 30, $px_username, '', ''); 
         } else {
-            echo $px_username;
+            echo '<span>'.$px_username.'</span>';
         }      
   ?>
   </p>
@@ -342,7 +344,7 @@ if (empty($_REQUEST['op']) && empty($_REQUEST['user_id'])) {
   <?php if ($px_edit_ok) { 
             echo form::textField('u_realname', 30, 50, $px_realname, '', ''); 
         } else {
-            echo $px_realname;
+            echo '<span>'.$px_realname.'</span>';
         }      
   ?>
   </p>
@@ -351,7 +353,7 @@ if (empty($_REQUEST['op']) && empty($_REQUEST['user_id'])) {
   <?php if ($px_edit_ok) { 
             echo form::textField('u_email', 30, 50, $px_email, '', ''); 
         } else {
-            echo $px_email;
+            echo '<span>'.$px_email.'</span>';
         }      
   ?>
   </p>  
@@ -360,7 +362,7 @@ if (empty($_REQUEST['op']) && empty($_REQUEST['user_id'])) {
   <?php if ($px_edit_ok) { 
             echo form::textField('u_pubemail', 30, 50, $px_pubemail, '', ''); 
         } else {
-            echo $px_pubemail;
+            echo '<span>'.$px_pubemail.'</span>';
         }      
   ?>
   </p>  
@@ -369,8 +371,9 @@ if (empty($_REQUEST['op']) && empty($_REQUEST['user_id'])) {
   <p class="field"><label class="float" for="u_password" style="display:inline"><span class="password_style"><?php  echo __('Password:'); ?></span></label>
   <?php echo form::textField('u_password', 30, 50, '', '', ''); ?>
   <br /><span class="notification"><?php  echo __('(keep empty not to change it)'); ?></span></p>    
+<?php else: ?>
+<br /><span></span>
 <?php endif; ?>
-
 <h2><?php  echo __('Levels'); ?></h2>
   <p>
   <?php 
@@ -400,7 +403,7 @@ if (empty($_REQUEST['op']) && empty($_REQUEST['user_id'])) {
 ?>
   </p>
 
-  </td><td valign="top" align="left">
+  </td><td style="vertical-align:top;width:60%">
   <h2><?php echo __('Users group'); ?></h2>
   <p><?php echo form::combobox('u_group',$user_groups,$px_group,'','','','','',false,1);
   	?>
@@ -408,7 +411,7 @@ if (empty($_REQUEST['op']) && empty($_REQUEST['user_id'])) {
   <h2><?php  echo __('Allowed categories'); ?></h2>
   	<p>
 	 <?php 
-		echo form::combobox('u_cats',$categories,$px_cats,'','','','','',true,15);
+		echo form::combobox('u_cats',$categories,$px_cats,'','','','style="width:100%"','',true,15);
 		?>
 		</p> 	
   </td>
@@ -430,7 +433,7 @@ if (empty($_REQUEST['op']) && empty($_REQUEST['user_id'])) {
   	</td>
   </tr>
   <tr><td colspan="2">
-  
+  <?php if ($op!='') {?>
   <p class="button"> <input name="save" type="submit" class="submit" value="<?php  echo __('Save [s]'); ?>"
   accesskey="<?php  echo __('s'); ?>" />&nbsp;  
   <?php
@@ -442,11 +445,12 @@ if (empty($_REQUEST['op']) && empty($_REQUEST['user_id'])) {
   }
   ?>
   </p>
+  <?php } // endif?>
   </td></tr>
   </table>
 </form>
 <?php
-} elseif ($_REQUEST['op'] == 'addGroups' || ($_REQUEST['op'] == 'edit' && !empty($_REQUEST['group_id'])) )  {
+} elseif ($op == 'addGroups' || ($op == 'edit' && !empty($_REQUEST['group_id'])) )  {
 	// Gestion ds groupes d'utilisateurs
 ?>
 	<h2><?php echo __('Users Group List'); ?></h2>

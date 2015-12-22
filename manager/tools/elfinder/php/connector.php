@@ -7,7 +7,7 @@ auth::checkAuth(PX_AUTH_NORMAL);
 $m = new Manager();
 $m->user->load();
 
-error_reporting(0); // Set E_ALL for debuging
+error_reporting(E_ALL); // Set E_ALL for debuging
 
 include_once dirname(__FILE__).DIRECTORY_SEPARATOR.'elFinderConnector.class.php';
 include_once dirname(__FILE__).DIRECTORY_SEPARATOR.'elFinder.class.php';
@@ -31,6 +31,10 @@ function access($attr, $path, $data, $volume) {
 	return strpos(basename($path), '.') === 0       // if file/folder begins with '.' (dot)
 		? !($attr == 'read' || $attr == 'write')    // set read+write to false, other (locked+hidden) set to true
 		:  null;                                    // else elFinder decide it itself
+}
+
+function validName($name) {
+	return strpos($name, '.') !== 0;
 }
 
 $current_dir = config::f('xmedia_root');
@@ -82,10 +86,15 @@ $opts = array(
 		array(
 			'driver' => 'LocalFileSystem',   // driver for accessing file system (REQUIRED)
 			'path' => $current_dir,         // path to files (REQUIRED)
+			'utf8fix' => true,
+			'fileMode' => 0666,         // new files mode
+			'dirMode' => 0777,         // new folders mode
+			'tmbPathMode' => 0777,				
 			'tmbDirName'=> '.tmb',
 			/*'tmbURL' => $tmbUrl,*/
 			'tmbPathLocal' => true,
 			'URL' => $_PX_website_config['rel_url_files'].'/'.$m->user->getPref('xmedia_current_dir'), // URL to files (REQUIRED)
+			'acceptedName' => 'validName',				
 			'accessControl' => 'access'             // disable and hide dot starting files (OPTIONAL)
 		)
 	)
@@ -95,4 +104,3 @@ $opts = array(
 // run elFinder
 $connector = new elFinderConnector(new elFinder($opts));
 $connector->run();
-

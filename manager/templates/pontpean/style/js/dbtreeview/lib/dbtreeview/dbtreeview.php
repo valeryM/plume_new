@@ -222,7 +222,7 @@ class DBTreeView{
 			print("params.root = root\n");
 		}
 		if($this->script != NULL){
-			print(sprintf("params.script = %s;\n", 
+			print(sprintf("params.script = \"%s\";\n", 
 			   DBTreeView::escapeJSString($this->script)));	
 		}
 		if($this->addIcon != NULL){
@@ -283,35 +283,36 @@ catch(err){
    /**
 	 * Creates a response with the children of a parent node.
 	 * 
-	 * @param RequestHandler $hanlder the handler of the request.
+	 * @param RequestHandler $handler the handler of the request.
 	 * @param boolean $onlyRequest if true, throws an error if not a XML query. If false (default), returns silently if not a XML query.
 	 * @return ChildrenResponse
 	 */
-	public static function processRequest(RequestHandler $hanlder, $onlyRequest = false){
-			$stopOnError = true;
-			//check header
-			if(!$onlyRequest){
-				if(function_exists("apache_request_headers")){
-					$headers = apache_request_headers();
-					$contentType = NULL;
-					if(isset($headers['Content-Type'])){
-						//example : Content-Type : text/xml;charset=UTF-8
-						$contentTypeArray = explode(";",$headers['Content-Type'],2);
-						$contentType = $contentTypeArray[0];
-					}
-					if($contentType != "application/xml" && $contentType != "text/xml"){
-						return;
-					}
+	public static function processRequest(RequestHandler $handler, $onlyRequest = false){
+		$stopOnError = true;
+		//check header
+		if(!$onlyRequest){
+			if(function_exists("apache_request_headers")){
+				$headers = apache_request_headers();
+				$contentType = NULL;
+				if(isset($headers['Content-Type'])){
+					//example : Content-Type : text/xml;charset=UTF-8
+					$contentTypeArray = explode(";",$headers['Content-Type'],2);
+					$contentType = $contentTypeArray[0];
 				}
-				else{
-					$stopOnError = false;
+				if($contentType != "application/xml" && $contentType != "text/xml"){				
+					return;
 				}
 			}
+			else{
+				$stopOnError = false;
+			}
+		}
 
-			try{
-			//error_reporting(0); //unactive reporting
+		try {
+			error_reporting(E_ALL); //unactive reporting
 			$doc = new DOMDocument();
 			$data = file_get_contents("php://input");
+			//echo 'Data: '.$data."<br>\n";
 			if($data==NULL || strlen($data)<1){
 				throw new Exception("empty data input");
 			}
@@ -324,28 +325,29 @@ catch(err){
  * http://www.php.net/manual/en/reserved.variables.php#reserved.variables.server
  * http://www.php.net/manual/en/wrappers.php.php 
  */
-				$elem = $doc->getElementsByTagName(XMLChildrenRequest::TAG)->item(0);
-				if($elem==NULL){
-					throw new XMLException("Invalid XMLChildrenRequest");
-				}
-			}catch(Exception $e2){
-				if($stopOnError){
-					throw $e2;
-				}else{
-					//not apache, maybe not process
-					return;
-				}
+			$elem = $doc->getElementsByTagName(XMLChildrenRequest::TAG)->item(0);
+			if($elem==NULL){
+				throw new XMLException("Invalid XMLChildrenRequest");
 			}
-			$request = XMLChildrenRequest::getInstance($elem);
-			$response = $hanlder->handleChildrenRequest($request);
-			$responseDoc = new DOMDocument();
-			$responseDoc->appendChild($response->toElement($responseDoc));
+		} catch(Exception $e2){
+			if($stopOnError){
+				throw $e2;
+			}else{
+				//not apache, maybe not process
+				//echo $e2->getMessage();
+				return;
+			}
+		}
+		$request = XMLChildrenRequest::getInstance($elem);
+		$response = $handler->handleChildrenRequest($request);
+		$responseDoc = new DOMDocument();
+		$responseDoc->appendChild($response->toElement($responseDoc));
 
-			header("Content-Type: application/xml");
-			//$responseDoc->save("php://output");
-			$responseXML = $responseDoc->saveXML();
-			echo($responseXML);
-			exit(0);
+		header("Content-Type: application/xml");
+		//$responseDoc->save("php://output");
+		$responseXML = $responseDoc->saveXML();
+		echo($responseXML);
+		exit(0);
 	}	
 }
 

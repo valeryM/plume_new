@@ -34,7 +34,7 @@ class CkEdit
         $base = substr($p['m']->user->wdata[$p['m']->user->website]['website_url'], 0, -$i);
 
         echo '<script type="text/javascript" src="tools/ckeditor/ckeditor.js"></script>';
-		echo '<link href="tools/ckeditor/contents.css" rel="stylesheet" type="text/css"/>';
+		//echo '<link href="tools/ckeditor/contents.css" rel="stylesheet" type="text/css"/>';
         echo '<script type="text/javascript">
 				    $(document).ready(function() {
         				
@@ -55,7 +55,8 @@ class CkEdit
 								        filebrowserImageBrowseUrl : "tools/elfinder/elfinder.php", /*"xmedia.php?mode=popup",*/
 								        filebrowserWindowWidth : "70%",
 								        filebrowserWindowHeight : "80%",
-								        extraPlugins : "gallery,calendar,pdfviewer", /*,maps",*/ 								        								        
+								        extraPlugins : "gallery,calendar,pdfviewer", /*,maps",*/ 	
+        								allowedContent : true							        								        
 								        } );
         		
         						CKEDITOR.config.resize_dir = "vertical";

@@ -45,19 +45,13 @@ echo '	<button class ="actionButton" type="button" onclick="location.replace(\'a
 			$ar->f('resource_id').'\');">'.__('Back to the article').'</button>';
 echo '</span>';
 
+// echo '<span class="nowrap" style="position:absolute;left:85%">';
+// echo '	<button class ="previewButton" type="button" onclick="affichePopupApercu();">Aperçu</button>';
+// echo '</span>';
+
 echo '<span class="nowrap" style="position:absolute;left:85%">';
-echo '	<button class ="previewButton" type="button" onclick="affichePopupApercu();">Aperçu</button>';
+echo '<button class="previewButton" type="button" data-url="'.$ar->getPath().'">'.__('Preview').'</button>';
 echo '</span>';
-
-// preview of the page
-if (strlen($ar->getUnformattedContent('page_content', 'pages'))) {
-	echo '<div id="preview" class="preview" style="display:none">';
-
-	echo '<h2>'.$ar->getTextContent('page_title', 'pages')
-        .'</h2>';
-	echo $ar->getFormattedContent('page_content', 'html', 'pages');
-	echo "<hr class='invisible' id=\"zoubida\"/></div>\n\n";
-}
 
 /* ================================================= *
  *  If is editable form to modify the page content   *
@@ -170,3 +164,16 @@ if ($is_editable) {
         .'openClose(\'htmlhelp\',-1);'."\n"
         .'//--></script>';
 }
+
+// preview of the page
+echo '<div id="preview" class="preview" style="display:none"></div>';
+/*
+if (strlen($ar->getUnformattedContent('page_content', 'pages'))) {
+	echo '<div id="preview" class="preview" style="display:none">';
+
+	echo '<h2>'.$ar->getTextContent('page_title', 'pages')
+	.'</h2>';
+	//echo $ar->getFormattedContent('page_content', 'html', 'pages');
+	echo '<hr class="invisible" id="zoubida" /></div>'."\n\n";
+}
+*/

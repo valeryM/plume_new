@@ -6,14 +6,15 @@ define('TREEVIEW_JS_PATH', pxInfo('filesurl',true).'theme/'.pxInfo('theme',true)
 
 define('TREEVIEW_IMG_PATH',TREEVIEW_JS_PATH.'/media/');
 
-require_once(TREEVIEW_LIB_PATH . '/dbtreeview.php');
-require_once(TREEVIEW_LIB_PATH . '/../../handler.class.php');
+include_once(TREEVIEW_LIB_PATH . '/dbtreeview.php');
+include_once(TREEVIEW_LIB_PATH . '/../../MyHandler.php');
 
-try {
-	DBTreeView::processRequest(new MyHandler());
-} catch(Exception $e) {
-	echo("Error:". $e->getMessage());
-}
+	try {
+		DBTreeView::processRequest(new MyHandler());
+	} catch(Exception $e) {
+		echo("Error:". $e->getMessage());
+	}
+
 
 pxTemplateInit('remove_numbers');
 ?>
@@ -65,6 +66,7 @@ pxTemplateInit('remove_numbers');
 								$rootAttributes,
 								TREEVIEW_JS_PATH, 
 								$treeID);
+						$tv->setScript('/sitemapGetElements.php');
 						$tv->printTreeViewScript();
 						?>
 						

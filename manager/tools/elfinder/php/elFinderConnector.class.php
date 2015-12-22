@@ -67,7 +67,7 @@ class elFinderConnector {
 		if (!$cmd && $isPost) {
 			$this->output(array('error' => $this->elFinder->error(elFinder::ERROR_UPLOAD, elFinder::ERROR_UPLOAD_TOTAL_SIZE), 'header' => 'Content-Type: text/html'));
 		}
-		// telepat_mode: off		
+		// telepat_mode: off
 		if (!$this->elFinder->commandExists($cmd)) {
 			$this->output(array('error' => $this->elFinder->error(elFinder::ERROR_UNKNOWN_CMD)));
 		}
@@ -89,7 +89,8 @@ class elFinderConnector {
 		
 		$args['debug'] = isset($src['debug']) ? !!$src['debug'] : false;
 		
-		$this->output($this->elFinder->exec($cmd, $args));
+		$result = $this->elFinder->exec($cmd, $this->input_filter($args));
+		$this->output($result);
 	}
 	
 	/**
@@ -111,7 +112,6 @@ class elFinderConnector {
 				header($header);
 			}
 		}
-		$_SESSION['elFinder']=$data;
 		
 		if (isset($data['pointer'])) {
 			rewind($data['pointer']);
@@ -124,10 +124,31 @@ class elFinderConnector {
 			if (!empty($data['raw']) && !empty($data['error'])) {
 				exit($data['error']);
 			} else {
+
 				exit(json_encode($data));
 			}
 		}
 		
 	}
 	
+	/**
+	 * Remove null & stripslashes applies on "magic_quotes_gpc"
+	 * 
+	 * @param  mixed  $args
+	 * @return mixed
+	 * @author Naoki Sawada
+	 */
+	private function input_filter($args) {
+		static $magic_quotes_gpc = NULL;
+		
+		if ($magic_quotes_gpc === NULL)
+			$magic_quotes_gpc = (version_compare(PHP_VERSION, '5.4', '<') && get_magic_quotes_gpc());
+		
+		if (is_array($args)) {
+			return array_map(array(& $this, 'input_filter'), $args);
+		}
+		$res = str_replace("\0", '', $args);
+		$magic_quotes_gpc && ($res = stripslashes($res));
+		return $res;
+	}
 }// END class 

@@ -36,9 +36,10 @@ echo form::comboBox('m',$arry_months, $px_m);
 //echo '<input name="oldLocation" value="'.$valueLocation.'">';
 //echo '<input name="location" type="hidden" style="height:20px" value="'.$location.'">';
 //echo '<input type="hidden" name="cat_id" value="allcat">';
-echo '<input type="hidden" name="op" id="op" value="list" />';
-echo '<input type="hidden" name="p" value="articles">';
+
 $location = PathSelector::getLocation();
+echo '<input type="hidden" name="op" id="op" value="list" />';
+echo '<input type="hidden" name="p" value="events">';
 echo PathSelector::getCategoryPathSelector($location,__('Category:'));
 
 //echo '<input class="submit" type="submit" value="'. __('ok').'" />';
@@ -69,9 +70,7 @@ if ($res->isEmpty()) {
 	echo '<p id="noresource">'. __('No article').'</p>'."\n\n";
 } else {
 	echo '<script type="text/javascript">'."\n".
-		"<!--\n".
 		"var js_post_ids = new Array('".implode("','",$res->getIDs('resource_id', 'content'))."');\n".
-		"//-->\n".
 		"</script>\n";
 
 	echo '<p id="showhide"><a href="#" onclick="mOpenClose(js_post_ids,1); return false;">'. __('Show all').'</a>'.
@@ -83,7 +82,7 @@ if ($res->isEmpty()) {
 			$copylinks = '';
 			$editlinks='';
 			if ($m->asRightToCopy($res) ) {
-				$copylinks = '[<span class="editlink"><a href="'.$res->f('type_id').'.php?do=copy&resource_id='.$res->f('resource_id').'">'.__('copy').'</a></span>]';
+				$copylinks = '[<span class="editlink"><a href="'.$res->f('type_id').'.php?do=copy&amp;resource_id='.$res->f('resource_id').'">'.__('copy').'</a></span>]';
 			}
 			if ($m->asRightToEdit($res)) {
 				$editlinks = ' [<span class="editlink"><a href="'.$res->f('type_id').'.php?resource_id='.$res->f('resource_id').'">'.__('edit').'</a></span>]';
@@ -91,7 +90,7 @@ if ($res->isEmpty()) {
 	        	$editlinks = ' [<span class="visualize"><a href="'.$res->f('type_id').'.php?resource_id='.$res->f('resource_id').'">'.__('visualize').'</a></span>]';
 			}
 	        //Link to see the resource on the site
-	        $seeonweblink = ' [<span class="link_style"><a target="_preview" href="'.$res->getPath().'">'.__('See the article').'</a></span>]';
+	        $seeonweblink = ' [<span class="link_style"><a target="previews" href="'.$res->getPath().'">'.__('See the article').'</a></span>]';
 			$res_class = '';
 			$res_img = '';
 			if ($res->f('status') == PX_RESOURCE_STATUS_OFFLINE) {
@@ -111,10 +110,11 @@ if ($res->isEmpty()) {
 				$seeonweblink = '';
 			}
 			
-			echo '<div class="resourcebox '.$res_class.'" id="p'.$res->f('resource_id').'">'.
-				'<a href="#" onclick="openCloseSpan(\'content'.$res->f('resource_id').'\',0); return false;" title="'.__('Show/hide').'">'.
+			echo '<div class="resourcebox '.$res_class.'" id="p'.$res->f('resource_id').'">';			
+			echo '<a href="#" onclick="openCloseSpan(\'content'.$res->f('resource_id').'\',0); return false;" title="'.__('Show/hide').'">'.
 				'<img src="themes/'.$_px_theme.'/images/plus.png" class="show_button" id="img_content'.$res->f('resource_id').'" '.
 				'alt="'. __('show/hide').'" /></a> ';
+			
 			echo $res_img;
 			/*
 			if ($res->f('filRouge')==1) {
@@ -155,9 +155,9 @@ if ($res->isEmpty()) {
 	        }
 	        echo ' '.implode(', ', $temp)."<br />\n";
 	        echo '<span class="date-time">'.date( __('Y/m/d at H:i:s'),date::unix($res->f('modifdate')));
-	        echo "</span>".$editlinks . $copylinks . $seeonweblink."</p>\n\n";
+	        echo "</span>".$editlinks . $copylinks . $seeonweblink."</p>\n";
 	        echo '<div id="content'.$res->f('resource_id').'" class="hided" style="display:none;">';
-	        echo "<div class=\"description_style\">\n".$res->cur->getFormattedContent('description')."</div>\n";
+	        //echo "<div class=\"description_style\">\n".$res->cur->getFormattedContent('description')."</div>\n";
 	        echo "\n<p class='idmakelink'>".__('Id to make a link:').' '.$res->f('identifier')."</p>\n<hr class='invisible' /></div></div>\n\n";    
             
 		}
@@ -172,7 +172,7 @@ echo '<form action="articles.php" method="get"><p id="search">';
 echo '<label for="q" style="display:inline;"><strong>'. __('Search for an article:').' </strong></label>';
 echo form::textField('q', 30, 255, $px_q);
 echo ' <input class="submit" type="submit" value="'. __('ok').'" /><input type="hidden" name="op" value="list" />';
-echo '</p></form>'."\n\n";
+echo '</p></form>'."\n";
 
 
 ?>

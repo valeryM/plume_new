@@ -47,14 +47,11 @@ pxTemplateInit('order_res_manual|res_per_page:10|remove_numbers');
 						
 						$sql = pxGetResourcesInCats(array($cat_actus,$cat_news));
 						$sql .= ' AND status='.PX_RESOURCE_STATUS_VALIDE;
-						$sql .= ' ORDER BY startdate ASC';
+						$sql .= ' ORDER BY publicationdate DESC';
 						
 						//echo 'sql: '.$sql;
 						$res = $con->select($sql, 'Resource');
-						// Load resources into the child categories (by path)
-						//$result = pxGetResourceFromLongPath($GLOBALS['_PX_render']['cat']->f('category_path'),true,'',true);
-						//$GLOBALS['_PX_render']['res'] = $result;
- 						
+						
 						while (!$res->EOF()): ?>
 						    <div class="resource">
 							    <h2 class="resource_title">
@@ -69,17 +66,13 @@ pxTemplateInit('order_res_manual|res_per_page:10|remove_numbers');
 							    </p>
 							    -->
 							    <p>
-							    	<?php 
-							    	//echo text::parseContent($GLOBALS['_PX_render']['res']->cur->f('page_content'), 'html');
-							    	
+							    	<?php 							    	
 							    		if (trim(text::parseContent($GLOBALS['_PX_render']['res']->f('description'), 'text'))==''
 							    				&& $GLOBALS['_PX_render']['res']->f('type_id')=='articles') {
 											//récupère l'article
-											//echo var_dump($GLOBALS['_PX_render']['res']->cur);
 											// affiche le résumé de la page 1
 											echo text::parseContent($GLOBALS['_PX_render']['res']->cur->f('page_content'), 'Html');
 										} else {
-							    			//pxResDescription('%s',300);
 							    			echo text::parseContent($GLOBALS['_PX_render']['res']->f('description'), 'Html');
 							    		}
 							    	?>					    

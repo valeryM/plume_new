@@ -517,14 +517,19 @@ DBTreeView.query = function(attributes, script, callback){
 			}catch(e){
 				var text = xmlhttp.responseText;
 				alert("Error:\n bad server response: "+e+"\nData:"+text);
+				throw e;
 	         }
 		}
 	}
+	
 	if(script!=null){
 		xmlhttp.open("POST", script, true);
 	}else{
 		xmlhttp.open("POST", location.href, true);
 	}
+	//fix for IE9 (by default, no header is sent). this method must be called after open() method (in accordance to example found on MSDN).
+	xmlhttp.setRequestHeader("Content-Type", "application/xml");
+	//xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 	//alert("Server send: "+DBTreeView.xmlContent(doc));
 	xmlhttp.send(doc);
 }

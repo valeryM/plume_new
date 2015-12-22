@@ -41,12 +41,6 @@ $typeAction = '';
 	<meta charset="<?php echo strtolower($GLOBALS['_PX_config']['encoding']); ?>" />
 	<!-- Set the viewport width to device width for mobile -->
 	<meta name="viewport" content="width=device-width" />
-<!-- 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=<?php echo strtolower(config::f('encoding')); ?>" />
--->
 	<title><?php echo $px_title; ?> - PLUME CMS</title>
 	<link rel="stylesheet" type="text/css" href="themes/<?php echo $_px_theme; ?>/style.css" /> 
 	<!-- Fonctions Jquery ui -->
@@ -61,14 +55,21 @@ $typeAction = '';
   
   <script type="text/javascript"> 
   var pxThemeid = '<?php echo $_px_theme; ?>';
-	function affichePopupApercu() {
-		if ($("#preview")) {
-			$("#preview").dialog({autoOpen: false, modal:true, draggable:false,height:550,width:850,resizable: false });
-		}
-		
-		$("#preview").dialog("open");
-	}
+
+  	$(document).ready(function() {
+  	  	// Click on preview button
+  	  	$("button.previewButton").click(function() {
+
+	  	  	if ($("#preview")) {
+				var url=$(this).attr("data-url");
+				$("#preview").html('<div class="previewFrame"><iframe style="width:120%;height:120%;" class="framePreview" src="'+url+'"></iframe></div>');
+				$("#preview").dialog({autoOpen: false, modal:true, draggable:false,height:550,width:850,resizable: false });
 	
+				$("#preview").dialog("open");
+			}
+  	  	});
+  	});
+  		
 	function affichePopupMessage() {
 		if ($("#popupMessage")) {
 			$("#popupMessage").dialog({autoOpen: false, modal:true, draggable:false,height:200,width:800,resizable: true });
@@ -81,7 +82,12 @@ $typeAction = '';
   </script>
   
 	<?php if (isset($_REQUEST["header"]))  echo $_REQUEST["header"]; ?>
-  <script type="text/javascript" src="<?php echo $_PX_website_config['rel_url'];?>/manager/tools.js"> </script> 
+  <script type="text/javascript" src="<?php echo $_PX_website_config['rel_url'];?>/manager/tools.js"> </script>
+  <?php 
+  if (isset($is_editable) && $is_editable) {
+  	echo '<link href="tools/ckeditor/contents.css" rel="stylesheet" type="text/css"/>';
+  }
+  ?>
 </head>
 
 <body>

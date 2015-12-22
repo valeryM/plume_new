@@ -349,7 +349,6 @@ class SQL
               WHERE '.$con->pfx.'usercats.user_id='.$con->esc($userid);
 		return $sql;	
     }
-    
     /**
      * Get an online resource in a category.
      *

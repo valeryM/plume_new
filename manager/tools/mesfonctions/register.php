@@ -646,7 +646,7 @@ function pxRenderEventsContent($catSelected, $catList, $Annee, $Mois, $return=fa
 
 	// Si il y a quelque chose à afficher
 	if (false != $last)  {
-		$rep .= '<div id="contenus" style="height:650px;display:block;overflow-y:auto;overflow-x:hidden;">';
+		$rep .= '<div id="contenus" style="height:100%;display:block;overflow-y:auto;overflow-x:hidden;">';
 		$cpt=0;
 		$newestEvent = false;
 		//echo $Annee.'/'.$Mois;
@@ -699,10 +699,12 @@ function pxRenderEventsContent($catSelected, $catList, $Annee, $Mois, $return=fa
 			*/	
 		// n'affiche que le bloc concerné par la valeur sélectionnée
 		$rep .= '			var idFilterChecked = $("#"+$("#flt_used").val());'."\n";
-		$rep .= '			idFilterChecked.trigger("click");'."\n";
+		
 		$rep .= '			idFilterChecked.attr("checked","checked");'."\n";
+		$rep .= '			//idFilterChecked.trigger("click");'."\n";
+		$rep .= '			setTimeout(filterIsSelected($("#flt_used").val()),200);'."\n";
 		$rep .= '			/* sélection du bloc */'."\n";
-		$rep .= '			var $target= $("#contenus");console.log($target);'."\n";
+		$rep .= '			var $target= $("#contenus");'."\n";
 		$rep .= '			$target.scrollTo(".newestEvent");'."\n";
 		
 		$rep .= '		}'."\n";

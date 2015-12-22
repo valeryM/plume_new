@@ -46,24 +46,16 @@ pxTemplateInit('remove_numbers');
 								<span class="datetime"><?php pxRsslinksDateCreation(__('%Y-%m-%d at %H:%M')); ?>
 								</span>
 								<?php echo __('by'); ?>
-								<span class="author"><a
-									href="<?php pxRsslinksAuthorEmail('mailto:%s'); ?>"><?php pxRsslinksAuthor(); ?>
-								</a> </span>
+								<span class="author">
+									<a href="<?php pxRsslinksAuthorEmail('mailto:%s'); ?>">
+										<?php pxRsslinksAuthor(); ?>
+									</a> 
+								</span>
 							</p>
 							<p>
 								<span class="cat"><?php pxRsslinksCategories(__(' In %s'), ', ', __(' and ')); ?>
 								</span>
-							</p>
-							<p>
-								<span class="link"><a href="<?php pxRsslinksPath('fullurl'); ?>"><?php pxRsslinksPath('fullurl'); ?>
-								</a> </span>
-							</p>
-							<p>
-								<span class="comments"><?php echo __('Number of comments:'); ?>
-								</span> <a href="#comments"
-									title="<?php echo __('Comments'); ?>"><?php pxRsslinksCountComments(); ?>
-								</a>
-							</p>
+							</p>							
 						</div>
 					</div>
 
@@ -72,16 +64,38 @@ pxTemplateInit('remove_numbers');
 						$rssContent = pxRsslinksContent(true);
 						echo $rssContent;
 						?>
-						<?php //pxRsslinksAssociatedLink('<p class="associated-link"><a href="%1$s">%2$s</a></p>'); ?>
+						<?php //pxRsslinksAssociatedLink('<p class="associated-link"><a href="%1$s">%2$s</a></p>'); ?>										
 					</div>
-					<?php //absolute path for comments permalinks
-		    $respath = pxRsslinksPath('fullurl', true); ?>
+		    		<div>
+						<?php //absolute path for comments permalinks
+			    			$respath = pxRssWebsiteLink('%s',true); 
+			    		?>		    		
+		    			<span><a href="<?php echo $respath; ?>" target="rsswindow">
+		    					<?php echo $respath; ?>
+		    			</a></span>
+								<span>
+									<!-- Beginning content -->							
+										<?php
+										$rssContent = pxGetFeed($respath,'showtitle:true|showdesc:true|targetLink:"'.$GLOBALS['_PX_render']['rsslinks']->f('title').'"');
+										echo $rssContent;
+										?>					
+									<!-- end content -->
+								</span>				    		
+		    		</div>
+		    		<div>
+						<span class="comments"><?php echo __('Number of comments:'); ?></span>
+						<a href="#comments" title="<?php echo __('Comments'); ?>">
+							<?php $rssCommentsCount=pxRsslinksCountComments(true); echo $rssCommentsCount; ?>
+						</a>
+		    		</div>
+		    		<?php if($rssCommentsCount>0) { ?>
 					<h2 id="comments">
 						<?php echo __('Comments'); ?>
 					</h2>
 					<div class="resource">
 						<?php include dirname(__FILE__).'/comments_inline.php'; ?>
 					</div>
+					<?php } // end if ?>
 					<hr class="invisible" />
 				</div>
 				<!-- end content -->

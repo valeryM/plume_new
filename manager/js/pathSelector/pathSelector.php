@@ -20,6 +20,7 @@ if (empty($level_id) || $level_id=='' ) {
 
 //$_SESSION['location'] =$level;
 $m = new Manager();
+
 if (strpos($level_id, '.')!==false) {
 	$level_id = substr(strrchr($level_id,'.'),1);
 }

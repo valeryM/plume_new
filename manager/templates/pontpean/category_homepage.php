@@ -1,6 +1,9 @@
 <?php 
 if ($cache->processPage(180)):
 
+$base= '';
+if ($GLOBALS['_PX_config']['url_format'] == 'simple') $base .= '/?';
+
 pxTemplateInit('remove_numbers');
 //pxGetLastResources();
 ?>
@@ -40,7 +43,7 @@ pxTemplateInit('remove_numbers');
 								$link = '&Annee='.date('Y',$startDate).'&Mois='.date('m',$startDate).'#'.$actus->f('path')
 								?>
 								<div class="event <?php  echo $catList['idTag'][$actus->f('category_id')]; ?>" >
-									<a class="texteactu" href="/?<?php echo $actus->f('category_path').$link; ?>" >
+									<a class="texteactu" href="<?php echo $base.$actus->f('category_path').$link; ?>" >
 										<span style="font-weight:bold;"><?php echo $actus->f('title'); ?></span><br/>
 										<?php echo __(date('l',$startDate)).' '.date('d',$startDate).' '.__(date('F',$startDate)); ?>
 									</a>
@@ -65,8 +68,6 @@ pxTemplateInit('remove_numbers');
 					<div class="texteActu">
 						<div class="body_agenda">
 						<?php 
-							$base= '';
-							if ($GLOBALS['_PX_config']['url_format'] == 'simple') $base .= '/?';
 							//Afficher les évènements
 							$catList = pxArrayEventsCats(PX_CONFIG_EVENTS_CULTUREL);
 							$actus = getAllLastEventsFromCategories($catList['ids'], PX_CONFIG_TIMEBEFORE, PX_CONFIG_TIMEAFTER, 'short_content',PX_CONFIG_MAX_EVENTS_CULTUREL);
@@ -94,7 +95,7 @@ pxTemplateInit('remove_numbers');
 					<div class="info1">
 						<span class="seeAll" style="position:relative;left:5px;">
 						<?php $category = FrontEnd::getCategory($catList['ids'][0]); ?>
-							<a href="<?php echo $category->getPath();?>">Toute la saison culturelle</a>
+							<a href="<?php echo $base.$category->getPath();?>">Toute la saison culturelle</a>
 						</span>
 					</div>
 					<div class="info2">
@@ -212,7 +213,6 @@ pxTemplateInit('remove_numbers');
 					<div style="align:center; text-align:center; width:194px;">
 						<img src="<?php pxInfo('filesurl'); ?>theme/<?php pxInfo('theme'); ?>/img/icons/logo_pontpean.png" alt="logo_pontpean"></img>
 					</div>
-				</div>
 				</div>
 			</div> 	<!-- end menuright -->
 

@@ -475,7 +475,7 @@ class Category extends recordset
 
         $this->getConnection();
         $update = (0 < (int) $this->f('category_id')) ? true : false;
-		
+
         if ($update) {
         	$this->isNew = false;
             $req = 'UPDATE '.$this->con->pfx.'categories SET
